@@ -224,6 +224,11 @@ class BARCCandidateSelector:
 
         is_haor = norm_land in ["LL", "VLL"]
 
+        # Maximum effective commercial area in this Upazila for relative normalization
+        max_eff_area = max((float(c.get("effective_area") or 0) for c in raw_crops), default=1.0)
+        if max_eff_area <= 0:
+            max_eff_area = 1.0
+
         for c in raw_crops:
             cname = c["crop_name"]
             c_season = str(c["season"]).strip().title()
@@ -250,9 +255,15 @@ class BARCCandidateSelector:
             if is_haor and not ("boro" in cname.lower() or "aman" in cname.lower() or "deepwater" in cname.lower() or "fallow" in cname.lower()):
                 continue
 
-            # Calculate normalized suitability score [0.0 - 1.0] based on effective area
-            # Using logarithmic or min-max scaling relative to max upazila area (~20,000 ha)
-            score = round(min(1.0, max(0.2, (eff_area / 5000.0) if vs > 0 else (eff_area / 10000.0))), 3)
+            # Tier-bounded relative normalization scaling [0.30 - 1.00]
+            # Bounded by official BARC suitability tier to ensure [Suitable] never equals [Ideal]
+            ratio = eff_area / max_eff_area
+            if tier == "Ideal":
+                score = round(0.80 + (0.20 * ratio), 2)
+            elif tier == "Suitable":
+                score = round(0.55 + (0.24 * ratio), 2)
+            else:
+                score = round(0.30 + (0.24 * ratio), 2)
 
             cand = CropCandidate(
                 crop_id=int(c.get("crop_id") or 0),

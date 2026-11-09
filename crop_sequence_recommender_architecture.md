@@ -505,6 +505,61 @@ In standard FAO/BARC land capability evaluation:
   * Dry-season ridge vegetables (*Kanda* tomatoes and cauliflowers) have $\mathbf{\text{VS} = 0\text{ ha}}$ due to annual flood risks, but $\mathbf{\text{S} = 3{,}500\text{ ha}}$.
   * A VS-only filter produced an empty candidate pool. $\text{EffArea} = 0 + (0.70 \times 3{,}500) = \mathbf{2{,}450\text{ ha}}$ rescued the commercial vegetable pool.
 
+#### 4.3.2.1 Dynamic Tier-Bounded Relative Suitability Scoring
+
+##### Root Cause Analysis: The Flat 1.00 Ceiling Collapse
+In previous iterations, the normalized candidate suitability score was computed using static arbitrary divisors:
+```python
+score = round(min(1.0, max(0.2, (eff_area / 5000.0) if vs > 0 else (eff_area / 10000.0))), 3)
+```
+In large Upazilas such as **Thakurgaon Sadar (`559494`)**, where total cultivated farmland exceeds $50{,}000\text{ ha}$, every major commercial crop has between $20{,}000\text{ ha}$ and $48{,}800\text{ ha}$ of suitable land. Dividing these large figures by a static $5{,}000$ or $10{,}000$ produced values between $2.3$ and $9.8$, which `min(1.0, ...)` hard-clipped to **`1.00`** across the board.
+
+This generated two major agronomic anomalies:
+1. **Loss of Relative Distinction:** A $48{,}800\text{ ha}$ regional champion (Sweet Potato) received the identical score (`1.00`) as a $23{,}000\text{ ha}$ runner-up (Cotton).
+2. **Visual & Agronomic Contradiction:** Second-tier crops officially classified by BARC as **`[Suitable]`** (having minor soil or drainage constraints and $\text{VS} = 0\text{ ha}$, such as Ginger or Black Gram) also hit the $10{,}000\text{ ha}$ ceiling and falsely displayed `Score: 1.00`, contradicting their own category designation.
+
+##### Mathematical Formulation: Dynamic Tier-Bounded Normalization
+To guarantee strict mathematical proportionality and eliminate tier collisions, the engine determines the Upazila's maximum commercial hectarage dynamically:
+
+$$\text{MaxEffArea} = \max_{c \in \text{Crops}} \left(\text{EffArea}_c\right)$$
+
+$$\text{Ratio}_c = \frac{\text{EffArea}_c}{\text{MaxEffArea}}$$
+
+Scores are then mapped into strictly partitioned, non-overlapping numerical tiers based on official BARC land capability classes:
+
+$$\text{Score}_c = \begin{cases}
+0.80 + \left(0.20 \times \text{Ratio}_c\right) & \text{if Tier} = \text{Ideal } (\text{VS} > 0) \implies [\mathbf{0.80, 1.00}] \\
+0.55 + \left(0.24 \times \text{Ratio}_c\right) & \text{if Tier} = \text{Suitable } (\text{VS} = 0, \text{S} > 0) \implies [\mathbf{0.55, 0.79}] \\
+0.30 + \left(0.24 \times \text{Ratio}_c\right) & \text{if Tier} = \text{Marginal } (\text{MS} > 0) \implies [\mathbf{0.30, 0.54}]
+\end{cases}$$
+
+##### Python Implementation (`src/stage3_barc_selector.py`):
+```python
+# Maximum effective commercial area in this Upazila for relative normalization
+max_eff_area = max((float(c.get("effective_area") or 0) for c in raw_crops), default=1.0)
+if max_eff_area <= 0:
+    max_eff_area = 1.0
+
+# Inside candidate selection loop:
+ratio = eff_area / max_eff_area
+if tier == "Ideal":
+    score = round(0.80 + (0.20 * ratio), 2)
+elif tier == "Suitable":
+    score = round(0.55 + (0.24 * ratio), 2)
+else:
+    score = round(0.30 + (0.24 * ratio), 2)
+```
+
+##### Empirical Verification (Thakurgaon Sadar `559494`):
+* **Sweet Potato** ($48{,}799\text{ ha}$, Ideal, $\text{Ratio} = 1.00$) $\implies \mathbf{1.00}$ (Upazila #1 Champion)
+* **Potato** ($41{,}708\text{ ha}$, Ideal, $\text{Ratio} = 0.85$) $\implies \mathbf{0.97}$
+* **Jute** ($38{,}882\text{ ha}$, Ideal, $\text{Ratio} = 0.80$) $\implies \mathbf{0.96}$
+* **Lentil** ($30{,}676\text{ ha}$, Ideal, $\text{Ratio} = 0.63$) $\implies \mathbf{0.93}$
+* **Ginger** ($27{,}215\text{ ha}$, Suitable, $\text{Ratio} = 0.56$) $\implies \mathbf{0.68}$ (Faithfully bounded below `Ideal`)
+* **Black Gram** ($22{,}994\text{ ha}$, Suitable, $\text{Ratio} = 0.47$) $\implies \mathbf{0.66}$ (Faithfully bounded below `Ideal`)
+
+This guarantees complete gradation across all crops while preventing second-tier crops from falsely reporting maximum scores.
+
 #### 4.3.3 Biological Land-Type Inundation Rules & Rhizosphere Anoxia Kinetics
 
 Bangladesh's cropping regimes are strictly governed by seasonal water depths (*land_type*):
