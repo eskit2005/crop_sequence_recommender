@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Venado Tuerto, Santa Fe",
+    "country": "Argentina",
+    "continent": "South America",
+    "lat": -33.7456,
+    "lon": -61.9688,
+    "description": "Core Humid Pampas: World seed corn capital, soybean, wheat",
+    "annual_rain_mm": 984.4,
+    "annual_mean_temp_c": 17.1,
+    "computed_lgp_days": 281,
+    "deduced_regime": "HUMID_SUBTROPICAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Soybean, Maize, Peanut, Cotton)"
+    },
+    "season_2": {
+      "window": "April - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Severe winter radiative frost down to -4.7\u00b0C."
+    }
+  },
+  {
+    "name": "Junin, Buenos Aires",
+    "country": "Argentina",
+    "continent": "South America",
+    "lat": -34.5838,
+    "lon": -60.9431,
+    "description": "Northwest BA Pampas: Wheat/Soy 2da rotation, full-season corn",
+    "annual_rain_mm": 1140.6,
+    "annual_mean_temp_c": 16.4,
+    "computed_lgp_days": 365,
+    "deduced_regime": "HUMID_SUBTROPICAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Soybean, Maize, Peanut, Cotton)"
+    },
+    "season_2": {
+      "window": "April - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Severe winter radiative frost down to -4.5\u00b0C."
+    }
+  },
+  {
+    "name": "Tandil, Buenos Aires",
+    "country": "Argentina",
+    "continent": "South America",
+    "lat": -37.3217,
+    "lon": -59.1332,
+    "description": "Serrano Pampas: Malting barley, bread wheat, seed potato",
+    "annual_rain_mm": 905.7,
+    "annual_mean_temp_c": 13.7,
+    "computed_lgp_days": 334,
+    "deduced_regime": "TEMPERATE_OCEANIC_MARITIME",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "October - May (8 Months)",
+      "start_month": "October",
+      "end_month": "May",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Cash Crops, Cereals & Forage (Wheat, Barley, Maize, Potato, Sugar Beet)"
+    },
+    "season_2": {
+      "window": "June - July (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Declining autumn photoperiod and temperatures."
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Low solar radiation and cool winter temperatures."
+    }
+  },
+  {
+    "name": "Marcos Juarez, Cordoba",
+    "country": "Argentina",
+    "continent": "South America",
+    "lat": -32.6975,
+    "lon": -62.1067,
+    "description": "INTA Core Hub: Premier Argentine grain yields (Wheat/Soy, Corn)",
+    "annual_rain_mm": 991.6,
+    "annual_mean_temp_c": 17.8,
+    "computed_lgp_days": 273,
+    "deduced_regime": "HUMID_SUBTROPICAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Soybean, Maize, Peanut, Cotton)"
+    },
+    "season_2": {
+      "window": "April - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Severe winter radiative frost down to -4.9\u00b0C."
+    }
+  },
+  {
+    "name": "Rafaela, Santa Fe",
+    "country": "Argentina",
+    "continent": "South America",
+    "lat": -31.2503,
+    "lon": -61.4867,
+    "description": "Argentine Dairy Basin: Alfalfa pastures, corn silage, soybean",
+    "annual_rain_mm": 1129.5,
+    "annual_mean_temp_c": 18.8,
+    "computed_lgp_days": 322,
+    "deduced_regime": "HUMID_SUBTROPICAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Soybean, Maize, Peanut, Cotton)"
+    },
+    "season_2": {
+      "window": "April - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Severe winter radiative frost down to -3.9\u00b0C."
+    }
+  },
+  {
+    "name": "Parana, Entre Rios",
+    "country": "Argentina",
+    "continent": "South America",
+    "lat": -31.7319,
+    "lon": -60.5238,
+    "description": "Mesopotamia: Rolling Vertisols, wheat, soybean, citrus",
+    "annual_rain_mm": 1152.1,
+    "annual_mean_temp_c": 19.2,
+    "computed_lgp_days": 341,
+    "deduced_regime": "HUMID_SUBTROPICAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Soybean, Maize, Peanut, Cotton)"
+    },
+    "season_2": {
+      "window": "April - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Severe winter radiative frost down to -3.5\u00b0C."
+    }
+  },
+  {
+    "name": "Roque Saenz Pena, Chaco",
+    "country": "Argentina",
+    "continent": "South America",
+    "lat": -26.7852,
+    "lon": -60.4388,
+    "description": "Dry Chaco Plains: Cotton, sunflower, grain sorghum",
+    "annual_rain_mm": 1091.1,
+    "annual_mean_temp_c": 22.2,
+    "computed_lgp_days": 273,
+    "deduced_regime": "HUMID_SUBTROPICAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Soybean, Maize, Peanut, Cotton)"
+    },
+    "season_2": {
+      "window": "April - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Subtropical 2-season rotation."
+    }
+  },
+  {
+    "name": "San Miguel de Tucuman",
+    "country": "Argentina",
+    "continent": "South America",
+    "lat": -26.8083,
+    "lon": -65.2176,
+    "description": "Tucuman Piedmont: World leader in lemon export, sugarcane",
+    "annual_rain_mm": 922.3,
+    "annual_mean_temp_c": 21.8,
+    "computed_lgp_days": 181,
+    "deduced_regime": "HUMID_SUBTROPICAL",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Soybean, Maize, Peanut, Cotton)"
+    },
+    "season_2": {
+      "window": "April - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Seasonal moisture deficit / GDD threshold."
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Subtropical 2-season rotation."
+    }
+  },
+  {
+    "name": "Rancagua, O'Higgins",
+    "country": "Chile",
+    "continent": "South America",
+    "lat": -34.1708,
+    "lon": -70.7444,
+    "description": "Cachapoal Valley: Irrigated stone fruit, table grapes, hybrid seed",
+    "annual_rain_mm": 300.7,
+    "annual_mean_temp_c": 14.7,
+    "computed_lgp_days": 126,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - September (6 Months)",
+      "start_month": "April",
+      "end_month": "September",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Chillan, Nuble",
+    "country": "Chile",
+    "continent": "South America",
+    "lat": -36.6067,
+    "lon": -72.1033,
+    "description": "Central-South Valley: Winter wheat, sugar beet, blueberries",
+    "annual_rain_mm": 620.0,
+    "annual_mean_temp_c": 14.5,
+    "computed_lgp_days": 181,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - November (8 Months)",
+      "start_month": "April",
+      "end_month": "November",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "December - January (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "February - March (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Osorno, Los Lagos",
+    "country": "Chile",
+    "continent": "South America",
+    "lat": -40.5739,
+    "lon": -73.1335,
+    "description": "Southern Lake District: Perennial dairy pasture, winter wheat/barley",
+    "annual_rain_mm": 1130.1,
+    "annual_mean_temp_c": 10.7,
+    "computed_lgp_days": 297,
+    "deduced_regime": "TEMPERATE_OCEANIC_MARITIME",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "October - May (8 Months)",
+      "start_month": "October",
+      "end_month": "May",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Cash Crops, Cereals & Forage (Wheat, Barley, Maize, Potato, Sugar Beet)"
+    },
+    "season_2": {
+      "window": "June - July (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Declining autumn photoperiod and temperatures."
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Low solar radiation and cool winter temperatures."
+    }
+  },
+  {
+    "name": "Ica",
+    "country": "Peru",
+    "continent": "South America",
+    "lat": -14.0678,
+    "lon": -75.7286,
+    "description": "Coastal Desert: Drip-irrigated asparagus, table grapes, avocado",
+    "annual_rain_mm": 78.1,
+    "annual_mean_temp_c": 18.7,
+    "computed_lgp_days": 0,
+    "deduced_regime": "HYPER_ARID_DESERT",
+    "deduced_k": 0,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "January - December (12 Months)",
+      "start_month": "January",
+      "end_month": "December",
+      "duration_months": 12,
+      "is_fallow": true,
+      "role": "Drought Fallow (Irrigation Mandatory)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    }
+  },
+  {
+    "name": "Chiclayo, Lambayeque",
+    "country": "Peru",
+    "continent": "South America",
+    "lat": -6.7714,
+    "lon": -79.8409,
+    "description": "Northern Coastal Valley: Tinajones canal irrigated rice and sugarcane",
+    "annual_rain_mm": 79.8,
+    "annual_mean_temp_c": 20.3,
+    "computed_lgp_days": 0,
+    "deduced_regime": "HYPER_ARID_DESERT",
+    "deduced_k": 0,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "January - December (12 Months)",
+      "start_month": "January",
+      "end_month": "December",
+      "duration_months": 12,
+      "is_fallow": true,
+      "role": "Drought Fallow (Irrigation Mandatory)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    }
+  },
+  {
+    "name": "Espinal, Tolima",
+    "country": "Colombia",
+    "continent": "South America",
+    "lat": 4.1492,
+    "lon": -74.8844,
+    "description": "Upper Magdalena Valley: Bimodal irrigated paddy rice and cotton",
+    "annual_rain_mm": 1477.4,
+    "annual_mean_temp_c": 26.4,
+    "computed_lgp_days": 365,
+    "deduced_regime": "HUMID_TROPICAL_PERENNIAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "February - July (6 Months)",
+      "start_month": "February",
+      "end_month": "July",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Staple (Wet Rice, Soy, Sugarcane, Oil Palm)"
+    },
+    "season_2": {
+      "window": "August - November (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - January (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Brief soil aeration and aeration rest."
+    }
+  },
+  {
+    "name": "Monteria, Cordoba",
+    "country": "Colombia",
+    "continent": "South America",
+    "lat": 8.7479,
+    "lon": -75.8814,
+    "description": "Sinu River Valley: Tropical livestock grazing, corn, cotton",
+    "annual_rain_mm": 1368.8,
+    "annual_mean_temp_c": 27.7,
+    "computed_lgp_days": 301,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - July (4 Months)",
+      "start_month": "April",
+      "end_month": "July",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Anchor (Maize, Yam, Groundnut, Cotton)"
+    },
+    "season_2": {
+      "window": "August - November (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season spell with low soil moisture storage."
+    }
+  }
+]

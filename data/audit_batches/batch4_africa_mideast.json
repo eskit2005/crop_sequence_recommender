@@ -1,0 +1,784 @@
+[
+  {
+    "name": "Kano",
+    "country": "Nigeria",
+    "continent": "Africa",
+    "lat": 12.0022,
+    "lon": 8.592,
+    "context": "Sahelian Savanna: Short 70d monsoon sorghum/millet",
+    "annual_rain_mm": 628.5,
+    "annual_mean_temp_c": 26.6,
+    "computed_lgp_days": 107,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - May",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Dry season soil water exhaustion; insufficient rainfall for pluvial crops."
+    },
+    "season_3": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Ibadan, Oyo",
+    "country": "Nigeria",
+    "continent": "Africa",
+    "lat": 7.3775,
+    "lon": 3.947,
+    "context": "Guinean Forest-Savanna: Bimodal rainfall maize/cassava",
+    "annual_rain_mm": 1673.2,
+    "annual_mean_temp_c": 25.2,
+    "computed_lgp_days": 291,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - July (3 Months)",
+      "start_month": "May",
+      "end_month": "July",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "August - October (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - December (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season dry spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Niamey",
+    "country": "Niger",
+    "continent": "Africa",
+    "lat": 13.5116,
+    "lon": 2.1254,
+    "context": "Sahelian Semi-Arid: 450mm rain, pearl millet/cowpea",
+    "annual_rain_mm": 545.9,
+    "annual_mean_temp_c": 28.7,
+    "computed_lgp_days": 127,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - May",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Dry season soil water exhaustion; insufficient rainfall for pluvial crops."
+    },
+    "season_3": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Segou",
+    "country": "Mali",
+    "continent": "Africa",
+    "lat": 13.4417,
+    "lon": -6.2644,
+    "context": "Niger River Basin: Sahel summer monsoon millet/sorghum",
+    "annual_rain_mm": 717.9,
+    "annual_mean_temp_c": 27.9,
+    "computed_lgp_days": 152,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Bobo-Dioulasso",
+    "country": "Burkina Faso",
+    "continent": "Africa",
+    "lat": 11.1772,
+    "lon": -4.2979,
+    "context": "Sudanian Savanna: Summer rainfed cotton/maize",
+    "annual_rain_mm": 1114.8,
+    "annual_mean_temp_c": 27.1,
+    "computed_lgp_days": 199,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "November - December (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Kumasi, Ashanti",
+    "country": "Ghana",
+    "continent": "Africa",
+    "lat": 6.6885,
+    "lon": -1.6244,
+    "context": "Cocoa/Forest Belt: Bimodal rain seasons",
+    "annual_rain_mm": 1442.0,
+    "annual_mean_temp_c": 25.8,
+    "computed_lgp_days": 302,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - July (3 Months)",
+      "start_month": "May",
+      "end_month": "July",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "September - November (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - December (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season dry spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Nakuru",
+    "country": "Kenya",
+    "continent": "Africa",
+    "lat": -0.3031,
+    "lon": 36.08,
+    "context": "Rift Valley Highlands: 1850m mild bimodal maize/wheat",
+    "annual_rain_mm": 1232.2,
+    "annual_mean_temp_c": 15.6,
+    "computed_lgp_days": 358,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 3,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "March - May (3 Months)",
+      "start_month": "March",
+      "end_month": "May",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    }
+  },
+  {
+    "name": "Eldoret, Uasin Gishu",
+    "country": "Kenya",
+    "continent": "Africa",
+    "lat": 0.5143,
+    "lon": 35.2698,
+    "context": "Kenyan Grain Basket: High plateau maize & wheat",
+    "annual_rain_mm": 1949.0,
+    "annual_mean_temp_c": 18.9,
+    "computed_lgp_days": 352,
+    "deduced_regime": "HUMID_TROPICAL_PERENNIAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "March - January (11 Months)",
+      "start_month": "March",
+      "end_month": "January",
+      "duration_months": 11,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "February - February",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Dry season soil water exhaustion; insufficient rainfall for pluvial crops."
+    },
+    "season_3": {
+      "window": "February - February (1 Months)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Arusha",
+    "country": "Tanzania",
+    "continent": "Africa",
+    "lat": -3.3869,
+    "lon": 36.683,
+    "context": "Northern Highlands: Bimodal Masika & Vuli rains",
+    "annual_rain_mm": 868.6,
+    "annual_mean_temp_c": 21.8,
+    "computed_lgp_days": 256,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "March - May (3 Months)",
+      "start_month": "March",
+      "end_month": "May",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season dry spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Debre Zeit, Oromia",
+    "country": "Ethiopia",
+    "continent": "Africa",
+    "lat": 8.75,
+    "lon": 38.9833,
+    "context": "Ethiopian Highlands: Kiremt main rain teff/wheat",
+    "annual_rain_mm": 1082.0,
+    "annual_mean_temp_c": 16.1,
+    "computed_lgp_days": 229,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - July (3 Months)",
+      "start_month": "May",
+      "end_month": "July",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "July - September (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - December (7 Months)",
+      "duration_months": 7,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season dry spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Wad Madani, Gezira",
+    "country": "Sudan",
+    "continent": "Africa",
+    "lat": 14.4012,
+    "lon": 33.5199,
+    "context": "Gezira Scheme: Semi-desert, irrigated cotton/sorghum",
+    "annual_rain_mm": 359.5,
+    "annual_mean_temp_c": 29.5,
+    "computed_lgp_days": 62,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "July - September (3 Months)",
+      "start_month": "July",
+      "end_month": "September",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - May",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Dry season soil water exhaustion; insufficient rainfall for pluvial crops."
+    },
+    "season_3": {
+      "window": "June - December (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Tanta, Gharbia",
+    "country": "Egypt",
+    "continent": "Africa",
+    "lat": 30.7865,
+    "lon": 31.0004,
+    "context": "Nile Delta: 75mm rain, hyper-arid pluvial fallow",
+    "annual_rain_mm": 74.7,
+    "annual_mean_temp_c": 22.0,
+    "computed_lgp_days": 0,
+    "deduced_regime": "HYPER_ARID_DESERT",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "January - December (12 Months)",
+      "start_month": "January",
+      "end_month": "December",
+      "duration_months": 12,
+      "is_fallow": true,
+      "role": "Drought Fallow (Irrigation Mandatory)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    }
+  },
+  {
+    "name": "Settat, Chaouia",
+    "country": "Morocco",
+    "continent": "Africa",
+    "lat": 33.0014,
+    "lon": -7.6167,
+    "context": "Moroccan Granary: Winter rain wheat/barley",
+    "annual_rain_mm": 440.9,
+    "annual_mean_temp_c": 18.5,
+    "computed_lgp_days": 151,
+    "deduced_regime": "MEDITERRANEAN_WINTER_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "September - April (8 Months)",
+      "start_month": "September",
+      "end_month": "April",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Cropping (Wheat, Barley, Chickpea, Olive)"
+    },
+    "season_2": {
+      "window": "May (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "June - August (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 20 mm, PET > 150 mm/month)."
+    }
+  },
+  {
+    "name": "Blida, Mitidja",
+    "country": "Algeria",
+    "continent": "Africa",
+    "lat": 36.47,
+    "lon": 2.83,
+    "context": "Tell Atlas: Mediterranean winter rain, dry summer",
+    "annual_rain_mm": 641.3,
+    "annual_mean_temp_c": 17.5,
+    "computed_lgp_days": 228,
+    "deduced_regime": "MEDITERRANEAN_WINTER_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "September - May (9 Months)",
+      "start_month": "September",
+      "end_month": "May",
+      "duration_months": 9,
+      "is_fallow": false,
+      "role": "Primary Rainfed Cropping (Wheat, Barley, Chickpea, Olive)"
+    },
+    "season_2": {
+      "window": "June (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "July - August (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 20 mm, PET > 150 mm/month)."
+    }
+  },
+  {
+    "name": "Kroonstad, Free State",
+    "country": "South Africa",
+    "continent": "Africa",
+    "lat": -27.6504,
+    "lon": 27.2349,
+    "context": "Maize Quadrangle: Summer rainfed maize, dry winter",
+    "annual_rain_mm": 545.0,
+    "annual_mean_temp_c": 17.2,
+    "computed_lgp_days": 93,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "April - July",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Dry season soil water exhaustion; insufficient rainfall for pluvial crops."
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Moorreesburg, Western Cape",
+    "country": "South Africa",
+    "continent": "Africa",
+    "lat": -33.1539,
+    "lon": 18.6625,
+    "context": "Swartland Wheat: Mediterranean winter rain, dry summer",
+    "annual_rain_mm": 646.8,
+    "annual_mean_temp_c": 17.9,
+    "computed_lgp_days": 171,
+    "deduced_regime": "MEDITERRANEAN_WINTER_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - November (8 Months)",
+      "start_month": "April",
+      "end_month": "November",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Cropping (Wheat, Barley, Chickpea, Olive)"
+    },
+    "season_2": {
+      "window": "January (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "February - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 20 mm, PET > 150 mm/month)."
+    }
+  },
+  {
+    "name": "Chinhoyi, Mashonaland",
+    "country": "Zimbabwe",
+    "continent": "Africa",
+    "lat": -17.3667,
+    "lon": 30.2,
+    "context": "Highveld: Summer monsoon maize/tobacco, dry winter",
+    "annual_rain_mm": 850.8,
+    "annual_mean_temp_c": 21.6,
+    "computed_lgp_days": 182,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "November - March (5 Months)",
+      "start_month": "November",
+      "end_month": "March",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "April - June (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "August - October (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Mazabuka, Southern",
+    "country": "Zambia",
+    "continent": "Africa",
+    "lat": -15.856,
+    "lon": 27.748,
+    "context": "Zambia Sugar/Grain: Summer rainfed maize, dry winter",
+    "annual_rain_mm": 766.3,
+    "annual_mean_temp_c": 22.6,
+    "computed_lgp_days": 173,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "November - March (5 Months)",
+      "start_month": "November",
+      "end_month": "March",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "April - June (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "August - October (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Adana, Cukurova",
+    "country": "Turkey",
+    "continent": "Middle East",
+    "lat": 37.0,
+    "lon": 35.3213,
+    "context": "Cilician Plain: Mediterranean wet winter, summer cotton",
+    "annual_rain_mm": 635.3,
+    "annual_mean_temp_c": 19.3,
+    "computed_lgp_days": 184,
+    "deduced_regime": "MEDITERRANEAN_WINTER_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - May (8 Months)",
+      "start_month": "October",
+      "end_month": "May",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Cropping (Wheat, Barley, Chickpea, Olive)"
+    },
+    "season_2": {
+      "window": "June (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "July - September (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 20 mm, PET > 150 mm/month)."
+    }
+  },
+  {
+    "name": "Konya, Central Anatolia",
+    "country": "Turkey",
+    "continent": "Middle East",
+    "lat": 37.8667,
+    "lon": 32.4833,
+    "context": "Anatolian Steppe: Freezing winter, summer drought wheat",
+    "annual_rain_mm": 394.1,
+    "annual_mean_temp_c": 11.3,
+    "computed_lgp_days": 75,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -18.9\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Ahvaz, Khuzestan",
+    "country": "Iran",
+    "continent": "Middle East",
+    "lat": 31.3183,
+    "lon": 48.6706,
+    "context": "Karun River Basin: Extreme desert heat, winter wheat",
+    "annual_rain_mm": 196.6,
+    "annual_mean_temp_c": 26.6,
+    "computed_lgp_days": 62,
+    "deduced_regime": "HYPER_ARID_DESERT",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "January - December (12 Months)",
+      "start_month": "January",
+      "end_month": "December",
+      "duration_months": 12,
+      "is_fallow": true,
+      "role": "Drought Fallow (Irrigation Mandatory)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    }
+  },
+  {
+    "name": "Amarah, Maysan",
+    "country": "Iraq",
+    "continent": "Middle East",
+    "lat": 31.836,
+    "lon": 47.1444,
+    "context": "Tigris Basin: Hyper-arid, irrigated date & winter barley",
+    "annual_rain_mm": 197.7,
+    "annual_mean_temp_c": 25.7,
+    "computed_lgp_days": 62,
+    "deduced_regime": "HYPER_ARID_DESERT",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "January - December (12 Months)",
+      "start_month": "January",
+      "end_month": "December",
+      "duration_months": 12,
+      "is_fallow": true,
+      "role": "Drought Fallow (Irrigation Mandatory)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    }
+  },
+  {
+    "name": "Al-Hofuf, Al-Ahsa",
+    "country": "Saudi Arabia",
+    "continent": "Middle East",
+    "lat": 25.3644,
+    "lon": 49.5855,
+    "context": "Arabian Desert Oasis: Hyper-arid, 60mm rain, irrigated date",
+    "annual_rain_mm": 33.2,
+    "annual_mean_temp_c": 27.0,
+    "computed_lgp_days": 0,
+    "deduced_regime": "HYPER_ARID_DESERT",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "January - December (12 Months)",
+      "start_month": "January",
+      "end_month": "December",
+      "duration_months": 12,
+      "is_fallow": true,
+      "role": "Drought Fallow (Irrigation Mandatory)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    }
+  }
+]

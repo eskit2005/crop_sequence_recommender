@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Des Moines, Iowa",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 41.5868,
+    "lon": -93.625,
+    "context": "US Corn Belt: Warm summer, sub-zero winter freeze",
+    "annual_rain_mm": 883.9,
+    "annual_mean_temp_c": 10.1,
+    "computed_lgp_days": 214,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -33.8\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Champaign, Illinois",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 40.1164,
+    "lon": -88.2434,
+    "context": "US Corn Belt: Summer corn-soybean, winter wheat",
+    "annual_rain_mm": 1028.0,
+    "annual_mean_temp_c": 11.3,
+    "computed_lgp_days": 244,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 2,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November - November (1 Months)",
+      "duration_months": 1,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -27.8\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Dodge City, Kansas",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 37.7528,
+    "lon": -100.0171,
+    "context": "US High Plains Wheat Belt: Semi-arid, cold winter",
+    "annual_rain_mm": 627.1,
+    "annual_mean_temp_c": 13.5,
+    "computed_lgp_days": 153,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -18.8\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Fargo, North Dakota",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 46.8772,
+    "lon": -96.7898,
+    "context": "US Spring Wheat Belt: Very short summer, severe freeze",
+    "annual_rain_mm": 608.0,
+    "annual_mean_temp_c": 6.1,
+    "computed_lgp_days": 152,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "October (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -43.5\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Fresno, California",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 36.7468,
+    "lon": -119.7726,
+    "context": "California Central Valley: Wet mild winter, bone-dry summer",
+    "annual_rain_mm": 295.7,
+    "annual_mean_temp_c": 18.7,
+    "computed_lgp_days": 121,
+    "deduced_regime": "MEDITERRANEAN_WINTER_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "December - March (4 Months)",
+      "start_month": "December",
+      "end_month": "March",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Rainfed Cropping (Wheat, Barley, Chickpea, Olive)"
+    },
+    "season_2": {
+      "window": "April (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "May - November (7 Months)",
+      "duration_months": 7,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 20 mm, PET > 150 mm/month)."
+    }
+  },
+  {
+    "name": "Yakima, Washington",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 46.6021,
+    "lon": -120.5059,
+    "context": "Pacific Northwest: Arid valley, cold winter",
+    "annual_rain_mm": 511.8,
+    "annual_mean_temp_c": 8.6,
+    "computed_lgp_days": 82,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "October (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -22.2\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Lubbock, Texas",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 33.5779,
+    "lon": -101.8552,
+    "context": "Texas High Plains Cotton: Semi-arid warm summer",
+    "annual_rain_mm": 488.2,
+    "annual_mean_temp_c": 16.5,
+    "computed_lgp_days": 30,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "March - October (8 Months)",
+      "start_month": "March",
+      "end_month": "October",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "December - January (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -13.5\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Tifton, Georgia",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 31.4505,
+    "lon": -83.5085,
+    "context": "US Southeast: Humid subtropical, long summer peanuts/cotton",
+    "annual_rain_mm": 1243.0,
+    "annual_mean_temp_c": 18.9,
+    "computed_lgp_days": 363,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 3,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - July (3 Months)",
+      "start_month": "May",
+      "end_month": "July",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "July - September (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - December (7 Months)",
+      "duration_months": 7,
+      "is_fallow": false,
+      "fallow_reason": null
+    }
+  },
+  {
+    "name": "Belle Glade, Florida",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 26.6845,
+    "lon": -80.6676,
+    "context": "Everglades: Winter vegetable & sugarcane belt",
+    "annual_rain_mm": 1221.5,
+    "annual_mean_temp_c": 24.0,
+    "computed_lgp_days": 304,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - July (3 Months)",
+      "start_month": "May",
+      "end_month": "July",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "July - September (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - December (7 Months)",
+      "duration_months": 7,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season dry spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Regina, Saskatchewan",
+    "country": "Canada",
+    "continent": "North America",
+    "lat": 50.4452,
+    "lon": -104.6189,
+    "context": "Canadian Prairies: Short summer spring wheat & canola",
+    "annual_rain_mm": 418.2,
+    "annual_mean_temp_c": 4.1,
+    "computed_lgp_days": 30,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "October (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "October - April (7 Months)",
+      "duration_months": 7,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -46.0\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Lethbridge, Alberta",
+    "country": "Canada",
+    "continent": "North America",
+    "lat": 49.6956,
+    "lon": -112.8451,
+    "context": "Canadian Prairies: Dryland wheat, severe freeze",
+    "annual_rain_mm": 491.8,
+    "annual_mean_temp_c": 5.6,
+    "computed_lgp_days": 122,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "October (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "November - April (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -35.8\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "London, Ontario",
+    "country": "Canada",
+    "continent": "North America",
+    "lat": 42.9849,
+    "lon": -81.2453,
+    "context": "Eastern Canada: Humid continental summer grain belt",
+    "annual_rain_mm": 659.7,
+    "annual_mean_temp_c": 8.8,
+    "computed_lgp_days": 122,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -26.1\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Ciudad Obregon, Sonora",
+    "country": "Mexico",
+    "continent": "North America",
+    "lat": 27.4828,
+    "lon": -109.9304,
+    "context": "Yaqui Valley: Desert irrigated winter wheat",
+    "annual_rain_mm": 394.0,
+    "annual_mean_temp_c": 24.9,
+    "computed_lgp_days": 92,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - July (3 Months)",
+      "start_month": "May",
+      "end_month": "July",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "June - August (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - December (8 Months)",
+      "duration_months": 8,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season dry spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Culiacan, Sinaloa",
+    "country": "Mexico",
+    "continent": "North America",
+    "lat": 24.8091,
+    "lon": -107.394,
+    "context": "Pacific Coast: Summer monsoon, winter vegetable belt",
+    "annual_rain_mm": 703.9,
+    "annual_mean_temp_c": 25.3,
+    "computed_lgp_days": 139,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "July - September (3 Months)",
+      "start_month": "July",
+      "end_month": "September",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - May",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Dry season soil water exhaustion; insufficient rainfall for pluvial crops."
+    },
+    "season_3": {
+      "window": "June - December (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Celaya, Guanajuato",
+    "country": "Mexico",
+    "continent": "North America",
+    "lat": 20.5218,
+    "lon": -100.814,
+    "context": "Bajio: High plateau summer monsoon grain belt",
+    "annual_rain_mm": 681.4,
+    "annual_mean_temp_c": 17.4,
+    "computed_lgp_days": 164,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  }
+]

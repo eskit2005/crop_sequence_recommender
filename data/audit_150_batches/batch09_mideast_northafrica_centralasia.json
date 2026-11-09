@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Damanhour, Beheira",
+    "country": "Egypt",
+    "continent": "Africa",
+    "lat": 31.0425,
+    "lon": 30.4689,
+    "description": "Western Nile Delta: Potato export, citrus, winter wheat, summer rice",
+    "annual_rain_mm": 99.2,
+    "annual_mean_temp_c": 21.9,
+    "computed_lgp_days": 0,
+    "deduced_regime": "HYPER_ARID_DESERT",
+    "deduced_k": 0,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "January - December (12 Months)",
+      "start_month": "January",
+      "end_month": "December",
+      "duration_months": 12,
+      "is_fallow": true,
+      "role": "Drought Fallow (Irrigation Mandatory)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    }
+  },
+  {
+    "name": "Mansoura, Dakahlia",
+    "country": "Egypt",
+    "continent": "Africa",
+    "lat": 31.0409,
+    "lon": 31.3785,
+    "description": "Eastern Nile Delta: Paddy rice, cotton, winter wheat, berseem clover",
+    "annual_rain_mm": 74.6,
+    "annual_mean_temp_c": 22.0,
+    "computed_lgp_days": 0,
+    "deduced_regime": "HYPER_ARID_DESERT",
+    "deduced_k": 0,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "January - December (12 Months)",
+      "start_month": "January",
+      "end_month": "December",
+      "duration_months": 12,
+      "is_fallow": true,
+      "role": "Drought Fallow (Irrigation Mandatory)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    }
+  },
+  {
+    "name": "Meknes, Fes-Meknes",
+    "country": "Morocco",
+    "continent": "Africa",
+    "lat": 33.8938,
+    "lon": -5.5516,
+    "description": "Saiss Plain: Rainfed soft/durum wheat, olive orchards, wine grapes",
+    "annual_rain_mm": 608.1,
+    "annual_mean_temp_c": 18.8,
+    "computed_lgp_days": 219,
+    "deduced_regime": "MEDITERRANEAN_WINTER_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - May (8 Months)",
+      "start_month": "October",
+      "end_month": "May",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "June - July (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Sidi Bel Abbes, Oran",
+    "country": "Algeria",
+    "continent": "Africa",
+    "lat": 35.1899,
+    "lon": -0.6308,
+    "description": "High Tellian Plateau: Rainfed durum wheat, barley, lentil",
+    "annual_rain_mm": 548.1,
+    "annual_mean_temp_c": 16.8,
+    "computed_lgp_days": 212,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - May (8 Months)",
+      "start_month": "October",
+      "end_month": "May",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "June - July (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Beja, Beja",
+    "country": "Tunisia",
+    "continent": "Africa",
+    "lat": 36.7256,
+    "lon": 9.1817,
+    "description": "Medjerda Valley: Tunisia's historic granary, durum wheat, faba bean",
+    "annual_rain_mm": 693.2,
+    "annual_mean_temp_c": 17.2,
+    "computed_lgp_days": 226,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - May (8 Months)",
+      "start_month": "October",
+      "end_month": "May",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "June - July (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Sanliurfa, Southeastern Anatolia",
+    "country": "Turkey",
+    "continent": "Middle East",
+    "lat": 37.1674,
+    "lon": 38.7955,
+    "description": "Harran Plain (GAP): World-class irrigated cotton, durum wheat, lentil",
+    "annual_rain_mm": 381.7,
+    "annual_mean_temp_c": 17.7,
+    "computed_lgp_days": 135,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - April (7 Months)",
+      "start_month": "October",
+      "end_month": "April",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "May - June (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "July - September (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Tekirdag, Thrace",
+    "country": "Turkey",
+    "continent": "Middle East",
+    "lat": 40.9833,
+    "lon": 27.5167,
+    "description": "Turkish Thrace: Sunflower capital, high-yield winter wheat, canola",
+    "annual_rain_mm": 599.6,
+    "annual_mean_temp_c": 14.8,
+    "computed_lgp_days": 194,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - June (9 Months)",
+      "start_month": "October",
+      "end_month": "June",
+      "duration_months": 9,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "July (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Irbid, Irbid",
+    "country": "Jordan",
+    "continent": "Middle East",
+    "lat": 32.5568,
+    "lon": 35.8469,
+    "description": "Northern Jordanian Plateau: Rainfed ancient olive groves, winter wheat",
+    "annual_rain_mm": 371.4,
+    "annual_mean_temp_c": 20.4,
+    "computed_lgp_days": 153,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "April - June (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "July - September (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Zahle, Bekaa",
+    "country": "Lebanon",
+    "continent": "Middle East",
+    "lat": 33.8463,
+    "lon": 35.902,
+    "description": "Central Bekaa Valley: Irrigated potato, table/wine grapes, winter wheat",
+    "annual_rain_mm": 453.7,
+    "annual_mean_temp_c": 19.0,
+    "computed_lgp_days": 171,
+    "deduced_regime": "MEDITERRANEAN_WINTER_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "April - June (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "July - September (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Gorgan, Golestan",
+    "country": "Iran",
+    "continent": "Middle East",
+    "lat": 36.8433,
+    "lon": 54.4339,
+    "description": "Caspian Subtropical Plain: Soybean, rapeseed, winter wheat, cotton",
+    "annual_rain_mm": 281.6,
+    "annual_mean_temp_c": 18.1,
+    "computed_lgp_days": 120,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - April (7 Months)",
+      "start_month": "October",
+      "end_month": "April",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "May - June (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "July - September (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Shiraz, Fars",
+    "country": "Iran",
+    "continent": "Middle East",
+    "lat": 29.5918,
+    "lon": 52.5837,
+    "description": "Southern Zagros Basin: Irrigated wheat, barley, pomegranate, almond",
+    "annual_rain_mm": 273.8,
+    "annual_mean_temp_c": 16.6,
+    "computed_lgp_days": 89,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - April (7 Months)",
+      "start_month": "October",
+      "end_month": "April",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "May - June (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "July - September (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Samarkand, Samarkand",
+    "country": "Uzbekistan",
+    "continent": "Asia",
+    "lat": 39.6542,
+    "lon": 66.9597,
+    "description": "Zeravshan Oasis: Irrigated cotton, table grapes, winter wheat",
+    "annual_rain_mm": 318.4,
+    "annual_mean_temp_c": 14.1,
+    "computed_lgp_days": 61,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "March - September (7 Months)",
+      "start_month": "March",
+      "end_month": "September",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "October - November (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Late autumn temperature decline; field rest before ground freeze."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -19.6\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Shymkent, Turkistan",
+    "country": "Kazakhstan",
+    "continent": "Asia",
+    "lat": 42.3417,
+    "lon": 69.5901,
+    "description": "Syr Darya Piedmont: Irrigated cotton, melon, winter wheat",
+    "annual_rain_mm": 511.7,
+    "annual_mean_temp_c": 13.8,
+    "computed_lgp_days": 136,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "March & November (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Late autumn temperature decline; field rest before ground freeze."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -24.8\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Kostanay, Kostanay",
+    "country": "Kazakhstan",
+    "continent": "Asia",
+    "lat": 53.2144,
+    "lon": 63.6246,
+    "description": "Virgin Lands Steppe: Spring wheat powerhouse, flax, barley",
+    "annual_rain_mm": 385.9,
+    "annual_mean_temp_c": 3.2,
+    "computed_lgp_days": 22,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - September (6 Months)",
+      "start_month": "April",
+      "end_month": "September",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "October - March (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -45.7\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Mary, Mary",
+    "country": "Turkmenistan",
+    "continent": "Asia",
+    "lat": 37.5938,
+    "lon": 61.8317,
+    "description": "Murghab Delta (Karakum): Irrigated cotton, winter wheat, melon",
+    "annual_rain_mm": 150.3,
+    "annual_mean_temp_c": 17.6,
+    "computed_lgp_days": 28,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "April - June (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "July - September (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  }
+]

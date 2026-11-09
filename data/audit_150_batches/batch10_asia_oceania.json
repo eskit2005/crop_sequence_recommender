@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Indore, Madhya Pradesh",
+    "country": "India",
+    "continent": "Asia",
+    "lat": 22.7196,
+    "lon": 75.8577,
+    "description": "Malwa Plateau: Black Vertisol soybean capital, Rabi wheat/chickpea",
+    "annual_rain_mm": 921.1,
+    "annual_mean_temp_c": 26.0,
+    "computed_lgp_days": 159,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice, Groundnut)"
+    },
+    "season_2": {
+      "window": "October - January (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Post-monsoon dryland moisture depletion."
+    },
+    "season_3": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Peak dry season before monsoon arrival."
+    }
+  },
+  {
+    "name": "Guntur, Andhra Pradesh",
+    "country": "India",
+    "continent": "Asia",
+    "lat": 16.3067,
+    "lon": 80.4365,
+    "description": "Krishna Delta: World-famous red chilli, cotton, tobacco, rice",
+    "annual_rain_mm": 1026.5,
+    "annual_mean_temp_c": 28.0,
+    "computed_lgp_days": 213,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Monsoon Crop (Paddy Rice, Soybean, Maize, Cotton)"
+    },
+    "season_2": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - May (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Extreme summer heat and moisture deficit before monsoon arrival."
+    }
+  },
+  {
+    "name": "Mymensingh Sadar",
+    "country": "Bangladesh",
+    "continent": "Asia",
+    "lat": 24.7471,
+    "lon": 90.4203,
+    "description": "Old Brahmaputra Floodplain: Intensive Boro-Aman rice, aquaculture",
+    "annual_rain_mm": 2496.6,
+    "annual_mean_temp_c": 25.3,
+    "computed_lgp_days": 271,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "March - June (4 Months)",
+      "start_month": "March",
+      "end_month": "June",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Monsoon Crop (Paddy Rice, Soybean, Maize, Cotton)"
+    },
+    "season_2": {
+      "window": "July - October (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "November - February (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Extreme summer heat and moisture deficit before monsoon arrival."
+    }
+  },
+  {
+    "name": "Dinajpur Sadar",
+    "country": "Bangladesh",
+    "continent": "Asia",
+    "lat": 25.6217,
+    "lon": 88.6355,
+    "description": "Himalayan Piedmont: Premier aromatic rice (Kataribhog), litchi, wheat",
+    "annual_rain_mm": 1669.3,
+    "annual_mean_temp_c": 25.2,
+    "computed_lgp_days": 259,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - July (4 Months)",
+      "start_month": "April",
+      "end_month": "July",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Monsoon Crop (Paddy Rice, Soybean, Maize, Cotton)"
+    },
+    "season_2": {
+      "window": "August - November (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Extreme summer heat and moisture deficit before monsoon arrival."
+    }
+  },
+  {
+    "name": "Jessore Sadar",
+    "country": "Bangladesh",
+    "continent": "Asia",
+    "lat": 23.1667,
+    "lon": 89.2167,
+    "description": "Lower Ganges Plain: Winter vegetable granary, floriculture, Boro rice",
+    "annual_rain_mm": 1775.5,
+    "annual_mean_temp_c": 25.8,
+    "computed_lgp_days": 269,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - July (4 Months)",
+      "start_month": "April",
+      "end_month": "July",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Monsoon Crop (Paddy Rice, Soybean, Maize, Cotton)"
+    },
+    "season_2": {
+      "window": "August - November (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Extreme summer heat and moisture deficit before monsoon arrival."
+    }
+  },
+  {
+    "name": "Changchun, Jilin",
+    "country": "China",
+    "continent": "Asia",
+    "lat": 43.8171,
+    "lon": 125.3235,
+    "description": "Northeast Corn Belt: High-yielding single-season grain maize, soy",
+    "annual_rain_mm": 631.9,
+    "annual_mean_temp_c": 5.2,
+    "computed_lgp_days": 153,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -41.8\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Wuhan, Hubei",
+    "country": "China",
+    "continent": "Asia",
+    "lat": 30.5928,
+    "lon": 114.3055,
+    "description": "Jianghan Plain: Middle Yangtze double-crop rice and winter rapeseed",
+    "annual_rain_mm": 1332.0,
+    "annual_mean_temp_c": 17.6,
+    "computed_lgp_days": 334,
+    "deduced_regime": "HUMID_SUBTROPICAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Soybean, Maize, Peanut, Cotton)"
+    },
+    "season_2": {
+      "window": "November - April (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Severe winter radiative frost down to -9.4\u00b0C."
+    }
+  },
+  {
+    "name": "Khon Kaen, Isan",
+    "country": "Thailand",
+    "continent": "Asia",
+    "lat": 16.4419,
+    "lon": 102.836,
+    "description": "Khorat Plateau: Rainfed cassava, sugarcane, KDML105 jasmine rice",
+    "annual_rain_mm": 1363.3,
+    "annual_mean_temp_c": 26.6,
+    "computed_lgp_days": 215,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - July (4 Months)",
+      "start_month": "April",
+      "end_month": "July",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Anchor (Maize, Yam, Groundnut, Cotton)"
+    },
+    "season_2": {
+      "window": "August - November (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Battambang, Battambang",
+    "country": "Cambodia",
+    "continent": "Asia",
+    "lat": 13.0957,
+    "lon": 103.2022,
+    "description": "Tonle Sap Basin: Rice bowl of Cambodia, wet season aromatic rice",
+    "annual_rain_mm": 1821.0,
+    "annual_mean_temp_c": 27.3,
+    "computed_lgp_days": 259,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "March - June (4 Months)",
+      "start_month": "March",
+      "end_month": "June",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Anchor (Maize, Yam, Groundnut, Cotton)"
+    },
+    "season_2": {
+      "window": "July - October (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "November - February (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Davao City, Davao",
+    "country": "Philippines",
+    "continent": "Asia",
+    "lat": 7.1907,
+    "lon": 125.4553,
+    "description": "Southern Mindanao: Year-round Cavendish banana, cacao, coconut",
+    "annual_rain_mm": 2122.8,
+    "annual_mean_temp_c": 27.5,
+    "computed_lgp_days": 365,
+    "deduced_regime": "HUMID_TROPICAL_PERENNIAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Staple (Wet Rice, Soy, Sugarcane, Oil Palm)"
+    },
+    "season_2": {
+      "window": "November - February (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "March - April (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Brief soil aeration and aeration rest."
+    }
+  },
+  {
+    "name": "Malang, East Java",
+    "country": "Indonesia",
+    "continent": "Asia",
+    "lat": -7.9666,
+    "lon": 112.6326,
+    "description": "Brantas Basin Highland: Upland vegetables, apple, sugarcane, rice",
+    "annual_rain_mm": 1864.5,
+    "annual_mean_temp_c": 24.5,
+    "computed_lgp_days": 279,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - January (4 Months)",
+      "start_month": "October",
+      "end_month": "January",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Anchor (Maize, Yam, Groundnut, Cotton)"
+    },
+    "season_2": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "June - September (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Dubbo, Central West NSW",
+    "country": "Australia",
+    "continent": "Oceania",
+    "lat": -32.2435,
+    "lon": 148.6011,
+    "description": "Macquarie Valley: Winter wheat/canola/barley, irrigated cotton",
+    "annual_rain_mm": 530.7,
+    "annual_mean_temp_c": 17.9,
+    "computed_lgp_days": 61,
+    "deduced_regime": "SEMI_ARID_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Summer Cash & Staple Grains (Maize, Sunflower, Sorghum, Soybean, Cotton)"
+    },
+    "season_2": {
+      "window": "April - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Winter dry season and cold thermal halt (Winter Tmin down to -3.2\u00b0C)."
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    }
+  },
+  {
+    "name": "Esperance, Western Australia",
+    "country": "Australia",
+    "continent": "Oceania",
+    "lat": -33.8611,
+    "lon": 121.8919,
+    "description": "South Coast Sandplain: Mediterranean winter wheat, canola, barley",
+    "annual_rain_mm": 549.9,
+    "annual_mean_temp_c": 17.0,
+    "computed_lgp_days": 208,
+    "deduced_regime": "MEDITERRANEAN_WINTER_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - December (9 Months)",
+      "start_month": "April",
+      "end_month": "December",
+      "duration_months": 9,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "January (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "February - March (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Palmerston North, Manawatu",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "lat": -40.3523,
+    "lon": 175.6082,
+    "description": "Manawatu Plains: Perennial rye/clover dairy, maize silage, sheep",
+    "annual_rain_mm": 947.3,
+    "annual_mean_temp_c": 12.3,
+    "computed_lgp_days": 341,
+    "deduced_regime": "TEMPERATE_OCEANIC_MARITIME",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "October - May (8 Months)",
+      "start_month": "October",
+      "end_month": "May",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Cash Crops, Cereals & Forage (Wheat, Barley, Maize, Potato, Sugar Beet)"
+    },
+    "season_2": {
+      "window": "June - July (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Declining autumn photoperiod and temperatures."
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Low solar radiation and cool winter temperatures."
+    }
+  },
+  {
+    "name": "Invercargill, Southland",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "lat": -46.4132,
+    "lon": 168.3538,
+    "description": "Southland Plains: Cool maritime, intensive dairy grazing, winter oats",
+    "annual_rain_mm": 1254.3,
+    "annual_mean_temp_c": 11.0,
+    "computed_lgp_days": 365,
+    "deduced_regime": "TEMPERATE_OCEANIC_MARITIME",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "October - May (8 Months)",
+      "start_month": "October",
+      "end_month": "May",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Cash Crops, Cereals & Forage (Wheat, Barley, Maize, Potato, Sugar Beet)"
+    },
+    "season_2": {
+      "window": "June - July (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Declining autumn photoperiod and temperatures."
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Low solar radiation and cool winter temperatures."
+    }
+  }
+]

@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Bologna, Emilia-Romagna",
+    "country": "Italy",
+    "continent": "Europe",
+    "lat": 44.4949,
+    "lon": 11.3426,
+    "description": "Po Valley South: Winter wheat, double-crop soy/maize, fruit orchards",
+    "annual_rain_mm": 656.1,
+    "annual_mean_temp_c": 14.2,
+    "computed_lgp_days": 172,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - June (9 Months)",
+      "start_month": "October",
+      "end_month": "June",
+      "duration_months": 9,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "July (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Foggia, Apulia",
+    "country": "Italy",
+    "continent": "Europe",
+    "lat": 41.4622,
+    "lon": 15.5447,
+    "description": "Tavoliere delle Puglie: Italy's durum wheat capital, processing tomato",
+    "annual_rain_mm": 542.8,
+    "annual_mean_temp_c": 16.7,
+    "computed_lgp_days": 205,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - June (9 Months)",
+      "start_month": "October",
+      "end_month": "June",
+      "duration_months": 9,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "July (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Zaragoza, Aragon",
+    "country": "Spain",
+    "continent": "Europe",
+    "lat": 41.6488,
+    "lon": -0.8891,
+    "description": "Middle Ebro Valley: Semi-arid, irrigated alfalfa, stone fruit, corn",
+    "annual_rain_mm": 366.8,
+    "annual_mean_temp_c": 14.9,
+    "computed_lgp_days": 123,
+    "deduced_regime": "SEMI_ARID_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Summer Cash & Staple Grains (Maize, Sunflower, Sorghum, Soybean, Cotton)"
+    },
+    "season_2": {
+      "window": "November - April (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Winter dry season and cold thermal halt (Winter Tmin down to -7.1\u00b0C)."
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    }
+  },
+  {
+    "name": "Cordoba, Andalusia",
+    "country": "Spain",
+    "continent": "Europe",
+    "lat": 37.8882,
+    "lon": -4.7794,
+    "description": "Campi\u00f1a de Cordoba: Dryland olive groves, winter wheat, sunflower",
+    "annual_rain_mm": 482.0,
+    "annual_mean_temp_c": 16.8,
+    "computed_lgp_days": 212,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - May (8 Months)",
+      "start_month": "October",
+      "end_month": "May",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "June - July (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Albacete, Castilla-La Mancha",
+    "country": "Spain",
+    "continent": "Europe",
+    "lat": 38.9943,
+    "lon": -1.8585,
+    "description": "La Mancha High Plain: Dryland malting barley, garlic, vineyard",
+    "annual_rain_mm": 348.6,
+    "annual_mean_temp_c": 14.2,
+    "computed_lgp_days": 151,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - May (8 Months)",
+      "start_month": "October",
+      "end_month": "May",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "June - July (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Evora, Alentejo",
+    "country": "Portugal",
+    "continent": "Europe",
+    "lat": 38.5714,
+    "lon": -7.9135,
+    "description": "Central Alentejo: Rainfed winter wheat, cork oak montado, olive",
+    "annual_rain_mm": 532.5,
+    "annual_mean_temp_c": 16.5,
+    "computed_lgp_days": 219,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - May (8 Months)",
+      "start_month": "October",
+      "end_month": "May",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "June - July (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Karditsa, Thessaly",
+    "country": "Greece",
+    "continent": "Europe",
+    "lat": 39.3644,
+    "lon": 21.9214,
+    "description": "Thessalian Plain: High-yield irrigated cotton, grain maize, wheat",
+    "annual_rain_mm": 658.2,
+    "annual_mean_temp_c": 14.6,
+    "computed_lgp_days": 219,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - June (9 Months)",
+      "start_month": "October",
+      "end_month": "June",
+      "duration_months": 9,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "July (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Stara Zagora, Thrace",
+    "country": "Bulgaria",
+    "continent": "Europe",
+    "lat": 42.4258,
+    "lon": 25.6345,
+    "description": "Upper Thracian Plain: Winter wheat, sunflower, grain corn",
+    "annual_rain_mm": 658.3,
+    "annual_mean_temp_c": 11.7,
+    "computed_lgp_days": 183,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "March & November (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Late autumn temperature decline; field rest before ground freeze."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -22.2\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Timisoara, Banat",
+    "country": "Romania",
+    "continent": "Europe",
+    "lat": 45.7537,
+    "lon": 21.2257,
+    "description": "Banat Plain: Fertile chernozem winter wheat, corn, sunflower",
+    "annual_rain_mm": 632.5,
+    "annual_mean_temp_c": 12.0,
+    "computed_lgp_days": 213,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 2,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Intensive Summer Cash Crop (Corn, Soy, Peanut)"
+    },
+    "season_2": {
+      "window": "October - May (8 Months)",
+      "duration_months": 8,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    }
+  },
+  {
+    "name": "Debrecen, Great Plain",
+    "country": "Hungary",
+    "continent": "Europe",
+    "lat": 47.5316,
+    "lon": 21.6273,
+    "description": "Hajdusag / Alfold: Intensive grain maize, sunflower, wheat",
+    "annual_rain_mm": 608.5,
+    "annual_mean_temp_c": 11.4,
+    "computed_lgp_days": 152,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "March & November (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Late autumn temperature decline; field rest before ground freeze."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -26.6\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Trnava, Danubian Lowland",
+    "country": "Slovakia",
+    "continent": "Europe",
+    "lat": 48.3774,
+    "lon": 17.5883,
+    "description": "Danubian Plain: Sugar beet, malting barley, winter wheat, corn",
+    "annual_rain_mm": 607.5,
+    "annual_mean_temp_c": 9.9,
+    "computed_lgp_days": 122,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -24.2\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Lublin, Lublin Upland",
+    "country": "Poland",
+    "continent": "Europe",
+    "lat": 51.2465,
+    "lon": 22.5684,
+    "description": "Lublin Loess: Winter wheat, hops, soft berries, sugar beet",
+    "annual_rain_mm": 648.5,
+    "annual_mean_temp_c": 8.4,
+    "computed_lgp_days": 183,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -31.3\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Vinnytsia, Podolia",
+    "country": "Ukraine",
+    "continent": "Europe",
+    "lat": 49.2331,
+    "lon": 28.4682,
+    "description": "Central Forest-Steppe: Sugar beet capital, corn, winter wheat",
+    "annual_rain_mm": 589.2,
+    "annual_mean_temp_c": 8.2,
+    "computed_lgp_days": 138,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -30.1\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Dnipro, Steppe",
+    "country": "Ukraine",
+    "continent": "Europe",
+    "lat": 48.4647,
+    "lon": 35.0462,
+    "description": "Southern Black Soil Steppe: Sunflower, winter wheat, corn",
+    "annual_rain_mm": 548.6,
+    "annual_mean_temp_c": 9.5,
+    "computed_lgp_days": 106,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -31.2\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Novi Sad, Vojvodina",
+    "country": "Serbia",
+    "continent": "Europe",
+    "lat": 45.2671,
+    "lon": 19.8335,
+    "description": "Pannonian Basin: Black soil grain maize, soybean, sunflower",
+    "annual_rain_mm": 634.3,
+    "annual_mean_temp_c": 12.4,
+    "computed_lgp_days": 208,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 2,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Intensive Summer Cash Crop (Corn, Soy, Peanut)"
+    },
+    "season_2": {
+      "window": "October - May (8 Months)",
+      "duration_months": 8,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    }
+  }
+]

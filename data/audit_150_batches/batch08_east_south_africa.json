@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Kitale, Trans-Nzoia",
+    "country": "Kenya",
+    "continent": "Africa",
+    "lat": 1.0157,
+    "lon": 35.0062,
+    "description": "Kenya Maize Granary: High-potential plateau, long-cycle maize, seed beans",
+    "annual_rain_mm": 1845.7,
+    "annual_mean_temp_c": 17.1,
+    "computed_lgp_days": 350,
+    "deduced_regime": "HUMID_TROPICAL_PERENNIAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - September (6 Months)",
+      "start_month": "April",
+      "end_month": "September",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Staple (Wet Rice, Soy, Sugarcane, Oil Palm)"
+    },
+    "season_2": {
+      "window": "October - January (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "February - March (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Brief soil aeration and aeration rest."
+    }
+  },
+  {
+    "name": "Nyeri, Central Kenya",
+    "country": "Kenya",
+    "continent": "Africa",
+    "lat": -0.4197,
+    "lon": 36.9476,
+    "description": "Aberdare / Mt Kenya Piedmont: Arabica coffee, tea, dairy, horticulture",
+    "annual_rain_mm": 1191.9,
+    "annual_mean_temp_c": 16.4,
+    "computed_lgp_days": 349,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "March - May (3 Months)",
+      "start_month": "March",
+      "end_month": "May",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - February & June - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season dry spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Morogoro, Morogoro",
+    "country": "Tanzania",
+    "continent": "Africa",
+    "lat": -6.8278,
+    "lon": 37.6591,
+    "description": "Kilombero/Wami Valley: Sugarcane, paddy rice, maize",
+    "annual_rain_mm": 1157.6,
+    "annual_mean_temp_c": 23.7,
+    "computed_lgp_days": 247,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - January (4 Months)",
+      "start_month": "October",
+      "end_month": "January",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Anchor (Maize, Yam, Groundnut, Cotton)"
+    },
+    "season_2": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "June - September (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Mbeya, Southern Highlands",
+    "country": "Tanzania",
+    "continent": "Africa",
+    "lat": -8.9094,
+    "lon": 33.4608,
+    "description": "Southern Highlands Granary: Maize, round potatoes, pyrethrum, tea",
+    "annual_rain_mm": 1517.8,
+    "annual_mean_temp_c": 16.5,
+    "computed_lgp_days": 239,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "November - February (4 Months)",
+      "start_month": "November",
+      "end_month": "February",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Anchor (Maize, Yam, Groundnut, Cotton)"
+    },
+    "season_2": {
+      "window": "March - May (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "June - October (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Gulu, Northern",
+    "country": "Uganda",
+    "continent": "Africa",
+    "lat": 2.7747,
+    "lon": 32.299,
+    "description": "Northern Savanna: Finger millet, sesame, cassava, sunflower",
+    "annual_rain_mm": 1083.7,
+    "annual_mean_temp_c": 25.7,
+    "computed_lgp_days": 254,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "September - November (3 Months)",
+      "start_month": "September",
+      "end_month": "November",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "April - June (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "July - August & December - March (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season dry spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Mbarara, Western",
+    "country": "Uganda",
+    "continent": "Africa",
+    "lat": -0.6072,
+    "lon": 30.6545,
+    "description": "Ankole Basin: East African Highland cooking bananas (matooke), dairy",
+    "annual_rain_mm": 1091.3,
+    "annual_mean_temp_c": 20.7,
+    "computed_lgp_days": 327,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - December (3 Months)",
+      "start_month": "October",
+      "end_month": "December",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "March - May (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - February & June - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season dry spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Hawassa, Sidama",
+    "country": "Ethiopia",
+    "continent": "Africa",
+    "lat": 7.0504,
+    "lon": 38.4764,
+    "description": "Southern Rift Valley: Enset, haricot bean, maize, coffee",
+    "annual_rain_mm": 1431.8,
+    "annual_mean_temp_c": 15.7,
+    "computed_lgp_days": 321,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "March - May (3 Months)",
+      "start_month": "March",
+      "end_month": "May",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "July - September (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "June & October - February (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season dry spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Jimma, Oromia",
+    "country": "Ethiopia",
+    "continent": "Africa",
+    "lat": 7.6734,
+    "lon": 36.8344,
+    "description": "Southwestern Highlands: Origin of Arabica coffee, teff, maize",
+    "annual_rain_mm": 1738.5,
+    "annual_mean_temp_c": 17.9,
+    "computed_lgp_days": 313,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "March - June (4 Months)",
+      "start_month": "March",
+      "end_month": "June",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Anchor (Maize, Yam, Groundnut, Cotton)"
+    },
+    "season_2": {
+      "window": "July - October (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "November - February (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Chipata, Eastern",
+    "country": "Zambia",
+    "continent": "Africa",
+    "lat": -13.6333,
+    "lon": 32.65,
+    "description": "Eastern Plateau: Smallholder maize, groundnut, burley tobacco",
+    "annual_rain_mm": 937.3,
+    "annual_mean_temp_c": 22.3,
+    "computed_lgp_days": 162,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "November - March (5 Months)",
+      "start_month": "November",
+      "end_month": "March",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice, Groundnut)"
+    },
+    "season_2": {
+      "window": "April - June (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Post-monsoon dryland moisture depletion."
+    },
+    "season_3": {
+      "window": "July - October (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Peak dry season before monsoon arrival."
+    }
+  },
+  {
+    "name": "Mkushi, Central",
+    "country": "Zambia",
+    "continent": "Africa",
+    "lat": -13.6202,
+    "lon": 29.3941,
+    "description": "Mkushi Farm Block: Commercial center for irrigated wheat, summer soy",
+    "annual_rain_mm": 1060.9,
+    "annual_mean_temp_c": 19.8,
+    "computed_lgp_days": 197,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "November - March (5 Months)",
+      "start_month": "November",
+      "end_month": "March",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice, Groundnut)"
+    },
+    "season_2": {
+      "window": "April - June (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Post-monsoon dryland moisture depletion."
+    },
+    "season_3": {
+      "window": "July - October (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Peak dry season before monsoon arrival."
+    }
+  },
+  {
+    "name": "Lilongwe, Central",
+    "country": "Malawi",
+    "continent": "Africa",
+    "lat": -13.9626,
+    "lon": 33.7741,
+    "description": "Lilongwe Plain: Flue-cured tobacco, maize, groundnut, soybean",
+    "annual_rain_mm": 1045.2,
+    "annual_mean_temp_c": 20.3,
+    "computed_lgp_days": 170,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "November - March (5 Months)",
+      "start_month": "November",
+      "end_month": "March",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice, Groundnut)"
+    },
+    "season_2": {
+      "window": "April - June (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Post-monsoon dryland moisture depletion."
+    },
+    "season_3": {
+      "window": "July - October (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Peak dry season before monsoon arrival."
+    }
+  },
+  {
+    "name": "Chimoio, Manica",
+    "country": "Mozambique",
+    "continent": "Africa",
+    "lat": -19.1167,
+    "lon": 33.4833,
+    "description": "Beira Corridor: Maize, macadamia, commercial grain plateau",
+    "annual_rain_mm": 1215.9,
+    "annual_mean_temp_c": 22.6,
+    "computed_lgp_days": 228,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "November - February (4 Months)",
+      "start_month": "November",
+      "end_month": "February",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Anchor (Maize, Yam, Groundnut, Cotton)"
+    },
+    "season_2": {
+      "window": "March - May (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "June - October (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Bethal, Mpumalanga",
+    "country": "South Africa",
+    "continent": "Africa",
+    "lat": -26.4583,
+    "lon": 29.4667,
+    "description": "Eastern Highveld: Commercial dryland maize, sunflower, potato",
+    "annual_rain_mm": 638.2,
+    "annual_mean_temp_c": 16.0,
+    "computed_lgp_days": 151,
+    "deduced_regime": "SEMI_ARID_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Summer Cash & Staple Grains (Maize, Sunflower, Sorghum, Soybean, Cotton)"
+    },
+    "season_2": {
+      "window": "April - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Winter dry season and cold thermal halt (Winter Tmin down to -6.8\u00b0C)."
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    }
+  },
+  {
+    "name": "Lichtenburg, North West",
+    "country": "South Africa",
+    "continent": "Africa",
+    "lat": -26.152,
+    "lon": 26.1594,
+    "description": "Western Maize Triangle: Sandy loam dryland maize, sunflower, groundnut",
+    "annual_rain_mm": 570.2,
+    "annual_mean_temp_c": 18.1,
+    "computed_lgp_days": 151,
+    "deduced_regime": "SEMI_ARID_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Summer Cash & Staple Grains (Maize, Sunflower, Sorghum, Soybean, Cotton)"
+    },
+    "season_2": {
+      "window": "April - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Winter dry season and cold thermal halt (Winter Tmin down to -4.8\u00b0C)."
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    }
+  },
+  {
+    "name": "Ceres, Western Cape",
+    "country": "South Africa",
+    "continent": "Africa",
+    "lat": -33.37,
+    "lon": 19.31,
+    "description": "Warm Bokkeveld: Mediterranean deciduous pome fruit, winter wheat",
+    "annual_rain_mm": 670.5,
+    "annual_mean_temp_c": 15.1,
+    "computed_lgp_days": 211,
+    "deduced_regime": "MEDITERRANEAN_WINTER_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - December (9 Months)",
+      "start_month": "April",
+      "end_month": "December",
+      "duration_months": 9,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "January (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "February - March (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  }
+]

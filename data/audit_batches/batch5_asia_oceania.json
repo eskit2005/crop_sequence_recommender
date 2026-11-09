@@ -1,0 +1,988 @@
+[
+  {
+    "name": "Ludhiana, Punjab",
+    "country": "India",
+    "continent": "Asia",
+    "lat": 30.901,
+    "lon": 75.8573,
+    "context": "Indo-Gangetic Plain: Summer Kharif rice, winter wheat",
+    "annual_rain_mm": 660.0,
+    "annual_mean_temp_c": 25.3,
+    "computed_lgp_days": 92,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - May",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Dry season soil water exhaustion; insufficient rainfall for pluvial crops."
+    },
+    "season_3": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Karnal, Haryana",
+    "country": "India",
+    "continent": "Asia",
+    "lat": 29.6857,
+    "lon": 76.9905,
+    "context": "Green Revolution Belt: Kharif rice, Rabi wheat",
+    "annual_rain_mm": 754.9,
+    "annual_mean_temp_c": 25.1,
+    "computed_lgp_days": 120,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - May",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Dry season soil water exhaustion; insufficient rainfall for pluvial crops."
+    },
+    "season_3": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Varanasi, Uttar Pradesh",
+    "country": "India",
+    "continent": "Asia",
+    "lat": 25.3176,
+    "lon": 82.9739,
+    "context": "Middle Gangetic: Monsoon Kharif, irrigated Rabi",
+    "annual_rain_mm": 813.9,
+    "annual_mean_temp_c": 26.6,
+    "computed_lgp_days": 160,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Burdwan, West Bengal",
+    "country": "India",
+    "continent": "Asia",
+    "lat": 23.2324,
+    "lon": 87.8615,
+    "context": "Bengal Delta: Heavy monsoon Aman rice, Boro",
+    "annual_rain_mm": 1458.9,
+    "annual_mean_temp_c": 25.7,
+    "computed_lgp_days": 232,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "November - December (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Godagari, Rajshahi",
+    "country": "Bangladesh",
+    "continent": "Asia",
+    "lat": 24.4667,
+    "lon": 88.33,
+    "context": "Barind Tract: Monsoon T.Aman, Rabi mustard/wheat",
+    "annual_rain_mm": 1269.8,
+    "annual_mean_temp_c": 25.9,
+    "computed_lgp_days": 227,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "November - December (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Shyamnagar, Satkhira",
+    "country": "Bangladesh",
+    "continent": "Asia",
+    "lat": 22.33,
+    "lon": 89.1,
+    "context": "Coastal Saline Belt: Monsoon T.Aman, winter fallow",
+    "annual_rain_mm": 1955.8,
+    "annual_mean_temp_c": 25.9,
+    "computed_lgp_days": 241,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "November - December (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Kishoreganj Sadar",
+    "country": "Bangladesh",
+    "continent": "Asia",
+    "lat": 24.4798,
+    "lon": 90.7691,
+    "context": "Old Brahmaputra: Heavy monsoon, high intensity",
+    "annual_rain_mm": 2496.6,
+    "annual_mean_temp_c": 25.3,
+    "computed_lgp_days": 270,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 3,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "March - October (8 Months)",
+      "start_month": "March",
+      "end_month": "October",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - November (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - December (1 Months)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Dowarabazar, Sunamganj",
+    "country": "Bangladesh",
+    "continent": "Asia",
+    "lat": 25.05,
+    "lon": 91.5667,
+    "context": "Haor Basin: Deep flood Kharif fallow, Rabi Boro",
+    "annual_rain_mm": 3707.4,
+    "annual_mean_temp_c": 24.4,
+    "computed_lgp_days": 307,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 3,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "March - October (8 Months)",
+      "start_month": "March",
+      "end_month": "October",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - November (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - December (1 Months)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Bandarban Sadar",
+    "country": "Bangladesh",
+    "continent": "Asia",
+    "lat": 22.1953,
+    "lon": 92.2184,
+    "context": "Hill Tracts: Monsoon high slope, ginger/cotton",
+    "annual_rain_mm": 2885.6,
+    "annual_mean_temp_c": 24.0,
+    "computed_lgp_days": 276,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 3,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "November - December (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Thanjavur, Tamil Nadu",
+    "country": "India",
+    "continent": "Asia",
+    "lat": 10.787,
+    "lon": 79.1378,
+    "context": "Cauvery Delta: Northeast monsoon Samba rice",
+    "annual_rain_mm": 1011.0,
+    "annual_mean_temp_c": 28.2,
+    "computed_lgp_days": 219,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - December (7 Months)",
+      "start_month": "May",
+      "end_month": "December",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "April - June (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Akola, Maharashtra",
+    "country": "India",
+    "continent": "Asia",
+    "lat": 20.7002,
+    "lon": 77.0082,
+    "context": "Vidarbha Cotton Belt: Black soil rainfed cotton/soy",
+    "annual_rain_mm": 881.2,
+    "annual_mean_temp_c": 26.7,
+    "computed_lgp_days": 168,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Dezhou, Shandong",
+    "country": "China",
+    "continent": "Asia",
+    "lat": 37.4341,
+    "lon": 116.3575,
+    "context": "North China Plain: Cold winter wheat, summer maize",
+    "annual_rain_mm": 549.0,
+    "annual_mean_temp_c": 13.7,
+    "computed_lgp_days": 62,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -18.7\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Harbin, Heilongjiang",
+    "country": "China",
+    "continent": "Asia",
+    "lat": 45.8038,
+    "lon": 126.535,
+    "context": "Northeast Granary: Severe freeze, single summer soy/corn",
+    "annual_rain_mm": 537.0,
+    "annual_mean_temp_c": 4.1,
+    "computed_lgp_days": 122,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "October (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -41.4\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Chengdu, Sichuan",
+    "country": "China",
+    "continent": "Asia",
+    "lat": 30.5728,
+    "lon": 104.0668,
+    "context": "Sichuan Basin: Mild foggy winter, summer rice/rapeseed",
+    "annual_rain_mm": 990.4,
+    "annual_mean_temp_c": 17.4,
+    "computed_lgp_days": 258,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "November - December (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Zhanjiang, Guangdong",
+    "country": "China",
+    "continent": "Asia",
+    "lat": 21.2,
+    "lon": 110.35,
+    "context": "South China Tropical: Double rice + winter vegetables",
+    "annual_rain_mm": 1854.2,
+    "annual_mean_temp_c": 24.2,
+    "computed_lgp_days": 320,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 3,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "March - November (9 Months)",
+      "start_month": "March",
+      "end_month": "November",
+      "duration_months": 9,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - December (1 Months)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Suphan Buri",
+    "country": "Thailand",
+    "continent": "Asia",
+    "lat": 14.4745,
+    "lon": 100.1177,
+    "context": "Chao Phraya Basin: Monsoon rice, irrigated dry season",
+    "annual_rain_mm": 1205.3,
+    "annual_mean_temp_c": 28.0,
+    "computed_lgp_days": 223,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - June (3 Months)",
+      "start_month": "April",
+      "end_month": "June",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "August - October (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - December (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season dry spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Can Tho, Mekong Delta",
+    "country": "Vietnam",
+    "continent": "Asia",
+    "lat": 10.0452,
+    "lon": 105.7469,
+    "context": "Mekong Delta: Tropical triple rice system",
+    "annual_rain_mm": 1441.3,
+    "annual_mean_temp_c": 27.5,
+    "computed_lgp_days": 257,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - July (3 Months)",
+      "start_month": "May",
+      "end_month": "July",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "August - October (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - December (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season dry spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Nam Dinh, Red River Delta",
+    "country": "Vietnam",
+    "continent": "Asia",
+    "lat": 20.42,
+    "lon": 106.1683,
+    "context": "Tonkin Delta: Spring rice & Autumn rice",
+    "annual_rain_mm": 1636.7,
+    "annual_mean_temp_c": 23.9,
+    "computed_lgp_days": 288,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 3,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - November (8 Months)",
+      "start_month": "April",
+      "end_month": "November",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - December (1 Months)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Klaten, Central Java",
+    "country": "Indonesia",
+    "continent": "Asia",
+    "lat": -7.7056,
+    "lon": 110.6067,
+    "context": "Volcanic Java: Wet monsoon rice, Palawija rotation",
+    "annual_rain_mm": 2093.2,
+    "annual_mean_temp_c": 25.0,
+    "computed_lgp_days": 355,
+    "deduced_regime": "HUMID_TROPICAL_PERENNIAL",
+    "deduced_k": 3,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "September - July (11 Months)",
+      "start_month": "September",
+      "end_month": "July",
+      "duration_months": 11,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "August - August",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Dry season soil water exhaustion; insufficient rainfall for pluvial crops."
+    },
+    "season_3": {
+      "window": "August - August (1 Months)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Caballero, Nueva Ecija",
+    "country": "Philippines",
+    "continent": "Asia",
+    "lat": 15.4859,
+    "lon": 120.9673,
+    "context": "Central Luzon: Rice bowl, monsoon rain & dry season",
+    "annual_rain_mm": 2669.5,
+    "annual_mean_temp_c": 25.2,
+    "computed_lgp_days": 365,
+    "deduced_regime": "HUMID_TROPICAL_PERENNIAL",
+    "deduced_k": 3,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "January - December (12 Months)",
+      "start_month": "January",
+      "end_month": "December",
+      "duration_months": 12,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "February - January (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "April - April (1 Months)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Andijan, Fergana Valley",
+    "country": "Uzbekistan",
+    "continent": "Asia",
+    "lat": 40.7821,
+    "lon": 72.3442,
+    "context": "Central Asia: Continental arid, cold winter, cotton",
+    "annual_rain_mm": 246.5,
+    "annual_mean_temp_c": 15.0,
+    "computed_lgp_days": 30,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -14.9\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Taldykorgan, Almaty",
+    "country": "Kazakhstan",
+    "continent": "Asia",
+    "lat": 45.0167,
+    "lon": 78.3667,
+    "context": "Eurasian Steppe: Severe Siberian freeze, spring wheat",
+    "annual_rain_mm": 273.8,
+    "annual_mean_temp_c": 9.8,
+    "computed_lgp_days": 0,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - September (6 Months)",
+      "start_month": "April",
+      "end_month": "September",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "October (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -31.9\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Griffith, Riverina NSW",
+    "country": "Australia",
+    "continent": "Oceania",
+    "lat": -34.2889,
+    "lon": 146.0444,
+    "context": "Murray-Darling: Winter rain cereals, irrigated summer",
+    "annual_rain_mm": 405.8,
+    "annual_mean_temp_c": 17.5,
+    "computed_lgp_days": 92,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "February - November (4 Months)",
+      "start_month": "February",
+      "end_month": "November",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - August",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Dry season soil water exhaustion; insufficient rainfall for pluvial crops."
+    },
+    "season_3": {
+      "window": "September - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Northam, WA Wheatbelt",
+    "country": "Australia",
+    "continent": "Oceania",
+    "lat": -31.6539,
+    "lon": 116.6661,
+    "context": "Western Australia Wheatbelt: Pure Mediterranean winter rain",
+    "annual_rain_mm": 422.0,
+    "annual_mean_temp_c": 18.0,
+    "computed_lgp_days": 152,
+    "deduced_regime": "MEDITERRANEAN_WINTER_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Primary Rainfed Cropping (Wheat, Barley, Chickpea, Olive)"
+    },
+    "season_2": {
+      "window": "January (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "February - December (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 20 mm, PET > 150 mm/month)."
+    }
+  },
+  {
+    "name": "Dalby, Darling Downs QLD",
+    "country": "Australia",
+    "continent": "Oceania",
+    "lat": -27.1833,
+    "lon": 151.2667,
+    "context": "Queensland Grain Belt: Summer sorghum/cotton, winter wheat",
+    "annual_rain_mm": 581.2,
+    "annual_mean_temp_c": 19.8,
+    "computed_lgp_days": 61,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "April - July",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Dry season soil water exhaustion; insufficient rainfall for pluvial crops."
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Cleve, Eyre Peninsula SA",
+    "country": "Australia",
+    "continent": "Oceania",
+    "lat": -33.7,
+    "lon": 136.5,
+    "context": "Eyre Peninsula: Semi-arid Mediterranean winter wheat/barley",
+    "annual_rain_mm": 281.9,
+    "annual_mean_temp_c": 17.1,
+    "computed_lgp_days": 123,
+    "deduced_regime": "MEDITERRANEAN_WINTER_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - August (3 Months)",
+      "start_month": "June",
+      "end_month": "August",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Rainfed Cropping (Wheat, Barley, Chickpea, Olive)"
+    },
+    "season_2": {
+      "window": "January (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "February - December (8 Months)",
+      "duration_months": 8,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 20 mm, PET > 150 mm/month)."
+    }
+  },
+  {
+    "name": "Horsham, Wimmera VIC",
+    "country": "Australia",
+    "continent": "Oceania",
+    "lat": -36.7128,
+    "lon": 142.1989,
+    "context": "Victorian Grain Belt: Winter-growing pulses & canola",
+    "annual_rain_mm": 425.3,
+    "annual_mean_temp_c": 15.5,
+    "computed_lgp_days": 153,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Ashburton, Canterbury",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "lat": -43.9,
+    "lon": 171.7333,
+    "context": "Canterbury Plains: Cool maritime wheat, clover, ryegrass",
+    "annual_rain_mm": 684.7,
+    "annual_mean_temp_c": 12.0,
+    "computed_lgp_days": 334,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - February (10 Months)",
+      "start_month": "April",
+      "end_month": "February",
+      "duration_months": 10,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "March - September",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Dry season soil water exhaustion; insufficient rainfall for pluvial crops."
+    },
+    "season_3": {
+      "window": "September - September (1 Months)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Hamilton, Waikato",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "lat": -37.787,
+    "lon": 175.2793,
+    "context": "Waikato Basin: Mild temperate year-round rain pasture",
+    "annual_rain_mm": 1118.4,
+    "annual_mean_temp_c": 14.4,
+    "computed_lgp_days": 365,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 3,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - June (3 Months)",
+      "start_month": "April",
+      "end_month": "June",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "June - August (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - December (7 Months)",
+      "duration_months": 7,
+      "is_fallow": false,
+      "fallow_reason": null
+    }
+  }
+]

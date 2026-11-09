@@ -1,0 +1,614 @@
+[
+  {
+    "name": "Chartres, Beauce",
+    "country": "France",
+    "continent": "Europe",
+    "lat": 48.456,
+    "lon": 1.484,
+    "context": "Paris Basin Granary: Mild winter wheat, summer barley",
+    "annual_rain_mm": 646.9,
+    "annual_mean_temp_c": 10.6,
+    "computed_lgp_days": 188,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -12.1\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Bordeaux, Aquitaine",
+    "country": "France",
+    "continent": "Europe",
+    "lat": 44.8378,
+    "lon": -0.5792,
+    "context": "Southwest France: Oceanic mild winter, maize/grape",
+    "annual_rain_mm": 748.0,
+    "annual_mean_temp_c": 13.4,
+    "computed_lgp_days": 245,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "December - February (3 Months)",
+      "start_month": "December",
+      "end_month": "February",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "March - September (7 Months)",
+      "duration_months": 7,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season dry spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Straubing, Bavaria",
+    "country": "Germany",
+    "continent": "Europe",
+    "lat": 48.8817,
+    "lon": 12.5694,
+    "context": "Danubian Bavaria: Freezing winter, summer grain/sugarbeet",
+    "annual_rain_mm": 785.2,
+    "annual_mean_temp_c": 8.6,
+    "computed_lgp_days": 214,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "October (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -22.9\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Braunschweig, Lower Saxony",
+    "country": "Germany",
+    "continent": "Europe",
+    "lat": 52.2689,
+    "lon": 10.5268,
+    "context": "North German Plain: Cold winter, summer cereals",
+    "annual_rain_mm": 712.0,
+    "annual_mean_temp_c": 9.4,
+    "computed_lgp_days": 216,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "October (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -21.8\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Cremona, Lombardy",
+    "country": "Italy",
+    "continent": "Europe",
+    "lat": 45.1333,
+    "lon": 10.0333,
+    "context": "Po Valley: Continental winter, summer irrigated maize/soy",
+    "annual_rain_mm": 797.6,
+    "annual_mean_temp_c": 13.8,
+    "computed_lgp_days": 191,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -10.0\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Catania, Sicily",
+    "country": "Italy",
+    "continent": "Europe",
+    "lat": 37.5079,
+    "lon": 15.083,
+    "context": "Mediterranean Sicily: Winter rain wheat, dry summer",
+    "annual_rain_mm": 546.6,
+    "annual_mean_temp_c": 17.0,
+    "computed_lgp_days": 216,
+    "deduced_regime": "MEDITERRANEAN_WINTER_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "September - April (8 Months)",
+      "start_month": "September",
+      "end_month": "April",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Cropping (Wheat, Barley, Chickpea, Olive)"
+    },
+    "season_2": {
+      "window": "May (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "June - August (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 20 mm, PET > 150 mm/month)."
+    }
+  },
+  {
+    "name": "Seville, Andalusia",
+    "country": "Spain",
+    "continent": "Europe",
+    "lat": 37.3891,
+    "lon": -5.9845,
+    "context": "Guadalquivir Valley: Wet mild winter, scorching dry summer",
+    "annual_rain_mm": 467.7,
+    "annual_mean_temp_c": 18.0,
+    "computed_lgp_days": 194,
+    "deduced_regime": "MEDITERRANEAN_WINTER_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - April (7 Months)",
+      "start_month": "October",
+      "end_month": "April",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Primary Rainfed Cropping (Wheat, Barley, Chickpea, Olive)"
+    },
+    "season_2": {
+      "window": "May (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "June - September (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 20 mm, PET > 150 mm/month)."
+    }
+  },
+  {
+    "name": "Valladolid, Castile and Leon",
+    "country": "Spain",
+    "continent": "Europe",
+    "lat": 41.6523,
+    "lon": -4.7245,
+    "context": "Meseta Plateau: Cold winter, summer drought wheat/barley",
+    "annual_rain_mm": 422.1,
+    "annual_mean_temp_c": 12.4,
+    "computed_lgp_days": 122,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -8.2\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Bury St Edmunds, East Anglia",
+    "country": "UK",
+    "continent": "Europe",
+    "lat": 52.2474,
+    "lon": 0.7183,
+    "context": "UK Breadbasket: Maritime mild winter, summer wheat",
+    "annual_rain_mm": 700.0,
+    "annual_mean_temp_c": 10.3,
+    "computed_lgp_days": 275,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -6.6\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Perth, Scotland",
+    "country": "UK",
+    "continent": "Europe",
+    "lat": 56.395,
+    "lon": -3.4308,
+    "context": "Scottish Lowlands: Cool maritime, barley & oats",
+    "annual_rain_mm": 998.1,
+    "annual_mean_temp_c": 7.9,
+    "computed_lgp_days": 244,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "October (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -7.0\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Beja, Alentejo",
+    "country": "Portugal",
+    "continent": "Europe",
+    "lat": 38.015,
+    "lon": -7.8632,
+    "context": "Portuguese Wheat Belt: Mediterranean winter rain",
+    "annual_rain_mm": 494.6,
+    "annual_mean_temp_c": 16.8,
+    "computed_lgp_days": 212,
+    "deduced_regime": "MEDITERRANEAN_WINTER_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - May (8 Months)",
+      "start_month": "October",
+      "end_month": "May",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Cropping (Wheat, Barley, Chickpea, Olive)"
+    },
+    "season_2": {
+      "window": "June (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "July - September (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 20 mm, PET > 150 mm/month)."
+    }
+  },
+  {
+    "name": "Larissa, Thessaly",
+    "country": "Greece",
+    "continent": "Europe",
+    "lat": 39.639,
+    "lon": 22.4191,
+    "context": "Thessalian Plain: Winter rain wheat, dry summer cotton",
+    "annual_rain_mm": 499.2,
+    "annual_mean_temp_c": 16.4,
+    "computed_lgp_days": 187,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - December (2 Months)",
+      "start_month": "October",
+      "end_month": "December",
+      "duration_months": 2,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "July - November (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Pleven",
+    "country": "Bulgaria",
+    "continent": "Europe",
+    "lat": 43.417,
+    "lon": 24.6167,
+    "context": "Danube Plain: Continental cold winter, summer sunflower/maize",
+    "annual_rain_mm": 637.0,
+    "annual_mean_temp_c": 12.9,
+    "computed_lgp_days": 161,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -22.3\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Craiova, Wallachia",
+    "country": "Romania",
+    "continent": "Europe",
+    "lat": 44.3302,
+    "lon": 23.7949,
+    "context": "Romanian Plain: Hot summer maize, freezing winter",
+    "annual_rain_mm": 673.9,
+    "annual_mean_temp_c": 11.7,
+    "computed_lgp_days": 213,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 2,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "March - November (2 Months)",
+      "duration_months": 2,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -22.6\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Poltava",
+    "country": "Ukraine",
+    "continent": "Europe",
+    "lat": 49.5883,
+    "lon": 34.5514,
+    "context": "Chernozem Black Soil: Severe winter freeze, summer sun/corn",
+    "annual_rain_mm": 580.4,
+    "annual_mean_temp_c": 8.7,
+    "computed_lgp_days": 112,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "October (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -33.7\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Poznan, Greater Poland",
+    "country": "Poland",
+    "continent": "Europe",
+    "lat": 52.4064,
+    "lon": 16.9252,
+    "context": "Central European Plain: Cold winter, summer rye/potato",
+    "annual_rain_mm": 597.3,
+    "annual_mean_temp_c": 9.0,
+    "computed_lgp_days": 178,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "October (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -28.1\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Lund, Scania",
+    "country": "Sweden",
+    "continent": "Europe",
+    "lat": 55.7047,
+    "lon": 13.191,
+    "context": "Southern Sweden: Cool maritime summer grain/canola",
+    "annual_rain_mm": 702.0,
+    "annual_mean_temp_c": 8.9,
+    "computed_lgp_days": 244,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -12.9\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Middelburg, Zeeland",
+    "country": "Netherlands",
+    "continent": "Europe",
+    "lat": 51.4988,
+    "lon": 3.6109,
+    "context": "Rhine Delta: Maritime cool summer potatoes/onions",
+    "annual_rain_mm": 804.6,
+    "annual_mean_temp_c": 10.8,
+    "computed_lgp_days": 275,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -9.6\u00b0C) halt plant cell division."
+    }
+  }
+]

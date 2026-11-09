@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Ames, Story County, Iowa",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 42.0308,
+    "lon": -93.6319,
+    "description": "Central Corn Belt: High-yield corn & soybean",
+    "annual_rain_mm": 865.3,
+    "annual_mean_temp_c": 9.5,
+    "computed_lgp_days": 214,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -35.5\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Lafayette, Tippecanoe, Indiana",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 40.4167,
+    "lon": -86.8753,
+    "description": "Eastern Corn Belt: Summer corn/soybean, winter wheat",
+    "annual_rain_mm": 1051.0,
+    "annual_mean_temp_c": 10.8,
+    "computed_lgp_days": 214,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -29.0\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Mankato, Blue Earth, Minnesota",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 44.1636,
+    "lon": -93.9994,
+    "description": "Upper Midwest: Cold winter, intensive corn/soybean",
+    "annual_rain_mm": 814.7,
+    "annual_mean_temp_c": 7.7,
+    "computed_lgp_days": 214,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -38.2\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Lincoln, Lancaster, Nebraska",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 40.8136,
+    "lon": -96.7026,
+    "description": "Western Corn Belt: Rainfed/irrigated corn, grain sorghum",
+    "annual_rain_mm": 751.0,
+    "annual_mean_temp_c": 10.9,
+    "computed_lgp_days": 183,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -30.1\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Salina, Saline, Kansas",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 38.8403,
+    "lon": -97.6114,
+    "description": "Hard Winter Wheat Belt: Semi-arid, fall-planted wheat",
+    "annual_rain_mm": 790.9,
+    "annual_mean_temp_c": 13.1,
+    "computed_lgp_days": 275,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 2,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Intensive Summer Cash Crop (Corn, Soy, Peanut)"
+    },
+    "season_2": {
+      "window": "October - May (8 Months)",
+      "duration_months": 8,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    }
+  },
+  {
+    "name": "Grand Forks, North Dakota",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 47.9253,
+    "lon": -97.0329,
+    "description": "Red River Valley: Spring wheat, sugar beet, dry edible bean",
+    "annual_rain_mm": 584.1,
+    "annual_mean_temp_c": 5.2,
+    "computed_lgp_days": 122,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -44.5\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Aberdeen, Brown, South Dakota",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 45.4647,
+    "lon": -98.4865,
+    "description": "Northern Plains: Corn, soybean, spring wheat, sunflower",
+    "annual_rain_mm": 569.7,
+    "annual_mean_temp_c": 7.5,
+    "computed_lgp_days": 152,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -38.3\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Enid, Garfield, Oklahoma",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 36.3956,
+    "lon": -97.8784,
+    "description": "Southern Plains: Hard red winter wheat, double-crop sorghum",
+    "annual_rain_mm": 766.3,
+    "annual_mean_temp_c": 15.3,
+    "computed_lgp_days": 214,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 2,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Intensive Summer Cash Crop (Corn, Soy, Peanut)"
+    },
+    "season_2": {
+      "window": "October - May (8 Months)",
+      "duration_months": 8,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    }
+  },
+  {
+    "name": "Jonesboro, Craighead, Arkansas",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 35.8423,
+    "lon": -90.7043,
+    "description": "Mississippi Delta: Intensive irrigated rice, soybean",
+    "annual_rain_mm": 1246.7,
+    "annual_mean_temp_c": 15.4,
+    "computed_lgp_days": 275,
+    "deduced_regime": "TEMPERATE_OCEANIC_MARITIME",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "March - November (9 Months)",
+      "start_month": "March",
+      "end_month": "November",
+      "duration_months": 9,
+      "is_fallow": false,
+      "role": "Cash Crops, Cereals & Forage (Wheat, Barley, Maize, Potato, Sugar Beet)"
+    },
+    "season_2": {
+      "window": "December (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Declining autumn photoperiod and temperatures."
+    },
+    "season_3": {
+      "window": "January - February (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Low solar radiation and cool winter temperatures."
+    }
+  },
+  {
+    "name": "Greenwood, Leflore, Mississippi",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 33.5162,
+    "lon": -90.1795,
+    "description": "Yazoo-Mississippi Delta: Upland cotton, soybean, corn",
+    "annual_rain_mm": 1454.7,
+    "annual_mean_temp_c": 17.5,
+    "computed_lgp_days": 365,
+    "deduced_regime": "HUMID_SUBTROPICAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Soybean, Maize, Peanut, Cotton)"
+    },
+    "season_2": {
+      "window": "November - April (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Severe winter radiative frost down to -12.4\u00b0C."
+    }
+  },
+  {
+    "name": "Bowling Green, Warren, Kentucky",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 36.9685,
+    "lon": -86.4808,
+    "description": "Pennyroyal Plateau: Corn, soybean, winter wheat, dark tobacco",
+    "annual_rain_mm": 1419.6,
+    "annual_mean_temp_c": 13.9,
+    "computed_lgp_days": 275,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 2,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Intensive Summer Cash Crop (Corn, Soy, Peanut)"
+    },
+    "season_2": {
+      "window": "October - May (8 Months)",
+      "duration_months": 8,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    }
+  },
+  {
+    "name": "Modesto, Stanislaus, California",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 37.6391,
+    "lon": -120.9969,
+    "description": "Central Valley: Almonds, walnuts, silage corn, irrigated dairy",
+    "annual_rain_mm": 420.0,
+    "annual_mean_temp_c": 15.9,
+    "computed_lgp_days": 183,
+    "deduced_regime": "MEDITERRANEAN_CONTINENTAL_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - April (7 Months)",
+      "start_month": "October",
+      "end_month": "April",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Primary Rainfed Winter Grain (Wheat, Barley, Chickpea)"
+    },
+    "season_2": {
+      "window": "May - June (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "July - September (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 25 mm, PET > 140 mm/month)."
+    }
+  },
+  {
+    "name": "Moses Lake, Grant, Washington",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 47.1301,
+    "lon": -119.2781,
+    "description": "Columbia Basin: Irrigated potato, sweet corn, alfalfa, wheat",
+    "annual_rain_mm": 260.8,
+    "annual_mean_temp_c": 11.4,
+    "computed_lgp_days": 36,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "March (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Late autumn temperature decline; field rest before ground freeze."
+    },
+    "season_3": {
+      "window": "November - February (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -20.4\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Twin Falls, Twin Falls, Idaho",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 42.5629,
+    "lon": -114.4609,
+    "description": "Snake River Plain: Sugar beet, malting barley, potato",
+    "annual_rain_mm": 381.8,
+    "annual_mean_temp_c": 9.9,
+    "computed_lgp_days": 27,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -26.0\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Las Cruces, Dona Ana, New Mexico",
+    "country": "USA",
+    "continent": "North America",
+    "lat": 32.3199,
+    "lon": -106.7637,
+    "description": "Mesilla Valley: Rio Grande irrigated pecan, green chile, cotton",
+    "annual_rain_mm": 240.4,
+    "annual_mean_temp_c": 17.0,
+    "computed_lgp_days": 0,
+    "deduced_regime": "SEMI_ARID_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Summer Cash & Staple Grains (Maize, Sunflower, Sorghum, Soybean, Cotton)"
+    },
+    "season_2": {
+      "window": "November - April (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Winter dry season and cold thermal halt (Winter Tmin down to -14.3\u00b0C)."
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    }
+  }
+]

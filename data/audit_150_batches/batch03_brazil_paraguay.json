@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Lucas do Rio Verde, Mato Grosso",
+    "country": "Brazil",
+    "continent": "South America",
+    "lat": -13.05,
+    "lon": -55.91,
+    "description": "Mid-North Cerrado: Safra soy + Safrinha corn double crop",
+    "annual_rain_mm": 1522.4,
+    "annual_mean_temp_c": 25.4,
+    "computed_lgp_days": 248,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - January (4 Months)",
+      "start_month": "October",
+      "end_month": "January",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash Crop (Soybean, Full-Season Maize, Cotton)"
+    },
+    "season_2": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "June - September (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Mandatory sanitary break / severe dry-season soil moisture deficit."
+    }
+  },
+  {
+    "name": "Rondonopolis, Mato Grosso",
+    "country": "Brazil",
+    "continent": "South America",
+    "lat": -16.4674,
+    "lon": -54.636,
+    "description": "Southern Mato Grosso: Soybean, cotton, cattle corridor",
+    "annual_rain_mm": 1402.8,
+    "annual_mean_temp_c": 26.2,
+    "computed_lgp_days": 245,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - January (4 Months)",
+      "start_month": "October",
+      "end_month": "January",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash Crop (Soybean, Full-Season Maize, Cotton)"
+    },
+    "season_2": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "June - September (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Mandatory sanitary break / severe dry-season soil moisture deficit."
+    }
+  },
+  {
+    "name": "Rio Verde, Goias",
+    "country": "Brazil",
+    "continent": "South America",
+    "lat": -17.7925,
+    "lon": -50.9192,
+    "description": "Southwestern Goias: Intensive soy, corn, poultry/swine grain",
+    "annual_rain_mm": 1249.6,
+    "annual_mean_temp_c": 24.2,
+    "computed_lgp_days": 243,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - January (4 Months)",
+      "start_month": "October",
+      "end_month": "January",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash Crop (Soybean, Full-Season Maize, Cotton)"
+    },
+    "season_2": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "June - September (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Mandatory sanitary break / severe dry-season soil moisture deficit."
+    }
+  },
+  {
+    "name": "Dourados, Mato Grosso do Sul",
+    "country": "Brazil",
+    "continent": "South America",
+    "lat": -22.2231,
+    "lon": -54.8118,
+    "description": "Southern Maracaju: Summer soy + winter corn/wheat",
+    "annual_rain_mm": 1297.5,
+    "annual_mean_temp_c": 23.7,
+    "computed_lgp_days": 334,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "September - December (4 Months)",
+      "start_month": "September",
+      "end_month": "December",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash Crop (Soybean, Full-Season Maize, Cotton)"
+    },
+    "season_2": {
+      "window": "January - April (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "May - August (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Mandatory sanitary break / severe dry-season soil moisture deficit."
+    }
+  },
+  {
+    "name": "Cascavel, Parana",
+    "country": "Brazil",
+    "continent": "South America",
+    "lat": -24.9578,
+    "lon": -53.4595,
+    "description": "Western Parana: Subtropical double-crop soy/wheat and soy/corn",
+    "annual_rain_mm": 1584.2,
+    "annual_mean_temp_c": 20.8,
+    "computed_lgp_days": 365,
+    "deduced_regime": "HUMID_SUBTROPICAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Soybean, Maize, Peanut, Cotton)"
+    },
+    "season_2": {
+      "window": "April - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Subtropical 2-season rotation."
+    }
+  },
+  {
+    "name": "Uberaba, Minas Gerais",
+    "country": "Brazil",
+    "continent": "South America",
+    "lat": -19.7472,
+    "lon": -47.9392,
+    "description": "Triangulo Mineiro: Sugarcane, soybean, corn, Zebu genetics",
+    "annual_rain_mm": 1331.1,
+    "annual_mean_temp_c": 22.2,
+    "computed_lgp_days": 263,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - January (4 Months)",
+      "start_month": "October",
+      "end_month": "January",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash Crop (Soybean, Full-Season Maize, Cotton)"
+    },
+    "season_2": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "June - September (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Mandatory sanitary break / severe dry-season soil moisture deficit."
+    }
+  },
+  {
+    "name": "Ribeirao Preto, Sao Paulo",
+    "country": "Brazil",
+    "continent": "South America",
+    "lat": -21.1775,
+    "lon": -47.8103,
+    "description": "World Sugarcane Capital: Intensive ethanol/sugar, peanut",
+    "annual_rain_mm": 1316.4,
+    "annual_mean_temp_c": 22.5,
+    "computed_lgp_days": 263,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - January (4 Months)",
+      "start_month": "October",
+      "end_month": "January",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash Crop (Soybean, Full-Season Maize, Cotton)"
+    },
+    "season_2": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "June - September (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Mandatory sanitary break / severe dry-season soil moisture deficit."
+    }
+  },
+  {
+    "name": "Cruz Alta, Rio Grande do Sul",
+    "country": "Brazil",
+    "continent": "South America",
+    "lat": -28.6389,
+    "lon": -53.6067,
+    "description": "Highland Gaucho: Winter wheat/barley/canola + summer soy",
+    "annual_rain_mm": 1737.3,
+    "annual_mean_temp_c": 19.0,
+    "computed_lgp_days": 365,
+    "deduced_regime": "HUMID_SUBTROPICAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Soybean, Maize, Peanut, Cotton)"
+    },
+    "season_2": {
+      "window": "April - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Severe winter radiative frost down to -3.8\u00b0C."
+    }
+  },
+  {
+    "name": "Bage, Rio Grande do Sul",
+    "country": "Brazil",
+    "continent": "South America",
+    "lat": -31.3314,
+    "lon": -54.1069,
+    "description": "Southern Pampas: Irrigated lowland rice, livestock grazing",
+    "annual_rain_mm": 1479.3,
+    "annual_mean_temp_c": 17.4,
+    "computed_lgp_days": 365,
+    "deduced_regime": "HUMID_SUBTROPICAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Soybean, Maize, Peanut, Cotton)"
+    },
+    "season_2": {
+      "window": "April - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Severe winter radiative frost down to -3.8\u00b0C."
+    }
+  },
+  {
+    "name": "Balsas, Maranhao",
+    "country": "Brazil",
+    "continent": "South America",
+    "lat": -7.5322,
+    "lon": -46.0356,
+    "description": "MATOPIBA Northern Frontier: Single/double-crop cerrado soy",
+    "annual_rain_mm": 1204.7,
+    "annual_mean_temp_c": 27.1,
+    "computed_lgp_days": 256,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - January (4 Months)",
+      "start_month": "October",
+      "end_month": "January",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash Crop (Soybean, Full-Season Maize, Cotton)"
+    },
+    "season_2": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "June - September (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Mandatory sanitary break / severe dry-season soil moisture deficit."
+    }
+  },
+  {
+    "name": "Urucui, Piaui",
+    "country": "Brazil",
+    "continent": "South America",
+    "lat": -7.2289,
+    "lon": -44.5561,
+    "description": "Piaui Cerrado Plateau: Highly mechanized rainfed soy and corn",
+    "annual_rain_mm": 903.8,
+    "annual_mean_temp_c": 27.6,
+    "computed_lgp_days": 216,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - January (4 Months)",
+      "start_month": "October",
+      "end_month": "January",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash Crop (Soybean, Full-Season Maize, Cotton)"
+    },
+    "season_2": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "June - September (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Mandatory sanitary break / severe dry-season soil moisture deficit."
+    }
+  },
+  {
+    "name": "Primavera do Leste, Mato Grosso",
+    "country": "Brazil",
+    "continent": "South America",
+    "lat": -15.5583,
+    "lon": -54.2969,
+    "description": "East MT Plateau: High-yield cotton and early-cycle soy",
+    "annual_rain_mm": 1507.1,
+    "annual_mean_temp_c": 24.1,
+    "computed_lgp_days": 255,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - January (4 Months)",
+      "start_month": "October",
+      "end_month": "January",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash Crop (Soybean, Full-Season Maize, Cotton)"
+    },
+    "season_2": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "June - September (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Mandatory sanitary break / severe dry-season soil moisture deficit."
+    }
+  },
+  {
+    "name": "Katuete, Canindeyu",
+    "country": "Paraguay",
+    "continent": "South America",
+    "lat": -24.2483,
+    "lon": -54.7578,
+    "description": "Eastern Paraguay: Intensive mechanized soy + Safrinha corn",
+    "annual_rain_mm": 1489.3,
+    "annual_mean_temp_c": 22.4,
+    "computed_lgp_days": 365,
+    "deduced_regime": "HUMID_SUBTROPICAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Soybean, Maize, Peanut, Cotton)"
+    },
+    "season_2": {
+      "window": "April - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Subtropical 2-season rotation."
+    }
+  },
+  {
+    "name": "Santa Rita, Alto Parana",
+    "country": "Paraguay",
+    "continent": "South America",
+    "lat": -25.7867,
+    "lon": -55.0867,
+    "description": "Parana Basin: Main grain production center in Paraguay",
+    "annual_rain_mm": 1650.4,
+    "annual_mean_temp_c": 21.5,
+    "computed_lgp_days": 365,
+    "deduced_regime": "HUMID_SUBTROPICAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Soybean, Maize, Peanut, Cotton)"
+    },
+    "season_2": {
+      "window": "April - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Subtropical 2-season rotation."
+    }
+  },
+  {
+    "name": "Colonia Independencia, Guaira",
+    "country": "Paraguay",
+    "continent": "South America",
+    "lat": -25.6833,
+    "lon": -56.2667,
+    "description": "Central Valley: Sugarcane, yerba mate, smallholder corn/soy",
+    "annual_rain_mm": 1574.1,
+    "annual_mean_temp_c": 22.2,
+    "computed_lgp_days": 365,
+    "deduced_regime": "HUMID_SUBTROPICAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - March (6 Months)",
+      "start_month": "October",
+      "end_month": "March",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Soybean, Maize, Peanut, Cotton)"
+    },
+    "season_2": {
+      "window": "April - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Subtropical 2-season rotation."
+    }
+  }
+]

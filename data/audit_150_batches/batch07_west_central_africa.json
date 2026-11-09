@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Zaria, Kaduna",
+    "country": "Nigeria",
+    "continent": "Africa",
+    "lat": 11.0855,
+    "lon": 7.7199,
+    "description": "Northern Guinea Savanna: Grain corn, soybean, sorghum, cowpea",
+    "annual_rain_mm": 1129.6,
+    "annual_mean_temp_c": 24.4,
+    "computed_lgp_days": 196,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice, Groundnut)"
+    },
+    "season_2": {
+      "window": "November - December (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Post-monsoon dryland moisture depletion."
+    },
+    "season_3": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Peak dry season before monsoon arrival."
+    }
+  },
+  {
+    "name": "Makurdi, Benue",
+    "country": "Nigeria",
+    "continent": "Africa",
+    "lat": 7.7322,
+    "lon": 8.5391,
+    "description": "Southern Guinea Savanna: Yam, cassava, soybean, sesame",
+    "annual_rain_mm": 1229.2,
+    "annual_mean_temp_c": 25.9,
+    "computed_lgp_days": 249,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - July (4 Months)",
+      "start_month": "April",
+      "end_month": "July",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Anchor (Maize, Yam, Groundnut, Cotton)"
+    },
+    "season_2": {
+      "window": "August - November (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Sokoto, Sokoto",
+    "country": "Nigeria",
+    "continent": "Africa",
+    "lat": 13.0609,
+    "lon": 5.2476,
+    "description": "Sudan Savanna: Pearl millet, sorghum, cowpea, garlic",
+    "annual_rain_mm": 700.3,
+    "annual_mean_temp_c": 27.8,
+    "computed_lgp_days": 151,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice, Groundnut)"
+    },
+    "season_2": {
+      "window": "October - January (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Post-monsoon dryland moisture depletion."
+    },
+    "season_3": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Peak dry season before monsoon arrival."
+    }
+  },
+  {
+    "name": "Maradi, Maradi",
+    "country": "Niger",
+    "continent": "Africa",
+    "lat": 13.5,
+    "lon": 7.1,
+    "description": "Sahelian Savanna: Cowpea hub of West Africa, pearl millet, groundnut",
+    "annual_rain_mm": 551.8,
+    "annual_mean_temp_c": 27.7,
+    "computed_lgp_days": 132,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice, Groundnut)"
+    },
+    "season_2": {
+      "window": "October - January (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Post-monsoon dryland moisture depletion."
+    },
+    "season_3": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Peak dry season before monsoon arrival."
+    }
+  },
+  {
+    "name": "Sikasso, Sikasso",
+    "country": "Mali",
+    "continent": "Africa",
+    "lat": 11.3176,
+    "lon": -5.6665,
+    "description": "South Sudanian Savanna: Mali's breadbasket, maize, cotton, mango",
+    "annual_rain_mm": 1046.6,
+    "annual_mean_temp_c": 27.2,
+    "computed_lgp_days": 196,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice, Groundnut)"
+    },
+    "season_2": {
+      "window": "November - January (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Post-monsoon dryland moisture depletion."
+    },
+    "season_3": {
+      "window": "February - April (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Peak dry season before monsoon arrival."
+    }
+  },
+  {
+    "name": "Koutiala, Sikasso",
+    "country": "Mali",
+    "continent": "Africa",
+    "lat": 12.3917,
+    "lon": -5.4642,
+    "description": "Cotton Basin: White gold capital, sorghum, millet, groundnut",
+    "annual_rain_mm": 927.2,
+    "annual_mean_temp_c": 27.3,
+    "computed_lgp_days": 158,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice, Groundnut)"
+    },
+    "season_2": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Post-monsoon dryland moisture depletion."
+    },
+    "season_3": {
+      "window": "January - April (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Peak dry season before monsoon arrival."
+    }
+  },
+  {
+    "name": "Dedougou, Mouhoun",
+    "country": "Burkina Faso",
+    "continent": "Africa",
+    "lat": 12.4634,
+    "lon": -3.4607,
+    "description": "Boucle du Mouhoun: Burkina granary, maize, cotton, sorghum",
+    "annual_rain_mm": 879.0,
+    "annual_mean_temp_c": 28.2,
+    "computed_lgp_days": 157,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice, Groundnut)"
+    },
+    "season_2": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Post-monsoon dryland moisture depletion."
+    },
+    "season_3": {
+      "window": "January - April (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Peak dry season before monsoon arrival."
+    }
+  },
+  {
+    "name": "Tamale, Northern",
+    "country": "Ghana",
+    "continent": "Africa",
+    "lat": 9.4008,
+    "lon": -0.8393,
+    "description": "Guinea Savanna: Maize, yam, soybean, rice, groundnut",
+    "annual_rain_mm": 1074.1,
+    "annual_mean_temp_c": 27.3,
+    "computed_lgp_days": 244,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - July (4 Months)",
+      "start_month": "April",
+      "end_month": "July",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Anchor (Maize, Yam, Groundnut, Cotton)"
+    },
+    "season_2": {
+      "window": "August - November (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Korhogo, Savanes",
+    "country": "Cote d'Ivoire",
+    "continent": "Africa",
+    "lat": 9.458,
+    "lon": -5.6296,
+    "description": "Northern Savanna: Cotton, cashew nut, grain corn, groundnut",
+    "annual_rain_mm": 995.2,
+    "annual_mean_temp_c": 26.9,
+    "computed_lgp_days": 237,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - July (4 Months)",
+      "start_month": "April",
+      "end_month": "July",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Anchor (Maize, Yam, Groundnut, Cotton)"
+    },
+    "season_2": {
+      "window": "August - November (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Parakou, Borgou",
+    "country": "Benin",
+    "continent": "Africa",
+    "lat": 9.3372,
+    "lon": 2.6303,
+    "description": "Central Benin Savanna: Cotton, yam, maize, soybean",
+    "annual_rain_mm": 1096.6,
+    "annual_mean_temp_c": 26.3,
+    "computed_lgp_days": 240,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - July (4 Months)",
+      "start_month": "April",
+      "end_month": "July",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Anchor (Maize, Yam, Groundnut, Cotton)"
+    },
+    "season_2": {
+      "window": "August - November (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Ngaoundere, Adamawa",
+    "country": "Cameroon",
+    "continent": "Africa",
+    "lat": 7.3276,
+    "lon": 13.5847,
+    "description": "Adamawa Plateau: High-elevation savannas, maize, cattle",
+    "annual_rain_mm": 1477.7,
+    "annual_mean_temp_c": 23.0,
+    "computed_lgp_days": 246,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - July (4 Months)",
+      "start_month": "April",
+      "end_month": "July",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Anchor (Maize, Yam, Groundnut, Cotton)"
+    },
+    "season_2": {
+      "window": "August - November (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Maroua, Far North",
+    "country": "Cameroon",
+    "continent": "Africa",
+    "lat": 10.5956,
+    "lon": 14.3247,
+    "description": "Sudano-Sahelian: Rainfed red sorghum (Mouskwari), cotton, cowpea",
+    "annual_rain_mm": 750.7,
+    "annual_mean_temp_c": 28.0,
+    "computed_lgp_days": 153,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice, Groundnut)"
+    },
+    "season_2": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Post-monsoon dryland moisture depletion."
+    },
+    "season_3": {
+      "window": "January - April (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Peak dry season before monsoon arrival."
+    }
+  },
+  {
+    "name": "Sarh, Moyen-Chari",
+    "country": "Chad",
+    "continent": "Africa",
+    "lat": 9.1429,
+    "lon": 18.3923,
+    "description": "Southern Chad: Cotton, sorghum, groundnut, rice",
+    "annual_rain_mm": 1055.6,
+    "annual_mean_temp_c": 28.4,
+    "computed_lgp_days": 201,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice, Groundnut)"
+    },
+    "season_2": {
+      "window": "November - January (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Post-monsoon dryland moisture depletion."
+    },
+    "season_3": {
+      "window": "February - April (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Peak dry season before monsoon arrival."
+    }
+  },
+  {
+    "name": "Bafata, Bafata",
+    "country": "Guinea-Bissau",
+    "continent": "Africa",
+    "lat": 12.1648,
+    "lon": -14.6592,
+    "description": "Geba River Basin: Cashew orchards, upland rice, groundnut",
+    "annual_rain_mm": 1515.2,
+    "annual_mean_temp_c": 27.6,
+    "computed_lgp_days": 183,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - October (5 Months)",
+      "start_month": "June",
+      "end_month": "October",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice, Groundnut)"
+    },
+    "season_2": {
+      "window": "November - January (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Post-monsoon dryland moisture depletion."
+    },
+    "season_3": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Peak dry season before monsoon arrival."
+    }
+  },
+  {
+    "name": "Kaolack, Kaolack",
+    "country": "Senegal",
+    "continent": "Africa",
+    "lat": 14.15,
+    "lon": -16.0833,
+    "description": "Senegalese Groundnut Basin: Peanuts, pearl millet, watermelon",
+    "annual_rain_mm": 725.1,
+    "annual_mean_temp_c": 27.2,
+    "computed_lgp_days": 131,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - October (5 Months)",
+      "start_month": "June",
+      "end_month": "October",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice, Groundnut)"
+    },
+    "season_2": {
+      "window": "November - January (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Post-monsoon dryland moisture depletion."
+    },
+    "season_3": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Peak dry season before monsoon arrival."
+    }
+  }
+]

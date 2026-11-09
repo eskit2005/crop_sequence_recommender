@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Rennes, Brittany",
+    "country": "France",
+    "continent": "Europe",
+    "lat": 48.1173,
+    "lon": -1.6778,
+    "description": "Armorican Massif: Oceanic dairy forage, winter wheat, maize silage",
+    "annual_rain_mm": 707.5,
+    "annual_mean_temp_c": 11.6,
+    "computed_lgp_days": 277,
+    "deduced_regime": "TEMPERATE_OCEANIC_MARITIME",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "March - November (9 Months)",
+      "start_month": "March",
+      "end_month": "November",
+      "duration_months": 9,
+      "is_fallow": false,
+      "role": "Cash Crops, Cereals & Forage (Wheat, Barley, Maize, Potato, Sugar Beet)"
+    },
+    "season_2": {
+      "window": "December (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Declining autumn photoperiod and temperatures."
+    },
+    "season_3": {
+      "window": "January - February (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Low solar radiation and cool winter temperatures."
+    }
+  },
+  {
+    "name": "Reims, Champagne",
+    "country": "France",
+    "continent": "Europe",
+    "lat": 49.2583,
+    "lon": 4.0317,
+    "description": "Champagne Chalk Plain: High-yield winter wheat, spring barley, alfalfa",
+    "annual_rain_mm": 739.9,
+    "annual_mean_temp_c": 10.4,
+    "computed_lgp_days": 222,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "March & November (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Late autumn temperature decline; field rest before ground freeze."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -13.2\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Toulouse, Haute-Garonne",
+    "country": "France",
+    "continent": "Europe",
+    "lat": 43.6047,
+    "lon": 1.4442,
+    "description": "Lauragais / Garonne: Durum wheat, sunflower, grain maize",
+    "annual_rain_mm": 783.2,
+    "annual_mean_temp_c": 13.6,
+    "computed_lgp_days": 286,
+    "deduced_regime": "TEMPERATE_OCEANIC_MARITIME",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "March - November (9 Months)",
+      "start_month": "March",
+      "end_month": "November",
+      "duration_months": 9,
+      "is_fallow": false,
+      "role": "Cash Crops, Cereals & Forage (Wheat, Barley, Maize, Potato, Sugar Beet)"
+    },
+    "season_2": {
+      "window": "December (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Declining autumn photoperiod and temperatures."
+    },
+    "season_3": {
+      "window": "January - February (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Low solar radiation and cool winter temperatures."
+    }
+  },
+  {
+    "name": "Dijon, Bourgogne",
+    "country": "France",
+    "continent": "Europe",
+    "lat": 47.322,
+    "lon": 5.0415,
+    "description": "Burgundy Plains: Winter rapeseed, winter wheat, malting barley",
+    "annual_rain_mm": 794.3,
+    "annual_mean_temp_c": 9.9,
+    "computed_lgp_days": 244,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "March & November (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Late autumn temperature decline; field rest before ground freeze."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -15.5\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Munster, Westphalia",
+    "country": "Germany",
+    "continent": "Europe",
+    "lat": 51.9607,
+    "lon": 7.6261,
+    "description": "Westphalian Bay: Intensive pork/dairy silage maize, winter barley",
+    "annual_rain_mm": 769.8,
+    "annual_mean_temp_c": 9.9,
+    "computed_lgp_days": 219,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Late autumn temperature decline; field rest before ground freeze."
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -17.5\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Magdeburg, Saxony-Anhalt",
+    "country": "Germany",
+    "continent": "Europe",
+    "lat": 52.1205,
+    "lon": 11.6276,
+    "description": "Magdeburger Boerde: Prime chernozem sugar beet and winter wheat",
+    "annual_rain_mm": 589.4,
+    "annual_mean_temp_c": 9.7,
+    "computed_lgp_days": 143,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -21.1\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Flensburg, Schleswig-Holstein",
+    "country": "Germany",
+    "continent": "Europe",
+    "lat": 54.7833,
+    "lon": 9.4333,
+    "description": "Baltic Coast: High-yielding maritime winter wheat and winter oilseed rape",
+    "annual_rain_mm": 818.3,
+    "annual_mean_temp_c": 8.9,
+    "computed_lgp_days": 244,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - November (7 Months)",
+      "start_month": "May",
+      "end_month": "November",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "April (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Late autumn temperature decline; field rest before ground freeze."
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -12.4\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Lincoln, Lincolnshire",
+    "country": "UK",
+    "continent": "Europe",
+    "lat": 53.2307,
+    "lon": -0.5406,
+    "description": "Lincolnshire Fens: Wheat, ware potatoes, brassicas, sugar beet",
+    "annual_rain_mm": 711.8,
+    "annual_mean_temp_c": 9.7,
+    "computed_lgp_days": 275,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "March & November (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Late autumn temperature decline; field rest before ground freeze."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -8.8\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "York, Yorkshire",
+    "country": "UK",
+    "continent": "Europe",
+    "lat": 53.9599,
+    "lon": -1.0873,
+    "description": "Vale of York: Winter wheat, spring malting barley, oilseed rape",
+    "annual_rain_mm": 762.5,
+    "annual_mean_temp_c": 9.2,
+    "computed_lgp_days": 275,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - November (7 Months)",
+      "start_month": "May",
+      "end_month": "November",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "March - April (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Late autumn temperature decline; field rest before ground freeze."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -8.1\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Kilkenny, Leinster",
+    "country": "Ireland",
+    "continent": "Europe",
+    "lat": 52.6541,
+    "lon": -7.2448,
+    "description": "Sunny South East: Spring malting barley, winter wheat, dairy pasture",
+    "annual_rain_mm": 1014.1,
+    "annual_mean_temp_c": 9.5,
+    "computed_lgp_days": 306,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "March & November - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Late autumn temperature decline; field rest before ground freeze."
+    },
+    "season_3": {
+      "window": "January - February (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -7.2\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Gent, East Flanders",
+    "country": "Belgium",
+    "continent": "Europe",
+    "lat": 51.0543,
+    "lon": 3.7174,
+    "description": "Flemish Sandy Loam: Processing potatoes, sugar beet, winter cereals",
+    "annual_rain_mm": 776.8,
+    "annual_mean_temp_c": 10.3,
+    "computed_lgp_days": 275,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "March & November (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Late autumn temperature decline; field rest before ground freeze."
+    },
+    "season_3": {
+      "window": "December - February (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -12.2\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Groningen, Groningen",
+    "country": "Netherlands",
+    "continent": "Europe",
+    "lat": 53.2194,
+    "lon": 6.5665,
+    "description": "Veenkolonien: Industrial starch potatoes, sugar beet, winter wheat",
+    "annual_rain_mm": 790.5,
+    "annual_mean_temp_c": 9.8,
+    "computed_lgp_days": 244,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "November (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Late autumn temperature decline; field rest before ground freeze."
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -16.6\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Odense, Funen",
+    "country": "Denmark",
+    "continent": "Europe",
+    "lat": 55.4038,
+    "lon": 10.4024,
+    "description": "Danish Islands: Winter wheat, spring feed barley, winter rape",
+    "annual_rain_mm": 699.8,
+    "annual_mean_temp_c": 9.1,
+    "computed_lgp_days": 244,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - November (7 Months)",
+      "start_month": "May",
+      "end_month": "November",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "April (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Late autumn temperature decline; field rest before ground freeze."
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -9.9\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Uppsala, Uppland",
+    "country": "Sweden",
+    "continent": "Europe",
+    "lat": 59.8586,
+    "lon": 17.6389,
+    "description": "Central Swedish Plain: Spring barley, spring oats, winter wheat",
+    "annual_rain_mm": 704.0,
+    "annual_mean_temp_c": 6.2,
+    "computed_lgp_days": 214,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -31.6\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Seinajoki, Southern Ostrobothnia",
+    "country": "Finland",
+    "continent": "Europe",
+    "lat": 62.7903,
+    "lon": 22.8403,
+    "description": "Bothnian Lowlands: Subarctic short-season feed barley and oats",
+    "annual_rain_mm": 763.9,
+    "annual_mean_temp_c": 3.7,
+    "computed_lgp_days": 153,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "October - April (7 Months)",
+      "duration_months": 7,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -35.9\u00b0C) halt plant cell division."
+    }
+  }
+]

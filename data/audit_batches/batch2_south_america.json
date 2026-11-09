@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Pergamino, Buenos Aires",
+    "country": "Argentina",
+    "continent": "South America",
+    "lat": -33.89,
+    "lon": -60.57,
+    "context": "Argentine Pampas: Summer maize/soy, winter wheat",
+    "annual_rain_mm": 1128.3,
+    "annual_mean_temp_c": 16.8,
+    "computed_lgp_days": 365,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 3,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "February - April (3 Months)",
+      "start_month": "February",
+      "end_month": "April",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "September - November (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - December (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    }
+  },
+  {
+    "name": "Rio Cuarto, Cordoba",
+    "country": "Argentina",
+    "continent": "South America",
+    "lat": -33.1307,
+    "lon": -64.3499,
+    "context": "Central Pampas: Summer soy/maize, winter cover",
+    "annual_rain_mm": 809.8,
+    "annual_mean_temp_c": 16.3,
+    "computed_lgp_days": 212,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "October - April (7 Months)",
+      "start_month": "October",
+      "end_month": "April",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "May - July (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "August - September (2 Months)",
+      "duration_months": 2,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Rosario, Santa Fe",
+    "country": "Argentina",
+    "continent": "South America",
+    "lat": -32.9587,
+    "lon": -60.693,
+    "context": "Humid Pampas: High-yield grain belt",
+    "annual_rain_mm": 1089.7,
+    "annual_mean_temp_c": 18.0,
+    "computed_lgp_days": 365,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 3,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "February - April (3 Months)",
+      "start_month": "February",
+      "end_month": "April",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "November - January (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "May - October (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    }
+  },
+  {
+    "name": "Sorriso, Mato Grosso",
+    "country": "Brazil",
+    "continent": "South America",
+    "lat": -12.5444,
+    "lon": -55.7239,
+    "context": "Cerrado: Summer monsoon soy + Safrinha maize",
+    "annual_rain_mm": 1533.2,
+    "annual_mean_temp_c": 25.6,
+    "computed_lgp_days": 250,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "September - April (8 Months)",
+      "start_month": "September",
+      "end_month": "April",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "May - July (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "August - August (1 Months)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Londrina, Parana",
+    "country": "Brazil",
+    "continent": "South America",
+    "lat": -23.3045,
+    "lon": -51.1696,
+    "context": "Southern Brazil: Subtropical double-crop soy/wheat",
+    "annual_rain_mm": 1516.7,
+    "annual_mean_temp_c": 21.0,
+    "computed_lgp_days": 365,
+    "deduced_regime": "HUMID_TROPICAL_PERENNIAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "January - December (12 Months)",
+      "start_month": "January",
+      "end_month": "December",
+      "duration_months": 12,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "August - April (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "June - June (1 Months)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Passo Fundo, Rio Grande do Sul",
+    "country": "Brazil",
+    "continent": "South America",
+    "lat": -28.2612,
+    "lon": -52.4083,
+    "context": "Pampas Brazil: Summer soy, winter wheat/barley",
+    "annual_rain_mm": 1721.6,
+    "annual_mean_temp_c": 17.9,
+    "computed_lgp_days": 365,
+    "deduced_regime": "HUMID_TROPICAL_PERENNIAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "January - December (12 Months)",
+      "start_month": "January",
+      "end_month": "December",
+      "duration_months": 12,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "August - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "June - June (1 Months)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Luis Eduardo Magalhaes, Bahia",
+    "country": "Brazil",
+    "continent": "South America",
+    "lat": -12.0969,
+    "lon": -45.7958,
+    "context": "Western Bahia: Savanna summer rainfed soy/cotton",
+    "annual_rain_mm": 1042.5,
+    "annual_mean_temp_c": 24.6,
+    "computed_lgp_days": 245,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "February - April (3 Months)",
+      "start_month": "February",
+      "end_month": "April",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "November - January (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "May - October (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season dry spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Talca, Maule",
+    "country": "Chile",
+    "continent": "South America",
+    "lat": -35.4264,
+    "lon": -71.6554,
+    "context": "Chilean Central Valley: Winter rain, dry summer",
+    "annual_rain_mm": 504.5,
+    "annual_mean_temp_c": 14.7,
+    "computed_lgp_days": 175,
+    "deduced_regime": "MEDITERRANEAN_WINTER_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Primary Rainfed Cropping (Wheat, Barley, Chickpea, Olive)"
+    },
+    "season_2": {
+      "window": "January (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Rapid onset of Mediterranean summer drought."
+    },
+    "season_3": {
+      "window": "February - December (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Severe summer moisture deficit (Rainfall < 20 mm, PET > 150 mm/month)."
+    }
+  },
+  {
+    "name": "San Rafael, Mendoza",
+    "country": "Argentina",
+    "continent": "South America",
+    "lat": -34.6177,
+    "lon": -68.3301,
+    "context": "Cuyo Desert: Rain shadow, irrigated viticulture",
+    "annual_rain_mm": 410.3,
+    "annual_mean_temp_c": 17.0,
+    "computed_lgp_days": 31,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "January - February (2 Months)",
+      "start_month": "January",
+      "end_month": "February",
+      "duration_months": 2,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "March - August",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Dry season soil water exhaustion; insufficient rainfall for pluvial crops."
+    },
+    "season_3": {
+      "window": "September - December (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Palmira, Valle del Cauca",
+    "country": "Colombia",
+    "continent": "South America",
+    "lat": 3.5394,
+    "lon": -76.3036,
+    "context": "Cauvery Valley: Bimodal rainfall sugarcane & grains",
+    "annual_rain_mm": 1021.4,
+    "annual_mean_temp_c": 16.3,
+    "computed_lgp_days": 341,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 3,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "March - May (3 Months)",
+      "start_month": "March",
+      "end_month": "May",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "October - December (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - September (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    }
+  },
+  {
+    "name": "Piura",
+    "country": "Peru",
+    "continent": "South America",
+    "lat": -5.1945,
+    "lon": -80.6328,
+    "context": "Peruvian Coastal Desert: 50mm rain, irrigated cotton",
+    "annual_rain_mm": 138.5,
+    "annual_mean_temp_c": 25.5,
+    "computed_lgp_days": 0,
+    "deduced_regime": "HYPER_ARID_DESERT",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "January - December (12 Months)",
+      "start_month": "January",
+      "end_month": "December",
+      "duration_months": 12,
+      "is_fallow": true,
+      "role": "Drought Fallow (Irrigation Mandatory)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "Hyper-arid moisture deficit"
+    }
+  },
+  {
+    "name": "Viacha, Altiplano",
+    "country": "Bolivia",
+    "continent": "South America",
+    "lat": -16.6528,
+    "lon": -68.3014,
+    "context": "High Andean Altiplano: 3,850m frost, summer quinoa/potato",
+    "annual_rain_mm": 645.4,
+    "annual_mean_temp_c": 7.6,
+    "computed_lgp_days": 221,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "January - December (12 Months)",
+      "start_month": "January",
+      "end_month": "December",
+      "duration_months": 12,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "January (1 Month)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Insufficient thermal units to mature a second crop before frost onset."
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -7.3\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Salto",
+    "country": "Uruguay",
+    "continent": "South America",
+    "lat": -31.3833,
+    "lon": -57.9667,
+    "context": "Uruguay River Basin: Subtropical year-round rain",
+    "annual_rain_mm": 1411.9,
+    "annual_mean_temp_c": 18.8,
+    "computed_lgp_days": 365,
+    "deduced_regime": "TROPICAL_BIMODAL_RAIN",
+    "deduced_k": 3,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "March - May (3 Months)",
+      "start_month": "March",
+      "end_month": "May",
+      "duration_months": 3,
+      "is_fallow": false,
+      "role": "Primary Cash & Staple Grains (Long Rains Anchor)"
+    },
+    "season_2": {
+      "window": "September - November (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - December (6 Months)",
+      "duration_months": 6,
+      "is_fallow": false,
+      "fallow_reason": null
+    }
+  },
+  {
+    "name": "Coronel Oviedo, Caaguazu",
+    "country": "Paraguay",
+    "continent": "South America",
+    "lat": -25.4444,
+    "lon": -56.4403,
+    "context": "Eastern Paraguay: Subtropical double crop soy/wheat",
+    "annual_rain_mm": 1574.2,
+    "annual_mean_temp_c": 22.2,
+    "computed_lgp_days": 365,
+    "deduced_regime": "HUMID_TROPICAL_PERENNIAL",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "January - December (12 Months)",
+      "start_month": "January",
+      "end_month": "December",
+      "duration_months": 12,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "August - June (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "September - September (1 Months)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  },
+  {
+    "name": "Calabozo, Guarico",
+    "country": "Venezuela",
+    "continent": "South America",
+    "lat": 8.9242,
+    "lon": -67.4293,
+    "context": "Llanos: Monomodal savanna summer wet season rice",
+    "annual_rain_mm": 1055.0,
+    "annual_mean_temp_c": 28.4,
+    "computed_lgp_days": 222,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - November (8 Months)",
+      "start_month": "April",
+      "end_month": "November",
+      "duration_months": 8,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice)"
+    },
+    "season_2": {
+      "window": "January - March (3 Months)",
+      "duration_months": 3,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - December (1 Months)",
+      "duration_months": 1,
+      "is_fallow": true,
+      "fallow_reason": "Severe dry season drought prior to monsoon arrival."
+    }
+  }
+]

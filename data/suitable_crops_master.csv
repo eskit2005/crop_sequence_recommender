@@ -1,0 +1,628 @@
+upazila_code,crop_id,crop_name,season,very_suitable_ha,suitable_ha,mod_suitable_ha,effective_area,suitability_tier,allowable_land_types,botanical_family,root_type,is_legume,duration_days,yield_ton_ha,source
+305646,14,Aroid,Rabi,468.0,3358.0,26.0,2818.6,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,56,Banana,Rabi,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,7,Barley,Rabi,3558.0,5650.0,31.0,7513.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,33,Betel leaf,Rabi,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,1,Boro dhan,Rabi,15219.0,264.0,108.0,15403.8,Ideal,"MLL,LL",Poaceae,shallow_fibrous,0,145,6.5,BARC_CZIS_GOV
+305646,46,Bottle Gourd,Rabi,0.0,3466.0,481.0,2426.2,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,34,Brinjal,Rabi,3452.0,5756.0,31.0,7481.2,Ideal,"HL,MHL",Solanaceae,shallow,0,120,20.0,BARC_CZIS_GOV
+305646,41,Broccoli,Rabi,3452.0,5787.0,0.0,7502.9,Ideal,"HL,MHL",Brassicaceae,shallow,0,80,18.0,BARC_CZIS_GOV
+305646,40,Cabbage,Rabi,3452.0,5787.0,0.0,7502.9,Ideal,"HL,MHL",Brassicaceae,shallow,0,85,30.0,BARC_CZIS_GOV
+305646,52,Carrot,Rabi,8675.0,534.0,0.0,9048.8,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,39,Cauliflower,Rabi,3452.0,5787.0,0.0,7502.9,Ideal,"HL,MHL",Brassicaceae,shallow,0,85,25.0,BARC_CZIS_GOV
+305646,30,Chilli,Rabi,3433.0,5775.0,0.0,7475.5,Ideal,"HL,MHL",Solanaceae,shallow,0,110,2.2,BARC_CZIS_GOV
+305646,15,Colocasia,Rabi,108.0,468.0,0.0,435.6,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,32,Coriander,Rabi,8675.0,534.0,1927.0,9048.8,Ideal,"HL,MHL",Apiaceae,shallow,0,70,1.5,BARC_CZIS_GOV
+305646,10,Cotton,Kharif-2,0.0,108.0,3452.0,75.6,Suitable,"HL,MHL",Malvaceae,deep_tap,0,160,2.5,BARC_CZIS_GOV
+305646,20,Cowpea,Rabi,8675.0,0.0,1693.0,8675.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,49,Cucumber,Rabi,3433.0,389.0,5417.0,3705.3,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,31,Garlic,Rabi,3452.0,5756.0,0.0,7481.2,Ideal,"HL,MHL",Amaryllidaceae,shallow,0,120,7.0,BARC_CZIS_GOV
+305646,21,Gram / Chickpea,Rabi,3558.0,5650.0,0.0,7513.0,Ideal,"HL,MHL",Fabaceae,nodulated,1,115,1.4,BARC_CZIS_GOV
+305646,17,Grass pea,Rabi,8675.0,0.0,1693.0,8675.0,Ideal,"HL,MHL,MLL",Fabaceae,nodulated,1,110,1.3,BARC_CZIS_GOV
+305646,23,Ground Nut,Rabi,8675.0,534.0,0.0,9048.8,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,45,Indian Spinach,Rabi,3452.0,5756.0,31.0,7481.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,8,Kaon,Rabi,3558.0,5650.0,31.0,7513.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,47,Ladys Finger,Rabi,3452.0,5756.0,31.0,7481.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,16,Lentil,Rabi,3327.0,765.0,0.0,3862.5,Ideal,"HL,MHL",Fabaceae,nodulated,1,105,1.2,BARC_CZIS_GOV
+305646,26,Linseed,Rabi,8675.0,1693.0,0.0,9860.1,Ideal,"HL,MHL",Linaceae,medium_tap,0,95,1.0,BARC_CZIS_GOV
+305646,6,Maize,Rabi,8675.0,534.0,1927.0,9048.8,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+305646,19,Mungbean,Rabi,436.0,8772.0,5.0,6576.4,Ideal,"HL,MHL",Fabaceae,nodulated,1,65,1.4,BARC_CZIS_GOV
+305646,54,Musk Melon,Rabi,3433.0,5775.0,31.0,7475.5,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,22,Mustard,Rabi,8675.0,534.0,31.0,9048.8,Ideal,"HL,MHL",Brassicaceae,medium_tap,0,80,1.5,BARC_CZIS_GOV
+305646,28,Onion,Rabi,3452.0,5756.0,0.0,7481.2,Ideal,"HL,MHL",Amaryllidaceae,shallow,0,100,12.0,BARC_CZIS_GOV
+305646,57,Papaya,Rabi,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,58,Pineapple,Rabi,108.0,0.0,0.0,108.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,48,Pointed Gourd,Rabi,3452.0,5756.0,31.0,7481.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,12,Potato,Rabi,3985.0,5223.0,31.0,7641.1,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+305646,104,Potato,Rabi,3985.0,5223.0,31.0,7641.1,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+305646,9,Proso millet,Rabi,3558.0,5650.0,31.0,7513.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,36,Pumpkin,Rabi,0.0,3591.0,5617.0,2513.7,Suitable,"HL,MHL",Cucurbitaceae,shallow,0,110,25.0,BARC_CZIS_GOV
+305646,38,Radish,Rabi,8675.0,534.0,0.0,9048.8,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,43,Red Amaranth,Rabi,3452.0,5756.0,31.0,7481.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,24,Soybean,Rabi,3452.0,5223.0,564.0,7108.1,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,51,Spinach,Rabi,3452.0,5756.0,31.0,7481.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,44,Stem Amaranth,Rabi,3452.0,5756.0,31.0,7481.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,11,Sugarcane,Rabi,422.0,3049.0,652.0,2556.3,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,25,Sunflower,Rabi,8675.0,1693.0,0.0,9860.1,Ideal,"HL,MHL",Asteraceae,deep_tap,0,100,2.0,BARC_CZIS_GOV
+305646,13,Sweet Potato,Rabi,9208.0,0.0,31.0,9208.0,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+305646,37,Tomato,Rabi,3452.0,5756.0,31.0,7481.2,Ideal,"HL,MHL",Solanaceae,shallow,0,100,35.0,BARC_CZIS_GOV
+305646,53,Water Melon,Rabi,3433.0,5775.0,31.0,7475.5,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,3,Wheat,Rabi,8675.0,534.0,1927.0,9048.8,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+305646,4,Wheat,Rabi,8675.0,534.0,1927.0,9048.8,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+305646,42,Yard Long Bean,Rabi,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,72,Ash Gourd,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Cucurbitaceae,shallow,0,90,22.0,BARC_CZIS_GOV
+305646,59,B. Aus dhan,Kharif-1,436.0,3416.0,8956.0,2827.2,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,100,2.8,BARC_CZIS_GOV
+305646,74,Bitter Gourd,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,68,Brinjal,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Solanaceae,shallow,0,120,20.0,BARC_CZIS_GOV
+305646,80,Coconut,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,75,Cucumber,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,84,Date Palm,Kharif-1,0.0,529.0,2981.0,370.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,67,Ginger,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,82,Golden Apple,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,81,Guava,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,79,Jackfruit,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,85,Jujube,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,64,Jute,Kharif-1,10841.0,2122.0,2508.0,12326.4,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,115,3.2,BARC_CZIS_GOV
+305646,63,Jute,Kharif-1,0.0,3572.0,7417.0,2500.4,Suitable,"HL,MHL,MLL",Malvaceae,deep_tap,0,115,3.2,BARC_CZIS_GOV
+305646,65,Kenaf,Kharif-1,10841.0,2122.0,2508.0,12326.4,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,120,3.5,BARC_CZIS_GOV
+305646,86,Lemon,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,78,Litchi,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,99,Maize,Kharif-1,8675.0,534.0,3056.0,9048.8,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+305646,62,Maize,Kharif-1,0.0,108.0,3465.0,75.6,Suitable,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+305646,77,Mango,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,93,Onion,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Amaryllidaceae,shallow,0,100,12.0,BARC_CZIS_GOV
+305646,83,Palmyra Palm,Kharif-1,0.0,529.0,2981.0,370.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,35,Pumpkin,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Cucurbitaceae,shallow,0,110,25.0,BARC_CZIS_GOV
+305646,69,Ridge Gourd,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,27,Sesame,Kharif-1,8675.0,564.0,3025.0,9069.8,Ideal,"HL,MHL",Pedaliaceae,medium_tap,0,90,1.1,BARC_CZIS_GOV
+305646,73,Snake Gourd,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,71,Sponge Gourd,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,107,Sweet Orange,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,61,T. Aus dhan,Kharif-1,472.0,3380.0,8956.0,2838.0,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,105,3.5,BARC_CZIS_GOV
+305646,108,Tea,Kharif-1,0.0,0.0,108.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,70,Teasle Gourd,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,76,Tomato,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Solanaceae,shallow,0,100,35.0,BARC_CZIS_GOV
+305646,66,Turmeric,Kharif-1,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,91,Black Gram,Kharif-2,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Fabaceae,nodulated,1,70,1.0,BARC_CZIS_GOV
+305646,94,Bottle Gourd,Kharif-2,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,92,Chilli,Kharif-2,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Solanaceae,shallow,0,110,2.2,BARC_CZIS_GOV
+305646,89,Cotton,Kharif-1,108.0,0.0,0.0,108.0,Ideal,"HL,MHL",Malvaceae,deep_tap,0,160,2.5,BARC_CZIS_GOV
+305646,95,Country Bean,Kharif-2,0.0,108.0,0.0,75.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+305646,87,T. Aman dhan,Kharif-2,472.0,3272.0,108.0,2762.4,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,127,6.5,BARC_CZIS_GOV
+305646,98,T. Aman dhan,Kharif-2,3745.0,0.0,0.0,3745.0,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,127,6.5,BARC_CZIS_GOV
+501006,14,Aroid,Rabi,85.0,2300.0,2474.0,1695.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,56,Banana,Rabi,159.0,7661.0,1502.0,5521.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,7,Barley,Rabi,15.0,334.0,159.0,248.8,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,33,Betel leaf,Rabi,0.0,0.0,336.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,1,Boro dhan,Rabi,4731.0,7801.0,459.0,10191.7,Ideal,"MLL,LL",Poaceae,shallow_fibrous,0,145,6.5,BARC_CZIS_GOV
+501006,46,Bottle Gourd,Rabi,0.0,359.0,7634.0,251.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,34,Brinjal,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Solanaceae,shallow,0,120,20.0,BARC_CZIS_GOV
+501006,41,Broccoli,Rabi,15.0,11143.0,1046.0,7815.1,Ideal,"HL,MHL",Brassicaceae,shallow,0,80,18.0,BARC_CZIS_GOV
+501006,40,Cabbage,Rabi,15.0,11143.0,1046.0,7815.1,Ideal,"HL,MHL",Brassicaceae,shallow,0,85,30.0,BARC_CZIS_GOV
+501006,52,Carrot,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,39,Cauliflower,Rabi,15.0,11143.0,1046.0,7815.1,Ideal,"HL,MHL",Brassicaceae,shallow,0,85,25.0,BARC_CZIS_GOV
+501006,30,Chilli,Rabi,15.0,493.0,9045.0,360.1,Ideal,"HL,MHL",Solanaceae,shallow,0,110,2.2,BARC_CZIS_GOV
+501006,15,Colocasia,Rabi,0.0,177.0,85.0,123.9,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,32,Coriander,Rabi,175.0,10984.0,1785.0,7863.8,Ideal,"HL,MHL",Apiaceae,shallow,0,70,1.5,BARC_CZIS_GOV
+501006,10,Cotton,Kharif-2,159.0,7661.0,1518.0,5521.7,Ideal,"HL,MHL",Malvaceae,deep_tap,0,160,2.5,BARC_CZIS_GOV
+501006,20,Cowpea,Rabi,15.0,159.0,11488.0,126.3,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,49,Cucumber,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,31,Garlic,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Amaryllidaceae,shallow,0,120,7.0,BARC_CZIS_GOV
+501006,21,Gram / Chickpea,Rabi,15.0,334.0,10809.0,248.8,Ideal,"HL,MHL",Fabaceae,nodulated,1,115,1.4,BARC_CZIS_GOV
+501006,17,Grass pea,Rabi,15.0,159.0,11488.0,126.3,Ideal,"HL,MHL,MLL",Fabaceae,nodulated,1,110,1.3,BARC_CZIS_GOV
+501006,23,Ground Nut,Rabi,15.0,334.0,159.0,248.8,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,45,Indian Spinach,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,8,Kaon,Rabi,15.0,334.0,159.0,248.8,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,47,Ladys Finger,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,16,Lentil,Rabi,15.0,334.0,159.0,248.8,Ideal,"HL,MHL",Fabaceae,nodulated,1,105,1.2,BARC_CZIS_GOV
+501006,26,Linseed,Rabi,175.0,11488.0,2831.0,8216.6,Ideal,"HL,MHL",Linaceae,medium_tap,0,95,1.0,BARC_CZIS_GOV
+501006,6,Maize,Rabi,175.0,10984.0,0.0,7863.8,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+501006,19,Mungbean,Rabi,8.0,501.0,9045.0,358.7,Ideal,"HL,MHL",Fabaceae,nodulated,1,65,1.4,BARC_CZIS_GOV
+501006,54,Musk Melon,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,22,Mustard,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Brassicaceae,medium_tap,0,80,1.5,BARC_CZIS_GOV
+501006,28,Onion,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Amaryllidaceae,shallow,0,100,12.0,BARC_CZIS_GOV
+501006,57,Papaya,Rabi,159.0,7661.0,1502.0,5521.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,58,Pineapple,Rabi,177.0,7643.0,1502.0,5527.1,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,48,Pointed Gourd,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,12,Potato,Rabi,349.0,10809.0,0.0,7915.3,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+501006,104,Potato,Rabi,509.0,10650.0,0.0,7964.0,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+501006,9,Proso millet,Rabi,15.0,334.0,159.0,248.8,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,36,Pumpkin,Rabi,0.0,359.0,7634.0,251.3,Suitable,"HL,MHL",Cucurbitaceae,shallow,0,110,25.0,BARC_CZIS_GOV
+501006,38,Radish,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,43,Red Amaranth,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,24,Soybean,Rabi,15.0,159.0,10984.0,126.3,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,51,Spinach,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,44,Stem Amaranth,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,11,Sugarcane,Rabi,167.0,7746.0,5264.0,5589.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,25,Sunflower,Rabi,175.0,11488.0,2831.0,8216.6,Ideal,"HL,MHL",Asteraceae,deep_tap,0,100,2.0,BARC_CZIS_GOV
+501006,13,Sweet Potato,Rabi,349.0,159.0,10650.0,460.3,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+501006,37,Tomato,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Solanaceae,shallow,0,100,35.0,BARC_CZIS_GOV
+501006,53,Water Melon,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,3,Wheat,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+501006,4,Wheat,Rabi,15.0,493.0,10650.0,360.1,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+501006,42,Yard Long Bean,Rabi,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,72,Ash Gourd,Kharif-1,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Cucurbitaceae,shallow,0,90,22.0,BARC_CZIS_GOV
+501006,59,B. Aus dhan,Kharif-1,0.0,8.0,2506.0,5.6,Suitable,"MHL,MLL",Poaceae,shallow_fibrous,0,100,2.8,BARC_CZIS_GOV
+501006,74,Bitter Gourd,Kharif-1,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,68,Brinjal,Kharif-1,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Solanaceae,shallow,0,120,20.0,BARC_CZIS_GOV
+501006,80,Coconut,Kharif-1,159.0,7661.0,1502.0,5521.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,75,Cucumber,Kharif-1,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,84,Date Palm,Kharif-1,159.0,7668.0,1518.0,5526.6,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,67,Ginger,Kharif-1,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,82,Golden Apple,Kharif-1,159.0,7661.0,1502.0,5521.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,81,Guava,Kharif-1,159.0,7661.0,1502.0,5521.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,79,Jackfruit,Kharif-1,159.0,7661.0,1502.0,5521.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,85,Jujube,Kharif-1,159.0,7661.0,1502.0,5521.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,64,Jute,Kharif-1,173.0,4522.0,8297.0,3338.4,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,115,3.2,BARC_CZIS_GOV
+501006,63,Jute,Kharif-1,159.0,7754.0,3143.0,5586.8,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,115,3.2,BARC_CZIS_GOV
+501006,65,Kenaf,Kharif-1,173.0,4522.0,8297.0,3338.4,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,120,3.5,BARC_CZIS_GOV
+501006,86,Lemon,Kharif-1,159.0,7661.0,1502.0,5521.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,78,Litchi,Kharif-1,159.0,7661.0,1502.0,5521.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,99,Maize,Kharif-1,175.0,10984.0,3336.0,7863.8,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+501006,62,Maize,Kharif-1,159.0,7661.0,23.0,5521.7,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+501006,77,Mango,Kharif-1,159.0,7661.0,1502.0,5521.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,93,Onion,Kharif-1,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Amaryllidaceae,shallow,0,100,12.0,BARC_CZIS_GOV
+501006,83,Palmyra Palm,Kharif-1,159.0,7668.0,1518.0,5526.6,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,35,Pumpkin,Kharif-1,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Cucurbitaceae,shallow,0,110,25.0,BARC_CZIS_GOV
+501006,69,Ridge Gourd,Kharif-1,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,27,Sesame,Kharif-1,175.0,10984.0,3336.0,7863.8,Ideal,"HL,MHL",Pedaliaceae,medium_tap,0,90,1.1,BARC_CZIS_GOV
+501006,73,Snake Gourd,Kharif-1,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,71,Sponge Gourd,Kharif-1,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,107,Sweet Orange,Kharif-1,159.0,7661.0,1502.0,5521.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,61,T. Aus dhan,Kharif-1,2252.0,9704.0,892.0,9044.8,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,105,3.5,BARC_CZIS_GOV
+501006,108,Tea,Kharif-1,0.0,0.0,177.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,70,Teasle Gourd,Kharif-1,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,76,Tomato,Kharif-1,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Solanaceae,shallow,0,100,35.0,BARC_CZIS_GOV
+501006,66,Turmeric,Kharif-1,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,91,Black Gram,Kharif-2,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Fabaceae,nodulated,1,70,1.0,BARC_CZIS_GOV
+501006,94,Bottle Gourd,Kharif-2,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,92,Chilli,Kharif-2,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Solanaceae,shallow,0,110,2.2,BARC_CZIS_GOV
+501006,89,Cotton,Kharif-1,177.0,7643.0,1502.0,5527.1,Ideal,"HL,MHL",Malvaceae,deep_tap,0,160,2.5,BARC_CZIS_GOV
+501006,95,Country Bean,Kharif-2,0.0,336.0,7484.0,235.2,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+501006,87,T. Aman dhan,Kharif-2,2085.0,2518.0,9387.0,3847.6,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,127,6.5,BARC_CZIS_GOV
+501006,98,T. Aman dhan,Kharif-2,4227.0,440.0,7643.0,4535.0,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,127,6.5,BARC_CZIS_GOV
+100602,14,Aroid,Rabi,157.0,2061.0,1821.0,1599.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,56,Banana,Rabi,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,7,Barley,Rabi,4899.0,338.0,0.0,5135.6,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,100,Barley,Rabi,4899.0,338.0,0.0,5135.6,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,33,Betel leaf,Rabi,0.0,307.0,0.0,214.9,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,1,Boro dhan,Rabi,6249.0,6359.0,397.0,10700.3,Ideal,"MLL,LL",Poaceae,shallow_fibrous,0,145,6.5,BARC_CZIS_GOV
+100602,2,Boro dhan,Rabi,9341.0,3356.0,307.0,11690.2,Ideal,"MLL,LL",Poaceae,shallow_fibrous,0,145,6.5,BARC_CZIS_GOV
+100602,46,Bottle Gourd,Rabi,756.0,941.0,338.0,1414.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,34,Brinjal,Rabi,1697.0,3539.0,0.0,4174.3,Ideal,"HL,MHL",Solanaceae,shallow,0,120,20.0,BARC_CZIS_GOV
+100602,41,Broccoli,Rabi,1697.0,3539.0,0.0,4174.3,Ideal,"HL,MHL",Brassicaceae,shallow,0,80,18.0,BARC_CZIS_GOV
+100602,40,Cabbage,Rabi,1697.0,3539.0,0.0,4174.3,Ideal,"HL,MHL",Brassicaceae,shallow,0,85,30.0,BARC_CZIS_GOV
+100602,52,Carrot,Rabi,1806.0,3430.0,0.0,4207.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,39,Cauliflower,Rabi,1697.0,3539.0,0.0,4174.3,Ideal,"HL,MHL",Brassicaceae,shallow,0,85,25.0,BARC_CZIS_GOV
+100602,30,Chilli,Rabi,1697.0,2451.0,1088.0,3412.7,Ideal,"HL,MHL",Solanaceae,shallow,0,110,2.2,BARC_CZIS_GOV
+100602,15,Colocasia,Rabi,349.0,86.0,214.0,409.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,32,Coriander,Rabi,2143.0,3093.0,630.0,4308.1,Ideal,"HL,MHL",Apiaceae,shallow,0,70,1.5,BARC_CZIS_GOV
+100602,10,Cotton,Kharif-2,307.0,0.0,1165.0,307.0,Ideal,"HL,MHL",Malvaceae,deep_tap,0,160,2.5,BARC_CZIS_GOV
+100602,20,Cowpea,Rabi,5236.0,0.0,0.0,5236.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,49,Cucumber,Rabi,1697.0,2342.0,1197.0,3336.4,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,31,Garlic,Rabi,1697.0,3539.0,0.0,4174.3,Ideal,"HL,MHL",Amaryllidaceae,shallow,0,120,7.0,BARC_CZIS_GOV
+100602,21,Gram / Chickpea,Rabi,1697.0,3539.0,0.0,4174.3,Ideal,"HL,MHL",Fabaceae,nodulated,1,115,1.4,BARC_CZIS_GOV
+100602,17,Grass pea,Rabi,5236.0,0.0,0.0,5236.0,Ideal,"HL,MHL,MLL",Fabaceae,nodulated,1,110,1.3,BARC_CZIS_GOV
+100602,23,Ground Nut,Rabi,4899.0,0.0,338.0,4899.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,103,Ground Nut,Rabi,4899.0,0.0,338.0,4899.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,45,Indian Spinach,Rabi,1697.0,2451.0,1088.0,3412.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,8,Kaon,Rabi,1806.0,3430.0,0.0,4207.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,47,Ladys Finger,Rabi,1697.0,446.0,3093.0,2009.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,16,Lentil,Rabi,1697.0,0.0,2451.0,1697.0,Ideal,"HL,MHL",Fabaceae,nodulated,1,105,1.2,BARC_CZIS_GOV
+100602,26,Linseed,Rabi,5236.0,0.0,0.0,5236.0,Ideal,"HL,MHL",Linaceae,medium_tap,0,95,1.0,BARC_CZIS_GOV
+100602,6,Maize,Rabi,5236.0,0.0,3035.0,5236.0,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+100602,19,Mungbean,Rabi,648.0,4588.0,0.0,3859.6,Ideal,"HL,MHL",Fabaceae,nodulated,1,65,1.4,BARC_CZIS_GOV
+100602,54,Musk Melon,Rabi,2720.0,2516.0,0.0,4481.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,22,Mustard,Rabi,5236.0,0.0,0.0,5236.0,Ideal,"HL,MHL",Brassicaceae,medium_tap,0,80,1.5,BARC_CZIS_GOV
+100602,101,Mustard,Rabi,5236.0,0.0,0.0,5236.0,Ideal,"HL,MHL",Brassicaceae,medium_tap,0,80,1.5,BARC_CZIS_GOV
+100602,28,Onion,Rabi,1697.0,3539.0,0.0,4174.3,Ideal,"HL,MHL",Amaryllidaceae,shallow,0,100,12.0,BARC_CZIS_GOV
+100602,57,Papaya,Rabi,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,58,Pineapple,Rabi,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,48,Pointed Gourd,Rabi,1697.0,446.0,3093.0,2009.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,12,Potato,Rabi,1697.0,3539.0,0.0,4174.3,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+100602,104,Potato,Rabi,2035.0,3201.0,0.0,4275.7,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+100602,105,Potato,Rabi,2035.0,3201.0,0.0,4275.7,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+100602,9,Proso millet,Rabi,1806.0,3430.0,0.0,4207.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,36,Pumpkin,Rabi,756.0,941.0,630.0,1414.7,Ideal,"HL,MHL",Cucurbitaceae,shallow,0,110,25.0,BARC_CZIS_GOV
+100602,38,Radish,Rabi,1806.0,3430.0,0.0,4207.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,43,Red Amaranth,Rabi,1697.0,2451.0,1088.0,3412.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,24,Soybean,Rabi,2035.0,3201.0,0.0,4275.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,51,Spinach,Rabi,1697.0,2451.0,1088.0,3412.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,44,Stem Amaranth,Rabi,1697.0,2451.0,1088.0,3412.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,11,Sugarcane,Rabi,465.0,1570.0,0.0,1564.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,25,Sunflower,Rabi,5236.0,0.0,0.0,5236.0,Ideal,"HL,MHL",Asteraceae,deep_tap,0,100,2.0,BARC_CZIS_GOV
+100602,13,Sweet Potato,Rabi,4899.0,338.0,0.0,5135.6,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+100602,37,Tomato,Rabi,1697.0,3539.0,0.0,4174.3,Ideal,"HL,MHL",Solanaceae,shallow,0,100,35.0,BARC_CZIS_GOV
+100602,53,Water Melon,Rabi,2720.0,2516.0,0.0,4481.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,3,Wheat,Rabi,4899.0,338.0,790.0,5135.6,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+100602,4,Wheat,Rabi,4899.0,338.0,790.0,5135.6,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+100602,5,Wheat,Rabi,4899.0,338.0,3035.0,5135.6,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+100602,42,Yard Long Bean,Rabi,307.0,42.0,0.0,336.4,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,72,Ash Gourd,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Cucurbitaceae,shallow,0,90,22.0,BARC_CZIS_GOV
+100602,59,B. Aus dhan,Kharif-1,648.0,3391.0,6821.0,3021.7,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,100,2.8,BARC_CZIS_GOV
+100602,74,Bitter Gourd,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,68,Brinjal,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Solanaceae,shallow,0,120,20.0,BARC_CZIS_GOV
+100602,80,Coconut,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,75,Cucumber,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,84,Date Palm,Kharif-1,307.0,150.0,1577.0,412.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,67,Ginger,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,82,Golden Apple,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,81,Guava,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,79,Jackfruit,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,85,Jujube,Kharif-1,307.0,0.0,42.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,64,Jute,Kharif-1,6322.0,3310.0,1229.0,8639.0,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,115,3.2,BARC_CZIS_GOV
+100602,63,Jute,Kharif-1,756.0,3283.0,1827.0,3054.1,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,115,3.2,BARC_CZIS_GOV
+100602,65,Kenaf,Kharif-1,6322.0,3310.0,1229.0,8639.0,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,120,3.5,BARC_CZIS_GOV
+100602,86,Lemon,Kharif-1,307.0,0.0,42.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,78,Litchi,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,99,Maize,Kharif-1,5236.0,0.0,3035.0,5236.0,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+100602,62,Maize,Kharif-1,349.0,407.0,3283.0,633.9,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+100602,77,Mango,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,93,Onion,Kharif-1,307.0,0.0,42.0,307.0,Ideal,"HL,MHL",Amaryllidaceae,shallow,0,100,12.0,BARC_CZIS_GOV
+100602,83,Palmyra Palm,Kharif-1,307.0,150.0,1577.0,412.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,35,Pumpkin,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Cucurbitaceae,shallow,0,110,25.0,BARC_CZIS_GOV
+100602,69,Ridge Gourd,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,27,Sesame,Kharif-1,5236.0,0.0,1393.0,5236.0,Ideal,"HL,MHL",Pedaliaceae,medium_tap,0,90,1.1,BARC_CZIS_GOV
+100602,102,Sesame,Kharif-1,5236.0,0.0,0.0,5236.0,Ideal,"HL,MHL",Pedaliaceae,medium_tap,0,90,1.1,BARC_CZIS_GOV
+100602,73,Snake Gourd,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,71,Sponge Gourd,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,107,Sweet Orange,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,61,T. Aus dhan,Kharif-1,333.0,3625.0,6902.0,2870.5,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,105,3.5,BARC_CZIS_GOV
+100602,70,Teasle Gourd,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,76,Tomato,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Solanaceae,shallow,0,100,35.0,BARC_CZIS_GOV
+100602,66,Turmeric,Kharif-1,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,91,Black Gram,Kharif-2,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Fabaceae,nodulated,1,70,1.0,BARC_CZIS_GOV
+100602,94,Bottle Gourd,Kharif-2,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,92,Chilli,Kharif-2,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Solanaceae,shallow,0,110,2.2,BARC_CZIS_GOV
+100602,89,Cotton,Kharif-1,0.0,307.0,0.0,214.9,Suitable,"HL,MHL",Malvaceae,deep_tap,0,160,2.5,BARC_CZIS_GOV
+100602,95,Country Bean,Kharif-2,307.0,0.0,0.0,307.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+100602,87,T. Aman dhan,Kharif-2,299.0,3025.0,715.0,2416.5,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,127,6.5,BARC_CZIS_GOV
+100602,98,T. Aman dhan,Kharif-2,3283.0,449.0,307.0,3597.3,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,127,6.5,BARC_CZIS_GOV
+408786,14,Aroid,Rabi,0.0,10.0,23.0,7.0,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,7,Barley,Rabi,0.0,79.0,7484.0,55.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,100,Barley,Rabi,47.0,7516.0,4736.0,5308.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,1,Boro dhan,Rabi,32.0,22099.0,0.0,15501.3,Ideal,"MLL,LL",Poaceae,shallow_fibrous,0,145,6.5,BARC_CZIS_GOV
+408786,2,Boro dhan,Rabi,21820.0,311.0,9510.0,22037.7,Ideal,"MLL,LL",Poaceae,shallow_fibrous,0,145,6.5,BARC_CZIS_GOV
+408786,46,Bottle Gourd,Rabi,0.0,0.0,10.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,34,Brinjal,Rabi,0.0,32.0,12110.0,22.4,Suitable,"HL,MHL",Solanaceae,shallow,0,120,20.0,BARC_CZIS_GOV
+408786,41,Broccoli,Rabi,0.0,32.0,12110.0,22.4,Suitable,"HL,MHL",Brassicaceae,shallow,0,80,18.0,BARC_CZIS_GOV
+408786,40,Cabbage,Rabi,0.0,32.0,12110.0,22.4,Suitable,"HL,MHL",Brassicaceae,shallow,0,85,30.0,BARC_CZIS_GOV
+408786,52,Carrot,Rabi,0.0,32.0,0.0,22.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,39,Cauliflower,Rabi,0.0,32.0,12110.0,22.4,Suitable,"HL,MHL",Brassicaceae,shallow,0,85,25.0,BARC_CZIS_GOV
+408786,30,Chilli,Rabi,0.0,10.0,8188.0,7.0,Suitable,"HL,MHL",Solanaceae,shallow,0,110,2.2,BARC_CZIS_GOV
+408786,32,Coriander,Rabi,0.0,32.0,0.0,22.4,Suitable,"HL,MHL",Apiaceae,shallow,0,70,1.5,BARC_CZIS_GOV
+408786,20,Cowpea,Rabi,32.0,0.0,12267.0,32.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,49,Cucumber,Rabi,0.0,32.0,0.0,22.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,31,Garlic,Rabi,0.0,32.0,0.0,22.4,Suitable,"HL,MHL",Amaryllidaceae,shallow,0,120,7.0,BARC_CZIS_GOV
+408786,21,Gram / Chickpea,Rabi,0.0,32.0,2651.0,22.4,Suitable,"HL,MHL",Fabaceae,nodulated,1,115,1.4,BARC_CZIS_GOV
+408786,17,Grass pea,Rabi,32.0,0.0,12267.0,32.0,Ideal,"HL,MHL,MLL",Fabaceae,nodulated,1,110,1.3,BARC_CZIS_GOV
+408786,23,Ground Nut,Rabi,0.0,47.0,12252.0,32.9,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,103,Ground Nut,Rabi,0.0,47.0,12252.0,32.9,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,45,Indian Spinach,Rabi,0.0,32.0,0.0,22.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,8,Kaon,Rabi,0.0,47.0,7516.0,32.9,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,47,Ladys Finger,Rabi,0.0,0.0,32.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,16,Lentil,Rabi,0.0,0.0,32.0,0.0,Marginal,"HL,MHL",Fabaceae,nodulated,1,105,1.2,BARC_CZIS_GOV
+408786,26,Linseed,Rabi,32.0,12267.0,6657.0,8618.9,Ideal,"HL,MHL",Linaceae,medium_tap,0,95,1.0,BARC_CZIS_GOV
+408786,6,Maize,Rabi,32.0,12267.0,120.0,8618.9,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+408786,19,Mungbean,Rabi,10.0,23.0,8166.0,26.1,Ideal,"HL,MHL",Fabaceae,nodulated,1,65,1.4,BARC_CZIS_GOV
+408786,54,Musk Melon,Rabi,0.0,32.0,7688.0,22.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,22,Mustard,Rabi,32.0,12267.0,0.0,8618.9,Ideal,"HL,MHL",Brassicaceae,medium_tap,0,80,1.5,BARC_CZIS_GOV
+408786,101,Mustard,Rabi,12142.0,157.0,0.0,12251.9,Ideal,"HL,MHL",Brassicaceae,medium_tap,0,80,1.5,BARC_CZIS_GOV
+408786,28,Onion,Rabi,0.0,32.0,0.0,22.4,Suitable,"HL,MHL",Amaryllidaceae,shallow,0,100,12.0,BARC_CZIS_GOV
+408786,48,Pointed Gourd,Rabi,0.0,0.0,32.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,12,Potato,Rabi,0.0,7563.0,4736.0,5294.1,Suitable,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+408786,104,Potato,Rabi,32.0,12110.0,277.0,8509.0,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+408786,105,Potato,Rabi,32.0,12110.0,277.0,8509.0,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+408786,9,Proso millet,Rabi,0.0,47.0,7516.0,32.9,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,36,Pumpkin,Rabi,0.0,0.0,46.0,0.0,Marginal,"HL,MHL",Cucurbitaceae,shallow,0,110,25.0,BARC_CZIS_GOV
+408786,38,Radish,Rabi,0.0,32.0,0.0,22.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,43,Red Amaranth,Rabi,0.0,32.0,0.0,22.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,24,Soybean,Rabi,32.0,12110.0,157.0,8509.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,51,Spinach,Rabi,0.0,32.0,0.0,22.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,44,Stem Amaranth,Rabi,0.0,32.0,0.0,22.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,11,Sugarcane,Rabi,0.0,1551.0,10711.0,1085.7,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,25,Sunflower,Rabi,32.0,12267.0,6657.0,8618.9,Ideal,"HL,MHL",Asteraceae,deep_tap,0,100,2.0,BARC_CZIS_GOV
+408786,13,Sweet Potato,Rabi,0.0,79.0,12220.0,55.3,Suitable,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+408786,37,Tomato,Rabi,0.0,32.0,12110.0,22.4,Suitable,"HL,MHL",Solanaceae,shallow,0,100,35.0,BARC_CZIS_GOV
+408786,53,Water Melon,Rabi,0.0,32.0,7688.0,22.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,3,Wheat,Rabi,0.0,32.0,12387.0,22.4,Suitable,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+408786,4,Wheat,Rabi,0.0,32.0,12387.0,22.4,Suitable,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+408786,5,Wheat,Rabi,47.0,12252.0,120.0,8623.4,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+408786,59,B. Aus dhan,Kharif-1,0.0,10.0,13504.0,7.0,Suitable,"MHL,MLL",Poaceae,shallow_fibrous,0,100,2.8,BARC_CZIS_GOV
+408786,84,Date Palm,Kharif-1,0.0,0.0,32.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,64,Jute,Kharif-1,957.0,12625.0,14376.0,9794.5,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,115,3.2,BARC_CZIS_GOV
+408786,63,Jute,Kharif-1,0.0,957.0,12193.0,669.9,Suitable,"HL,MHL,MLL",Malvaceae,deep_tap,0,115,3.2,BARC_CZIS_GOV
+408786,65,Kenaf,Kharif-1,957.0,12625.0,14376.0,9794.5,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,120,3.5,BARC_CZIS_GOV
+408786,99,Maize,Kharif-1,32.0,12267.0,6657.0,8618.9,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+408786,62,Maize,Kharif-1,0.0,0.0,46.0,0.0,Marginal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+408786,83,Palmyra Palm,Kharif-1,0.0,0.0,32.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+408786,27,Sesame,Kharif-1,32.0,12267.0,6537.0,8618.9,Ideal,"HL,MHL",Pedaliaceae,medium_tap,0,90,1.1,BARC_CZIS_GOV
+408786,102,Sesame,Kharif-1,12300.0,0.0,6537.0,12300.0,Ideal,"HL,MHL",Pedaliaceae,medium_tap,0,90,1.1,BARC_CZIS_GOV
+408786,61,T. Aus dhan,Kharif-1,10.0,13511.0,8610.0,9467.7,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,105,3.5,BARC_CZIS_GOV
+408786,87,T. Aman dhan,Kharif-2,3580.0,25133.0,3684.0,21173.1,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,127,6.5,BARC_CZIS_GOV
+408786,98,T. Aman dhan,Kharif-2,27431.0,4965.0,0.0,30906.5,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,127,6.5,BARC_CZIS_GOV
+554977,14,Aroid,Rabi,1204.0,9343.0,524.0,7744.1,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,56,Banana,Rabi,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,7,Barley,Rabi,829.0,11311.0,866.0,8746.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,33,Betel leaf,Rabi,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,1,Boro dhan,Rabi,1478.0,8807.0,2153.0,7642.9,Ideal,"MLL,LL",Poaceae,shallow_fibrous,0,145,6.5,BARC_CZIS_GOV
+554977,46,Bottle Gourd,Rabi,0.0,4217.0,6835.0,2951.9,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,34,Brinjal,Rabi,386.0,11479.0,1141.0,8421.3,Ideal,"HL,MHL",Solanaceae,shallow,0,120,20.0,BARC_CZIS_GOV
+554977,41,Broccoli,Rabi,386.0,11479.0,1141.0,8421.3,Ideal,"HL,MHL",Brassicaceae,shallow,0,80,18.0,BARC_CZIS_GOV
+554977,40,Cabbage,Rabi,386.0,11479.0,1141.0,8421.3,Ideal,"HL,MHL",Brassicaceae,shallow,0,85,30.0,BARC_CZIS_GOV
+554977,52,Carrot,Rabi,829.0,12176.0,72.0,9352.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,39,Cauliflower,Rabi,386.0,11479.0,1141.0,8421.3,Ideal,"HL,MHL",Brassicaceae,shallow,0,85,25.0,BARC_CZIS_GOV
+554977,30,Chilli,Rabi,386.0,10808.0,1378.0,7951.6,Ideal,"HL,MHL",Solanaceae,shallow,0,110,2.2,BARC_CZIS_GOV
+554977,15,Colocasia,Rabi,2153.0,1277.0,62.0,3046.9,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,32,Coriander,Rabi,829.0,11742.0,506.0,9048.4,Ideal,"HL,MHL",Apiaceae,shallow,0,70,1.5,BARC_CZIS_GOV
+554977,10,Cotton,Kharif-2,0.0,2153.0,916.0,1507.1,Suitable,"HL,MHL",Malvaceae,deep_tap,0,160,2.5,BARC_CZIS_GOV
+554977,20,Cowpea,Rabi,829.0,0.0,12248.0,829.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,49,Cucumber,Rabi,386.0,11035.0,1584.0,8110.5,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,31,Garlic,Rabi,386.0,12186.0,506.0,8916.2,Ideal,"HL,MHL",Amaryllidaceae,shallow,0,120,7.0,BARC_CZIS_GOV
+554977,21,Gram / Chickpea,Rabi,829.0,11391.0,423.0,8802.7,Ideal,"HL,MHL",Fabaceae,nodulated,1,115,1.4,BARC_CZIS_GOV
+554977,17,Grass pea,Rabi,829.0,0.0,12248.0,829.0,Ideal,"HL,MHL,MLL",Fabaceae,nodulated,1,110,1.3,BARC_CZIS_GOV
+554977,23,Ground Nut,Rabi,829.0,11745.0,504.0,9050.5,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,45,Indian Spinach,Rabi,386.0,11479.0,1141.0,8421.3,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,8,Kaon,Rabi,829.0,11311.0,866.0,8746.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,47,Ladys Finger,Rabi,386.0,11047.0,1573.0,8118.9,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,16,Lentil,Rabi,386.0,10604.0,875.0,7808.8,Ideal,"HL,MHL",Fabaceae,nodulated,1,105,1.2,BARC_CZIS_GOV
+554977,26,Linseed,Rabi,829.0,12248.0,0.0,9402.6,Ideal,"HL,MHL",Linaceae,medium_tap,0,95,1.0,BARC_CZIS_GOV
+554977,6,Maize,Rabi,829.0,12248.0,0.0,9402.6,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+554977,19,Mungbean,Rabi,56.0,11138.0,1450.0,7852.6,Ideal,"HL,MHL",Fabaceae,nodulated,1,65,1.4,BARC_CZIS_GOV
+554977,54,Musk Melon,Rabi,386.0,12186.0,506.0,8916.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,22,Mustard,Rabi,829.0,11814.0,434.0,9098.8,Ideal,"HL,MHL",Brassicaceae,medium_tap,0,80,1.5,BARC_CZIS_GOV
+554977,28,Onion,Rabi,386.0,12186.0,506.0,8916.2,Ideal,"HL,MHL",Amaryllidaceae,shallow,0,100,12.0,BARC_CZIS_GOV
+554977,57,Papaya,Rabi,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,58,Pineapple,Rabi,2153.0,0.0,0.0,2153.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,48,Pointed Gourd,Rabi,386.0,11047.0,1573.0,8118.9,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,12,Potato,Rabi,10990.0,1582.0,506.0,12097.4,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+554977,104,Potato,Rabi,11421.0,1222.0,434.0,12276.4,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+554977,9,Proso millet,Rabi,829.0,11311.0,866.0,8746.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,36,Pumpkin,Rabi,0.0,4217.0,7279.0,2951.9,Suitable,"HL,MHL",Cucurbitaceae,shallow,0,110,25.0,BARC_CZIS_GOV
+554977,38,Radish,Rabi,829.0,12176.0,72.0,9352.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,43,Red Amaranth,Rabi,386.0,11479.0,1141.0,8421.3,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,24,Soybean,Rabi,386.0,444.0,11742.0,696.8,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,51,Spinach,Rabi,386.0,11479.0,1141.0,8421.3,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,44,Stem Amaranth,Rabi,386.0,11479.0,1141.0,8421.3,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,11,Sugarcane,Rabi,56.0,3922.0,7444.0,2801.4,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,25,Sunflower,Rabi,829.0,12248.0,0.0,9402.6,Ideal,"HL,MHL",Asteraceae,deep_tap,0,100,2.0,BARC_CZIS_GOV
+554977,13,Sweet Potato,Rabi,12140.0,866.0,72.0,12746.2,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+554977,37,Tomato,Rabi,386.0,11479.0,1141.0,8421.3,Ideal,"HL,MHL",Solanaceae,shallow,0,100,35.0,BARC_CZIS_GOV
+554977,53,Water Melon,Rabi,386.0,12186.0,506.0,8916.2,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,3,Wheat,Rabi,829.0,12176.0,72.0,9352.2,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+554977,4,Wheat,Rabi,829.0,12176.0,72.0,9352.2,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+554977,42,Yard Long Bean,Rabi,0.0,2153.0,73.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,72,Ash Gourd,Kharif-1,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Cucurbitaceae,shallow,0,90,22.0,BARC_CZIS_GOV
+554977,59,B. Aus dhan,Kharif-1,56.0,11015.0,1271.0,7766.5,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,100,2.8,BARC_CZIS_GOV
+554977,74,Bitter Gourd,Kharif-1,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,68,Brinjal,Kharif-1,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Solanaceae,shallow,0,120,20.0,BARC_CZIS_GOV
+554977,80,Coconut,Kharif-1,0.0,2153.0,73.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,75,Cucumber,Kharif-1,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,84,Date Palm,Kharif-1,0.0,2233.0,2047.0,1563.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,67,Ginger,Kharif-1,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,82,Golden Apple,Kharif-1,0.0,2153.0,73.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,81,Guava,Kharif-1,0.0,2153.0,73.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,79,Jackfruit,Kharif-1,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,85,Jujube,Kharif-1,0.0,2153.0,73.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,64,Jute,Kharif-1,9544.0,3232.0,446.0,11806.4,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,115,3.2,BARC_CZIS_GOV
+554977,63,Jute,Kharif-1,0.0,4217.0,7648.0,2951.9,Suitable,"HL,MHL,MLL",Malvaceae,deep_tap,0,115,3.2,BARC_CZIS_GOV
+554977,65,Kenaf,Kharif-1,9544.0,3232.0,446.0,11806.4,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,120,3.5,BARC_CZIS_GOV
+554977,86,Lemon,Kharif-1,0.0,2153.0,73.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,78,Litchi,Kharif-1,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,99,Maize,Kharif-1,829.0,12248.0,0.0,9402.6,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+554977,62,Maize,Kharif-1,0.0,2381.0,1836.0,1666.7,Suitable,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+554977,77,Mango,Kharif-1,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,93,Onion,Kharif-1,0.0,2153.0,25.0,1507.1,Suitable,"HL,MHL",Amaryllidaceae,shallow,0,100,12.0,BARC_CZIS_GOV
+554977,83,Palmyra Palm,Kharif-1,0.0,2233.0,2047.0,1563.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,35,Pumpkin,Kharif-1,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Cucurbitaceae,shallow,0,110,25.0,BARC_CZIS_GOV
+554977,69,Ridge Gourd,Kharif-1,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,27,Sesame,Kharif-1,829.0,11814.0,434.0,9098.8,Ideal,"HL,MHL",Pedaliaceae,medium_tap,0,90,1.1,BARC_CZIS_GOV
+554977,73,Snake Gourd,Kharif-1,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,71,Sponge Gourd,Kharif-1,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,107,Sweet Orange,Kharif-1,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,61,T. Aus dhan,Kharif-1,1290.0,9780.0,1367.0,8136.0,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,105,3.5,BARC_CZIS_GOV
+554977,108,Tea,Kharif-1,0.0,0.0,2153.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,70,Teasle Gourd,Kharif-1,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,76,Tomato,Kharif-1,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Solanaceae,shallow,0,100,35.0,BARC_CZIS_GOV
+554977,66,Turmeric,Kharif-1,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,91,Black Gram,Kharif-2,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Fabaceae,nodulated,1,70,1.0,BARC_CZIS_GOV
+554977,94,Bottle Gourd,Kharif-2,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,92,Chilli,Kharif-2,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Solanaceae,shallow,0,110,2.2,BARC_CZIS_GOV
+554977,89,Cotton,Kharif-1,2150.0,3.0,0.0,2152.1,Ideal,"HL,MHL",Malvaceae,deep_tap,0,160,2.5,BARC_CZIS_GOV
+554977,95,Country Bean,Kharif-2,0.0,2153.0,0.0,1507.1,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+554977,87,T. Aman dhan,Kharif-2,118.0,1848.0,8950.0,1411.6,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,127,6.5,BARC_CZIS_GOV
+554977,98,T. Aman dhan,Kharif-2,818.0,7921.0,180.0,6362.7,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,127,6.5,BARC_CZIS_GOV
+404730,14,Aroid,Rabi,33.0,435.0,1815.0,337.5,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,56,Banana,Rabi,2544.0,0.0,0.0,2544.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,7,Barley,Rabi,5.0,288.0,1723.0,206.6,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,100,Barley,Rabi,5.0,291.0,1756.0,208.7,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,33,Betel leaf,Rabi,0.0,919.0,1625.0,643.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,1,Boro dhan,Rabi,3817.0,1176.0,10660.0,4640.2,Ideal,"MLL,LL",Poaceae,shallow_fibrous,0,145,6.5,BARC_CZIS_GOV
+404730,2,Boro dhan,Rabi,3855.0,2244.0,9740.0,5425.8,Ideal,"MLL,LL",Poaceae,shallow_fibrous,0,145,6.5,BARC_CZIS_GOV
+404730,46,Bottle Gourd,Rabi,0.0,2544.0,457.0,1780.8,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,34,Brinjal,Rabi,160.0,2841.0,243.0,2148.7,Ideal,"HL,MHL",Solanaceae,shallow,0,120,20.0,BARC_CZIS_GOV
+404730,41,Broccoli,Rabi,160.0,2841.0,243.0,2148.7,Ideal,"HL,MHL",Brassicaceae,shallow,0,80,18.0,BARC_CZIS_GOV
+404730,40,Cabbage,Rabi,160.0,2841.0,243.0,2148.7,Ideal,"HL,MHL",Brassicaceae,shallow,0,85,30.0,BARC_CZIS_GOV
+404730,52,Carrot,Rabi,0.0,3001.0,205.0,2100.7,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,39,Cauliflower,Rabi,160.0,2841.0,243.0,2148.7,Ideal,"HL,MHL",Brassicaceae,shallow,0,85,25.0,BARC_CZIS_GOV
+404730,30,Chilli,Rabi,0.0,1188.0,1814.0,831.6,Suitable,"HL,MHL",Solanaceae,shallow,0,110,2.2,BARC_CZIS_GOV
+404730,15,Colocasia,Rabi,0.0,160.0,2384.0,112.0,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,32,Coriander,Rabi,2841.0,160.0,205.0,2953.0,Ideal,"HL,MHL",Apiaceae,shallow,0,70,1.5,BARC_CZIS_GOV
+404730,10,Cotton,Kharif-2,2544.0,0.0,0.0,2544.0,Ideal,"HL,MHL",Malvaceae,deep_tap,0,160,2.5,BARC_CZIS_GOV
+404730,20,Cowpea,Rabi,3001.0,205.0,38.0,3144.5,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,49,Cucumber,Rabi,0.0,3001.0,205.0,2100.7,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,31,Garlic,Rabi,0.0,3001.0,0.0,2100.7,Suitable,"HL,MHL",Amaryllidaceae,shallow,0,120,7.0,BARC_CZIS_GOV
+404730,21,Gram / Chickpea,Rabi,794.0,2207.0,243.0,2338.9,Ideal,"HL,MHL",Fabaceae,nodulated,1,115,1.4,BARC_CZIS_GOV
+404730,17,Grass pea,Rabi,3001.0,205.0,38.0,3144.5,Ideal,"HL,MHL,MLL",Fabaceae,nodulated,1,110,1.3,BARC_CZIS_GOV
+404730,23,Ground Nut,Rabi,160.0,0.0,3084.0,160.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,103,Ground Nut,Rabi,160.0,0.0,3084.0,160.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,45,Indian Spinach,Rabi,0.0,1188.0,1982.0,831.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,8,Kaon,Rabi,5.0,288.0,1555.0,206.6,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,47,Ladys Finger,Rabi,0.0,1188.0,1813.0,831.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,16,Lentil,Rabi,0.0,794.0,2207.0,555.8,Suitable,"HL,MHL",Fabaceae,nodulated,1,105,1.2,BARC_CZIS_GOV
+404730,26,Linseed,Rabi,3206.0,809.0,0.0,3772.3,Ideal,"HL,MHL",Linaceae,medium_tap,0,95,1.0,BARC_CZIS_GOV
+404730,6,Maize,Rabi,3206.0,38.0,0.0,3232.6,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+404730,19,Mungbean,Rabi,2639.0,399.0,178.0,2918.3,Ideal,"HL,MHL",Fabaceae,nodulated,1,65,1.4,BARC_CZIS_GOV
+404730,54,Musk Melon,Rabi,0.0,3001.0,820.0,2100.7,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,22,Mustard,Rabi,3001.0,243.0,0.0,3171.1,Ideal,"HL,MHL",Brassicaceae,medium_tap,0,80,1.5,BARC_CZIS_GOV
+404730,101,Mustard,Rabi,3244.0,0.0,0.0,3244.0,Ideal,"HL,MHL",Brassicaceae,medium_tap,0,80,1.5,BARC_CZIS_GOV
+404730,28,Onion,Rabi,0.0,3001.0,0.0,2100.7,Suitable,"HL,MHL",Amaryllidaceae,shallow,0,100,12.0,BARC_CZIS_GOV
+404730,57,Papaya,Rabi,2544.0,0.0,0.0,2544.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,58,Pineapple,Rabi,2544.0,0.0,0.0,2544.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,48,Pointed Gourd,Rabi,0.0,1188.0,1813.0,831.6,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,12,Potato,Rabi,160.0,2841.0,243.0,2148.7,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+404730,104,Potato,Rabi,3001.0,243.0,0.0,3171.1,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+404730,105,Potato,Rabi,3001.0,243.0,0.0,3171.1,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+404730,9,Proso millet,Rabi,5.0,288.0,1555.0,206.6,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,36,Pumpkin,Rabi,5.0,1071.0,1738.0,754.7,Ideal,"HL,MHL",Cucurbitaceae,shallow,0,110,25.0,BARC_CZIS_GOV
+404730,38,Radish,Rabi,0.0,3001.0,205.0,2100.7,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,43,Red Amaranth,Rabi,0.0,3001.0,205.0,2100.7,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,24,Soybean,Rabi,3001.0,243.0,0.0,3171.1,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,51,Spinach,Rabi,0.0,3001.0,205.0,2100.7,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,44,Stem Amaranth,Rabi,0.0,3001.0,205.0,2100.7,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,11,Sugarcane,Rabi,2639.0,372.0,28.0,2899.4,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,25,Sunflower,Rabi,3206.0,809.0,0.0,3772.3,Ideal,"HL,MHL",Asteraceae,deep_tap,0,100,2.0,BARC_CZIS_GOV
+404730,13,Sweet Potato,Rabi,160.0,2841.0,243.0,2148.7,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+404730,37,Tomato,Rabi,160.0,2841.0,243.0,2148.7,Ideal,"HL,MHL",Solanaceae,shallow,0,100,35.0,BARC_CZIS_GOV
+404730,53,Water Melon,Rabi,0.0,3001.0,820.0,2100.7,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,3,Wheat,Rabi,160.0,3046.0,38.0,2292.2,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+404730,4,Wheat,Rabi,160.0,3046.0,38.0,2292.2,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+404730,5,Wheat,Rabi,160.0,3084.0,0.0,2318.8,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+404730,42,Yard Long Bean,Rabi,919.0,1625.0,0.0,2056.5,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,72,Ash Gourd,Kharif-1,0.0,919.0,1625.0,643.3,Suitable,"HL,MHL",Cucurbitaceae,shallow,0,90,22.0,BARC_CZIS_GOV
+404730,59,B. Aus dhan,Kharif-1,0.0,2676.0,1339.0,1873.2,Suitable,"MHL,MLL",Poaceae,shallow_fibrous,0,100,2.8,BARC_CZIS_GOV
+404730,74,Bitter Gourd,Kharif-1,0.0,919.0,1625.0,643.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,68,Brinjal,Kharif-1,5.0,1071.0,1469.0,754.7,Ideal,"HL,MHL",Solanaceae,shallow,0,120,20.0,BARC_CZIS_GOV
+404730,80,Coconut,Kharif-1,2544.0,0.0,0.0,2544.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,75,Cucumber,Kharif-1,0.0,919.0,1625.0,643.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,84,Date Palm,Kharif-1,2544.0,95.0,362.0,2610.5,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,67,Ginger,Kharif-1,0.0,919.0,1625.0,643.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,82,Golden Apple,Kharif-1,2544.0,0.0,0.0,2544.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,81,Guava,Kharif-1,2544.0,0.0,0.0,2544.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,79,Jackfruit,Kharif-1,2544.0,0.0,0.0,2544.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,85,Jujube,Kharif-1,2544.0,0.0,0.0,2544.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,64,Jute,Kharif-1,33.0,1394.0,2587.0,1008.8,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,115,3.2,BARC_CZIS_GOV
+404730,63,Jute,Kharif-1,919.0,1658.0,475.0,2079.6,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,115,3.2,BARC_CZIS_GOV
+404730,65,Kenaf,Kharif-1,33.0,1394.0,2587.0,1008.8,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,120,3.5,BARC_CZIS_GOV
+404730,86,Lemon,Kharif-1,2544.0,0.0,0.0,2544.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,78,Litchi,Kharif-1,2544.0,0.0,0.0,2544.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,99,Maize,Kharif-1,1356.0,1853.0,520.0,2653.1,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+404730,62,Maize,Kharif-1,919.0,1625.0,437.0,2056.5,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+404730,77,Mango,Kharif-1,2544.0,0.0,0.0,2544.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,93,Onion,Kharif-1,0.0,2384.0,160.0,1668.8,Suitable,"HL,MHL",Amaryllidaceae,shallow,0,100,12.0,BARC_CZIS_GOV
+404730,83,Palmyra Palm,Kharif-1,2544.0,95.0,362.0,2610.5,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,35,Pumpkin,Kharif-1,5.0,1071.0,1469.0,754.7,Ideal,"HL,MHL",Cucurbitaceae,shallow,0,110,25.0,BARC_CZIS_GOV
+404730,69,Ridge Gourd,Kharif-1,0.0,919.0,1625.0,643.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,27,Sesame,Kharif-1,1356.0,1853.0,520.0,2653.1,Ideal,"HL,MHL",Pedaliaceae,medium_tap,0,90,1.1,BARC_CZIS_GOV
+404730,102,Sesame,Kharif-1,1358.0,2371.0,286.0,3017.7,Ideal,"HL,MHL",Pedaliaceae,medium_tap,0,90,1.1,BARC_CZIS_GOV
+404730,73,Snake Gourd,Kharif-1,0.0,919.0,1625.0,643.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,71,Sponge Gourd,Kharif-1,0.0,919.0,1625.0,643.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,107,Sweet Orange,Kharif-1,2544.0,0.0,0.0,2544.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,61,T. Aus dhan,Kharif-1,2809.0,1207.0,0.0,3653.9,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,105,3.5,BARC_CZIS_GOV
+404730,70,Teasle Gourd,Kharif-1,0.0,919.0,1625.0,643.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,76,Tomato,Kharif-1,5.0,1071.0,1469.0,754.7,Ideal,"HL,MHL",Solanaceae,shallow,0,100,35.0,BARC_CZIS_GOV
+404730,66,Turmeric,Kharif-1,0.0,919.0,1625.0,643.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,91,Black Gram,Kharif-2,160.0,2384.0,0.0,1828.8,Ideal,"HL,MHL",Fabaceae,nodulated,1,70,1.0,BARC_CZIS_GOV
+404730,94,Bottle Gourd,Kharif-2,0.0,2544.0,0.0,1780.8,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,92,Chilli,Kharif-2,0.0,919.0,1625.0,643.3,Suitable,"HL,MHL",Solanaceae,shallow,0,110,2.2,BARC_CZIS_GOV
+404730,89,Cotton,Kharif-1,634.0,1911.0,0.0,1971.7,Ideal,"HL,MHL",Malvaceae,deep_tap,0,160,2.5,BARC_CZIS_GOV
+404730,95,Country Bean,Kharif-2,160.0,2384.0,0.0,1828.8,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+404730,87,T. Aman dhan,Kharif-2,317.0,7536.0,19161.0,5592.2,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,127,6.5,BARC_CZIS_GOV
+404730,98,T. Aman dhan,Kharif-2,1657.0,23338.0,5724.0,17993.6,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,127,6.5,BARC_CZIS_GOV
+609033,14,Aroid,Rabi,277.0,1358.0,955.0,1227.6,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,56,Banana,Rabi,0.0,2344.0,222.0,1640.8,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,7,Barley,Rabi,0.0,3352.0,7578.0,2346.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,100,Barley,Rabi,0.0,5414.0,5516.0,3789.8,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,33,Betel leaf,Rabi,0.0,0.0,1300.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,1,Boro dhan,Rabi,17221.0,5075.0,534.0,20773.5,Ideal,"MLL,LL",Poaceae,shallow_fibrous,0,145,6.5,BARC_CZIS_GOV
+609033,2,Boro dhan,Rabi,19507.0,2789.0,2062.0,21459.3,Ideal,"MLL,LL",Poaceae,shallow_fibrous,0,145,6.5,BARC_CZIS_GOV
+609033,46,Bottle Gourd,Rabi,0.0,19.0,1914.0,13.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,34,Brinjal,Rabi,0.0,3148.0,10044.0,2203.6,Suitable,"HL,MHL",Solanaceae,shallow,0,120,20.0,BARC_CZIS_GOV
+609033,41,Broccoli,Rabi,0.0,280.0,5050.0,196.0,Suitable,"HL,MHL",Brassicaceae,shallow,0,80,18.0,BARC_CZIS_GOV
+609033,40,Cabbage,Rabi,0.0,280.0,5050.0,196.0,Suitable,"HL,MHL",Brassicaceae,shallow,0,85,30.0,BARC_CZIS_GOV
+609033,52,Carrot,Rabi,0.0,1669.0,5699.0,1168.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,39,Cauliflower,Rabi,0.0,3807.0,9409.0,2664.9,Suitable,"HL,MHL",Brassicaceae,shallow,0,85,25.0,BARC_CZIS_GOV
+609033,30,Chilli,Rabi,0.0,3148.0,7070.0,2203.6,Suitable,"HL,MHL",Solanaceae,shallow,0,110,2.2,BARC_CZIS_GOV
+609033,15,Colocasia,Rabi,0.0,201.0,4268.0,140.7,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,32,Coriander,Rabi,1034.0,6335.0,9853.0,5468.5,Ideal,"HL,MHL",Apiaceae,shallow,0,70,1.5,BARC_CZIS_GOV
+609033,10,Cotton,Kharif-2,0.0,0.0,4007.0,0.0,Marginal,"HL,MHL",Malvaceae,deep_tap,0,160,2.5,BARC_CZIS_GOV
+609033,20,Cowpea,Rabi,1034.0,0.0,9425.0,1034.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,49,Cucumber,Rabi,0.0,3352.0,5516.0,2346.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,31,Garlic,Rabi,0.0,7369.0,3545.0,5158.3,Suitable,"HL,MHL",Amaryllidaceae,shallow,0,120,7.0,BARC_CZIS_GOV
+609033,21,Gram / Chickpea,Rabi,0.0,1669.0,4399.0,1168.3,Suitable,"HL,MHL",Fabaceae,nodulated,1,115,1.4,BARC_CZIS_GOV
+609033,17,Grass pea,Rabi,1034.0,0.0,9425.0,1034.0,Ideal,"HL,MHL,MLL",Fabaceae,nodulated,1,110,1.3,BARC_CZIS_GOV
+609033,23,Ground Nut,Rabi,0.0,7862.0,5113.0,5503.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,103,Ground Nut,Rabi,0.0,7862.0,5113.0,5503.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,45,Indian Spinach,Rabi,0.0,3352.0,5516.0,2346.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,8,Kaon,Rabi,0.0,3352.0,6533.0,2346.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,47,Ladys Finger,Rabi,0.0,280.0,4462.0,196.0,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,16,Lentil,Rabi,0.0,313.0,706.0,219.1,Suitable,"HL,MHL",Fabaceae,nodulated,1,105,1.2,BARC_CZIS_GOV
+609033,26,Linseed,Rabi,830.0,16144.0,2286.0,12130.8,Ideal,"HL,MHL",Linaceae,medium_tap,0,95,1.0,BARC_CZIS_GOV
+609033,6,Maize,Rabi,1034.0,13239.0,5011.0,10301.3,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+609033,19,Mungbean,Rabi,180.0,4216.0,8350.0,3131.2,Ideal,"HL,MHL",Fabaceae,nodulated,1,65,1.4,BARC_CZIS_GOV
+609033,54,Musk Melon,Rabi,0.0,2009.0,5492.0,1406.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,22,Mustard,Rabi,1034.0,10953.0,7297.0,8701.1,Ideal,"HL,MHL",Brassicaceae,medium_tap,0,80,1.5,BARC_CZIS_GOV
+609033,101,Mustard,Rabi,1034.0,10953.0,7297.0,8701.1,Ideal,"HL,MHL",Brassicaceae,medium_tap,0,80,1.5,BARC_CZIS_GOV
+609033,28,Onion,Rabi,0.0,7369.0,3545.0,5158.3,Suitable,"HL,MHL",Amaryllidaceae,shallow,0,100,12.0,BARC_CZIS_GOV
+609033,58,Pineapple,Rabi,0.0,2344.0,507.0,1640.8,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,48,Pointed Gourd,Rabi,0.0,280.0,4462.0,196.0,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,12,Potato,Rabi,280.0,2130.0,8652.0,1771.0,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+609033,104,Potato,Rabi,280.0,4339.0,10643.0,3317.3,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+609033,105,Potato,Rabi,280.0,4339.0,10643.0,3317.3,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+609033,9,Proso millet,Rabi,0.0,3352.0,6533.0,2346.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,36,Pumpkin,Rabi,0.0,1918.0,4228.0,1342.6,Suitable,"HL,MHL",Cucurbitaceae,shallow,0,110,25.0,BARC_CZIS_GOV
+609033,38,Radish,Rabi,0.0,1669.0,5699.0,1168.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,43,Red Amaranth,Rabi,0.0,3352.0,5516.0,2346.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,24,Soybean,Rabi,1034.0,0.0,8907.0,1034.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,51,Spinach,Rabi,0.0,3352.0,5516.0,2346.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,44,Stem Amaranth,Rabi,0.0,3352.0,5516.0,2346.4,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,11,Sugarcane,Rabi,180.0,5344.0,1104.0,3920.8,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,25,Sunflower,Rabi,1034.0,13239.0,5011.0,10301.3,Ideal,"HL,MHL",Asteraceae,deep_tap,0,100,2.0,BARC_CZIS_GOV
+609033,13,Sweet Potato,Rabi,280.0,2130.0,8652.0,1771.0,Ideal,"HL,MHL",Solanaceae,shallow,0,90,25.0,BARC_CZIS_GOV
+609033,37,Tomato,Rabi,0.0,3352.0,9864.0,2346.4,Suitable,"HL,MHL",Solanaceae,shallow,0,100,35.0,BARC_CZIS_GOV
+609033,53,Water Melon,Rabi,0.0,2009.0,5492.0,1406.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,3,Wheat,Rabi,0.0,7369.0,11915.0,5158.3,Suitable,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+609033,4,Wheat,Rabi,0.0,7369.0,11915.0,5158.3,Suitable,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+609033,5,Wheat,Rabi,0.0,10475.0,8809.0,7332.5,Suitable,"HL,MHL",Poaceae,shallow_fibrous,0,110,4.0,BARC_CZIS_GOV
+609033,42,Yard Long Bean,Rabi,0.0,1300.0,2899.0,910.0,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,72,Ash Gourd,Kharif-1,0.0,0.0,1300.0,0.0,Marginal,"HL,MHL",Cucurbitaceae,shallow,0,90,22.0,BARC_CZIS_GOV
+609033,59,B. Aus dhan,Kharif-1,180.0,3399.0,10785.0,2559.3,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,100,2.8,BARC_CZIS_GOV
+609033,74,Bitter Gourd,Kharif-1,0.0,0.0,1300.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,68,Brinjal,Kharif-1,0.0,0.0,1300.0,0.0,Marginal,"HL,MHL",Solanaceae,shallow,0,120,20.0,BARC_CZIS_GOV
+609033,80,Coconut,Kharif-1,0.0,0.0,3872.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,75,Cucumber,Kharif-1,0.0,0.0,1300.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,84,Date Palm,Kharif-1,0.0,2629.0,3118.0,1840.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,67,Ginger,Kharif-1,1300.0,222.0,0.0,1455.4,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,82,Golden Apple,Kharif-1,0.0,2344.0,222.0,1640.8,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,81,Guava,Kharif-1,0.0,2344.0,222.0,1640.8,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,79,Jackfruit,Kharif-1,0.0,1045.0,2827.0,731.5,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,85,Jujube,Kharif-1,0.0,2344.0,1854.0,1640.8,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,64,Jute,Kharif-1,6069.0,10309.0,9009.0,13285.3,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,115,3.2,BARC_CZIS_GOV
+609033,63,Jute,Kharif-1,0.0,5524.0,713.0,3866.8,Suitable,"HL,MHL,MLL",Malvaceae,deep_tap,0,115,3.2,BARC_CZIS_GOV
+609033,65,Kenaf,Kharif-1,6069.0,10309.0,9009.0,13285.3,Ideal,"HL,MHL,MLL",Malvaceae,deep_tap,0,120,3.5,BARC_CZIS_GOV
+609033,86,Lemon,Kharif-1,0.0,2344.0,1854.0,1640.8,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,78,Litchi,Kharif-1,0.0,2344.0,1750.0,1640.8,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,99,Maize,Kharif-1,1034.0,18250.0,165.0,13809.0,Ideal,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+609033,62,Maize,Kharif-1,0.0,4394.0,1353.0,3075.8,Suitable,"HL,MHL",Poaceae,deep_fibrous,0,130,7.5,BARC_CZIS_GOV
+609033,77,Mango,Kharif-1,0.0,2344.0,1750.0,1640.8,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,93,Onion,Kharif-1,0.0,0.0,1300.0,0.0,Marginal,"HL,MHL",Amaryllidaceae,shallow,0,100,12.0,BARC_CZIS_GOV
+609033,83,Palmyra Palm,Kharif-1,0.0,2629.0,3118.0,1840.3,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,35,Pumpkin,Kharif-1,0.0,0.0,1300.0,0.0,Marginal,"HL,MHL",Cucurbitaceae,shallow,0,110,25.0,BARC_CZIS_GOV
+609033,69,Ridge Gourd,Kharif-1,0.0,0.0,1300.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,27,Sesame,Kharif-1,0.0,830.0,9343.0,581.0,Suitable,"HL,MHL",Pedaliaceae,medium_tap,0,90,1.1,BARC_CZIS_GOV
+609033,102,Sesame,Kharif-1,0.0,830.0,204.0,581.0,Suitable,"HL,MHL",Pedaliaceae,medium_tap,0,90,1.1,BARC_CZIS_GOV
+609033,73,Snake Gourd,Kharif-1,0.0,0.0,1300.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,71,Sponge Gourd,Kharif-1,0.0,0.0,1300.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,107,Sweet Orange,Kharif-1,0.0,2344.0,222.0,1640.8,Suitable,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,61,T. Aus dhan,Kharif-1,1908.0,3475.0,11868.0,4340.5,Ideal,"HL,MHL",Poaceae,shallow_fibrous,0,105,3.5,BARC_CZIS_GOV
+609033,108,Tea,Kharif-1,285.0,0.0,0.0,285.0,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,70,Teasle Gourd,Kharif-1,0.0,0.0,1300.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,76,Tomato,Kharif-1,0.0,0.0,1300.0,0.0,Marginal,"HL,MHL",Solanaceae,shallow,0,100,35.0,BARC_CZIS_GOV
+609033,66,Turmeric,Kharif-1,1300.0,222.0,0.0,1455.4,Ideal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,91,Black Gram,Kharif-2,0.0,1300.0,2794.0,910.0,Suitable,"HL,MHL",Fabaceae,nodulated,1,70,1.0,BARC_CZIS_GOV
+609033,94,Bottle Gourd,Kharif-2,0.0,0.0,1300.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,92,Chilli,Kharif-2,0.0,0.0,1300.0,0.0,Marginal,"HL,MHL",Solanaceae,shallow,0,110,2.2,BARC_CZIS_GOV
+609033,89,Cotton,Kharif-1,0.0,0.0,3872.0,0.0,Marginal,"HL,MHL",Malvaceae,deep_tap,0,160,2.5,BARC_CZIS_GOV
+609033,95,Country Bean,Kharif-2,0.0,0.0,1300.0,0.0,Marginal,"HL,MHL",Other,medium,0,100,5.0,BARC_CZIS_GOV
+609033,87,T. Aman dhan,Kharif-2,0.0,845.0,4041.0,591.5,Suitable,"MHL,MLL",Poaceae,shallow_fibrous,0,127,6.5,BARC_CZIS_GOV
+609033,98,T. Aman dhan,Kharif-2,3320.0,1553.0,1045.0,4407.1,Ideal,"MHL,MLL",Poaceae,shallow_fibrous,0,127,6.5,BARC_CZIS_GOV

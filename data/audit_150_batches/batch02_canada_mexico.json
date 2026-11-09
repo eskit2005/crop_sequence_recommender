@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Brandon, Manitoba",
+    "country": "Canada",
+    "continent": "North America",
+    "lat": 49.8485,
+    "lon": -99.9501,
+    "description": "Canadian Prairies: Canola, spring wheat, oats, field pea",
+    "annual_rain_mm": 528.5,
+    "annual_mean_temp_c": 3.2,
+    "computed_lgp_days": 91,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "October - April (7 Months)",
+      "duration_months": 7,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -45.2\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Saskatoon, Saskatchewan",
+    "country": "Canada",
+    "continent": "North America",
+    "lat": 52.1579,
+    "lon": -106.6702,
+    "description": "Dark Brown Soil Zone: Lentil, chickpea, canola, wheat capital",
+    "annual_rain_mm": 455.4,
+    "annual_mean_temp_c": 3.5,
+    "computed_lgp_days": 60,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "October - April (7 Months)",
+      "duration_months": 7,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -44.9\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Red Deer, Alberta",
+    "country": "Canada",
+    "continent": "North America",
+    "lat": 52.2681,
+    "lon": -113.8112,
+    "description": "Aspen Parkland: Malting barley, canola, cool-season forage",
+    "annual_rain_mm": 530.5,
+    "annual_mean_temp_c": 3.7,
+    "computed_lgp_days": 153,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - September (5 Months)",
+      "start_month": "May",
+      "end_month": "September",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "October - April (7 Months)",
+      "duration_months": 7,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -40.3\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Chatham-Kent, Ontario",
+    "country": "Canada",
+    "continent": "North America",
+    "lat": 42.4048,
+    "lon": -82.191,
+    "description": "Lake Erie Granary: Grain corn, soybean, winter wheat, tomato",
+    "annual_rain_mm": 768.2,
+    "annual_mean_temp_c": 9.5,
+    "computed_lgp_days": 214,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -26.8\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Saint-Hyacinthe, Quebec",
+    "country": "Canada",
+    "continent": "North America",
+    "lat": 45.6275,
+    "lon": -72.9571,
+    "description": "St. Lawrence Lowlands: Grain corn, soybean, dairy silage",
+    "annual_rain_mm": 1080.5,
+    "annual_mean_temp_c": 6.2,
+    "computed_lgp_days": 214,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -40.4\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Charlottetown, Prince Edward Island",
+    "country": "Canada",
+    "continent": "North America",
+    "lat": 46.2382,
+    "lon": -63.1311,
+    "description": "Atlantic Maritime: Red sandy loam seed and table potatoes",
+    "annual_rain_mm": 1050.2,
+    "annual_mean_temp_c": 6.5,
+    "computed_lgp_days": 184,
+    "deduced_regime": "TEMPERATE_CONTINENTAL_FROST",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Economic Anchor (Cash Crops & Staple Grains)"
+    },
+    "season_2": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    },
+    "season_3": {
+      "window": "November - April (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Sub-zero ground frost and freezing air (Tmin down to -23.6\u00b0C) halt plant cell division."
+    }
+  },
+  {
+    "name": "Hermosillo, Sonora",
+    "country": "Mexico",
+    "continent": "North America",
+    "lat": 29.0729,
+    "lon": -110.9559,
+    "description": "Coast of Hermosillo: Deep well irrigated table grape, wheat, citrus",
+    "annual_rain_mm": 381.6,
+    "annual_mean_temp_c": 24.0,
+    "computed_lgp_days": 92,
+    "deduced_regime": "SEMI_ARID_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Summer Cash & Staple Grains (Maize, Sunflower, Sorghum, Soybean, Cotton)"
+    },
+    "season_2": {
+      "window": "November - April (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Winter dry season and cold thermal halt."
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    }
+  },
+  {
+    "name": "Los Mochis, Sinaloa",
+    "country": "Mexico",
+    "continent": "North America",
+    "lat": 25.7905,
+    "lon": -108.9959,
+    "description": "Valle del Fuerte: Intensive winter irrigated white corn, tomato",
+    "annual_rain_mm": 535.8,
+    "annual_mean_temp_c": 25.2,
+    "computed_lgp_days": 100,
+    "deduced_regime": "SEMI_ARID_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Summer Cash & Staple Grains (Maize, Sunflower, Sorghum, Soybean, Cotton)"
+    },
+    "season_2": {
+      "window": "November - April (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Winter dry season and cold thermal halt."
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    }
+  },
+  {
+    "name": "Delicias, Chihuahua",
+    "country": "Mexico",
+    "continent": "North America",
+    "lat": 28.1928,
+    "lon": -105.4711,
+    "description": "Rio Conchos: Irrigated pecan orchards, chile, alfalfa",
+    "annual_rain_mm": 328.9,
+    "annual_mean_temp_c": 19.4,
+    "computed_lgp_days": 92,
+    "deduced_regime": "SEMI_ARID_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Summer Cash & Staple Grains (Maize, Sunflower, Sorghum, Soybean, Cotton)"
+    },
+    "season_2": {
+      "window": "November - April (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Winter dry season and cold thermal halt (Winter Tmin down to -9.8\u00b0C)."
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    }
+  },
+  {
+    "name": "Zamora, Michoacan",
+    "country": "Mexico",
+    "continent": "North America",
+    "lat": 19.9856,
+    "lon": -102.2839,
+    "description": "Duero Valley: Export strawberry, blackberry, winter wheat",
+    "annual_rain_mm": 741.3,
+    "annual_mean_temp_c": 19.2,
+    "computed_lgp_days": 174,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - October (5 Months)",
+      "start_month": "June",
+      "end_month": "October",
+      "duration_months": 5,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice, Groundnut)"
+    },
+    "season_2": {
+      "window": "November - January (3 Months)",
+      "duration_months": 3,
+      "is_fallow": true,
+      "fallow_reason": "Post-monsoon dryland moisture depletion."
+    },
+    "season_3": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Peak dry season before monsoon arrival."
+    }
+  },
+  {
+    "name": "Irapuato, Guanajuato",
+    "country": "Mexico",
+    "continent": "North America",
+    "lat": 20.6767,
+    "lon": -101.3563,
+    "description": "El Bajio Granary: Sorghum, maize, irrigated winter barley/broccoli",
+    "annual_rain_mm": 721.7,
+    "annual_mean_temp_c": 18.5,
+    "computed_lgp_days": 170,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "June - September (4 Months)",
+      "start_month": "June",
+      "end_month": "September",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Rainfed Anchor (Millets, Sorghum, Cowpea, Rice, Groundnut)"
+    },
+    "season_2": {
+      "window": "October - January (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Post-monsoon dryland moisture depletion."
+    },
+    "season_3": {
+      "window": "February - May (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Peak dry season before monsoon arrival."
+    }
+  },
+  {
+    "name": "Tehuacan, Puebla",
+    "country": "Mexico",
+    "continent": "North America",
+    "lat": 18.4627,
+    "lon": -97.3928,
+    "description": "Semi-arid valley: Rainfed/irrigated maize, amaranth, onion",
+    "annual_rain_mm": 919.9,
+    "annual_mean_temp_c": 15.6,
+    "computed_lgp_days": 232,
+    "deduced_regime": "TROPICAL_HIGHLAND_VALLEY",
+    "deduced_k": 1,
+    "has_freeze_dormancy": true,
+    "season_1": {
+      "window": "April - October (7 Months)",
+      "start_month": "April",
+      "end_month": "October",
+      "duration_months": 7,
+      "is_fallow": false,
+      "role": "Highland Staples (Native Potato, Andean Maize, Faba Bean, Quinoa, Barley)"
+    },
+    "season_2": {
+      "window": "November - March (5 Months)",
+      "duration_months": 5,
+      "is_fallow": true,
+      "fallow_reason": "Severe highland winter radiative frost down to -2.5\u00b0C and aridity."
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    }
+  },
+  {
+    "name": "Tapachula, Chiapas",
+    "country": "Mexico",
+    "continent": "North America",
+    "lat": 14.9099,
+    "lon": -92.2647,
+    "description": "Soconusco Tropical Coast: Banana, mango, cacao, coffee piedmont",
+    "annual_rain_mm": 2570.4,
+    "annual_mean_temp_c": 26.3,
+    "computed_lgp_days": 276,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "April - July (4 Months)",
+      "start_month": "April",
+      "end_month": "July",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Anchor (Maize, Yam, Groundnut, Cotton)"
+    },
+    "season_2": {
+      "window": "August - November (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "December - March (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Merida, Yucatan",
+    "country": "Mexico",
+    "continent": "North America",
+    "lat": 20.9674,
+    "lon": -89.5926,
+    "description": "Yucatan Karst Plain: Citrus, tropical pasture, henequen",
+    "annual_rain_mm": 1044.9,
+    "annual_mean_temp_c": 26.5,
+    "computed_lgp_days": 222,
+    "deduced_regime": "TROPICAL_MONOMODAL_RAIN",
+    "deduced_k": 2,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - August (4 Months)",
+      "start_month": "May",
+      "end_month": "August",
+      "duration_months": 4,
+      "is_fallow": false,
+      "role": "Primary Cash / Food Anchor (Maize, Yam, Groundnut, Cotton)"
+    },
+    "season_2": {
+      "window": "September - December (4 Months)",
+      "duration_months": 4,
+      "is_fallow": false,
+      "fallow_reason": null
+    },
+    "season_3": {
+      "window": "January - April (4 Months)",
+      "duration_months": 4,
+      "is_fallow": true,
+      "fallow_reason": "Dry inter-season spell with low soil moisture storage."
+    }
+  },
+  {
+    "name": "Torreon, Coahuila",
+    "country": "Mexico",
+    "continent": "North America",
+    "lat": 25.5428,
+    "lon": -103.4068,
+    "description": "Comarca Lagunera: Irrigated forage corn, alfalfa, cotton",
+    "annual_rain_mm": 274.8,
+    "annual_mean_temp_c": 21.2,
+    "computed_lgp_days": 0,
+    "deduced_regime": "SEMI_ARID_STEPPE",
+    "deduced_k": 1,
+    "has_freeze_dormancy": false,
+    "season_1": {
+      "window": "May - October (6 Months)",
+      "start_month": "May",
+      "end_month": "October",
+      "duration_months": 6,
+      "is_fallow": false,
+      "role": "Summer Cash & Staple Grains (Maize, Sunflower, Sorghum, Soybean, Cotton)"
+    },
+    "season_2": {
+      "window": "November - April (6 Months)",
+      "duration_months": 6,
+      "is_fallow": true,
+      "fallow_reason": "Winter dry season and cold thermal halt (Winter Tmin down to -8.2\u00b0C)."
+    },
+    "season_3": {
+      "window": "None",
+      "duration_months": 0,
+      "is_fallow": true,
+      "fallow_reason": "None"
+    }
+  }
+]

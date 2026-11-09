@@ -1,0 +1,506 @@
+upazila_code,upazila_name,district_name,division_name,min_lat,max_lat,min_lon,max_lon
+501006,Adamdighi,Bogura,Rajshahi,24.7155,24.8737,88.9631,89.1683
+100602,Agailjhara,Barishal,Barishal,22.9024,23.0486,90.0558,90.2208
+603602,Ajmiriganj,Habiganj,Sylhet,24.4657,24.6603,91.151,91.3813
+201202,Akhaura,Brahmanbaria,Chattogram,23.7856,23.9127,91.1166,91.2545
+401807,Alamdanga,Chuadanga,Khulna,23.6151,23.8378,88.7728,89.0166
+302903,Alfadanga,Faridpur,Dhaka,23.2111,23.3833,89.5985,89.751
+200304,Alikadam,Bandarban,Chattogram,21.3515,21.8324,92.2375,92.5512
+201504,Anowara,Chattogram,Chattogram,22.1086,22.2605,91.7991,91.9677
+306702,Araihazar,Naraynganj,Dhaka,23.6648,23.8763,90.582,90.7424
+408704,Assasuni,Satkhira,Khulna,22.3425,22.6544,89.0433,89.2856
+457204,Atpara,Netrokona,Mymensingh,24.7249,24.8663,90.7627,90.9888
+506403,Atrai,Naogaon,Rajshahi,24.5341,24.7057,88.8109,89.1068
+304802,Austagram,Kishoreganj,Dhaka,24.2112,24.4347,90.9883,91.2567
+506406,Badalgachhi,Naogaon,Rajshahi,24.883,25.0562,88.8515,89.0191
+506909,Bagatipara,Natore,Rajshahi,24.2467,24.3636,88.8463,89.0441
+508110,Bagha,Rajshahi,Rajshahi,24.1206,24.3151,88.7348,88.9191
+208407,Baghaichhari,Rangamati,Chattogram,23.0045,23.7389,92.0656,92.4005
+304806,Bajitpur,Kishoreganj,Dhaka,24.1616,24.2927,90.8222,91.0517
+20150616,Chattogram City Corporation,Chattogram,Chattogram,22.2198,22.4661,91.7443,91.8935
+100607,Bakerganj,Barishal,Barishal,22.4536,22.671,90.1903,90.5564
+453907,Bakshiganj,Jamalpur,Mymensingh,25.1064,25.3082,89.7762,89.9473
+308207,Baliakandi,Rajbari,Dhaka,23.5619,23.7408,89.4371,89.668
+100610,Banaripara,Barishal,Barishal,22.7457,22.8673,90.0286,90.222
+201204,Banchharampur,Brahmanbaria,Chattogram,23.6837,23.8667,90.7226,90.8901
+306706,Bandar,Naraynganj,Dhaka,23.5847,23.71,90.5196,90.5784
+603611,Baniachong,Habiganj,Sylhet,24.3534,24.6981,91.2147,91.4974
+201508,Banshkhali,Chattogram,Chattogram,21.8546,22.1796,91.8505,92.041
+506915,Baraigram,Natore,Rajshahi,24.1608,24.3563,89.0211,89.2872
+457209,Barhatta,Netrokona,Mymensingh,24.8452,25.0042,90.7644,90.9985
+208421,Barkal,Rangamati,Chattogram,22.6453,23.1137,92.1981,92.4785
+208429,Belaichhari,Rangamati,Chattogram,21.851,22.5424,92.2879,92.6324
+508811,Belkuchi,Sirajganj,Rajshahi,24.2151,24.3785,89.6156,89.7925
+304811,Bhairab,Kishoreganj,Dhaka,24.0364,24.1792,90.8949,91.0509
+456113,Bhaluka,Mymensingh,Mymensingh,24.2772,24.4811,90.2205,90.5
+302910,Bhanga,Faridpur,Dhaka,23.2881,23.4786,89.9144,90.1034
+507619,Bhangura,Pabna,Rajshahi,24.1395,24.3445,89.3198,89.4784
+308614,Bhedarganj,Shariatpur,Dhaka,23.1486,23.3957,90.3824,90.5974
+100918,Bhola Sadar,Bhola,Barishal,22.542,22.8685,90.5227,90.7255
+507018,Bholahat,Chapai Nawabganj,Rajshahi,24.8092,24.9614,88.1376,88.2642
+552712,Birganj,Dinajpur,Rangpur,25.8066,26.064,88.4923,88.7351
+609018,Bishwambarpur,Sunamganj,Sylhet,25.0185,25.1859,91.2211,91.4005
+50812266,Rajshahi City Corporation,Rajshahi,Rajshahi,24.3496,24.4168,88.5421,88.67
+552721,Bochaganj,Dinajpur,Rangpur,25.6649,25.9083,88.3825,88.5288
+557725,Boda,Panchagarh,Rangpur,26.0852,26.322,88.4667,88.7656
+100921,Borhanuddin,Bhola,Barishal,22.3938,22.5637,90.5843,90.8427
+202216,Chakaria,Cox's Bazar,Chattogram,21.5742,21.922,91.9361,92.2128
+201322,Chandpur Sadar,Chandpur,Chattogram,23.1209,23.3425,90.5546,90.7947
+100925,Charfasson,Bhola,Barishal,21.8383,22.2685,90.571,90.9562
+554908,Char Rajibpur,Kurigram,Rangpur,25.3745,25.5214,89.6879,89.8348
+207510,Chatkhil,Noakhali,Chattogram,22.972,23.1335,90.8879,91.0394
+507622,Chatmohar,Pabna,Rajshahi,24.1049,24.3539,89.1904,89.3886
+201931,Chauddagram,Cumilla,Chattogram,23.0499,23.3654,91.1893,91.3694
+508827,Chauhali,Sirajganj,Rajshahi,24.012,24.2873,89.6743,89.8256
+609023,Chhatak,Sunamganj,Sylhet,24.8108,25.1485,91.4837,91.7345
+554909,Chilmari,Kurigram,Rangpur,25.4476,25.6624,89.6253,89.8041
+552730,Chirirbandar,Dinajpur,Rangpur,25.5153,25.8064,88.696,88.8759
+400114,Chitalmari,Bagerhat,Khulna,22.7218,22.8914,89.7645,89.9491
+401823,Chuadanga Sadar,Chuadanga,Khulna,23.4853,23.6919,88.7837,89.0058
+603626,Chunarughat,Habiganj,Sylhet,24.0715,24.2839,91.3718,91.6482
+201967,Adarsha Sadar,Cumilla,Chattogram,23.4096,23.5265,91.0593,91.2538
+201933,Sadar Dakshin,Cumilla,Chattogram,23.348,23.4507,91.1116,91.294
+404717,Dacope,Khulna,Khulna,21.6635,22.6496,89.4007,89.6375
+609027,Shantiganj,Sunamganj,Sylhet,24.8307,25.0148,91.2715,91.5277
+308625,Damudya,Shariatpur,Dhaka,23.1019,23.1892,90.3464,90.5052
+401831,Damurhuda,Chuadanga,Khulna,23.4784,23.7011,88.6353,88.8265
+201936,Daudkandi,Cumilla,Chattogram,23.4137,23.5905,90.6853,90.8817
+100929,Daulatkhan,Bhola,Barishal,22.5342,22.806,90.657,90.8794
+201940,Debidwar,Cumilla,Chattogram,23.4814,23.7077,90.8909,91.0724
+557734,Debiganj,Panchagarh,Rangpur,26.0069,26.2735,88.6248,88.7971
+309323,Delduar,Tangail,Dhaka,24.0541,24.2312,89.8541,90.032
+609029,Derai,Sunamganj,Sylhet,24.6523,24.8909,91.1608,91.4708
+453915,Dewanganj,Jamalpur,Mymensingh,25.108,25.4342,89.6652,89.8412
+506428,Dhamoirhat,Naogaon,Rajshahi,25.018,25.2143,88.6666,88.9453
+302614,Dhamrai,Dhaka,Dhaka,23.8166,24.0457,90.0046,90.2451
+456116,Dhobaura,Mymensingh,Mymensingh,25.0125,25.1788,90.4015,90.62
+204643,Dighinala,Khagrachhari,Chattogram,23.0952,23.7345,91.9342,92.1994
+557312,Dimla,Nilphamari,Rangpur,26.0694,26.2885,88.861,89.102
+302618,Dohar,Dhaka,Dhaka,23.5267,23.6683,90.006,90.2082
+557315,Domar,Nilphamari,Rangpur,26.0295,26.3106,88.7577,88.8988
+201345,Faridganj,Chandpur,Chattogram,23.0409,23.2328,90.6779,90.8737
+201533,Fatikchhari,Chattogram,Chattogram,22.5574,22.9897,91.6164,91.9435
+552738,Fulbari,Dinajpur,Rangpur,25.3887,25.5641,88.8021,88.9895
+456120,Fulbaria,Mymensingh,Mymensingh,24.4412,24.7223,90.1301,90.3602
+553221,Fulchhari,Gaibandha,Rangpur,25.0912,25.3866,89.5594,89.7546
+203041,Fulgazi,Feni,Chattogram,23.0416,23.1825,91.3835,91.5207
+456122,Gaffargaon,Mymensingh,Mymensingh,24.248,24.5472,90.4416,90.6516
+553224,Gaibandha Sadar,Gaibandha,Rangpur,25.22,25.4463,89.4268,89.7444
+107897,Rangabali,Patuakhali,Barishal,21.7996,22.0919,90.2515,90.619
+305924,Gazaria,Munshiganj,Dhaka,23.4901,23.6185,90.5653,90.7076
+305622,Ghior,Manikganj,Dhaka,23.7853,23.9421,89.8147,89.9878
+308229,Goalanda,Rajbari,Dhaka,23.6779,23.8359,89.6804,89.8497
+553230,Gobindaganj,Gaibandha,Rangpur,25.0428,25.2538,89.1842,89.5317
+508134,Godagari,Rajshahi,Rajshahi,24.3636,24.603,88.2918,88.5521
+507037,Gomastapur,Chapai Nawabganj,Rajshahi,24.7404,24.9699,88.2208,88.4946
+303532,Gopalganj Sadar,Gopalganj,Dhaka,22.9202,23.2054,89.6703,89.9733
+308636,Gosairhat,Shariatpur,Dhaka,23.0083,23.1751,90.3355,90.5669
+609141,Gowainghat,Sylhet,Sylhet,24.9482,25.1875,91.8101,92.1185
+506941,Gurudaspur,Natore,Rajshahi,24.3053,24.4437,89.0677,89.3209
+201347,Haimchar,Chandpur,Chattogram,22.983,23.1444,90.527,90.6917
+201349,Hajiganj,Chandpur,Chattogram,23.1568,23.3305,90.7385,90.9332
+456124,Haluaghat,Mymensingh,Mymensingh,24.9869,25.1979,90.2332,90.4922
+404414,Harinakunda,Jhenaidah,Khulna,23.5488,23.7709,88.9813,89.179
+305628,Harirampur,Manikganj,Dhaka,23.6266,23.8017,89.8361,90.0438
+555233,Hatibandha,Lalmonirhat,Rangpur,25.987,26.26,89.0214,89.2826
+100636,Hizla,Barishal,Barishal,22.8593,23.0816,90.4077,90.7161
+201954,Homna,Cumilla,Chattogram,23.6197,23.7468,90.733,90.8826
+453929,Islampur,Jamalpur,Mymensingh,24.9757,25.1624,89.6396,89.9314
+304833,Itna,Kishoreganj,Dhaka,24.451,24.6465,90.9403,91.2339
+609047,Jagannathpur,Sunamganj,Sylhet,24.6473,24.8464,91.4414,91.6763
+557336,Jaldhaka,Nilphamari,Rangpur,25.9547,26.1208,88.8627,89.1432
+609050,Jamalganj,Sunamganj,Sylhet,24.7953,25.0733,91.0834,91.3138
+453936,Jamalpur Sadar,Jamalpur,Mymensingh,24.7247,24.9648,89.8144,90.2021
+104240,Jhalokathi Sadar,Jhalokati,Barishal,22.5773,22.7866,90.0935,90.2743
+404419,Jhenaidah Sadar,Jhenaidah,Khulna,23.431,23.5982,88.9412,89.3222
+401855,Jibannagar,Chuadanga,Khulna,23.3686,23.5162,88.7495,88.9463
+208447,Juraichhari,Rangamati,Chattogram,22.3508,22.7498,92.3217,92.5626
+605835,Juri,Maulvi Bazar,Sylhet,24.3812,24.6734,92.0525,92.2428
+406528,Kalia,Narail,Khulna,22.9451,23.1109,89.5015,89.8072
+303332,Kaliakair,Gazipur,Dhaka,24.0013,24.2501,90.1489,90.3599
+309347,Kalihati,Tangail,Dhaka,24.2852,24.4297,89.7531,90.1161
+457240,Kalmakanda,Netrokona,Mymensingh,24.957,25.1866,90.7451,90.9737
+308247,Kalukhali,Rajbari,Dhaka,23.656,23.8281,89.3626,89.5898
+605856,Kamalganj,Maulvi Bazar,Sylhet,24.1372,24.4674,91.7647,91.94
+205133,Kamalnagar,Lakshmipur,Chattogram,22.6713,22.8673,90.7558,90.9773
+609159,Kanaighat,Sylhet,Sylhet,24.8851,25.0971,92.0184,92.4255
+303336,Kapasia,Gazipur,Dhaka,24.0269,24.2716,90.4965,90.7045
+201263,Kasba,Brahmanbaria,Chattogram,23.6463,23.8649,91.0349,91.2305
+303543,Kashiani,Gopalganj,Dhaka,23.0816,23.3134,89.6787,89.9247
+304845,Katiadi,Kishoreganj,Dhaka,24.1732,24.3826,90.7192,90.9147
+107947,Kawkhali,Pirojpur,Barishal,22.516,22.6691,90.0193,90.1105
+208425,Kawkhali,Rangamati,Chattogram,22.4894,22.7268,91.9268,92.1317
+508850,Kazipur,Sirajganj,Rajshahi,24.5499,24.7825,89.546,89.8011
+457247,Kendua,Netrokona,Mymensingh,24.5746,24.7806,90.6935,90.9171
+302638,Keraniganj,Dhaka,Dhaka,23.6138,23.7769,90.218,90.4725
+204649,Khagrachhari Sadar,Khagrachhari,Chattogram,23.0507,23.2811,91.9106,92.0913
+457238,Khaliajuri,Netrokona,Mymensingh,24.6025,24.8406,90.9999,91.2434
+40472133,Khulna City Corporation,Khulna,Khulna,22.7669,22.9105,89.4788,89.5854
+552760,Khansama,Dinajpur,Rangpur,25.7796,26.0187,88.7025,88.8441
+557345,Kishoreganj,Nilphamari,Rangpur,25.8153,25.9877,88.9489,89.1179
+303551,Kotalipara,Gopalganj,Dhaka,22.8569,23.1386,89.9192,90.1439
+404753,Koyra,Khulna,Khulna,21.6709,22.5224,89.2363,89.5288
+605865,Kulaura,Maulvi Bazar,Sylhet,24.3234,24.6543,91.9027,92.1269
+304854,Kuliarchar,Kishoreganj,Dhaka,24.0934,24.2184,90.8203,90.9615
+603668,Lakhai,Habiganj,Sylhet,24.2242,24.3787,91.1587,91.347
+204661,Lakshmichhari,Khagrachhari,Chattogram,22.6876,22.885,91.8562,92.0014
+100954,Lalmohan,Bhola,Barishal,22.185,22.4261,90.6312,90.9069
+555255,Lalmonirhat Sadar,Lalmonirhat,Rangpur,25.7891,26.0016,89.3355,89.5754
+200351,Lama,Bandarban,Chattogram,21.6184,21.9827,92.0622,92.3736
+208458,Langadu,Rangamati,Chattogram,22.821,23.118,92.0884,92.3331
+305944,Lohajang,Munshiganj,Dhaka,23.4099,23.5311,90.2209,90.4294
+457256,Madan,Netrokona,Mymensingh,24.6014,24.7525,90.8487,91.0715
+453958,Madarganj,Jamalpur,Mymensingh,24.7942,24.98,89.6644,89.8368
+603671,Madhabpur,Habiganj,Sylhet,23.9747,24.2697,91.2619,91.4088
+302956,Madhukhali,Faridpur,Dhaka,23.4609,23.6115,89.4885,89.7434
+506450,Mahadebpur,Naogaon,Rajshahi,24.8064,25.0165,88.6346,88.8821
+204665,Mahalchhari,Khagrachhari,Chattogram,22.8492,23.087,91.971,92.1304
+202249,Maheshkhali,Cox's Bazar,Chattogram,21.4695,21.7729,91.8422,92.0199
+404471,Maheshpur,Jhenaidah,Khulna,23.2186,23.4212,88.6966,89.035
+506447,Manda,Naogaon,Rajshahi,24.6213,24.8774,88.5899,88.8528
+204667,Manikchhari,Khagrachhari,Chattogram,22.7665,22.9248,91.745,91.9054
+201974,Manoharganj,Cumilla,Chattogram,23.0673,23.2181,90.9796,91.146
+100965,Manpura,Bhola,Barishal,22.0276,22.3888,90.8557,91.037
+107958,Mathbaria,Pirojpur,Barishal,22.1564,22.4034,89.8574,90.0554
+204670,Matiranga,Khagrachhari,Chattogram,22.9796,23.4019,91.7431,91.9857
+201376,Matlab Dakshin,Chandpur,Chattogram,23.2572,23.4478,90.6686,90.817
+201379,Matlab Uttar,Chandpur,Chattogram,23.3129,23.5044,90.5385,90.7546
+201975,Meghna,Cumilla,Chattogram,23.5542,23.6829,90.6276,90.766
+100662,Mehendiganj,Barishal,Barishal,22.6525,22.9295,90.3901,90.6815
+405787,Meherpur Sadar,Meherpur,Khulna,23.6664,23.8768,88.5567,88.7842
+201553,Mirsharai,Chattogram,Chattogram,22.6487,22.9777,91.4437,91.6542
+107876,Mirzaganj,Patuakhali,Barishal,22.2206,22.4758,90.1378,90.3103
+304859,Mithamain,Kishoreganj,Dhaka,24.3606,24.495,90.9956,91.2437
+457263,Mohanganj,Netrokona,Mymensingh,24.7399,24.9081,90.9151,91.1287
+508153,Mohanpur,Rajshahi,Rajshahi,24.4764,24.6364,88.5694,88.7168
+400158,Mongla,Bagerhat,Khulna,21.7293,22.5772,89.5433,89.7748
+400160,Morrelganj,Bagerhat,Khulna,22.3372,22.6152,89.6953,89.9667
+405760,Mujibnagar,Meherpur,Khulna,23.6002,23.7459,88.5581,88.7079
+305956,Munshiganj Sadar,Munshiganj,Dhaka,23.3793,23.5762,90.46,90.5842
+201981,Muradnagar,Cumilla,Chattogram,23.5061,23.7961,90.8503,91.0672
+603677,Nabiganj,Habiganj,Sylhet,24.4245,24.6825,91.3945,91.6696
+201285,Nabinagar,Brahmanbaria,Chattogram,23.7544,23.978,90.8386,91.0982
+507056,Nachole,Chapai Nawabganj,Rajshahi,24.6335,24.8395,88.2705,88.5122
+554961,Nageshwari,Kurigram,Rangpur,25.8516,26.0725,89.5915,89.8867
+200373,Naikhongchhari,Bandarban,Chattogram,21.1835,21.6427,92.1278,92.3836
+104273,Nalchhity,Jhalokati,Barishal,22.4918,22.6892,90.1868,90.3844
+456172,Nandail,Mymensingh,Mymensingh,24.4669,24.6368,90.5147,90.8223
+501067,Nandigram,Bogura,Rajshahi,24.5796,24.7967,89.1293,89.3433
+201987,Nangalkot,Cumilla,Chattogram,23.0545,23.249,91.1195,91.2964
+208475,Naniarchar,Rangamati,Chattogram,22.7176,22.9668,91.9746,92.1893
+406576,Narail Sadar,Narail,Khulna,23.031,23.2873,89.3761,89.6136
+306758,Narayanganj Sadar,Naraynganj,Dhaka,23.5515,23.6971,90.4305,90.5499
+308665,Naria,Shariatpur,Dhaka,23.2151,23.415,90.3133,90.5126
+201290,Nasirnagar,Brahmanbaria,Chattogram,24.0753,24.269,91.0194,91.329
+506963,Natore Sadar,Natore,Rajshahi,24.3223,24.4692,88.8511,89.1061
+107976,Nazirpur,Pirojpur,Barishal,22.6693,22.8687,89.8601,90.0546
+107987,Nesarabad (Swarupkati),Pirojpur,Barishal,22.651,22.81,89.9946,90.1887
+457274,Netrakona Sadar,Netrokona,Mymensingh,24.7598,25.0257,90.6447,90.8409
+506469,Niamatpur,Naogaon,Rajshahi,24.6807,24.9777,88.3823,88.6644
+304876,Nikli,Kishoreganj,Dhaka,24.2514,24.4497,90.8642,91.0455
+207587,Noakhali Sadar,Noakhali,Chattogram,22.7176,22.8948,90.8888,91.172
+304879,Pakundia,Kishoreganj,Dhaka,24.2359,24.3947,90.6194,90.765
+557773,Panchagarh Sadar,Panchagarh,Rangpur,26.2644,26.4878,88.4346,88.7614
+204677,Panchhari,Khagrachhari,Chattogram,23.226,23.4689,91.831,92.0149
+552777,Parbatipur,Dinajpur,Rangpur,25.5075,25.779,88.8157,89.1039
+506475,Patnitala,Naogaon,Rajshahi,24.9874,25.2065,88.5744,88.9079
+107980,Pirojpur Sadar,Pirojpur,Barishal,22.4972,22.6933,89.8868,90.0376
+506479,Porsha,Naogaon,Rajshahi,24.9055,25.0878,88.3948,88.6449
+208478,Rajasthali,Rangamati,Chattogram,22.3106,22.4391,92.1014,92.3631
+204680,Ramgarh,Khagrachhari,Chattogram,22.8703,23.0418,91.7104,91.87
+205173,Ramgati,Lakshmipur,Chattogram,22.4933,22.7358,90.7798,91.0235
+400173,Rampal,Bagerhat,Khulna,22.4989,22.682,89.531,89.7855
+202266,Ramu,Cox's Bazar,Chattogram,21.2895,21.6032,91.9987,92.2474
+208487,Rangamati Sadar,Rangamati,Chattogram,22.495,22.8388,92.0078,92.3904
+201570,Rangunia,Chattogram,Chattogram,22.3016,22.6272,91.9652,92.1575
+506485,Raninagar,Naogaon,Rajshahi,24.6372,24.7919,88.8454,89.1494
+201574,Raozan,Chattogram,Chattogram,22.4049,22.668,91.8395,91.9899
+554979,Raumari,Kurigram,Rangpur,25.4414,25.7197,89.7711,89.8824
+200389,Rowangchhari,Bandarban,Chattogram,22.0012,22.3456,92.223,92.4916
+508861,Royganj,Sirajganj,Rajshahi,24.4095,24.5633,89.3894,89.6228
+205158,Roypur,Lakshmipur,Chattogram,22.8947,23.0756,90.6518,90.8329
+306864,Roypura,Narshingdi,Dhaka,23.8646,24.0639,90.7414,90.9866
+200391,Ruma,Bandarban,Chattogram,21.8606,22.1875,92.3087,92.603
+306768,Rupganj,Naraynganj,Dhaka,23.713,23.8965,90.4709,90.6135
+302984,Sadarpur,Faridpur,Dhaka,23.379,23.5703,89.9167,90.1801
+553288,Saghata,Gaibandha,Rangpur,25.0361,25.2381,89.4854,89.6571
+201578,Sandwip,Chattogram,Chattogram,22.3858,22.7298,91.3112,91.5783
+506486,Sapahar,Naogaon,Rajshahi,25.0112,25.2139,88.4361,88.6267
+400177,Sarankhola,Bagerhat,Khulna,21.7778,22.396,89.7168,89.9101
+501081,Sariakandi,Bogura,Rajshahi,24.7372,25.0496,89.5107,89.7533
+201582,Satkania,Chattogram,Chattogram,22.012,22.2067,91.9351,92.1734
+302672,Savar,Dhaka,Dhaka,23.741,24.0324,90.1821,90.3567
+305974,Serajdikhan,Munshiganj,Dhaka,23.4991,23.6737,90.2456,90.4423
+508867,Shahjadpur,Sirajganj,Rajshahi,24.0591,24.2678,89.5143,89.7639
+201395,Shahrasti,Chandpur,Chattogram,23.1295,23.2864,90.8739,91.0279
+404480,Shailkupa,Jhenaidah,Khulna,23.5648,23.7635,89.1075,89.376
+405585,Shalikha,Magura,Khulna,23.2579,23.4443,89.2444,89.4918
+308669,Shariatpur Sadar,Shariatpur,Dhaka,23.1367,23.3017,90.2341,90.3987
+404190,Sharsha,Jashore,Khulna,22.9114,23.2026,88.8461,89.0128
+305678,Shibalaya,Manikganj,Dhaka,23.732,23.9149,89.6976,89.9307
+408786,Shyamnagar,Satkhira,Khulna,21.6455,22.4041,88.9949,89.3727
+506991,Singra,Natore,Rajshahi,24.4033,24.6874,89.0393,89.3378
+207583,Sonaimuri,Noakhali,Chattogram,22.9719,23.1005,90.9939,91.203
+458990,Sreebardi,Sherpur,Mymensingh,25.0495,25.3035,89.8853,90.0544
+305984,Sreenagar,Munshiganj,Dhaka,23.4756,23.6326,90.1581,90.3675
+609086,Shalla,Sunamganj,Sylhet,24.5702,24.8098,91.137,91.3827
+609089,Sunamganj Sadar,Sunamganj,Sylhet,24.9369,25.1704,91.2655,91.5211
+553291,Sundarganj,Gaibandha,Rangpur,25.3973,25.6465,89.4011,89.7042
+609092,Tahirpur,Sunamganj,Sylhet,25.0284,25.2057,91.0222,91.2923
+309395,Tangail Sadar,Tangail,Dhaka,24.156,24.3623,89.7652,89.987
+508194,Tanore,Rajshahi,Rajshahi,24.4831,24.7197,88.398,88.6344
+558592,Taraganj,Rangpur,Rangpur,25.7284,25.837,88.9396,89.1097
+304892,Tarail,Kishoreganj,Dhaka,24.4892,24.6158,90.8002,90.9797
+100991,Tazumuddin,Bhola,Barishal,22.311,22.5706,90.7686,90.9905
+202290,Teknaf,Cox's Bazar,Chattogram,20.5906,21.1582,92.0867,92.3687
+557790,Tentulia,Panchagarh,Rangpur,26.4023,26.6345,88.332,88.5342
+559494,Thakurgaon Sadar,Thakurgaon,Rangpur,25.9045,26.204,88.3035,88.6414
+200395,Thanchi,Bandarban,Chattogram,21.2442,21.933,92.334,92.6801
+201994,Titas,Cumilla,Chattogram,23.5415,23.6423,90.7034,90.8724
+202294,Ukhia,Cox's Bazar,Chattogram,21.0837,21.3492,92.0417,92.2034
+554994,Ulipur,Kurigram,Rangpur,25.5556,25.8196,89.5078,89.8404
+308694,Zanjira,Shariatpur,Dhaka,23.2603,23.4456,90.2301,90.4384
+30260225,Dhaka North City Corporation,Dhaka,Dhaka,23.7432,23.9007,90.3295,90.4905
+100492,Taltali,Barguna,Barishal,21.8453,22.1002,90.0074,90.2091
+405039,Daulatpur,Kushtia,Khulna,23.8686,24.2195,88.6941,88.97
+107857,Galachipa,Patuakhali,Barishal,21.9827,22.3459,90.329,90.5941
+555270,Patgram,Lalmonirhat,Rangpur,26.2195,26.4582,88.9048,89.1362
+555202,Aditmari,Lalmonirhat,Rangpur,25.8512,26.0475,89.2772,89.4577
+554906,Bhurungamari,Kurigram,Rangpur,26.0265,26.2377,89.5915,89.7985
+408747,Kaliganj,Satkhira,Khulna,22.3186,22.566,88.9711,89.1627
+404433,Kaliganj,Jhenaidah,Khulna,23.2756,23.4686,89.0394,89.272
+303334,Kaliganj,Gazipur,Dhaka,23.8448,24.0469,90.461,90.6596
+555239,Kaliganj,Lalmonirhat,Rangpur,25.8904,26.0589,89.1217,89.3658
+201539,Karnafuli,Chattogram,Chattogram,22.2386,22.3319,91.7981,91.8834
+204647,Guimara,Khagrachhari,Chattogram,22.8635,23.0377,91.824,92.0009
+506955,Naldanga,Natore,Rajshahi,24.4399,24.5856,88.8819,89.0654
+559482,Pirganj,Thakurgaon,Rangpur,25.6679,25.9798,88.2509,88.508
+507088,Shibganj,Chapai Nawabganj,Rajshahi,24.572,24.8673,88.0082,88.2987
+503874,Panchbibi,Joypurhat,Rajshahi,25.1311,25.2776,88.94,89.2085
+201918,Burichang,Cumilla,Chattogram,23.4609,23.615,91.0308,91.2125
+302990,Saltha,Faridpur,Dhaka,23.3111,23.5057,89.7221,89.8837
+456188,Tarakanda,Mymensingh,Mymensingh,24.7366,24.9659,90.3421,90.555
+201973,Lalmai,Cumilla,Chattogram,23.2249,23.3619,91.0818,91.2219
+302662,Nawabganj,Dhaka,Dhaka,23.5693,23.7469,90.018,90.2865
+404104,Abhaynagar,Jashore,Khulna,22.9249,23.1149,89.3045,89.5603
+503813,Akkelpur,Joypurhat,Rajshahi,24.8498,25.0464,88.9893,89.1031
+100409,Amtali,Barguna,Barishal,22.0165,22.2632,90.1436,90.3738
+201233,Ashuganj,Brahmanbaria,Chattogram,23.9647,24.0738,90.969,91.0712
+507605,Atgharia,Pabna,Rajshahi,24.0439,24.2008,89.159,89.419
+557704,Atwari,Panchagarh,Rangpur,26.1775,26.377,88.32,88.5586
+100603,Babuganj,Barishal,Barishal,22.7346,22.9323,90.2431,90.3776
+558503,Badarganj,Rangpur,Rangpur,25.5367,25.7631,88.9272,89.1592
+400108,Bagerhat Sadar,Bagerhat,Khulna,22.5558,22.7923,89.6397,89.862
+404109,Bagherpara,Jashore,Khulna,23.1342,23.3723,89.2131,89.4308
+508112,Baghmara,Rajshahi,Rajshahi,24.5056,24.6892,88.673,88.9645
+603605,Bahubal,Habiganj,Sylhet,24.2561,24.4746,91.4642,91.6298
+609108,Balaganj,Sylhet,Sylhet,24.5954,24.7728,91.6939,91.9183
+559408,Baliadangi,Thakurgaon,Rangpur,25.9899,26.2046,88.1583,88.3681
+100419,Bamna,Barguna,Barishal,22.1845,22.3533,89.991,90.1083
+200314,Bandarban Sadar,Bandarban,Chattogram,21.9417,22.3512,92.1367,92.3286
+100428,Barguna Sadar,Barguna,Barishal,21.9703,22.2472,89.9792,90.234
+100651,Barishal Sadar (Kotwali),Barishal,Barishal,22.6164,22.8173,90.2683,90.5309
+605814,Barlekha,Maulvi Bazar,Sylhet,24.6009,24.8362,92.0262,92.2963
+201909,Barura,Cumilla,Chattogram,23.2287,23.4576,90.9554,91.1392
+309309,Basail,Tangail,Dhaka,24.1646,24.3098,89.9664,90.1229
+404712,Batiaghata,Khulna,Khulna,22.6082,22.8103,89.3988,89.612
+107838,Bauphal,Patuakhali,Barishal,22.3066,22.5932,90.4163,90.6645
+609117,Beanibazar,Sylhet,Sylhet,24.7567,24.9518,92.0654,92.255
+207507,Begumganj,Noakhali,Chattogram,22.8723,22.9909,90.9822,91.2144
+306807,Belabo,Narshingdi,Dhaka,24.0326,24.1919,90.7669,90.9651
+507616,Bera,Pabna,Rajshahi,23.8132,24.0985,89.581,89.7353
+100447,Betagi,Barguna,Barishal,22.2122,22.4828,90.07,90.2454
+107914,Bhandaria,Pirojpur,Barishal,22.3619,22.5503,89.8993,90.1335
+405015,Bheramara,Kushtia,Khulna,23.9867,24.1313,88.9092,89.0574
+309319,Bhuapur,Tangail,Dhaka,24.3888,24.5808,89.7365,89.8945
+201207,Bijoynagar,Brahmanbaria,Chattogram,23.889,24.0953,91.1158,91.3136
+552717,Biral,Dinajpur,Rangpur,25.5083,25.766,88.4445,88.645
+552710,Birampur,Dinajpur,Rangpur,25.3005,25.4904,88.8375,89.0786
+609120,Bishwanath,Sylhet,Sylhet,24.7404,24.9395,91.6338,91.8195
+201512,Boalkhali,Chattogram,Chattogram,22.3325,22.4263,91.8714,92.0825
+302918,Boalmari,Faridpur,Dhaka,23.2895,23.5217,89.6008,89.7932
+501020,Bogura Sadar,Bogura,Rajshahi,24.8169,24.986,89.2665,89.4379
+201915,Brahmanpara,Cumilla,Chattogram,23.5549,23.74,91.0423,91.1607
+201213,Brahmanbaria Sadar,Brahmanbaria,Chattogram,23.8468,24.0547,91.027,91.2047
+201518,Chandanaish,Chattogram,Chattogram,22.1291,22.3141,91.9433,92.1542
+201927,Chandina,Cumilla,Chattogram,23.3427,23.5109,90.8482,91.0633
+507066,Chapainawabganj Sadar,Chapai Nawabganj,Rajshahi,24.4161,24.717,88.0861,88.4236
+302921,Charbhadrasan,Faridpur,Dhaka,23.531,23.6456,89.8933,90.0867
+508125,Charghat,Rajshahi,Rajshahi,24.2281,24.3741,88.6671,88.8608
+404111,Chaugachha,Jashore,Khulna,23.1703,23.3747,88.8908,89.1308
+203014,Chhagalnaiya,Feni,Chattogram,22.9039,23.1099,91.4316,91.5789
+203025,Daganbhuiyan,Feni,Chattogram,22.8843,23.0612,91.2483,91.3687
+609131,Dakshin Surma,Sylhet,Sylhet,24.7253,24.9033,91.7889,91.9698
+107852,Dashmina,Patuakhali,Barishal,22.113,22.3701,90.4685,90.6619
+305610,Daulatpur,Manikganj,Dhaka,23.895,24.0364,89.6871,89.9502
+408725,Debhata,Satkhira,Khulna,22.5172,22.6708,88.9193,89.1051
+309325,Dhanbari,Tangail,Dhaka,24.6205,24.7621,89.8424,90.0124
+501027,Dhunat,Bogura,Rajshahi,24.5453,24.7981,89.4612,89.6608
+501033,Dhupchanchia,Bogura,Rajshahi,24.7989,24.9699,89.0755,89.21
+404740,Dighalia,Khulna,Khulna,22.8513,22.9931,89.5143,89.6143
+552764,Dinajpur Sadar,Dinajpur,Rangpur,25.4713,25.7905,88.5676,88.7712
+107855,Dumki,Patuakhali,Barishal,22.3875,22.5011,90.2876,90.4547
+404730,Dumuria,Khulna,Khulna,22.657,22.9361,89.2464,89.5374
+400134,Fakirhat,Bagerhat,Khulna,22.6457,22.824,89.5691,89.7784
+507633,Faridpur,Pabna,Rajshahi,24.0902,24.2221,89.3574,89.535
+302947,Faridpur Sadar,Faridpur,Dhaka,23.4834,23.7212,89.6913,89.9264
+609135,Fenchuganj,Sylhet,Sylhet,24.6376,24.758,91.8922,92.0363
+203029,Feni Sadar,Feni,Chattogram,22.9072,23.0702,91.3052,91.5135
+501040,Gabtali,Bogura,Rajshahi,24.7594,25.0247,89.3699,89.5522
+558527,Gangachara,Rangpur,Rangpur,25.8079,25.9693,89.0895,89.3506
+405747,Gangni,Meherpur,Khulna,23.7362,23.9748,88.6417,88.8839
+456123,Gauripur,Mymensingh,Mymensingh,24.6358,24.8948,90.453,90.7248
+309328,Ghatail,Tangail,Dhaka,24.3894,24.569,89.8738,90.2461
+552743,Ghoraghat,Dinajpur,Rangpur,25.2231,25.3726,89.1351,89.3031
+609138,Golapganj,Sylhet,Sylhet,24.6969,24.9278,91.9198,92.1113
+603644,Habiganj Sadar,Habiganj,Sylhet,24.2707,24.456,91.3087,91.5025
+552747,Hakimpur,Dinajpur,Rangpur,25.2417,25.3507,88.9721,89.1497
+559451,Haripur,Thakurgaon,Rangpur,25.7761,25.9989,88.0857,88.2407
+201537,Hathazari,Chattogram,Chattogram,22.3983,22.6382,91.6862,91.8834
+304827,Hossainpur,Kishoreganj,Dhaka,24.387,24.5149,90.5757,90.7345
+507639,Ishwardi,Pabna,Rajshahi,23.9535,24.1736,88.9954,89.1863
+456131,Ishwarganj,Mymensingh,Mymensingh,24.5593,24.7281,90.4643,90.7613
+609153,Jaintiapur,Sylhet,Sylhet,24.9184,25.187,91.9707,92.2299
+404147,Jashore Sadar,Jashore,Khulna,23.0714,23.327,89.1002,89.3887
+458937,Jhenaigati,Sherpur,Mymensingh,25.0683,25.275,89.9727,90.1356
+404123,Jhikargachha,Jashore,Khulna,22.9285,23.21,88.9844,89.155
+503847,Joypurhat Sadar,Joypurhat,Rajshahi,25.0214,25.2133,88.92,89.1695
+207547,Kabirhat,Noakhali,Chattogram,22.7086,22.8873,91.1336,91.2579
+501054,Kahaloo,Bogura,Rajshahi,24.7121,24.9422,89.1524,89.3203
+552756,Kaharole,Dinajpur,Rangpur,25.7396,25.8837,88.5,88.7243
+107866,Kalapara,Patuakhali,Barishal,21.7944,22.1116,90.0785,90.3818
+503858,Kalai,Joypurhat,Rajshahi,24.9803,25.1776,89.127,89.283
+408743,Kalaroa,Satkhira,Khulna,22.8073,22.9457,88.8953,89.142
+508844,Kamarkhanda,Sirajganj,Rajshahi,24.3017,24.454,89.586,89.6975
+104243,Kanthalia,Jhalokati,Barishal,22.3353,22.5108,90.0186,90.1879
+208436,Kaptai,Rangamati,Chattogram,22.3584,22.5889,92.1015,92.3122
+304842,Karimganj,Kishoreganj,Dhaka,24.3724,24.534,90.7978,91.0113
+558542,Kaunia,Rangpur,Rangpur,25.7023,25.8274,89.2963,89.4982
+404138,Keshabpur,Jashore,Khulna,22.7967,22.9463,89.1098,89.3562
+405063,Khoksa,Kushtia,Khulna,23.7358,23.8943,89.2438,89.3638
+304849,Kishoreganj Sadar,Kishoreganj,Dhaka,24.3484,24.5282,90.7134,90.871
+404442,Kotchandpur,Jhenaidah,Khulna,23.3712,23.544,88.919,89.0893
+405071,Kumarkhali,Kushtia,Khulna,23.7395,23.9927,89.1377,89.3171
+554952,Kurigram Sadar,Kurigram,Rangpur,25.7481,25.9165,89.5715,89.8348
+405079,Kushtia Sadar,Kushtia,Khulna,23.6931,23.9682,88.9883,89.1925
+202245,Kutubdia,Cox's Bazar,Chattogram,21.7211,21.9231,91.8294,91.896
+201972,Laksam,Cumilla,Chattogram,23.1656,23.3168,91.0257,91.1827
+205143,Lakshmipur Sadar,Lakshmipur,Chattogram,22.7893,23.0464,90.7092,91.002
+506944,Lalpur,Natore,Rajshahi,24.1063,24.2935,88.8587,89.1184
+309357,Madhupur,Tangail,Dhaka,24.5202,24.787,89.9392,90.1577
+405557,Magura Sadar,Magura,Khulna,23.3107,23.569,89.2879,89.5256
+305646,Manikganj Sadar,Manikganj,Dhaka,23.7118,23.9246,89.9421,90.1273
+404161,Manirampur,Jashore,Khulna,22.9177,23.1068,89.0691,89.3691
+306852,Manohardi,Narshingdi,Dhaka,24.0651,24.2525,90.6374,90.8056
+605874,Maulvibazar Sadar,Maulvi Bazar,Sylhet,24.4005,24.6341,91.6095,91.834
+453961,Melandaha,Jamalpur,Mymensingh,24.8496,25.0839,89.7031,89.914
+309366,Mirzapur,Tangail,Dhaka,24.0196,24.2207,89.9647,90.2525
+558558,Mithapukur,Rangpur,Rangpur,25.4346,25.6833,89.1006,89.4498
+400156,Mollahat,Bagerhat,Khulna,22.7942,22.9854,89.6955,89.8529
+303558,Muksudpur,Gopalganj,Dhaka,23.1711,23.361,89.7944,90.0308
+456165,Muktagachha,Mymensingh,Mymensingh,24.6042,24.8592,90.0777,90.3361
+456152,Mymensingh Sadar,Mymensingh,Mymensingh,24.6377,24.8967,90.1829,90.5082
+302962,Nagarkanda,Faridpur,Dhaka,23.3088,23.5591,89.8273,89.9645
+309376,Nagarpur,Tangail,Dhaka,23.9659,24.1748,89.7646,90.0174
+458967,Nakla,Sherpur,Mymensingh,24.8831,25.0351,90.1146,90.2591
+458970,Nalitabari,Sherpur,Mymensingh,25.0171,25.2258,90.0737,90.3056
+506460,Naogaon Sadar,Naogaon,Rajshahi,24.7196,24.9156,88.7869,89.0067
+306860,Narsingdi Sadar,Narshingdi,Dhaka,23.7644,23.9607,90.5955,90.8427
+552769,Nawabganj,Dinajpur,Rangpur,25.2991,25.5615,88.9817,89.2179
+557364,Nilphamari Sadar,Nilphamari,Rangpur,25.811,26.0592,88.7346,88.9781
+609160,Osmani Nagar,Sylhet,Sylhet,24.6064,24.7974,91.6323,91.8369
+507655,Pabna Sadar,Pabna,Rajshahi,23.8807,24.0965,89.1349,89.4164
+404764,Paikgachha,Khulna,Khulna,22.4651,22.7194,89.2355,89.4612
+306863,Palash,Narshingdi,Dhaka,23.8847,24.0523,90.5612,90.7215
+553267,Palashbari,Gaibandha,Rangpur,25.1989,25.3134,89.2561,89.5297
+308273,Pangsha,Rajbari,Dhaka,23.6668,23.9123,89.2965,89.5016
+203051,Parshuram,Feni,Chattogram,23.1328,23.2846,91.3784,91.5073
+100485,Patharghata,Barguna,Barishal,21.965,22.2228,89.8775,90.0692
+201561,Patiya,Chattogram,Chattogram,22.2194,22.3594,91.8616,92.1155
+107895,Patuakhali Sadar,Patuakhali,Barishal,22.2133,22.4426,90.2053,90.4718
+202256,Pekua,Cox's Bazar,Chattogram,21.7179,21.9042,91.872,92.0212
+554918,Phulbari,Kurigram,Rangpur,25.8741,26.0385,89.4745,89.6554
+456181,Phulpur,Mymensingh,Mymensingh,24.8596,25.0228,90.2269,90.5241
+404769,Phultala,Khulna,Khulna,22.9002,23.0117,89.3856,89.5191
+558573,Pirgachha,Rangpur,Rangpur,25.5537,25.7536,89.2958,89.5335
+558576,Pirganj,Rangpur,Rangpur,25.3,25.5239,89.1355,89.4071
+457283,Purbadhala,Netrokona,Mymensingh,24.7921,25.0451,90.493,90.7266
+508182,Puthia,Rajshahi,Rajshahi,24.3338,24.5222,88.6998,88.928
+104284,Rajapur,Jhalokati,Barishal,22.4773,22.6285,90.0556,90.2062
+554977,Rajarhat,Kurigram,Rangpur,25.717,25.8885,89.4506,89.6289
+308276,Rajbari Sadar,Rajbari,Dhaka,23.581,23.8175,89.5206,89.7577
+605880,Rajnagar,Maulvi Bazar,Sylhet,24.4347,24.6644,91.7351,91.9728
+205165,Ramganj,Lakshmipur,Chattogram,23.012,23.1678,90.786,90.9631
+559486,Ranisankail,Thakurgaon,Rangpur,25.8061,26.0595,88.1346,88.3476
+404775,Rupsa,Khulna,Khulna,22.7518,22.8876,89.5538,89.7177
+553282,Sadullapur,Gaibandha,Rangpur,25.2926,25.5078,89.3323,89.5093
+557385,Saidpur,Nilphamari,Rangpur,25.7361,25.8653,88.8436,89.0088
+309385,Sakhipur,Tangail,Dhaka,24.1812,24.432,90.0568,90.305
+507672,Santhia,Pabna,Rajshahi,23.9598,24.1471,89.4005,89.6228
+201294,Sarail,Brahmanbaria,Chattogram,24.001,24.1874,90.9842,91.2467
+453985,Sarishabari,Jamalpur,Mymensingh,24.5719,24.8298,89.72,89.9322
+408782,Satkhira Sadar,Satkhira,Khulna,22.5872,22.8295,88.9108,89.172
+305670,Saturia,Manikganj,Dhaka,23.8869,24.0357,89.9147,90.0842
+207580,Senbagh,Noakhali,Chattogram,22.8752,23.0828,91.1234,91.2652
+501085,Shajahanpur,Bogura,Rajshahi,24.6863,24.838,89.2759,89.4932
+501088,Sherpur,Bogura,Rajshahi,24.5351,24.7252,89.323,89.5337
+458988,Sherpur Sadar,Sherpur,Mymensingh,24.9041,25.0863,89.8883,90.1387
+501094,Shibganj,Bogura,Rajshahi,24.9113,25.1221,89.1769,89.4562
+306876,Shibpur,Narshingdi,Dhaka,23.938,24.1086,90.6374,90.835
+305682,Singair,Manikganj,Dhaka,23.7073,23.8679,90.0511,90.257
+508878,Sirajganj Sadar,Sirajganj,Rajshahi,24.3545,24.6154,89.5986,89.7901
+201586,Sitakunda,Chattogram,Chattogram,22.3647,22.6983,91.4976,91.794
+203094,Sonagazi,Feni,Chattogram,22.7375,22.9607,91.3088,91.4784
+306704,Sonargaon,Naraynganj,Dhaka,23.5327,23.7673,90.5124,90.6778
+501095,Sonatola,Bogura,Rajshahi,24.9157,25.065,89.4387,89.6026
+605883,Sreemangal,Maulvi Bazar,Sylhet,24.1415,24.4729,91.6002,91.7995
+507683,Sujanagar,Pabna,Rajshahi,23.8101,24.0025,89.3754,89.6402
+609162,Sylhet Sadar,Sylhet,Sylhet,24.8639,25.022,91.6882,92.0096
+408790,Tala,Satkhira,Khulna,22.621,22.8377,89.0872,89.3318
+508889,Tarash,Sirajganj,Rajshahi,24.3375,24.5634,89.248,89.4547
+404794,Terokhada,Khulna,Khulna,22.8319,22.9832,89.5644,89.759
+305994,Tongibari,Munshiganj,Dhaka,23.3994,23.5614,90.3952,90.4989
+456194,Trishal,Mymensingh,Mymensingh,24.4512,24.6785,90.2941,90.5437
+303591,Tungipara,Gopalganj,Dhaka,22.847,23.0036,89.8325,89.9712
+508894,Ullahpara,Sirajganj,Rajshahi,24.1986,24.439,89.398,89.6413
+100694,Wazirpur,Barishal,Barishal,22.7512,22.934,90.0174,90.2947
+609194,Zakiganj,Sylhet,Sylhet,24.8498,25.0058,92.2078,92.4971
+107990,Indurkani,Pirojpur,Barishal,22.3793,22.5425,89.8693,89.9963
+503861,Khetlal,Joypurhat,Rajshahi,24.9426,25.1271,89.0366,89.1908
+201547,Lohagara,Chattogram,Chattogram,21.9018,22.0803,91.9994,92.218
+406552,Lohagara,Narail,Khulna,23.08,23.3218,89.4781,89.7655
+609033,Dowarabazar,Sunamganj,Sylhet,24.9632,25.1771,91.4464,91.7043
+309338,Gopalpur,Tangail,Dhaka,24.4799,24.656,89.8108,89.9923
+508131,Durgapur,Rajshahi,Rajshahi,24.3834,24.5329,88.6651,88.8602
+457218,Durgapur,Netrokona,Mymensingh,24.9836,25.1979,90.5886,90.7986
+201358,Kachua,Chandpur,Chattogram,23.2436,23.4729,90.7909,91.0147
+405595,Sreepur,Magura,Khulna,23.5159,23.6842,89.3384,89.5393
+303386,Sreepur,Gazipur,Dhaka,24.0128,24.3409,90.2914,90.5533
+508172,Paba,Rajshahi,Rajshahi,24.2935,24.5132,88.4695,88.7122
+400138,Kachua,Bagerhat,Khulna,22.5605,22.7506,89.8239,89.9374
+405094,Mirpur,Kushtia,Khulna,23.7836,24.0094,88.8586,89.1017
+405566,Mohammadpur,Magura,Khulna,23.2782,23.5133,89.481,89.6205
+558549,Rangpur Sadar,Rangpur,Rangpur,25.6523,25.8626,89.0823,89.2376
+60916250,Sylhet City Corporation,Sylhet,Sylhet,24.86,24.9248,91.8318,91.9042
+10065150,Barishal City Corporation,Barishal,Barishal,22.6446,22.7556,90.3009,90.3893
+207521,Companiganj,Noakhali,Chattogram,22.6377,22.9132,91.1701,91.4946
+609127,Companiganj,Sylhet,Sylhet,24.9727,25.1782,91.6646,91.8582
+303330,Gazipur Sadar,Gazipur,Dhaka,23.9353,24.1803,90.334,90.5146
+603687,Shayestaganj,Habiganj,Sylhet,24.2436,24.3088,91.3367,91.4782
+30675844,Narayanganj City Corporation,Naraynganj,Dhaka,23.5862,23.7132,90.4828,90.5484
+207585,Subarnachar,Noakhali,Chattogram,22.543,22.748,90.9759,91.3237
+207536,Hatiya,Noakhali,Chattogram,22.0231,22.5781,90.9314,91.4347
+609032,Dharampasha,Sunamganj,Sylhet,24.8128,25.0493,90.9407,91.1662
+609063,Madhyanagar,Sunamganj,Sylhet,24.9897,25.192,90.9291,91.1072
+202224,Cox'sbazar Sadar,Cox's Bazar,Chattogram,21.3923,21.5458,91.9488,92.0779
+202232,Eidgaon,Cox's Bazar,Chattogram,21.4994,21.6096,91.9943,92.133
+100632,Gaurnadi,Barishal,Barishal,22.8856,23.0727,90.1342,90.359
+100669,Muladi,Barishal,Barishal,22.796,23.0604,90.2885,90.4578
+305440,Kalkini,Madaripur,Dhaka,22.9643,23.1692,90.1961,90.354
+305454,Madaripur Sadar,Madaripur,Dhaka,23.1074,23.2956,90.079,90.2905
+305480,Rajoir,Madaripur,Dhaka,23.1053,23.343,89.9354,90.1242
+305487,Shibchar,Madaripur,Dhaka,23.2511,23.4997,90.0788,90.2867
+305418,Dasar,Madaripur,Dhaka,23.0268,23.1411,90.1087,90.2253
+303331,Gazipur City Corporation,Gazipur,Dhaka,23.8734,24.1022,90.249,90.494
+30260220,Dhaka South City Corporation,Dhaka,Dhaka,23.6695,23.7634,90.3398,90.5121
+558550,Rangpur City Corporation,Rangpur,Rangpur,25.6661,25.8364,89.1549,89.3243
