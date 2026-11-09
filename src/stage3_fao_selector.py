@@ -310,12 +310,18 @@ class FAOCandidateSelector:
             final_s3 = [fallow_crop]
             effective_k = 2
 
-        else: # k == 1
+        elif k == 1:
             # Arid / Single Season
             final_s1 = bucket_crops(viable, 7)
             final_s2 = [fallow_crop]
             final_s3 = [fallow_crop]
             effective_k = 1
+
+        else:  # k == 0 (hyper-arid / extreme permafrost LGP < 60 days)
+            final_s1 = [fallow_crop]
+            final_s2 = [fallow_crop]
+            final_s3 = [fallow_crop]
+            effective_k = 0
 
         return {
             "region_type": "GLOBAL_FAO_ECOCROP",

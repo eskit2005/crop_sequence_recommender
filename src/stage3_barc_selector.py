@@ -49,8 +49,35 @@ CROP_AGRONOMIC_METADATA = {
     "bottle gourd": {"family": "Cucurbitaceae",  "root": "medium_tap",     "is_legume": False, "duration": 110, "yield_ton_ha": 25.0, "land_types": ["HL", "MHL"]},
     "groundnut":    {"family": "Fabaceae",       "root": "nodulated",      "is_legume": True,  "duration": 130, "yield_ton_ha": 2.2,  "land_types": ["HL", "MHL"]},
     "soybean":      {"family": "Fabaceae",       "root": "nodulated",      "is_legume": True,  "duration": 100, "yield_ton_ha": 2.0,  "land_types": ["HL", "MHL"]},
+    "cowpea":       {"family": "Fabaceae",       "root": "nodulated",      "is_legume": True,  "duration": 75,  "yield_ton_ha": 1.5,  "land_types": ["HL", "MHL"]},
+    "country bean": {"family": "Fabaceae",       "root": "nodulated",      "is_legume": True,  "duration": 120, "yield_ton_ha": 8.0,  "land_types": ["HL", "MHL"]},
     "fallow":       {"family": "None",           "root": "none",           "is_legume": False, "duration": 0,   "yield_ton_ha": 0.0,  "land_types": ["HL", "MHL", "MLL", "LL", "VLL"]},
 }
+
+
+# Explicit blacklist of multi-year perennial tree crops and plantations
+PERENNIAL_ORCHARD_CROPS = {
+    "date palm", "palmyra palm", "guava", "jackfruit", "coconut", 
+    "mango", "banana", "papaya", "tea", "betel nut", "betel leaf", 
+    "litchi", "lemon", "jujube", "dragon fruit", "sapota", 
+    "golden apple", "sweet orange", "pineapple"
+}
+
+
+def get_guild(crop_name: str, botanical_family: str, is_legume: bool) -> str:
+    cn = crop_name.lower()
+    fam = botanical_family.lower()
+    if is_legume or "fabaceae" in fam or any(p in cn for p in ["lentil", "gram", "bean", "pea", "chickpea", "khesari", "groundnut", "soybean", "cowpea"]):
+        return "Pulses"
+    if any(t in cn for t in ["potato", "sweet potato"]):
+        return "Tubers"
+    if any(o in cn for o in ["mustard", "sesame", "sunflower", "linseed"]):
+        return "Oilseeds"
+    if any(f in cn for f in ["jute", "kenaf", "cotton"]):
+        return "Fibers"
+    if "poaceae" in fam or any(c in cn for c in ["rice", "dhan", "wheat", "maize", "barley", "boro", "aman", "aus"]):
+        return "Cereals"
+    return "Vegetables"
 
 
 def get_agronomic_info(crop_name: str) -> Dict[str, Any]:
@@ -209,6 +236,11 @@ class BARCCandidateSelector:
             if norm_land not in allowed_lands:
                 continue
 
+            # Purge permanent perennial orchard trees from annual crop rotations
+            cname_clean = cname.lower().strip()
+            if any(perennial in cname_clean for perennial in PERENNIAL_ORCHARD_CROPS):
+                continue
+
             # Hard Biological Exclusions:
             # High Land (HL): Purge flooded paddy rice (Boro)
             if norm_land == "HL" and "boro" in cname.lower():
@@ -249,6 +281,9 @@ class BARCCandidateSelector:
             target_count: int,
             season_name: str
         ) -> List[CropCandidate]:
+            if not pool:
+                return []
+
             # Sort by effective area descending, then duration
             sorted_pool = sorted(pool, key=lambda x: (x.effective_area_ha, -x.duration_days), reverse=True)
             
@@ -260,47 +295,98 @@ class BARCCandidateSelector:
                     seen.add(cp.crop_name.lower())
                     unique_pool.append(cp)
 
-            # If pool meets or exceeds target
-            if len(unique_pool) >= target_count:
-                return unique_pool[:target_count]
-
-            # If pool is below target (e.g. LL haor basin where only Boro survives)
-            # Add Fallow to fill slots without causing deadlocks in Stage 4
-            result = list(unique_pool)
             if is_haor:
-                # In haor wetland, single crop monoculture with fallow is the ecological reality
-                fallow_cand = CropCandidate(
-                    crop_id=999,
-                    crop_name="Fallow",
-                    season=season_name,
-                    botanical_family="None",
-                    root_type="none",
-                    is_legume=False,
-                    duration_days=0,
-                    yield_ton_ha=0.0,
-                    effective_area_ha=10000.0,
-                    suitability_tier="Ideal",
-                    suitability_score=1.0
-                )
-                if not result:
-                    result.append(fallow_cand)
-                return result
+                # In haor wetland, single crop monoculture (Boro in Rabi) is the ecological reality
+                return unique_pool[:1]
 
-            # For non-haor, if still short, keep all available unique candidates
-            return result
+            # Tier 1: Category Champions (EffArea >= 300 ha) across distinct guilds
+            selected: List[CropCandidate] = []
+            selected_names = set()
+            guild_champions: Dict[str, CropCandidate] = {}
+            for cp in unique_pool:
+                if cp.effective_area_ha >= 300.0:
+                    g = get_guild(cp.crop_name, cp.botanical_family, cp.is_legume)
+                    if g not in guild_champions:
+                        guild_champions[g] = cp
+
+            # Order champions by effective area descending
+            for cp in sorted(guild_champions.values(), key=lambda x: x.effective_area_ha, reverse=True):
+                if len(selected) < target_count:
+                    selected.append(cp)
+                    selected_names.add(cp.crop_name.lower())
+
+            # Tier 2: Commercial Deficit Backfill (EffArea >= 250 ha)
+            if len(selected) < target_count:
+                for cp in unique_pool:
+                    if cp.crop_name.lower() not in selected_names and cp.effective_area_ha >= 250.0:
+                        selected.append(cp)
+                        selected_names.add(cp.crop_name.lower())
+                        if len(selected) >= target_count:
+                            break
+
+            # Tier 3: Low-Acreage Fallback (EffArea >= 50 ha)
+            if len(selected) < target_count:
+                for cp in unique_pool:
+                    if cp.crop_name.lower() not in selected_names and cp.effective_area_ha >= 50.0:
+                        selected.append(cp)
+                        selected_names.add(cp.crop_name.lower())
+                        if len(selected) >= target_count:
+                            break
+
+            # If still short, backfill with remaining available crops
+            if len(selected) < target_count:
+                for cp in unique_pool:
+                    if cp.crop_name.lower() not in selected_names:
+                        selected.append(cp)
+                        selected_names.add(cp.crop_name.lower())
+                        if len(selected) >= target_count:
+                            break
+
+            return selected
 
         final_rabi = bucket_season(rabi_candidates, 7, "Rabi")
         final_kharif1 = bucket_season(kharif1_candidates, 5, "Kharif-1")
         final_kharif2 = bucket_season(kharif2_candidates, 3, "Kharif-2")
 
-        # Determine Cropping Intensity K
-        # K = 3 if 3 non-fallow seasons feasible, 2 if 2, 1 for deep haor
+        # Determine static land-type baseline
         if is_haor:
-            k = 1
+            k_by_land = 1
         elif norm_land == "MLL":
-            k = 2
+            k_by_land = 2
         else:
-            k = 3
+            k_by_land = 3
+
+        # 1. Evaluate actual seasonal candidate pool viability (non-fallow)
+        active_pools_count = sum(
+            1 for pool in [final_rabi, final_kharif1, final_kharif2]
+            if any(c.crop_id != 999 and c.crop_name.lower() != "fallow" for c in pool)
+        )
+
+        # 2. Dynamic K guard: Never promise more seasons than physically exist in the pools
+        k = max(1, min(k_by_land, active_pools_count))
+
+        # 3. Explicit Fallow Placeholder Object (crop_id: 999)
+        fallow_candidate = CropCandidate(
+            crop_id=999,
+            crop_name="Fallow",
+            season="Any",
+            botanical_family="None",
+            root_type="none",
+            is_legume=False,
+            duration_days=0,
+            yield_ton_ha=0.0,
+            effective_area_ha=10000.0,
+            suitability_tier="Ideal",
+            suitability_score=1.0
+        )
+
+        # 4. Safe Backfill: Guarantee non-empty lists for downstream Cartesian products
+        if not final_rabi:
+            final_rabi = [fallow_candidate]
+        if not final_kharif1:
+            final_kharif1 = [fallow_candidate]
+        if not final_kharif2:
+            final_kharif2 = [fallow_candidate]
 
         return {
             "region_type": "BANGLADESH_BARC",

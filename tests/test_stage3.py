@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.router import SpatialRouter, RouteDecision
 from src.stage3_barc_selector import BARCCandidateSelector
-from src.global_env_fetcher import GlobalEnvFetcher, classify_usda_texture
+from src.global_env_fetcher import GlobalEnvFetcher, classify_usda_texture, EnvironmentalProfile
 from src.stage3_fao_selector import (
     FAOCandidateSelector,
     trapezoidal_fuzzy,
@@ -110,6 +110,37 @@ class TestStage3Architecture(unittest.TestCase):
         self.assertIn("Boro dhan", res_ll["seasons"]["rabi"][0]["crop_name"])
         self.assertEqual(res_ll["seasons"]["kharif1"][0]["crop_name"], "Fallow")
         self.assertEqual(res_ll["seasons"]["kharif2"][0]["crop_name"], "Fallow")
+
+    def test_perennial_orchard_exclusion(self):
+        # Charghat, Rajshahi (508134) - fruit tree belt
+        res = self.barc_selector.select_candidate_pools("508134", land_type="MHL")
+        k1_crops = [c["crop_name"].lower() for c in res["seasons"]["kharif1"]]
+        self.assertFalse(any("palm" in c or "guava" in c or "mango" in c or "apple" in c for c in k1_crops))
+        self.assertIn("sesame", [c.lower() for c in k1_crops])
+
+    def test_dynamic_k_coastal_empty_pool_guard(self):
+        # Mongla, Bagerhat (400158) - coastal saline zone where only Kharif-2 (T. Aman) is registered
+        res = self.barc_selector.select_candidate_pools("400158", land_type="MHL")
+        self.assertEqual(res["cropping_intensity_k"], 1)
+        self.assertEqual(len(res["seasons"]["rabi"]), 1)
+        self.assertEqual(res["seasons"]["rabi"][0]["crop_name"], "Fallow")
+        self.assertEqual(len(res["seasons"]["kharif1"]), 1)
+        self.assertEqual(res["seasons"]["kharif1"][0]["crop_name"], "Fallow")
+        self.assertEqual(len(res["seasons"]["kharif2"]), 1)
+        self.assertIn("aman", res["seasons"]["kharif2"][0]["crop_name"].lower())
+
+    def test_fao_zero_intensity_desert(self):
+        p_zero = EnvironmentalProfile(
+            latitude=20.0, longitude=20.0,
+            monthly_tmean=[45.0]*12, monthly_tmin=[35.0]*12, monthly_tmax=[50.0]*12,
+            monthly_rainfall_mm=[1.0]*12, annual_rainfall_mm=12.0,
+            soil_ph=3.0, soil_texture="Sand", soil_clay_pct=5.0, soil_sand_pct=90.0, soil_silt_pct=5.0,
+            soil_cec=2.0, lgp_days=10, cropping_intensity_k=0,
+            source_climate="TEST", source_soil="TEST"
+        )
+        res_zero = self.fao_selector.select_candidate_pools(p_zero)
+        self.assertEqual(res_zero["cropping_intensity_k"], 0)
+        self.assertEqual(res_zero["seasons"]["season_1"][0]["crop_name"], "Fallow")
 
     # -------------------------------------------------------------
     # 4. USDA Soil Texture Classifier
