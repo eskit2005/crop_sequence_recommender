@@ -1,0 +1,1078 @@
+[
+  {
+    "upazila_code": "609018",
+    "upazila_name": "Bishwambarpur",
+    "district_name": "Sunamganj",
+    "division_name": "Sylhet",
+    "lat": 25.1022,
+    "lon": 91.3108,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 1430.79,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "609023",
+    "upazila_name": "Chhatak",
+    "district_name": "Sunamganj",
+    "division_name": "Sylhet",
+    "lat": 24.9796,
+    "lon": 91.6091,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 713.79,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "609027",
+    "upazila_name": "Shantiganj",
+    "district_name": "Sunamganj",
+    "division_name": "Sylhet",
+    "lat": 24.9228,
+    "lon": 91.3996,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 236.61,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Suitable"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "609029",
+    "upazila_name": "Derai",
+    "district_name": "Sunamganj",
+    "division_name": "Sylhet",
+    "lat": 24.7716,
+    "lon": 91.3158,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 501.6,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "609047",
+    "upazila_name": "Jagannathpur",
+    "district_name": "Sunamganj",
+    "division_name": "Sylhet",
+    "lat": 24.7469,
+    "lon": 91.5589,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 433.52,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "609050",
+    "upazila_name": "Jamalganj",
+    "district_name": "Sunamganj",
+    "division_name": "Sylhet",
+    "lat": 24.9343,
+    "lon": 91.1986,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 454.58,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "609086",
+    "upazila_name": "Shalla",
+    "district_name": "Sunamganj",
+    "division_name": "Sylhet",
+    "lat": 24.69,
+    "lon": 91.2599,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 686.25,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "609089",
+    "upazila_name": "Sunamganj Sadar",
+    "district_name": "Sunamganj",
+    "division_name": "Sylhet",
+    "lat": 25.0537,
+    "lon": 91.3933,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 464.33,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Marginal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "609092",
+    "upazila_name": "Tahirpur",
+    "district_name": "Sunamganj",
+    "division_name": "Sylhet",
+    "lat": 25.117,
+    "lon": 91.1573,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 1054.81,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "609033",
+    "upazila_name": "Dowarabazar",
+    "district_name": "Sunamganj",
+    "division_name": "Sylhet",
+    "lat": 25.0701,
+    "lon": 91.5754,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 3.17,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "609032",
+    "upazila_name": "Dharampasha",
+    "district_name": "Sunamganj",
+    "division_name": "Sylhet",
+    "lat": 24.931,
+    "lon": 91.0534,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 1215.08,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "609063",
+    "upazila_name": "Madhyanagar",
+    "district_name": "Sunamganj",
+    "division_name": "Sylhet",
+    "lat": 25.0908,
+    "lon": 91.0182,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 961.93,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "457204",
+    "upazila_name": "Atpara",
+    "district_name": "Netrokona",
+    "division_name": "Mymensingh",
+    "lat": 24.7956,
+    "lon": 90.8757,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 1266.06,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "457209",
+    "upazila_name": "Barhatta",
+    "district_name": "Netrokona",
+    "division_name": "Mymensingh",
+    "lat": 24.9247,
+    "lon": 90.8815,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 902.74,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "457240",
+    "upazila_name": "Kalmakanda",
+    "district_name": "Netrokona",
+    "division_name": "Mymensingh",
+    "lat": 25.0718,
+    "lon": 90.8594,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 1424.47,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "304806",
+    "upazila_name": "Bajitpur",
+    "district_name": "Kishoreganj",
+    "division_name": "Dhaka",
+    "lat": 24.2272,
+    "lon": 90.9369,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 663.92,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "304833",
+    "upazila_name": "Itna",
+    "district_name": "Kishoreganj",
+    "division_name": "Dhaka",
+    "lat": 24.5487,
+    "lon": 91.0871,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 844.5,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "603602",
+    "upazila_name": "Ajmiriganj",
+    "district_name": "Habiganj",
+    "division_name": "Sylhet",
+    "lat": 24.563,
+    "lon": 91.2661,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 1085.45,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "603611",
+    "upazila_name": "Baniachong",
+    "district_name": "Habiganj",
+    "division_name": "Sylhet",
+    "lat": 24.5258,
+    "lon": 91.356,
+    "land_type": "LL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 1,
+    "candidate_counts": {
+      "rabi": 1,
+      "kharif1": 1,
+      "kharif2": 1
+    },
+    "latency_ms": 634.55,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Boro dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 145,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "Fallow",
+          "botanical_family": "None",
+          "is_legume": false,
+          "duration_days": 0,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ]
+    }
+  },
+  {
+    "upazila_code": "609141",
+    "upazila_name": "Gowainghat",
+    "district_name": "Sylhet",
+    "division_name": "Sylhet",
+    "lat": 25.0678,
+    "lon": 91.9643,
+    "land_type": "MHL",
+    "pipeline": "BANGLADESH_BARC",
+    "cropping_intensity_k": 3,
+    "candidate_counts": {
+      "rabi": 7,
+      "kharif1": 5,
+      "kharif2": 3
+    },
+    "latency_ms": 543.25,
+    "seasons": {
+      "rabi": [
+        {
+          "crop_name": "Mustard",
+          "botanical_family": "Brassicaceae",
+          "is_legume": false,
+          "duration_days": 80,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        },
+        {
+          "crop_name": "Sunflower",
+          "botanical_family": "Asteraceae",
+          "is_legume": false,
+          "duration_days": 100,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        },
+        {
+          "crop_name": "Maize",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 130,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        },
+        {
+          "crop_name": "Cauliflower",
+          "botanical_family": "Brassicaceae",
+          "is_legume": false,
+          "duration_days": 85,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        },
+        {
+          "crop_name": "Coriander",
+          "botanical_family": "Apiaceae",
+          "is_legume": false,
+          "duration_days": 70,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        },
+        {
+          "crop_name": "Cowpea",
+          "botanical_family": "Unknown",
+          "is_legume": false,
+          "duration_days": 100,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        },
+        {
+          "crop_name": "Grass pea",
+          "botanical_family": "Fabaceae",
+          "is_legume": true,
+          "duration_days": 110,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif1": [
+        {
+          "crop_name": "Jute",
+          "botanical_family": "Malvaceae",
+          "is_legume": false,
+          "duration_days": 115,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        },
+        {
+          "crop_name": "Kenaf",
+          "botanical_family": "Malvaceae",
+          "is_legume": false,
+          "duration_days": 120,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        },
+        {
+          "crop_name": "Maize",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 130,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        },
+        {
+          "crop_name": "T. Aus dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 105,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        },
+        {
+          "crop_name": "B. Aus dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 105,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        }
+      ],
+      "kharif2": [
+        {
+          "crop_name": "T. Aman dhan",
+          "botanical_family": "Poaceae",
+          "is_legume": false,
+          "duration_days": 135,
+          "effective_area_ha": null,
+          "suitability_tier": "Ideal"
+        },
+        {
+          "crop_name": "Black Gram",
+          "botanical_family": "Fabaceae",
+          "is_legume": true,
+          "duration_days": 75,
+          "effective_area_ha": null,
+          "suitability_tier": "Suitable"
+        },
+        {
+          "crop_name": "Country Bean",
+          "botanical_family": "Unknown",
+          "is_legume": false,
+          "duration_days": 100,
+          "effective_area_ha": null,
+          "suitability_tier": "Marginal"
+        }
+      ]
+    }
+  }
+]
