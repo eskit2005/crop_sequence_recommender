@@ -179,6 +179,45 @@ class TestStage3Architecture(unittest.TestCase):
         self.assertEqual(res.candidate_counts["season_1"], 7)
         self.assertEqual(res.candidate_counts["season_2"], 5)
 
+    # -------------------------------------------------------------
+    # 6. Precision Geo-Fencing, Coastal Saline & Charland Regression Tests
+    # -------------------------------------------------------------
+    def test_geofenced_haor_vs_coastal_saline(self):
+        # Derai, Sunamganj (609033, LL) - True Haor wetland
+        res_haor = self.barc_selector.select_candidate_pools("609033", land_type="LL")
+        self.assertTrue(res_haor["is_haor_wetland"])
+        self.assertFalse(res_haor["is_coastal_saline"])
+        self.assertTrue(res_haor["is_deep_wetland"])
+        self.assertEqual(res_haor["cropping_intensity_k"], 1)
+        self.assertEqual(res_haor["seasons"]["rabi"][0]["crop_name"], "Boro dhan")
+        self.assertEqual(res_haor["seasons"]["kharif2"][0]["crop_name"], "Fallow")
+
+        # Dacope, Khulna (404717, LL) - Coastal saline polder
+        res_coastal = self.barc_selector.select_candidate_pools("404717", land_type="LL")
+        self.assertFalse(res_coastal["is_haor_wetland"])
+        self.assertTrue(res_coastal["is_coastal_saline"])
+        self.assertTrue(res_coastal["is_deep_wetland"])
+        self.assertEqual(res_coastal["cropping_intensity_k"], 1)
+        self.assertEqual(res_coastal["seasons"]["rabi"][0]["crop_name"], "Fallow")
+        self.assertEqual(res_coastal["seasons"]["kharif1"][0]["crop_name"], "Fallow")
+        self.assertIn("aman", res_coastal["seasons"]["kharif2"][0]["crop_name"].lower())
+
+    def test_medium_lowland_ml_mll_matching(self):
+        # Belkuchi, Sirajganj (508811, ML) - Jamuna riverine floodplain
+        res_ml = self.barc_selector.select_candidate_pools("508811", land_type="ML")
+        self.assertEqual(res_ml["cropping_intensity_k"], 2)
+        rabi_names = [c["crop_name"].lower() for c in res_ml["seasons"]["rabi"]]
+        self.assertFalse(all(c == "fallow" for c in rabi_names))
+        k1_names = [c["crop_name"].lower() for c in res_ml["seasons"]["kharif1"]]
+        self.assertIn("jute", k1_names)
+
+    def test_high_barind_chickpea_priority(self):
+        # Godagari, Rajshahi (508134, HL) - High Barind Tract
+        res_barind = self.barc_selector.select_candidate_pools("508134", land_type="HL")
+        rabi_names = [c["crop_name"].lower() for c in res_barind["seasons"]["rabi"]]
+        self.assertTrue(any("chickpea" in c or "gram" in c for c in rabi_names), "Drought-smart Chickpea must be present in High Barind HL Rabi pool")
+
+
 
 if __name__ == "__main__":
     unittest.main()

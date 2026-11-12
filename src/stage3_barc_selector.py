@@ -63,6 +63,23 @@ PERENNIAL_ORCHARD_CROPS = {
     "golden apple", "sweet orange", "pineapple"
 }
 
+# Agro-ecological regional district sets for precision geo-fencing
+HAOR_BASIN_DISTRICTS = {
+    "sunamganj", "sylhet", "moulvibazar", "maulvibazar", "habiganj",
+    "netrokona", "kishoreganj", "brahmanbaria", "natore", "pabna"
+}
+
+COASTAL_SALINE_DISTRICTS = {
+    "khulna", "bagerhat", "satkhira", "patuakhali", "barguna",
+    "bhola", "noakhali", "chittagong", "chattogram", "cox's bazar", "coxs bazar",
+    "feni", "pirojpur", "jhalokathi"
+}
+
+HIGH_BARIND_DISTRICTS = {
+    "rajshahi", "chapai nawabganj", "nawabganj", "naogaon"
+}
+
+
 
 def get_guild(crop_name: str, botanical_family: str, is_legume: bool) -> str:
     cn = crop_name.lower()
@@ -189,6 +206,17 @@ class BARCCandidateSelector:
         conn.close()
         return cleaned
 
+    def get_upazila_metadata(self, upazila_code: str) -> Dict[str, Any]:
+        conn = self._get_connection()
+        row = conn.execute(
+            "SELECT upazila_code, upazila_name, district_name, division_name FROM upazila_boundaries WHERE upazila_code = ?",
+            (str(upazila_code),)
+        ).fetchone()
+        conn.close()
+        if row:
+            return dict(row)
+        return {"upazila_code": str(upazila_code), "upazila_name": "", "district_name": "", "division_name": ""}
+
     def get_crops_for_upazila(self, upazila_code: str) -> List[Dict[str, Any]]:
         conn = self._get_connection()
         rows = conn.execute(
@@ -206,7 +234,9 @@ class BARCCandidateSelector:
     def select_candidate_pools(
         self,
         upazila_code: str,
-        land_type: str = "MHL"
+        land_type: str = "MHL",
+        district_name: Optional[str] = None,
+        upazila_name: Optional[str] = None
     ) -> Dict[str, Any]:
         """
         Filters and buckets crops into target candidate pools:
@@ -214,15 +244,30 @@ class BARCCandidateSelector:
         - Kharif-1 (Season 2): Target 5 crops
         - Kharif-2 (Season 3): Target 3 crops
         """
+        if not district_name or not upazila_name:
+            meta = self.get_upazila_metadata(upazila_code)
+            if not district_name:
+                district_name = meta.get("district_name", "")
+            if not upazila_name:
+                upazila_name = meta.get("upazila_name", "")
+
+        dist_clean = district_name.lower().strip()
         raw_crops = self.get_crops_for_upazila(upazila_code)
-        norm_land = land_type.upper().strip()
+        raw_land = land_type.upper().strip()
+        # Canonicalize ML to MLL for BARC CZIS standard matching
+        norm_land = "MLL" if raw_land == "ML" else raw_land
+
+        # Precision Geo-Fencing of Agro-Hydrological Regimes
+        is_deep_wetland = norm_land in ["LL", "VLL"]
+        is_haor = is_deep_wetland and any(d in dist_clean for d in HAOR_BASIN_DISTRICTS)
+        is_coastal = any(d in dist_clean for d in COASTAL_SALINE_DISTRICTS)
+        is_coastal_saline = is_coastal and (norm_land in ["LL", "VLL", "MLL"])
+        is_barind = any(d in dist_clean for d in HIGH_BARIND_DISTRICTS)
 
         # Step 1: Biological Land Type Filtering
         rabi_candidates: List[CropCandidate] = []
         kharif1_candidates: List[CropCandidate] = []
         kharif2_candidates: List[CropCandidate] = []
-
-        is_haor = norm_land in ["LL", "VLL"]
 
         # Maximum effective commercial area in this Upazila for relative normalization
         max_eff_area = max((float(c.get("effective_area") or 0) for c in raw_crops), default=1.0)
@@ -237,8 +282,15 @@ class BARCCandidateSelector:
             tier = c["suitability_tier"]
             allowed_lands = [l.strip() for l in c.get("allowable_land_types", "").split(",")]
 
-            # Land type eligibility check
-            if norm_land not in allowed_lands:
+            # Land type eligibility check with bidirectional ML <-> MLL compatibility
+            is_eligible = (norm_land in allowed_lands) or (norm_land == "MLL" and "ML" in allowed_lands) or (norm_land == "ML" and "MLL" in allowed_lands)
+            
+            # Special Coastal Saline Low Land Allowance:
+            # During wet monsoon (Kharif-2), heavy rains flush salts from Low Land topsoil,
+            # allowing salt-tolerant T. Aman rice cultivation (e.g. BRRI dhan52/73/BINA dhan-8)
+            is_coastal_aman = (is_coastal_saline and is_deep_wetland and ("Kharif-2" in c_season or "Kharif 2" in c_season) and "aman" in cname.lower())
+
+            if not is_eligible and not is_coastal_aman:
                 continue
 
             # Purge permanent perennial orchard trees from annual crop rotations
@@ -251,12 +303,15 @@ class BARCCandidateSelector:
             if norm_land == "HL" and "boro" in cname.lower():
                 continue
 
-            # Low Land (LL/VLL): Purge terrestrial crops prone to root rot / anoxia
+            # Inland Deep Haor Low Land (LL/VLL): Purge terrestrial crops prone to root rot / 3-6m anoxia
             if is_haor and not ("boro" in cname.lower() or "aman" in cname.lower() or "deepwater" in cname.lower() or "fallow" in cname.lower()):
                 continue
 
+            # Coastal Saline Low Land (LL/VLL): Purge dry-season Boro in Rabi due to lethal soil/river salinity (15-25 dS/m)
+            if is_coastal_saline and is_deep_wetland and "Rabi" in c_season and "boro" in cname.lower():
+                continue
+
             # Tier-bounded relative normalization scaling [0.30 - 1.00]
-            # Bounded by official BARC suitability tier to ensure [Suitable] never equals [Ideal]
             ratio = eff_area / max_eff_area
             if tier == "Ideal":
                 score = round(0.80 + (0.20 * ratio), 2)
@@ -286,6 +341,36 @@ class BARCCandidateSelector:
             elif "Kharif-2" in c_season or "Kharif 2" in c_season:
                 kharif2_candidates.append(cand)
 
+        # Step 1b: Alluvial Flood-Recession Charland Fallback
+        # If active riverine Medium Low Land (MLL) has no candidate crops recorded in BARC CZIS
+        if norm_land == "MLL" and not is_coastal_saline and not rabi_candidates and not kharif1_candidates:
+            alluvial_crops = [
+                ("Mustard", "Rabi", "Brassicaceae", "medium_tap", False, 85, 1.5, 5000.0, "Ideal", 0.95),
+                ("Groundnut", "Rabi", "Fabaceae", "nodulated", True, 130, 2.2, 4500.0, "Ideal", 0.94),
+                ("Grass pea", "Rabi", "Fabaceae", "nodulated", True, 110, 1.3, 4000.0, "Ideal", 0.92),
+                ("Wheat", "Rabi", "Poaceae", "shallow_fibrous", False, 110, 3.8, 3500.0, "Ideal", 0.90),
+                ("Jute", "Kharif-1", "Malvaceae", "deep_tap", False, 115, 3.2, 6000.0, "Ideal", 0.96),
+                ("Sesame", "Kharif-1", "Pedaliaceae", "medium_tap", False, 90, 1.1, 4000.0, "Ideal", 0.92),
+            ]
+            for cname, sname, fam, root, leg, dur, yld, eff, tier, sc in alluvial_crops:
+                cand = CropCandidate(
+                    crop_id=500 + abs(hash(cname)) % 100,
+                    crop_name=cname,
+                    season=sname,
+                    botanical_family=fam,
+                    root_type=root,
+                    is_legume=leg,
+                    duration_days=dur,
+                    yield_ton_ha=yld,
+                    effective_area_ha=eff,
+                    suitability_tier=tier,
+                    suitability_score=sc
+                )
+                if sname == "Rabi":
+                    rabi_candidates.append(cand)
+                else:
+                    kharif1_candidates.append(cand)
+
         # Step 2: 3-Tier Dynamic Bucketer with Diversity & Fallback Guards
         def bucket_season(
             pool: List[CropCandidate],
@@ -310,6 +395,12 @@ class BARCCandidateSelector:
                 # In haor wetland, single crop monoculture (Boro in Rabi) is the ecological reality
                 return unique_pool[:1]
 
+            if is_coastal_saline and is_deep_wetland:
+                # In coastal saline lowlands, only wet-season Kharif-2 (T. Aman) is feasible
+                if "kharif-2" in season_name.lower():
+                    return unique_pool[:1]
+                return []  # Rabi and Kharif-1 are forced fallow due to high salinity
+
             # Tier 1: Category Champions (EffArea >= 300 ha) across distinct guilds
             selected: List[CropCandidate] = []
             selected_names = set()
@@ -319,6 +410,14 @@ class BARCCandidateSelector:
                     g = get_guild(cp.crop_name, cp.botanical_family, cp.is_legume)
                     if g not in guild_champions:
                         guild_champions[g] = cp
+
+            # High Barind Tract Drought Legume Priority:
+            # In water-stressed High Barind (Rajshahi, Chapai Nawabganj) on High Land (HL),
+            # protect drought-tolerant Chickpea (Barichhola) from being crowded out by high-acreage crops
+            if is_barind and norm_land == "HL" and "rabi" in season_name.lower():
+                chickpea_cand = next((cp for cp in unique_pool if any(term in cp.crop_name.lower() for term in ["chickpea", "gram"]) and cp.effective_area_ha > 0), None)
+                if chickpea_cand:
+                    guild_champions["Pulses"] = chickpea_cand
 
             # Order champions by effective area descending
             for cp in sorted(guild_champions.values(), key=lambda x: x.effective_area_ha, reverse=True):
@@ -360,7 +459,7 @@ class BARCCandidateSelector:
         final_kharif2 = bucket_season(kharif2_candidates, 3, "Kharif-2")
 
         # Determine static land-type baseline
-        if is_haor:
+        if is_haor or (is_coastal_saline and is_deep_wetland):
             k_by_land = 1
         elif norm_land == "MLL":
             k_by_land = 2
@@ -402,9 +501,13 @@ class BARCCandidateSelector:
         return {
             "region_type": "BANGLADESH_BARC",
             "upazila_code": upazila_code,
-            "land_type": norm_land,
+            "upazila_name": upazila_name,
+            "district_name": district_name,
+            "land_type": raw_land,
             "cropping_intensity_k": k,
             "is_haor_wetland": is_haor,
+            "is_coastal_saline": is_coastal_saline,
+            "is_deep_wetland": is_deep_wetland,
             "seasons": {
                 "rabi": [c.to_dict() for c in final_rabi],
                 "kharif1": [c.to_dict() for c in final_kharif1],

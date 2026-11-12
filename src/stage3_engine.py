@@ -73,7 +73,9 @@ class Stage3Engine:
             # Bangladesh Pipeline
             barc_res = self.barc_selector.select_candidate_pools(
                 upazila_code=route.upazila_code,
-                land_type=land_type
+                land_type=land_type,
+                district_name=route.district_name,
+                upazila_name=route.upazila_name
             )
             total_time = (time.perf_counter() - t0) * 1000.0
 
@@ -88,6 +90,8 @@ class Stage3Engine:
                 candidate_counts=barc_res["candidate_counts"],
                 environmental_metadata={
                     "is_haor_wetland": barc_res["is_haor_wetland"],
+                    "is_coastal_saline": barc_res.get("is_coastal_saline", False),
+                    "is_deep_wetland": barc_res.get("is_deep_wetland", False),
                     "data_source": "BARC_CZIS_OFFICIAL_MATRICES"
                 },
                 total_execution_ms=round(total_time, 2)
