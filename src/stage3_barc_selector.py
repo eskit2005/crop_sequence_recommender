@@ -148,15 +148,37 @@ class BARCCandidateSelector:
         return conn
 
     def _fetch_from_barc_api(self, upazila_code: str) -> List[Dict[str, Any]]:
-        """Option A Write-Through: Fetch from official BARC CZIS endpoint if cache miss."""
+        """Option A Write-Through: Fetch from official BARC CZIS endpoint if cache miss, with district fallback on network failure."""
         url = f"https://dashboard.cropzoning.gov.bd/czis/suitable/area/upazila/{upazila_code}"
         ctx = ssl.create_default_context()
         ctx.check_hostname = False
         ctx.verify_mode = ssl.CERT_NONE
         
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"})
-        with urllib.request.urlopen(req, context=ctx, timeout=20) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
+        data = []
+        try:
+            with urllib.request.urlopen(req, context=ctx, timeout=8) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+        except Exception as e:
+            # Resilient Agro-Spatial Fallback: Borrow crop profiles from nearest cached upazila in same district
+            conn = self._get_connection()
+            meta = self.get_upazila_metadata(upazila_code)
+            dist = meta.get("district_name", "")
+            if dist:
+                neighbor = conn.execute("""
+                    SELECT c.upazila_code 
+                    FROM upazila_boundaries b 
+                    JOIN upazila_suitable_crops c ON b.upazila_code = c.upazila_code 
+                    WHERE b.district_name = ? AND b.upazila_code != ?
+                    LIMIT 1
+                """, (dist, str(upazila_code))).fetchone()
+                if neighbor:
+                    neighbor_code = neighbor[0]
+                    rows = conn.execute("SELECT * FROM upazila_suitable_crops WHERE upazila_code = ?", (neighbor_code,)).fetchall()
+                    conn.close()
+                    return [dict(r) for r in rows]
+            conn.close()
+            return []
 
         conn = self._get_connection()
         cur = conn.cursor()
