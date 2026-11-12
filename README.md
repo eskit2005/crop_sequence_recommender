@@ -63,23 +63,25 @@ The recommendation engine features a **Dual-Pipeline Spatial Router** that dynam
 
 ## 🚀 Quick Start
 
-Clone this repository and run immediately. **No virtual environment or `pip install` required.**
+Clone this repository and run immediately. **No virtual environment, `pip install`, or environment variables required.** Works out-of-the-box across **Windows (Command Prompt / PowerShell)**, **macOS**, and **Linux**.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/crop_sequence_recommender.git
+git clone https://github.com/eskit2005/crop_sequence_recommender.git
 
 # 2. Enter the directory
 cd crop_sequence_recommender
 
 # 3. Run for any coordinate in Bangladesh (Formatted Terminal Output):
-PYTHONPATH=. python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --land-type MHL
+python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --land-type MHL
+# On Windows PowerShell / cmd:
+# python src/stage3_engine.py --lat 24.78 --lon 89.04 --land-type MHL
 
 # 4. Run for an International Coordinate (Global FAO EcoCrop + NASA POWER):
-PYTHONPATH=. python3 src/stage3_engine.py --lat -0.303 --lon 36.08
+python3 src/stage3_engine.py --lat -0.303 --lon 36.08
 
 # 5. Output Machine-Readable JSON for Web APIs:
-PYTHONPATH=. python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --json
+python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --json
 ```
 
 ---
@@ -106,31 +108,31 @@ usage: python3 src/stage3_engine.py [-h] --lat LAT --lon LON [--land-type LAND_T
 
 ### Example 1: Northern Granary Commercial Hub (Bogura / Naogaon, Bangladesh)
 ```bash
-PYTHONPATH=. python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --land-type MHL
+python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --land-type MHL
 ```
 * **Engine Action:** Resolves to Raninagar Upazila (`506485`). Evaluates $VS + 0.70S$ hectarage and outputs $K=3$ candidate pools featuring category champions across 5 functional guilds: **Potato**, **Linseed**, **Maize**, **Coriander**, **Cowpea**, **Sesame**, and **T. Aman rice**.
 
 ### Example 2: Deep Haor Wetland Monoculture (Sunamganj, Bangladesh)
 ```bash
-PYTHONPATH=. python3 src/stage3_engine.py --lat 25.05 --lon 91.56 --land-type LL
+python3 src/stage3_engine.py --lat 25.05 --lon 91.56 --land-type LL
 ```
 * **Engine Action:** Resolves to Dowarabazar Upazila (`609033`). Enforces the Haor Monoculture Relaxation: $K=1$, Rabi contains `['Boro dhan']`, and Kharif-1 / Kharif-2 safely backfill `['Fallow']`.
 
 ### Example 3: Barind Drought-Prone Terrace (Rajshahi, Bangladesh)
 ```bash
-PYTHONPATH=. python3 src/stage3_engine.py --lat 24.28 --lon 88.75 --land-type HL
+python3 src/stage3_engine.py --lat 24.28 --lon 88.75 --land-type HL
 ```
 * **Engine Action:** Resolves to Charghat Upazila (`508134`). High Land purges flooded Boro rice; perennial orchard trees (Date Palm, Palmyra Palm, Guava) are 100% eliminated, elevating drought-hardy annual field crops (**Sesame**, **Jute**, **Maize**).
 
 ### Example 4: Coastal Saline Belt Dynamic Step-Down (Mongla, Bangladesh)
 ```bash
-PYTHONPATH=. python3 src/stage3_engine.py --lat 22.1532 --lon 89.6591 --land-type MHL
+python3 src/stage3_engine.py --lat 22.1532 --lon 89.6591 --land-type MHL
 ```
 * **Engine Action:** Resolves to Mongla Upazila (`400158`). Dry-season soil salinity dynamically steps down $K$ from 3 to $K=1$, outputting **Fallow – Fallow – T. Aman dhan** with zero downstream Cartesian sequence collapse.
 
 ### Example 5: Global Rift Valley Montane Highlands (Nakuru, Kenya)
 ```bash
-PYTHONPATH=. python3 src/stage3_engine.py --lat -0.303 --lon 36.08
+python3 src/stage3_engine.py --lat -0.303 --lon 36.08
 ```
 * **Engine Action:** Automatically diverts to `GLOBAL_FAO_ECOCROP`. Fetches keyless NASA POWER climatology and ISRIC SoilGrids data. Evaluates LGP ($275\text{ days}, K=3$) and ranks cool-season highland crops (**Potato**, **Wheat**, **Cabbage**).
 
@@ -177,7 +179,9 @@ This codebase is specifically engineered to run out-of-the-box in air-gapped env
 The test suite covers spatial routing, mathematical guards, haor monoculture relaxation, perennial tree exclusions, coastal salinity guards, and global agro-climatology:
 
 ```bash
-PYTHONPATH=. python3 -m unittest tests/test_stage3.py
+python3 -m unittest tests/test_stage3.py
+# On Windows:
+# python -m unittest tests/test_stage3.py
 ```
 
 ### Expected Output:

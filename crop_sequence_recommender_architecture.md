@@ -14,20 +14,20 @@ The engine provides a standalone CLI entry point located at `src/stage3_engine.p
 
 ```bash
 # Clone the repository from GitHub:
-git clone https://github.com/<your-username>/crop_sequence_recommender.git
+git clone https://github.com/eskit2005/crop_sequence_recommender.git
 cd crop_sequence_recommender
 
 # 1. Run for a Bangladesh Location (Formatted Terminal Table):
-PYTHONPATH=. python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --land-type MHL
+python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --land-type MHL
 
 # 2. Run for an International Coordinate (Global FAO EcoCrop + NASA POWER Climatology):
-PYTHONPATH=. python3 src/stage3_engine.py --lat -0.303 --lon 36.08
+python3 src/stage3_engine.py --lat -0.303 --lon 36.08
 
 # 3. Output Machine-Readable JSON (For downstream frontend/API integration):
-PYTHONPATH=. python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --json
+python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --json
 
 # 4. Run the Complete Automated Test Suite:
-PYTHONPATH=. python3 -m unittest tests/test_stage3.py
+python3 -m unittest tests/test_stage3.py
 ```
 
 ### 0.2 CLI Usage & Argument Reference
@@ -1793,7 +1793,7 @@ crop_sequence_recommender/
 
 ```bash
 # Example CLI Execution:
-PYTHONPATH=. python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --land-type MHL
+python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --land-type MHL
 ```
 
 ---
