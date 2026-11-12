@@ -1,0 +1,2332 @@
+[
+  {
+    "loc_id": 1,
+    "upazila_code": "552712",
+    "upazila_name": "Birganj",
+    "district_name": "Dinajpur",
+    "division_name": "Rangpur",
+    "lat": 25.9353,
+    "lon": 88.6137,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.216,
+      "resolved_upazila": "Birganj",
+      "resolved_code": "552712",
+      "resolved_district": "Dinajpur"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Cereals",
+        "Oilseeds",
+        "Vegetables",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Oilseeds",
+        "Cereals",
+        "Fibers",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Pulses",
+        "Vegetables",
+        "Fibers"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 98,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 2,
+    "upazila_code": "552721",
+    "upazila_name": "Bochaganj",
+    "district_name": "Dinajpur",
+    "division_name": "Rangpur",
+    "lat": 25.7866,
+    "lon": 88.4556,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.209,
+      "resolved_upazila": "Bochaganj",
+      "resolved_code": "552721",
+      "resolved_district": "Dinajpur"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Vegetables",
+        "Oilseeds",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Fibers",
+        "Cereals",
+        "Oilseeds",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Pulses",
+        "Vegetables"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 3,
+    "upazila_code": "552730",
+    "upazila_name": "Chirirbandar",
+    "district_name": "Dinajpur",
+    "division_name": "Rangpur",
+    "lat": 25.6608,
+    "lon": 88.7859,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.176,
+      "resolved_upazila": "Chirirbandar",
+      "resolved_code": "552730",
+      "resolved_district": "Dinajpur"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Vegetables",
+        "Oilseeds",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Cereals",
+        "Oilseeds",
+        "Fibers",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Pulses",
+        "Vegetables"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 4,
+    "upazila_code": "552738",
+    "upazila_name": "Fulbari",
+    "district_name": "Dinajpur",
+    "division_name": "Rangpur",
+    "lat": 25.4764,
+    "lon": 88.8958,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.176,
+      "resolved_upazila": "Fulbari",
+      "resolved_code": "552738",
+      "resolved_district": "Dinajpur"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Vegetables",
+        "Oilseeds",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Fibers",
+        "Cereals",
+        "Oilseeds",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Pulses",
+        "Vegetables"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 5,
+    "upazila_code": "552760",
+    "upazila_name": "Khansama",
+    "district_name": "Dinajpur",
+    "division_name": "Rangpur",
+    "lat": 25.8991,
+    "lon": 88.7733,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.154,
+      "resolved_upazila": "Khansama",
+      "resolved_code": "552760",
+      "resolved_district": "Dinajpur"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Vegetables",
+        "Oilseeds",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Fibers",
+        "Cereals",
+        "Oilseeds",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Pulses",
+        "Vegetables",
+        "Fibers"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 6,
+    "upazila_code": "552777",
+    "upazila_name": "Parbatipur",
+    "district_name": "Dinajpur",
+    "division_name": "Rangpur",
+    "lat": 25.6433,
+    "lon": 88.9598,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.185,
+      "resolved_upazila": "Parbatipur",
+      "resolved_code": "552777",
+      "resolved_district": "Dinajpur"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Oilseeds",
+        "Vegetables",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Fibers",
+        "Oilseeds",
+        "Cereals",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Vegetables",
+        "Pulses"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 7,
+    "upazila_code": "552710",
+    "upazila_name": "Birampur",
+    "district_name": "Dinajpur",
+    "division_name": "Rangpur",
+    "lat": 25.3955,
+    "lon": 88.9581,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.219,
+      "resolved_upazila": "Birampur",
+      "resolved_code": "552710",
+      "resolved_district": "Dinajpur"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Vegetables",
+        "Oilseeds",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Fibers",
+        "Cereals",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Vegetables",
+        "Pulses"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 8,
+    "upazila_code": "552764",
+    "upazila_name": "Dinajpur Sadar",
+    "district_name": "Dinajpur",
+    "division_name": "Rangpur",
+    "lat": 25.6309,
+    "lon": 88.6694,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.173,
+      "resolved_upazila": "Dinajpur Sadar",
+      "resolved_code": "552764",
+      "resolved_district": "Dinajpur"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Vegetables",
+        "Oilseeds",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Fibers",
+        "Cereals",
+        "Oilseeds",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Pulses",
+        "Vegetables",
+        "Fibers"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 9,
+    "upazila_code": "552743",
+    "upazila_name": "Ghoraghat",
+    "district_name": "Dinajpur",
+    "division_name": "Rangpur",
+    "lat": 25.2978,
+    "lon": 89.2191,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.169,
+      "resolved_upazila": "Ghoraghat",
+      "resolved_code": "552743",
+      "resolved_district": "Dinajpur"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Vegetables",
+        "Oilseeds",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Cereals",
+        "Oilseeds",
+        "Fibers",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Pulses",
+        "Vegetables"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 10,
+    "upazila_code": "552747",
+    "upazila_name": "Hakimpur",
+    "district_name": "Dinajpur",
+    "division_name": "Rangpur",
+    "lat": 25.2962,
+    "lon": 89.0609,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.169,
+      "resolved_upazila": "Hakimpur",
+      "resolved_code": "552747",
+      "resolved_district": "Dinajpur"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Vegetables",
+        "Oilseeds",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Fibers",
+        "Cereals",
+        "Oilseeds",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Pulses",
+        "Vegetables"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 11,
+    "upazila_code": "552756",
+    "upazila_name": "Kaharole",
+    "district_name": "Dinajpur",
+    "division_name": "Rangpur",
+    "lat": 25.8117,
+    "lon": 88.6121,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.217,
+      "resolved_upazila": "Kaharole",
+      "resolved_code": "552756",
+      "resolved_district": "Dinajpur"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Vegetables",
+        "Oilseeds",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Cereals",
+        "Fibers",
+        "Oilseeds",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Pulses",
+        "Vegetables"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 12,
+    "upazila_code": "501006",
+    "upazila_name": "Adamdighi",
+    "district_name": "Bogura",
+    "division_name": "Rajshahi",
+    "lat": 24.7946,
+    "lon": 89.0657,
+    "land_type": "MHL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.165,
+      "resolved_upazila": "Adamdighi",
+      "resolved_code": "501006",
+      "resolved_district": "Bogura"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Oilseeds",
+        "Tubers",
+        "Vegetables",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Cereals",
+        "Oilseeds",
+        "Fibers"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Cereals",
+        "Pulses"
+      ],
+      "champions_count": 14,
+      "tier2_count": 0,
+      "tier3_count": 1,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 13,
+    "upazila_code": "501067",
+    "upazila_name": "Nandigram",
+    "district_name": "Bogura",
+    "division_name": "Rajshahi",
+    "lat": 24.6882,
+    "lon": 89.2363,
+    "land_type": "MHL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.195,
+      "resolved_upazila": "Nandigram",
+      "resolved_code": "501067",
+      "resolved_district": "Bogura"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Oilseeds",
+        "Vegetables",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Cereals",
+        "Oilseeds",
+        "Fibers",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Cereals",
+        "Fibers",
+        "Pulses"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 14,
+    "upazila_code": "558592",
+    "upazila_name": "Taraganj",
+    "district_name": "Rangpur",
+    "division_name": "Rangpur",
+    "lat": 25.7827,
+    "lon": 89.0247,
+    "land_type": "MHL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.262,
+      "resolved_upazila": "Taraganj",
+      "resolved_code": "558592",
+      "resolved_district": "Rangpur"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Oilseeds",
+        "Vegetables",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Fibers",
+        "Oilseeds",
+        "Cereals",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Cereals",
+        "Fibers",
+        "Pulses"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 15,
+    "upazila_code": "558503",
+    "upazila_name": "Badarganj",
+    "district_name": "Rangpur",
+    "division_name": "Rangpur",
+    "lat": 25.6499,
+    "lon": 89.0432,
+    "land_type": "MHL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.28,
+      "resolved_upazila": "Badarganj",
+      "resolved_code": "558503",
+      "resolved_district": "Rangpur"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Oilseeds",
+        "Vegetables",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Oilseeds",
+        "Cereals",
+        "Fibers",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Cereals",
+        "Fibers",
+        "Pulses"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 16,
+    "upazila_code": "557725",
+    "upazila_name": "Boda",
+    "district_name": "Panchagarh",
+    "division_name": "Rangpur",
+    "lat": 26.2036,
+    "lon": 88.6162,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.188,
+      "resolved_upazila": "Boda",
+      "resolved_code": "557725",
+      "resolved_district": "Panchagarh"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Vegetables",
+        "Oilseeds",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Fibers",
+        "Cereals",
+        "Oilseeds",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Pulses",
+        "Vegetables",
+        "Fibers"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 17,
+    "upazila_code": "557734",
+    "upazila_name": "Debiganj",
+    "district_name": "Panchagarh",
+    "division_name": "Rangpur",
+    "lat": 26.1402,
+    "lon": 88.7109,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.266,
+      "resolved_upazila": "Debiganj",
+      "resolved_code": "557734",
+      "resolved_district": "Panchagarh"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Oilseeds",
+        "Vegetables",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Fibers",
+        "Cereals",
+        "Oilseeds",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Pulses",
+        "Vegetables",
+        "Fibers"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 18,
+    "upazila_code": "559494",
+    "upazila_name": "Thakurgaon Sadar",
+    "district_name": "Thakurgaon",
+    "division_name": "Rangpur",
+    "lat": 26.0542,
+    "lon": 88.4725,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.207,
+      "resolved_upazila": "Thakurgaon Sadar",
+      "resolved_code": "559494",
+      "resolved_district": "Thakurgaon"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Vegetables",
+        "Oilseeds",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Fibers",
+        "Cereals",
+        "Oilseeds",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Pulses",
+        "Vegetables",
+        "Fibers"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 19,
+    "upazila_code": "559482",
+    "upazila_name": "Pirganj",
+    "district_name": "Thakurgaon",
+    "division_name": "Rangpur",
+    "lat": 25.8239,
+    "lon": 88.3794,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.197,
+      "resolved_upazila": "Pirganj",
+      "resolved_code": "559482",
+      "resolved_district": "Thakurgaon"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Oilseeds",
+        "Vegetables",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Fibers",
+        "Cereals",
+        "Oilseeds",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Pulses",
+        "Vegetables",
+        "Fibers"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 20,
+    "upazila_code": "503874",
+    "upazila_name": "Panchbibi",
+    "district_name": "Joypurhat",
+    "division_name": "Rajshahi",
+    "lat": 25.2043,
+    "lon": 89.0743,
+    "land_type": "MHL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.182,
+      "resolved_upazila": "Panchbibi",
+      "resolved_code": "503874",
+      "resolved_district": "Joypurhat"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Oilseeds",
+        "Vegetables",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Oilseeds",
+        "Cereals",
+        "Fibers",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Vegetables",
+        "Pulses"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 21,
+    "upazila_code": "508110",
+    "upazila_name": "Bagha",
+    "district_name": "Rajshahi",
+    "division_name": "Rajshahi",
+    "lat": 24.2178,
+    "lon": 88.827,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.153,
+      "resolved_upazila": "Bagha",
+      "resolved_code": "508110",
+      "resolved_district": "Rajshahi"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Oilseeds",
+        "Cereals",
+        "Vegetables",
+        "Pulses",
+        "Tubers"
+      ],
+      "kh1_guilds": [
+        "Cereals",
+        "Fibers",
+        "Oilseeds",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Pulses",
+        "Vegetables"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 90,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 22,
+    "upazila_code": "508134",
+    "upazila_name": "Godagari",
+    "district_name": "Rajshahi",
+    "division_name": "Rajshahi",
+    "lat": 24.4833,
+    "lon": 88.4219,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.177,
+      "resolved_upazila": "Godagari",
+      "resolved_code": "508134",
+      "resolved_district": "Rajshahi"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Vegetables",
+        "Oilseeds",
+        "Cereals",
+        "Tubers",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Oilseeds",
+        "Cereals",
+        "Fibers",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Pulses",
+        "Vegetables"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 90,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 23,
+    "upazila_code": "508153",
+    "upazila_name": "Mohanpur",
+    "district_name": "Rajshahi",
+    "division_name": "Rajshahi",
+    "lat": 24.5564,
+    "lon": 88.6431,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.154,
+      "resolved_upazila": "Mohanpur",
+      "resolved_code": "508153",
+      "resolved_district": "Rajshahi"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Oilseeds",
+        "Cereals",
+        "Vegetables",
+        "Tubers",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Oilseeds",
+        "Fibers",
+        "Cereals",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Pulses",
+        "Vegetables"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 97,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 24,
+    "upazila_code": "508194",
+    "upazila_name": "Tanore",
+    "district_name": "Rajshahi",
+    "division_name": "Rajshahi",
+    "lat": 24.6014,
+    "lon": 88.5162,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.23,
+      "resolved_upazila": "Tanore",
+      "resolved_code": "508194",
+      "resolved_district": "Rajshahi"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Vegetables",
+        "Oilseeds",
+        "Tubers",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Oilseeds",
+        "Fibers",
+        "Cereals",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Vegetables",
+        "Pulses"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 90,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 25,
+    "upazila_code": "508112",
+    "upazila_name": "Baghmara",
+    "district_name": "Rajshahi",
+    "division_name": "Rajshahi",
+    "lat": 24.5974,
+    "lon": 88.8187,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.245,
+      "resolved_upazila": "Baghmara",
+      "resolved_code": "508112",
+      "resolved_district": "Rajshahi"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Oilseeds",
+        "Vegetables",
+        "Cereals",
+        "Pulses",
+        "Tubers"
+      ],
+      "kh1_guilds": [
+        "Oilseeds",
+        "Cereals",
+        "Fibers",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Pulses",
+        "Vegetables"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 26,
+    "upazila_code": "508125",
+    "upazila_name": "Charghat",
+    "district_name": "Rajshahi",
+    "division_name": "Rajshahi",
+    "lat": 24.3011,
+    "lon": 88.7639,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.268,
+      "resolved_upazila": "Charghat",
+      "resolved_code": "508125",
+      "resolved_district": "Rajshahi"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Oilseeds",
+        "Cereals",
+        "Vegetables",
+        "Pulses",
+        "Tubers"
+      ],
+      "kh1_guilds": [
+        "Cereals",
+        "Oilseeds",
+        "Fibers",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Pulses",
+        "Vegetables",
+        "Fibers"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 90,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 27,
+    "upazila_code": "508182",
+    "upazila_name": "Puthia",
+    "district_name": "Rajshahi",
+    "division_name": "Rajshahi",
+    "lat": 24.428,
+    "lon": 88.8139,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.217,
+      "resolved_upazila": "Puthia",
+      "resolved_code": "508182",
+      "resolved_district": "Rajshahi"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Oilseeds",
+        "Cereals",
+        "Vegetables",
+        "Pulses",
+        "Tubers"
+      ],
+      "kh1_guilds": [
+        "Cereals",
+        "Oilseeds",
+        "Fibers",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Pulses",
+        "Vegetables"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 90,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 28,
+    "upazila_code": "508131",
+    "upazila_name": "Durgapur",
+    "district_name": "Rajshahi",
+    "division_name": "Rajshahi",
+    "lat": 24.4582,
+    "lon": 88.7627,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.259,
+      "resolved_upazila": "Durgapur",
+      "resolved_code": "508131",
+      "resolved_district": "Rajshahi"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Oilseeds",
+        "Cereals",
+        "Vegetables",
+        "Tubers",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Cereals",
+        "Oilseeds",
+        "Fibers",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Pulses",
+        "Vegetables",
+        "Fibers"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 90,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 29,
+    "upazila_code": "508172",
+    "upazila_name": "Paba",
+    "district_name": "Rajshahi",
+    "division_name": "Rajshahi",
+    "lat": 24.4034,
+    "lon": 88.5908,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.219,
+      "resolved_upazila": "Paba",
+      "resolved_code": "508172",
+      "resolved_district": "Rajshahi"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Oilseeds",
+        "Cereals",
+        "Pulses",
+        "Vegetables",
+        "Tubers"
+      ],
+      "kh1_guilds": [
+        "Cereals",
+        "Oilseeds",
+        "Fibers",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Pulses",
+        "Vegetables",
+        "Fibers"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 30,
+    "upazila_code": "506403",
+    "upazila_name": "Atrai",
+    "district_name": "Naogaon",
+    "division_name": "Rajshahi",
+    "lat": 24.6199,
+    "lon": 88.9589,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.185,
+      "resolved_upazila": "Atrai",
+      "resolved_code": "506403",
+      "resolved_district": "Naogaon"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Oilseeds",
+        "Tubers",
+        "Cereals",
+        "Vegetables",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Fibers",
+        "Cereals",
+        "Oilseeds",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Pulses",
+        "Vegetables"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 31,
+    "upazila_code": "506406",
+    "upazila_name": "Badalgachhi",
+    "district_name": "Naogaon",
+    "division_name": "Rajshahi",
+    "lat": 24.9696,
+    "lon": 88.9353,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.198,
+      "resolved_upazila": "Badalgachhi",
+      "resolved_code": "506406",
+      "resolved_district": "Naogaon"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Oilseeds",
+        "Vegetables",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Cereals",
+        "Oilseeds",
+        "Fibers",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Pulses",
+        "Vegetables"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 32,
+    "upazila_code": "506450",
+    "upazila_name": "Mahadebpur",
+    "district_name": "Naogaon",
+    "division_name": "Rajshahi",
+    "lat": 24.9115,
+    "lon": 88.7584,
+    "land_type": "HL",
+    "k": 3,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.175,
+      "resolved_upazila": "Mahadebpur",
+      "resolved_code": "506450",
+      "resolved_district": "Naogaon"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 3,
+      "expected_k": 3,
+      "counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Tubers",
+        "Oilseeds",
+        "Vegetables",
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Oilseeds",
+        "Fibers",
+        "Cereals",
+        "Vegetables"
+      ],
+      "kh2_guilds": [
+        "Fibers",
+        "Pulses",
+        "Vegetables"
+      ],
+      "champions_count": 15,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 15
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 33,
+    "upazila_code": "506909",
+    "upazila_name": "Bagatipara",
+    "district_name": "Natore",
+    "division_name": "Rajshahi",
+    "lat": 24.3052,
+    "lon": 88.9452,
+    "land_type": "MLL",
+    "k": 2,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.312,
+      "resolved_upazila": "Bagatipara",
+      "resolved_code": "506909",
+      "resolved_district": "Natore"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 2,
+      "expected_k": 2,
+      "counts": {
+        "rabi": 2,
+        "kharif1": 4,
+        "kharif2": 1
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Pulses",
+        "Cereals"
+      ],
+      "kh1_guilds": [
+        "Fibers",
+        "Cereals"
+      ],
+      "kh2_guilds": [
+        "Cereals"
+      ],
+      "champions_count": 7,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 7
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 90,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  },
+  {
+    "loc_id": 34,
+    "upazila_code": "506915",
+    "upazila_name": "Baraigram",
+    "district_name": "Natore",
+    "division_name": "Rajshahi",
+    "lat": 24.2585,
+    "lon": 89.1542,
+    "land_type": "MLL",
+    "k": 2,
+    "c1": {
+      "pass": true,
+      "method": "narrow_phase_pip",
+      "latency_ms": 0.201,
+      "resolved_upazila": "Baraigram",
+      "resolved_code": "506915",
+      "resolved_district": "Natore"
+    },
+    "c2": {
+      "pass": true,
+      "violations": []
+    },
+    "c3": {
+      "pass": true,
+      "violations": []
+    },
+    "c4": {
+      "pass": true,
+      "k": 2,
+      "expected_k": 2,
+      "counts": {
+        "rabi": 2,
+        "kharif1": 4,
+        "kharif2": 1
+      },
+      "empty_pools": false
+    },
+    "c5": {
+      "pass": true,
+      "rabi_guilds": [
+        "Cereals",
+        "Pulses"
+      ],
+      "kh1_guilds": [
+        "Cereals",
+        "Fibers"
+      ],
+      "kh2_guilds": [
+        "Cereals"
+      ],
+      "champions_count": 7,
+      "tier2_count": 0,
+      "tier3_count": 0,
+      "total_candidates": 7
+    },
+    "c6": {
+      "pass": true,
+      "db_total_crops": 91,
+      "invalid_crops": []
+    },
+    "overall_pass": true
+  }
+]

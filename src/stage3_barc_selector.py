@@ -9,6 +9,7 @@ import urllib.request
 import ssl
 import json
 import os
+import sys
 from typing import Dict, List, Any, Optional
 from dataclasses import dataclass, asdict
 
@@ -157,9 +158,14 @@ class BARCCandidateSelector:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"})
         data = []
         try:
-            with urllib.request.urlopen(req, context=ctx, timeout=8) as resp:
+            with urllib.request.urlopen(req, context=ctx, timeout=12) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            print(f"[Warning] BARC CZIS endpoint returned HTTP {e.code} for upazila {upazila_code}.", file=sys.stderr)
         except Exception as e:
+            print(f"[Warning] Failed to fetch from BARC CZIS for upazila {upazila_code}: {e}.", file=sys.stderr)
+
+        if not data:
             # Resilient Agro-Spatial Fallback: Borrow crop profiles from nearest cached upazila in same district
             conn = self._get_connection()
             meta = self.get_upazila_metadata(upazila_code)

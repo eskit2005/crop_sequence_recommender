@@ -1,0 +1,2436 @@
+[
+  {
+    "meta": {
+      "id": "loc_31",
+      "name": "Islampur, Jamalpur",
+      "lat": 25.0833,
+      "lon": 89.7833,
+      "land_type": "MHL",
+      "zone": "Old Brahmaputra Alluvial"
+    },
+    "engine_output": {
+      "latitude": 25.0833,
+      "longitude": 89.7833,
+      "land_type": "MHL",
+      "pipeline": "BANGLADESH_BARC",
+      "route_details": {
+        "is_bangladesh": true,
+        "upazila_code": "453929",
+        "upazila_name": "Islampur",
+        "district_name": "Jamalpur",
+        "division_name": "Mymensingh",
+        "method": "narrow_phase_pip",
+        "candidates_count": 2,
+        "latency_ms": 0.117
+      },
+      "cropping_intensity_k": 3,
+      "seasons": {
+        "rabi": [
+          {
+            "crop_id": 26,
+            "crop_name": "Linseed",
+            "season": "Rabi",
+            "botanical_family": "Linaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 95,
+            "yield_ton_ha": 1.0,
+            "effective_area_ha": 15146.8,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          },
+          {
+            "crop_id": 104,
+            "crop_name": "Potato",
+            "season": "Rabi",
+            "botanical_family": "Solanaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 90,
+            "yield_ton_ha": 25.0,
+            "effective_area_ha": 12633.8,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.96
+          },
+          {
+            "crop_id": 32,
+            "crop_name": "Coriander",
+            "season": "Rabi",
+            "botanical_family": "Apiaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 70,
+            "yield_ton_ha": 1.5,
+            "effective_area_ha": 11438.9,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.95
+          },
+          {
+            "crop_id": 6,
+            "crop_name": "Maize",
+            "season": "Rabi",
+            "botanical_family": "Poaceae",
+            "root_type": "deep_fibrous",
+            "is_legume": false,
+            "duration_days": 130,
+            "yield_ton_ha": 7.5,
+            "effective_area_ha": 11438.9,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.95
+          },
+          {
+            "crop_id": 21,
+            "crop_name": "Gram / Chickpea",
+            "season": "Rabi",
+            "botanical_family": "Fabaceae",
+            "root_type": "nodulated",
+            "is_legume": true,
+            "duration_days": 115,
+            "yield_ton_ha": 1.4,
+            "effective_area_ha": 7397.5,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.9
+          },
+          {
+            "crop_id": 25,
+            "crop_name": "Sunflower",
+            "season": "Rabi",
+            "botanical_family": "Asteraceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 100,
+            "yield_ton_ha": 2.0,
+            "effective_area_ha": 11438.9,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.95
+          },
+          {
+            "crop_id": 41,
+            "crop_name": "Broccoli",
+            "season": "Rabi",
+            "botanical_family": "Brassicaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 80,
+            "yield_ton_ha": 18.0,
+            "effective_area_ha": 11353.7,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.95
+          }
+        ],
+        "kharif1": [
+          {
+            "crop_id": 64,
+            "crop_name": "Jute",
+            "season": "Kharif-1",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 115,
+            "yield_ton_ha": 3.2,
+            "effective_area_ha": 15351.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          },
+          {
+            "crop_id": 99,
+            "crop_name": "Maize",
+            "season": "Kharif-1",
+            "botanical_family": "Poaceae",
+            "root_type": "deep_fibrous",
+            "is_legume": false,
+            "duration_days": 130,
+            "yield_ton_ha": 7.5,
+            "effective_area_ha": 11438.9,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.95
+          },
+          {
+            "crop_id": 27,
+            "crop_name": "Sesame",
+            "season": "Kharif-1",
+            "botanical_family": "Pedaliaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 90,
+            "yield_ton_ha": 1.1,
+            "effective_area_ha": 8244.8,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.91
+          },
+          {
+            "crop_id": 67,
+            "crop_name": "Ginger",
+            "season": "Kharif-1",
+            "botanical_family": "Unknown",
+            "root_type": "medium",
+            "is_legume": false,
+            "duration_days": 100,
+            "yield_ton_ha": 3.0,
+            "effective_area_ha": 1309.1,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.82
+          },
+          {
+            "crop_id": 65,
+            "crop_name": "Kenaf",
+            "season": "Kharif-1",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 120,
+            "yield_ton_ha": 3.5,
+            "effective_area_ha": 15351.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ],
+        "kharif2": [
+          {
+            "crop_id": 98,
+            "crop_name": "T. Aman dhan",
+            "season": "Kharif-2",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 135,
+            "yield_ton_ha": 4.5,
+            "effective_area_ha": 6629.2,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.89
+          },
+          {
+            "crop_id": 91,
+            "crop_name": "Black Gram",
+            "season": "Kharif-2",
+            "botanical_family": "Fabaceae",
+            "root_type": "nodulated",
+            "is_legume": true,
+            "duration_days": 75,
+            "yield_ton_ha": 1.2,
+            "effective_area_ha": 1290.8,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.57
+          },
+          {
+            "crop_id": 94,
+            "crop_name": "Bottle Gourd",
+            "season": "Kharif-2",
+            "botanical_family": "Cucurbitaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 110,
+            "yield_ton_ha": 25.0,
+            "effective_area_ha": 1290.8,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.57
+          }
+        ]
+      },
+      "candidate_counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "environmental_metadata": {
+        "is_haor_wetland": false,
+        "is_coastal_saline": false,
+        "is_deep_wetland": false,
+        "data_source": "BARC_CZIS_OFFICIAL_MATRICES"
+      },
+      "total_execution_ms": 2.55
+    }
+  },
+  {
+    "meta": {
+      "id": "loc_32",
+      "name": "Nakla, Sherpur",
+      "lat": 24.9833,
+      "lon": 90.1833,
+      "land_type": "MHL",
+      "zone": "Old Brahmaputra Floodplain"
+    },
+    "engine_output": {
+      "latitude": 24.9833,
+      "longitude": 90.1833,
+      "land_type": "MHL",
+      "pipeline": "BANGLADESH_BARC",
+      "route_details": {
+        "is_bangladesh": true,
+        "upazila_code": "458967",
+        "upazila_name": "Nakla",
+        "district_name": "Sherpur",
+        "division_name": "Mymensingh",
+        "method": "narrow_phase_pip",
+        "candidates_count": 1,
+        "latency_ms": 0.089
+      },
+      "cropping_intensity_k": 3,
+      "seasons": {
+        "rabi": [
+          {
+            "crop_id": 12,
+            "crop_name": "Potato",
+            "season": "Rabi",
+            "botanical_family": "Solanaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 90,
+            "yield_ton_ha": 25.0,
+            "effective_area_ha": 10725.5,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          },
+          {
+            "crop_id": 41,
+            "crop_name": "Broccoli",
+            "season": "Rabi",
+            "botanical_family": "Brassicaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 80,
+            "yield_ton_ha": 18.0,
+            "effective_area_ha": 8846.9,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.96
+          },
+          {
+            "crop_id": 26,
+            "crop_name": "Linseed",
+            "season": "Rabi",
+            "botanical_family": "Linaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 95,
+            "yield_ton_ha": 1.0,
+            "effective_area_ha": 8375.5,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.96
+          },
+          {
+            "crop_id": 6,
+            "crop_name": "Maize",
+            "season": "Rabi",
+            "botanical_family": "Poaceae",
+            "root_type": "deep_fibrous",
+            "is_legume": false,
+            "duration_days": 130,
+            "yield_ton_ha": 7.5,
+            "effective_area_ha": 8375.5,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.96
+          },
+          {
+            "crop_id": 21,
+            "crop_name": "Gram / Chickpea",
+            "season": "Rabi",
+            "botanical_family": "Fabaceae",
+            "root_type": "nodulated",
+            "is_legume": true,
+            "duration_days": 115,
+            "yield_ton_ha": 1.4,
+            "effective_area_ha": 7536.5,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.94
+          },
+          {
+            "crop_id": 13,
+            "crop_name": "Sweet Potato",
+            "season": "Rabi",
+            "botanical_family": "Convolvulaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 120,
+            "yield_ton_ha": 18.0,
+            "effective_area_ha": 10356.3,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.99
+          },
+          {
+            "crop_id": 40,
+            "crop_name": "Cabbage",
+            "season": "Rabi",
+            "botanical_family": "Brassicaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 85,
+            "yield_ton_ha": 30.0,
+            "effective_area_ha": 8846.9,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.96
+          }
+        ],
+        "kharif1": [
+          {
+            "crop_id": 64,
+            "crop_name": "Jute",
+            "season": "Kharif-1",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 115,
+            "yield_ton_ha": 3.2,
+            "effective_area_ha": 10288.8,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.99
+          },
+          {
+            "crop_id": 99,
+            "crop_name": "Maize",
+            "season": "Kharif-1",
+            "botanical_family": "Poaceae",
+            "root_type": "deep_fibrous",
+            "is_legume": false,
+            "duration_days": 130,
+            "yield_ton_ha": 7.5,
+            "effective_area_ha": 9081.8,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.97
+          },
+          {
+            "crop_id": 27,
+            "crop_name": "Sesame",
+            "season": "Kharif-1",
+            "botanical_family": "Pedaliaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 90,
+            "yield_ton_ha": 1.1,
+            "effective_area_ha": 8375.5,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.96
+          },
+          {
+            "crop_id": 67,
+            "crop_name": "Ginger",
+            "season": "Kharif-1",
+            "botanical_family": "Unknown",
+            "root_type": "medium",
+            "is_legume": false,
+            "duration_days": 100,
+            "yield_ton_ha": 3.0,
+            "effective_area_ha": 4225.1,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.88
+          },
+          {
+            "crop_id": 65,
+            "crop_name": "Kenaf",
+            "season": "Kharif-1",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 120,
+            "yield_ton_ha": 3.5,
+            "effective_area_ha": 10288.8,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.99
+          }
+        ],
+        "kharif2": [
+          {
+            "crop_id": 98,
+            "crop_name": "T. Aman dhan",
+            "season": "Kharif-2",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 135,
+            "yield_ton_ha": 4.5,
+            "effective_area_ha": 4258.6,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.88
+          },
+          {
+            "crop_id": 91,
+            "crop_name": "Black Gram",
+            "season": "Kharif-2",
+            "botanical_family": "Fabaceae",
+            "root_type": "nodulated",
+            "is_legume": true,
+            "duration_days": 75,
+            "yield_ton_ha": 1.2,
+            "effective_area_ha": 3518.8,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.87
+          },
+          {
+            "crop_id": 94,
+            "crop_name": "Bottle Gourd",
+            "season": "Kharif-2",
+            "botanical_family": "Cucurbitaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 110,
+            "yield_ton_ha": 25.0,
+            "effective_area_ha": 3518.8,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.87
+          }
+        ]
+      },
+      "candidate_counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "environmental_metadata": {
+        "is_haor_wetland": false,
+        "is_coastal_saline": false,
+        "is_deep_wetland": false,
+        "data_source": "BARC_CZIS_OFFICIAL_MATRICES"
+      },
+      "total_execution_ms": 2.52
+    }
+  },
+  {
+    "meta": {
+      "id": "loc_33",
+      "name": "Phulpur, Mymensingh",
+      "lat": 24.95,
+      "lon": 90.35,
+      "land_type": "MHL",
+      "zone": "Old Brahmaputra Basin"
+    },
+    "engine_output": {
+      "latitude": 24.95,
+      "longitude": 90.35,
+      "land_type": "MHL",
+      "pipeline": "BANGLADESH_BARC",
+      "route_details": {
+        "is_bangladesh": true,
+        "upazila_code": "456181",
+        "upazila_name": "Phulpur",
+        "district_name": "Mymensingh",
+        "division_name": "Mymensingh",
+        "method": "narrow_phase_pip",
+        "candidates_count": 2,
+        "latency_ms": 0.156
+      },
+      "cropping_intensity_k": 3,
+      "seasons": {
+        "rabi": [
+          {
+            "crop_id": 104,
+            "crop_name": "Potato",
+            "season": "Rabi",
+            "botanical_family": "Solanaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 90,
+            "yield_ton_ha": 25.0,
+            "effective_area_ha": 14395.9,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.95
+          },
+          {
+            "crop_id": 22,
+            "crop_name": "Mustard",
+            "season": "Rabi",
+            "botanical_family": "Brassicaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 80,
+            "yield_ton_ha": 1.5,
+            "effective_area_ha": 11465.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.92
+          },
+          {
+            "crop_id": 6,
+            "crop_name": "Maize",
+            "season": "Rabi",
+            "botanical_family": "Poaceae",
+            "root_type": "deep_fibrous",
+            "is_legume": false,
+            "duration_days": 130,
+            "yield_ton_ha": 7.5,
+            "effective_area_ha": 11465.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.92
+          },
+          {
+            "crop_id": 32,
+            "crop_name": "Coriander",
+            "season": "Rabi",
+            "botanical_family": "Apiaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 70,
+            "yield_ton_ha": 1.5,
+            "effective_area_ha": 10586.5,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.91
+          },
+          {
+            "crop_id": 21,
+            "crop_name": "Gram / Chickpea",
+            "season": "Rabi",
+            "botanical_family": "Fabaceae",
+            "root_type": "nodulated",
+            "is_legume": true,
+            "duration_days": 115,
+            "yield_ton_ha": 1.4,
+            "effective_area_ha": 10498.1,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.91
+          },
+          {
+            "crop_id": 13,
+            "crop_name": "Sweet Potato",
+            "season": "Rabi",
+            "botanical_family": "Convolvulaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 120,
+            "yield_ton_ha": 18.0,
+            "effective_area_ha": 11593.2,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.92
+          },
+          {
+            "crop_id": 26,
+            "crop_name": "Linseed",
+            "season": "Rabi",
+            "botanical_family": "Linaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 95,
+            "yield_ton_ha": 1.0,
+            "effective_area_ha": 11465.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.92
+          }
+        ],
+        "kharif1": [
+          {
+            "crop_id": 64,
+            "crop_name": "Jute",
+            "season": "Kharif-1",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 115,
+            "yield_ton_ha": 3.2,
+            "effective_area_ha": 16206.3,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.97
+          },
+          {
+            "crop_id": 99,
+            "crop_name": "Maize",
+            "season": "Kharif-1",
+            "botanical_family": "Poaceae",
+            "root_type": "deep_fibrous",
+            "is_legume": false,
+            "duration_days": 130,
+            "yield_ton_ha": 7.5,
+            "effective_area_ha": 12538.8,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.93
+          },
+          {
+            "crop_id": 27,
+            "crop_name": "Sesame",
+            "season": "Kharif-1",
+            "botanical_family": "Pedaliaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 90,
+            "yield_ton_ha": 1.1,
+            "effective_area_ha": 11465.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.92
+          },
+          {
+            "crop_id": 67,
+            "crop_name": "Ginger",
+            "season": "Kharif-1",
+            "botanical_family": "Unknown",
+            "root_type": "medium",
+            "is_legume": false,
+            "duration_days": 100,
+            "yield_ton_ha": 3.0,
+            "effective_area_ha": 3036.6,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.59
+          },
+          {
+            "crop_id": 65,
+            "crop_name": "Kenaf",
+            "season": "Kharif-1",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 120,
+            "yield_ton_ha": 3.5,
+            "effective_area_ha": 16206.3,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.97
+          }
+        ],
+        "kharif2": [
+          {
+            "crop_id": 98,
+            "crop_name": "T. Aman dhan",
+            "season": "Kharif-2",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 135,
+            "yield_ton_ha": 4.5,
+            "effective_area_ha": 8117.5,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.89
+          },
+          {
+            "crop_id": 91,
+            "crop_name": "Black Gram",
+            "season": "Kharif-2",
+            "botanical_family": "Fabaceae",
+            "root_type": "nodulated",
+            "is_legume": true,
+            "duration_days": 75,
+            "yield_ton_ha": 1.2,
+            "effective_area_ha": 2730.0,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.58
+          },
+          {
+            "crop_id": 94,
+            "crop_name": "Bottle Gourd",
+            "season": "Kharif-2",
+            "botanical_family": "Cucurbitaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 110,
+            "yield_ton_ha": 25.0,
+            "effective_area_ha": 2730.0,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.58
+          }
+        ]
+      },
+      "candidate_counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "environmental_metadata": {
+        "is_haor_wetland": false,
+        "is_coastal_saline": false,
+        "is_deep_wetland": false,
+        "data_source": "BARC_CZIS_OFFICIAL_MATRICES"
+      },
+      "total_execution_ms": 2.59
+    }
+  },
+  {
+    "meta": {
+      "id": "loc_34",
+      "name": "Gaffargaon, Mymensingh",
+      "lat": 24.4333,
+      "lon": 90.55,
+      "land_type": "MHL",
+      "zone": "Old Brahmaputra Floodplain"
+    },
+    "engine_output": {
+      "latitude": 24.4333,
+      "longitude": 90.55,
+      "land_type": "MHL",
+      "pipeline": "BANGLADESH_BARC",
+      "route_details": {
+        "is_bangladesh": true,
+        "upazila_code": "456122",
+        "upazila_name": "Gaffargaon",
+        "district_name": "Mymensingh",
+        "division_name": "Mymensingh",
+        "method": "narrow_phase_pip",
+        "candidates_count": 1,
+        "latency_ms": 0.104
+      },
+      "cropping_intensity_k": 3,
+      "seasons": {
+        "rabi": [
+          {
+            "crop_id": 104,
+            "crop_name": "Potato",
+            "season": "Rabi",
+            "botanical_family": "Solanaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 90,
+            "yield_ton_ha": 25.0,
+            "effective_area_ha": 17194.8,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.97
+          },
+          {
+            "crop_id": 26,
+            "crop_name": "Linseed",
+            "season": "Rabi",
+            "botanical_family": "Linaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 95,
+            "yield_ton_ha": 1.0,
+            "effective_area_ha": 16089.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.96
+          },
+          {
+            "crop_id": 41,
+            "crop_name": "Broccoli",
+            "season": "Rabi",
+            "botanical_family": "Brassicaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 80,
+            "yield_ton_ha": 18.0,
+            "effective_area_ha": 15004.9,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.95
+          },
+          {
+            "crop_id": 6,
+            "crop_name": "Maize",
+            "season": "Rabi",
+            "botanical_family": "Poaceae",
+            "root_type": "deep_fibrous",
+            "is_legume": false,
+            "duration_days": 130,
+            "yield_ton_ha": 7.5,
+            "effective_area_ha": 14048.5,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.94
+          },
+          {
+            "crop_id": 21,
+            "crop_name": "Gram / Chickpea",
+            "season": "Rabi",
+            "botanical_family": "Fabaceae",
+            "root_type": "nodulated",
+            "is_legume": true,
+            "duration_days": 115,
+            "yield_ton_ha": 1.4,
+            "effective_area_ha": 11754.9,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.92
+          },
+          {
+            "crop_id": 25,
+            "crop_name": "Sunflower",
+            "season": "Rabi",
+            "botanical_family": "Asteraceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 100,
+            "yield_ton_ha": 2.0,
+            "effective_area_ha": 16089.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.96
+          },
+          {
+            "crop_id": 40,
+            "crop_name": "Cabbage",
+            "season": "Rabi",
+            "botanical_family": "Brassicaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 85,
+            "yield_ton_ha": 30.0,
+            "effective_area_ha": 15004.9,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.95
+          }
+        ],
+        "kharif1": [
+          {
+            "crop_id": 27,
+            "crop_name": "Sesame",
+            "season": "Kharif-1",
+            "botanical_family": "Pedaliaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 90,
+            "yield_ton_ha": 1.1,
+            "effective_area_ha": 16089.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.96
+          },
+          {
+            "crop_id": 64,
+            "crop_name": "Jute",
+            "season": "Kharif-1",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 115,
+            "yield_ton_ha": 3.2,
+            "effective_area_ha": 14431.8,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.94
+          },
+          {
+            "crop_id": 99,
+            "crop_name": "Maize",
+            "season": "Kharif-1",
+            "botanical_family": "Poaceae",
+            "root_type": "deep_fibrous",
+            "is_legume": false,
+            "duration_days": 130,
+            "yield_ton_ha": 7.5,
+            "effective_area_ha": 14048.5,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.94
+          },
+          {
+            "crop_id": 72,
+            "crop_name": "Ash Gourd",
+            "season": "Kharif-1",
+            "botanical_family": "Unknown",
+            "root_type": "medium",
+            "is_legume": false,
+            "duration_days": 100,
+            "yield_ton_ha": 3.0,
+            "effective_area_ha": 6640.4,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.87
+          },
+          {
+            "crop_id": 65,
+            "crop_name": "Kenaf",
+            "season": "Kharif-1",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 120,
+            "yield_ton_ha": 3.5,
+            "effective_area_ha": 14431.8,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.94
+          }
+        ],
+        "kharif2": [
+          {
+            "crop_id": 98,
+            "crop_name": "T. Aman dhan",
+            "season": "Kharif-2",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 135,
+            "yield_ton_ha": 4.5,
+            "effective_area_ha": 9326.8,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.89
+          },
+          {
+            "crop_id": 10,
+            "crop_name": "Cotton",
+            "season": "Kharif-2",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 150,
+            "yield_ton_ha": 2.2,
+            "effective_area_ha": 7299.5,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.87
+          },
+          {
+            "crop_id": 91,
+            "crop_name": "Black Gram",
+            "season": "Kharif-2",
+            "botanical_family": "Fabaceae",
+            "root_type": "nodulated",
+            "is_legume": true,
+            "duration_days": 75,
+            "yield_ton_ha": 1.2,
+            "effective_area_ha": 6640.4,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.87
+          }
+        ]
+      },
+      "candidate_counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "environmental_metadata": {
+        "is_haor_wetland": false,
+        "is_coastal_saline": false,
+        "is_deep_wetland": false,
+        "data_source": "BARC_CZIS_OFFICIAL_MATRICES"
+      },
+      "total_execution_ms": 2.54
+    }
+  },
+  {
+    "meta": {
+      "id": "loc_35",
+      "name": "Bhuapur, Tangail",
+      "lat": 24.4667,
+      "lon": 89.8667,
+      "land_type": "ML",
+      "zone": "Jamuna Riverine Plain"
+    },
+    "engine_output": {
+      "latitude": 24.4667,
+      "longitude": 89.8667,
+      "land_type": "ML",
+      "pipeline": "BANGLADESH_BARC",
+      "route_details": {
+        "is_bangladesh": true,
+        "upazila_code": "309319",
+        "upazila_name": "Bhuapur",
+        "district_name": "Tangail",
+        "division_name": "Dhaka",
+        "method": "narrow_phase_pip",
+        "candidates_count": 1,
+        "latency_ms": 0.098
+      },
+      "cropping_intensity_k": 2,
+      "seasons": {
+        "rabi": [
+          {
+            "crop_id": 1,
+            "crop_name": "Boro dhan",
+            "season": "Rabi",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 145,
+            "yield_ton_ha": 6.5,
+            "effective_area_ha": 15369.6,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          },
+          {
+            "crop_id": 17,
+            "crop_name": "Grass pea",
+            "season": "Rabi",
+            "botanical_family": "Fabaceae",
+            "root_type": "nodulated",
+            "is_legume": true,
+            "duration_days": 110,
+            "yield_ton_ha": 1.3,
+            "effective_area_ha": 13009.7,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.97
+          }
+        ],
+        "kharif1": [
+          {
+            "crop_id": 64,
+            "crop_name": "Jute",
+            "season": "Kharif-1",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 115,
+            "yield_ton_ha": 3.2,
+            "effective_area_ha": 14341.9,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.99
+          },
+          {
+            "crop_id": 61,
+            "crop_name": "T. Aus dhan",
+            "season": "Kharif-1",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 105,
+            "yield_ton_ha": 3.5,
+            "effective_area_ha": 6459.4,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.88
+          },
+          {
+            "crop_id": 65,
+            "crop_name": "Kenaf",
+            "season": "Kharif-1",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 120,
+            "yield_ton_ha": 3.5,
+            "effective_area_ha": 14341.9,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.99
+          },
+          {
+            "crop_id": 59,
+            "crop_name": "B. Aus dhan",
+            "season": "Kharif-1",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 105,
+            "yield_ton_ha": 3.5,
+            "effective_area_ha": 1275.4,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.82
+          }
+        ],
+        "kharif2": [
+          {
+            "crop_id": 98,
+            "crop_name": "T. Aman dhan",
+            "season": "Kharif-2",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 135,
+            "yield_ton_ha": 4.5,
+            "effective_area_ha": 8926.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.92
+          }
+        ]
+      },
+      "candidate_counts": {
+        "rabi": 2,
+        "kharif1": 4,
+        "kharif2": 1
+      },
+      "environmental_metadata": {
+        "is_haor_wetland": false,
+        "is_coastal_saline": false,
+        "is_deep_wetland": false,
+        "data_source": "BARC_CZIS_OFFICIAL_MATRICES"
+      },
+      "total_execution_ms": 1626.37
+    }
+  },
+  {
+    "meta": {
+      "id": "loc_36",
+      "name": "Ghatail, Tangail",
+      "lat": 24.5,
+      "lon": 90.0,
+      "land_type": "HL",
+      "zone": "Madhupur Red Terrace"
+    },
+    "engine_output": {
+      "latitude": 24.5,
+      "longitude": 90.0,
+      "land_type": "HL",
+      "pipeline": "BANGLADESH_BARC",
+      "route_details": {
+        "is_bangladesh": true,
+        "upazila_code": "309328",
+        "upazila_name": "Ghatail",
+        "district_name": "Tangail",
+        "division_name": "Dhaka",
+        "method": "narrow_phase_pip",
+        "candidates_count": 1,
+        "latency_ms": 0.387
+      },
+      "cropping_intensity_k": 3,
+      "seasons": {
+        "rabi": [
+          {
+            "crop_id": 26,
+            "crop_name": "Linseed",
+            "season": "Rabi",
+            "botanical_family": "Linaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 95,
+            "yield_ton_ha": 1.0,
+            "effective_area_ha": 27305.9,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          },
+          {
+            "crop_id": 104,
+            "crop_name": "Potato",
+            "season": "Rabi",
+            "botanical_family": "Solanaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 90,
+            "yield_ton_ha": 25.0,
+            "effective_area_ha": 25689.1,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.99
+          },
+          {
+            "crop_id": 6,
+            "crop_name": "Maize",
+            "season": "Rabi",
+            "botanical_family": "Poaceae",
+            "root_type": "deep_fibrous",
+            "is_legume": false,
+            "duration_days": 130,
+            "yield_ton_ha": 7.5,
+            "effective_area_ha": 24632.6,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.98
+          },
+          {
+            "crop_id": 32,
+            "crop_name": "Coriander",
+            "season": "Rabi",
+            "botanical_family": "Apiaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 70,
+            "yield_ton_ha": 1.5,
+            "effective_area_ha": 23243.4,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.97
+          },
+          {
+            "crop_id": 21,
+            "crop_name": "Gram / Chickpea",
+            "season": "Rabi",
+            "botanical_family": "Fabaceae",
+            "root_type": "nodulated",
+            "is_legume": true,
+            "duration_days": 115,
+            "yield_ton_ha": 1.4,
+            "effective_area_ha": 18397.1,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.93
+          },
+          {
+            "crop_id": 25,
+            "crop_name": "Sunflower",
+            "season": "Rabi",
+            "botanical_family": "Asteraceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 100,
+            "yield_ton_ha": 2.0,
+            "effective_area_ha": 24632.6,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.98
+          },
+          {
+            "crop_id": 13,
+            "crop_name": "Sweet Potato",
+            "season": "Rabi",
+            "botanical_family": "Convolvulaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 120,
+            "yield_ton_ha": 18.0,
+            "effective_area_ha": 24207.2,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.98
+          }
+        ],
+        "kharif1": [
+          {
+            "crop_id": 99,
+            "crop_name": "Maize",
+            "season": "Kharif-1",
+            "botanical_family": "Poaceae",
+            "root_type": "deep_fibrous",
+            "is_legume": false,
+            "duration_days": 130,
+            "yield_ton_ha": 7.5,
+            "effective_area_ha": 27616.7,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          },
+          {
+            "crop_id": 27,
+            "crop_name": "Sesame",
+            "season": "Kharif-1",
+            "botanical_family": "Pedaliaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 90,
+            "yield_ton_ha": 1.1,
+            "effective_area_ha": 24722.2,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.98
+          },
+          {
+            "crop_id": 64,
+            "crop_name": "Jute",
+            "season": "Kharif-1",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 115,
+            "yield_ton_ha": 3.2,
+            "effective_area_ha": 21386.4,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.95
+          },
+          {
+            "crop_id": 72,
+            "crop_name": "Ash Gourd",
+            "season": "Kharif-1",
+            "botanical_family": "Unknown",
+            "root_type": "medium",
+            "is_legume": false,
+            "duration_days": 100,
+            "yield_ton_ha": 3.0,
+            "effective_area_ha": 10535.0,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.64
+          },
+          {
+            "crop_id": 65,
+            "crop_name": "Kenaf",
+            "season": "Kharif-1",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 120,
+            "yield_ton_ha": 3.5,
+            "effective_area_ha": 21386.4,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.95
+          }
+        ],
+        "kharif2": [
+          {
+            "crop_id": 91,
+            "crop_name": "Black Gram",
+            "season": "Kharif-2",
+            "botanical_family": "Fabaceae",
+            "root_type": "nodulated",
+            "is_legume": true,
+            "duration_days": 75,
+            "yield_ton_ha": 1.2,
+            "effective_area_ha": 10535.0,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.64
+          },
+          {
+            "crop_id": 94,
+            "crop_name": "Bottle Gourd",
+            "season": "Kharif-2",
+            "botanical_family": "Cucurbitaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 110,
+            "yield_ton_ha": 25.0,
+            "effective_area_ha": 10535.0,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.64
+          },
+          {
+            "crop_id": 10,
+            "crop_name": "Cotton",
+            "season": "Kharif-2",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 150,
+            "yield_ton_ha": 2.2,
+            "effective_area_ha": 10535.0,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.64
+          }
+        ]
+      },
+      "candidate_counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "environmental_metadata": {
+        "is_haor_wetland": false,
+        "is_coastal_saline": false,
+        "is_deep_wetland": false,
+        "data_source": "BARC_CZIS_OFFICIAL_MATRICES"
+      },
+      "total_execution_ms": 3217.6
+    }
+  },
+  {
+    "meta": {
+      "id": "loc_37",
+      "name": "Sreepur, Gazipur",
+      "lat": 24.2,
+      "lon": 90.4833,
+      "land_type": "HL",
+      "zone": "Madhupur Tract"
+    },
+    "engine_output": {
+      "latitude": 24.2,
+      "longitude": 90.4833,
+      "land_type": "HL",
+      "pipeline": "BANGLADESH_BARC",
+      "route_details": {
+        "is_bangladesh": true,
+        "upazila_code": "303386",
+        "upazila_name": "Sreepur",
+        "district_name": "Gazipur",
+        "division_name": "Dhaka",
+        "method": "narrow_phase_pip",
+        "candidates_count": 1,
+        "latency_ms": 0.21
+      },
+      "cropping_intensity_k": 3,
+      "seasons": {
+        "rabi": [
+          {
+            "crop_id": 104,
+            "crop_name": "Potato",
+            "season": "Rabi",
+            "botanical_family": "Solanaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 90,
+            "yield_ton_ha": 25.0,
+            "effective_area_ha": 14072.7,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          },
+          {
+            "crop_id": 32,
+            "crop_name": "Coriander",
+            "season": "Rabi",
+            "botanical_family": "Apiaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 70,
+            "yield_ton_ha": 1.5,
+            "effective_area_ha": 10369.1,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.73
+          },
+          {
+            "crop_id": 26,
+            "crop_name": "Linseed",
+            "season": "Rabi",
+            "botanical_family": "Linaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 95,
+            "yield_ton_ha": 1.0,
+            "effective_area_ha": 7591.5,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.68
+          },
+          {
+            "crop_id": 3,
+            "crop_name": "Wheat",
+            "season": "Rabi",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 110,
+            "yield_ton_ha": 4.0,
+            "effective_area_ha": 7591.5,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.68
+          },
+          {
+            "crop_id": 16,
+            "crop_name": "Lentil",
+            "season": "Rabi",
+            "botanical_family": "Fabaceae",
+            "root_type": "nodulated",
+            "is_legume": true,
+            "duration_days": 105,
+            "yield_ton_ha": 1.2,
+            "effective_area_ha": 5016.2,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.64
+          },
+          {
+            "crop_id": 13,
+            "crop_name": "Sweet Potato",
+            "season": "Rabi",
+            "botanical_family": "Convolvulaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 120,
+            "yield_ton_ha": 18.0,
+            "effective_area_ha": 9741.3,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.94
+          },
+          {
+            "crop_id": 52,
+            "crop_name": "Carrot",
+            "season": "Rabi",
+            "botanical_family": "Unknown",
+            "root_type": "medium",
+            "is_legume": false,
+            "duration_days": 100,
+            "yield_ton_ha": 3.0,
+            "effective_area_ha": 7591.5,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.68
+          }
+        ],
+        "kharif1": [
+          {
+            "crop_id": 27,
+            "crop_name": "Sesame",
+            "season": "Kharif-1",
+            "botanical_family": "Pedaliaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 90,
+            "yield_ton_ha": 1.1,
+            "effective_area_ha": 11157.3,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.74
+          },
+          {
+            "crop_id": 99,
+            "crop_name": "Maize",
+            "season": "Kharif-1",
+            "botanical_family": "Poaceae",
+            "root_type": "deep_fibrous",
+            "is_legume": false,
+            "duration_days": 130,
+            "yield_ton_ha": 7.5,
+            "effective_area_ha": 11157.3,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.74
+          },
+          {
+            "crop_id": 64,
+            "crop_name": "Jute",
+            "season": "Kharif-1",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 115,
+            "yield_ton_ha": 3.2,
+            "effective_area_ha": 7766.7,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.91
+          },
+          {
+            "crop_id": 72,
+            "crop_name": "Ash Gourd",
+            "season": "Kharif-1",
+            "botanical_family": "Unknown",
+            "root_type": "medium",
+            "is_legume": false,
+            "duration_days": 100,
+            "yield_ton_ha": 3.0,
+            "effective_area_ha": 1476.3,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.58
+          },
+          {
+            "crop_id": 65,
+            "crop_name": "Kenaf",
+            "season": "Kharif-1",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 120,
+            "yield_ton_ha": 3.5,
+            "effective_area_ha": 7766.7,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.91
+          }
+        ],
+        "kharif2": [
+          {
+            "crop_id": 10,
+            "crop_name": "Cotton",
+            "season": "Kharif-2",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 150,
+            "yield_ton_ha": 2.2,
+            "effective_area_ha": 5042.8,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.64
+          },
+          {
+            "crop_id": 91,
+            "crop_name": "Black Gram",
+            "season": "Kharif-2",
+            "botanical_family": "Fabaceae",
+            "root_type": "nodulated",
+            "is_legume": true,
+            "duration_days": 75,
+            "yield_ton_ha": 1.2,
+            "effective_area_ha": 1476.3,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.58
+          },
+          {
+            "crop_id": 94,
+            "crop_name": "Bottle Gourd",
+            "season": "Kharif-2",
+            "botanical_family": "Cucurbitaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 110,
+            "yield_ton_ha": 25.0,
+            "effective_area_ha": 1476.3,
+            "suitability_tier": "Suitable",
+            "suitability_score": 0.58
+          }
+        ]
+      },
+      "candidate_counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "environmental_metadata": {
+        "is_haor_wetland": false,
+        "is_coastal_saline": false,
+        "is_deep_wetland": false,
+        "data_source": "BARC_CZIS_OFFICIAL_MATRICES"
+      },
+      "total_execution_ms": 1342.59
+    }
+  },
+  {
+    "meta": {
+      "id": "loc_38",
+      "name": "Raipura, Narsingdi",
+      "lat": 23.9833,
+      "lon": 90.8667,
+      "land_type": "MHL",
+      "zone": "Meghna Floodplain"
+    },
+    "engine_output": {
+      "latitude": 23.9833,
+      "longitude": 90.8667,
+      "land_type": "MHL",
+      "pipeline": "BANGLADESH_BARC",
+      "route_details": {
+        "is_bangladesh": true,
+        "upazila_code": "306864",
+        "upazila_name": "Roypura",
+        "district_name": "Narshingdi",
+        "division_name": "Dhaka",
+        "method": "narrow_phase_pip",
+        "candidates_count": 1,
+        "latency_ms": 0.169
+      },
+      "cropping_intensity_k": 3,
+      "seasons": {
+        "rabi": [
+          {
+            "crop_id": 104,
+            "crop_name": "Potato",
+            "season": "Rabi",
+            "botanical_family": "Solanaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 90,
+            "yield_ton_ha": 25.0,
+            "effective_area_ha": 12250.6,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.96
+          },
+          {
+            "crop_id": 26,
+            "crop_name": "Linseed",
+            "season": "Rabi",
+            "botanical_family": "Linaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 95,
+            "yield_ton_ha": 1.0,
+            "effective_area_ha": 10374.9,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.93
+          },
+          {
+            "crop_id": 6,
+            "crop_name": "Maize",
+            "season": "Rabi",
+            "botanical_family": "Poaceae",
+            "root_type": "deep_fibrous",
+            "is_legume": false,
+            "duration_days": 130,
+            "yield_ton_ha": 7.5,
+            "effective_area_ha": 10367.2,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.93
+          },
+          {
+            "crop_id": 32,
+            "crop_name": "Coriander",
+            "season": "Rabi",
+            "botanical_family": "Apiaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 70,
+            "yield_ton_ha": 1.5,
+            "effective_area_ha": 9299.7,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.92
+          },
+          {
+            "crop_id": 21,
+            "crop_name": "Gram / Chickpea",
+            "season": "Rabi",
+            "botanical_family": "Fabaceae",
+            "root_type": "nodulated",
+            "is_legume": true,
+            "duration_days": 115,
+            "yield_ton_ha": 1.4,
+            "effective_area_ha": 8769.5,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.91
+          },
+          {
+            "crop_id": 13,
+            "crop_name": "Sweet Potato",
+            "season": "Rabi",
+            "botanical_family": "Convolvulaceae",
+            "root_type": "shallow",
+            "is_legume": false,
+            "duration_days": 120,
+            "yield_ton_ha": 18.0,
+            "effective_area_ha": 12170.7,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.95
+          },
+          {
+            "crop_id": 25,
+            "crop_name": "Sunflower",
+            "season": "Rabi",
+            "botanical_family": "Asteraceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 100,
+            "yield_ton_ha": 2.0,
+            "effective_area_ha": 10374.9,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.93
+          }
+        ],
+        "kharif1": [
+          {
+            "crop_id": 64,
+            "crop_name": "Jute",
+            "season": "Kharif-1",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 115,
+            "yield_ton_ha": 3.2,
+            "effective_area_ha": 15749.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          },
+          {
+            "crop_id": 99,
+            "crop_name": "Maize",
+            "season": "Kharif-1",
+            "botanical_family": "Poaceae",
+            "root_type": "deep_fibrous",
+            "is_legume": false,
+            "duration_days": 130,
+            "yield_ton_ha": 7.5,
+            "effective_area_ha": 11214.2,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.94
+          },
+          {
+            "crop_id": 27,
+            "crop_name": "Sesame",
+            "season": "Kharif-1",
+            "botanical_family": "Pedaliaceae",
+            "root_type": "medium_tap",
+            "is_legume": false,
+            "duration_days": 90,
+            "yield_ton_ha": 1.1,
+            "effective_area_ha": 10287.4,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.93
+          },
+          {
+            "crop_id": 72,
+            "crop_name": "Ash Gourd",
+            "season": "Kharif-1",
+            "botanical_family": "Unknown",
+            "root_type": "medium",
+            "is_legume": false,
+            "duration_days": 100,
+            "yield_ton_ha": 3.0,
+            "effective_area_ha": 1248.8,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.82
+          },
+          {
+            "crop_id": 65,
+            "crop_name": "Kenaf",
+            "season": "Kharif-1",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 120,
+            "yield_ton_ha": 3.5,
+            "effective_area_ha": 15749.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ],
+        "kharif2": [
+          {
+            "crop_id": 98,
+            "crop_name": "T. Aman dhan",
+            "season": "Kharif-2",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 135,
+            "yield_ton_ha": 4.5,
+            "effective_area_ha": 4444.8,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.86
+          },
+          {
+            "crop_id": 10,
+            "crop_name": "Cotton",
+            "season": "Kharif-2",
+            "botanical_family": "Malvaceae",
+            "root_type": "deep_tap",
+            "is_legume": false,
+            "duration_days": 150,
+            "yield_ton_ha": 2.2,
+            "effective_area_ha": 1337.3,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.82
+          },
+          {
+            "crop_id": 91,
+            "crop_name": "Black Gram",
+            "season": "Kharif-2",
+            "botanical_family": "Fabaceae",
+            "root_type": "nodulated",
+            "is_legume": true,
+            "duration_days": 75,
+            "yield_ton_ha": 1.2,
+            "effective_area_ha": 1248.8,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.82
+          }
+        ]
+      },
+      "candidate_counts": {
+        "rabi": 7,
+        "kharif1": 5,
+        "kharif2": 3
+      },
+      "environmental_metadata": {
+        "is_haor_wetland": false,
+        "is_coastal_saline": false,
+        "is_deep_wetland": false,
+        "data_source": "BARC_CZIS_OFFICIAL_MATRICES"
+      },
+      "total_execution_ms": 1994.63
+    }
+  },
+  {
+    "meta": {
+      "id": "loc_39",
+      "name": "Dharmapasha, Sunamganj",
+      "lat": 25.0833,
+      "lon": 91.0167,
+      "land_type": "VLL",
+      "zone": "Deep Haor Depression (Hakaluki/Tanguar)"
+    },
+    "engine_output": {
+      "latitude": 25.0833,
+      "longitude": 91.0167,
+      "land_type": "VLL",
+      "pipeline": "BANGLADESH_BARC",
+      "route_details": {
+        "is_bangladesh": true,
+        "upazila_code": "609063",
+        "upazila_name": "Madhyanagar",
+        "district_name": "Sunamganj",
+        "division_name": "Sylhet",
+        "method": "narrow_phase_pip",
+        "candidates_count": 1,
+        "latency_ms": 0.188
+      },
+      "cropping_intensity_k": 1,
+      "seasons": {
+        "rabi": [
+          {
+            "crop_id": 1,
+            "crop_name": "Boro dhan",
+            "season": "Rabi",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 145,
+            "yield_ton_ha": 6.5,
+            "effective_area_ha": 12233.7,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ],
+        "kharif1": [
+          {
+            "crop_id": 999,
+            "crop_name": "Fallow",
+            "season": "Any",
+            "botanical_family": "None",
+            "root_type": "none",
+            "is_legume": false,
+            "duration_days": 0,
+            "yield_ton_ha": 0.0,
+            "effective_area_ha": 10000.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ],
+        "kharif2": [
+          {
+            "crop_id": 999,
+            "crop_name": "Fallow",
+            "season": "Any",
+            "botanical_family": "None",
+            "root_type": "none",
+            "is_legume": false,
+            "duration_days": 0,
+            "yield_ton_ha": 0.0,
+            "effective_area_ha": 10000.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ]
+      },
+      "candidate_counts": {
+        "rabi": 1,
+        "kharif1": 1,
+        "kharif2": 1
+      },
+      "environmental_metadata": {
+        "is_haor_wetland": true,
+        "is_coastal_saline": false,
+        "is_deep_wetland": true,
+        "data_source": "BARC_CZIS_OFFICIAL_MATRICES"
+      },
+      "total_execution_ms": 2.53
+    }
+  },
+  {
+    "meta": {
+      "id": "loc_40",
+      "name": "Shalla, Sunamganj",
+      "lat": 24.6333,
+      "lon": 91.2333,
+      "land_type": "VLL",
+      "zone": "Deep Haor Basin"
+    },
+    "engine_output": {
+      "latitude": 24.6333,
+      "longitude": 91.2333,
+      "land_type": "VLL",
+      "pipeline": "BANGLADESH_BARC",
+      "route_details": {
+        "is_bangladesh": true,
+        "upazila_code": "609086",
+        "upazila_name": "Shalla",
+        "district_name": "Sunamganj",
+        "division_name": "Sylhet",
+        "method": "narrow_phase_pip",
+        "candidates_count": 5,
+        "latency_ms": 0.381
+      },
+      "cropping_intensity_k": 1,
+      "seasons": {
+        "rabi": [
+          {
+            "crop_id": 1,
+            "crop_name": "Boro dhan",
+            "season": "Rabi",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 145,
+            "yield_ton_ha": 6.5,
+            "effective_area_ha": 14500.6,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ],
+        "kharif1": [
+          {
+            "crop_id": 999,
+            "crop_name": "Fallow",
+            "season": "Any",
+            "botanical_family": "None",
+            "root_type": "none",
+            "is_legume": false,
+            "duration_days": 0,
+            "yield_ton_ha": 0.0,
+            "effective_area_ha": 10000.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ],
+        "kharif2": [
+          {
+            "crop_id": 999,
+            "crop_name": "Fallow",
+            "season": "Any",
+            "botanical_family": "None",
+            "root_type": "none",
+            "is_legume": false,
+            "duration_days": 0,
+            "yield_ton_ha": 0.0,
+            "effective_area_ha": 10000.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ]
+      },
+      "candidate_counts": {
+        "rabi": 1,
+        "kharif1": 1,
+        "kharif2": 1
+      },
+      "environmental_metadata": {
+        "is_haor_wetland": true,
+        "is_coastal_saline": false,
+        "is_deep_wetland": true,
+        "data_source": "BARC_CZIS_OFFICIAL_MATRICES"
+      },
+      "total_execution_ms": 2.0
+    }
+  },
+  {
+    "meta": {
+      "id": "loc_41",
+      "name": "Jagannathpur, Sunamganj",
+      "lat": 24.7667,
+      "lon": 91.5333,
+      "land_type": "LL",
+      "zone": "Sylhet Haor Depression"
+    },
+    "engine_output": {
+      "latitude": 24.7667,
+      "longitude": 91.5333,
+      "land_type": "LL",
+      "pipeline": "BANGLADESH_BARC",
+      "route_details": {
+        "is_bangladesh": true,
+        "upazila_code": "609047",
+        "upazila_name": "Jagannathpur",
+        "district_name": "Sunamganj",
+        "division_name": "Sylhet",
+        "method": "narrow_phase_pip",
+        "candidates_count": 1,
+        "latency_ms": 0.189
+      },
+      "cropping_intensity_k": 1,
+      "seasons": {
+        "rabi": [
+          {
+            "crop_id": 1,
+            "crop_name": "Boro dhan",
+            "season": "Rabi",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 145,
+            "yield_ton_ha": 6.5,
+            "effective_area_ha": 12962.6,
+            "suitability_tier": "Ideal",
+            "suitability_score": 0.96
+          }
+        ],
+        "kharif1": [
+          {
+            "crop_id": 999,
+            "crop_name": "Fallow",
+            "season": "Any",
+            "botanical_family": "None",
+            "root_type": "none",
+            "is_legume": false,
+            "duration_days": 0,
+            "yield_ton_ha": 0.0,
+            "effective_area_ha": 10000.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ],
+        "kharif2": [
+          {
+            "crop_id": 999,
+            "crop_name": "Fallow",
+            "season": "Any",
+            "botanical_family": "None",
+            "root_type": "none",
+            "is_legume": false,
+            "duration_days": 0,
+            "yield_ton_ha": 0.0,
+            "effective_area_ha": 10000.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ]
+      },
+      "candidate_counts": {
+        "rabi": 1,
+        "kharif1": 1,
+        "kharif2": 1
+      },
+      "environmental_metadata": {
+        "is_haor_wetland": true,
+        "is_coastal_saline": false,
+        "is_deep_wetland": true,
+        "data_source": "BARC_CZIS_OFFICIAL_MATRICES"
+      },
+      "total_execution_ms": 2.2
+    }
+  },
+  {
+    "meta": {
+      "id": "loc_42",
+      "name": "Itna, Kishoreganj",
+      "lat": 24.5333,
+      "lon": 91.0833,
+      "land_type": "VLL",
+      "zone": "Deep Haor Basin"
+    },
+    "engine_output": {
+      "latitude": 24.5333,
+      "longitude": 91.0833,
+      "land_type": "VLL",
+      "pipeline": "BANGLADESH_BARC",
+      "route_details": {
+        "is_bangladesh": true,
+        "upazila_code": "304833",
+        "upazila_name": "Itna",
+        "district_name": "Kishoreganj",
+        "division_name": "Dhaka",
+        "method": "narrow_phase_pip",
+        "candidates_count": 1,
+        "latency_ms": 0.174
+      },
+      "cropping_intensity_k": 1,
+      "seasons": {
+        "rabi": [
+          {
+            "crop_id": 1,
+            "crop_name": "Boro dhan",
+            "season": "Rabi",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 145,
+            "yield_ton_ha": 6.5,
+            "effective_area_ha": 34547.2,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ],
+        "kharif1": [
+          {
+            "crop_id": 999,
+            "crop_name": "Fallow",
+            "season": "Any",
+            "botanical_family": "None",
+            "root_type": "none",
+            "is_legume": false,
+            "duration_days": 0,
+            "yield_ton_ha": 0.0,
+            "effective_area_ha": 10000.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ],
+        "kharif2": [
+          {
+            "crop_id": 999,
+            "crop_name": "Fallow",
+            "season": "Any",
+            "botanical_family": "None",
+            "root_type": "none",
+            "is_legume": false,
+            "duration_days": 0,
+            "yield_ton_ha": 0.0,
+            "effective_area_ha": 10000.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ]
+      },
+      "candidate_counts": {
+        "rabi": 1,
+        "kharif1": 1,
+        "kharif2": 1
+      },
+      "environmental_metadata": {
+        "is_haor_wetland": true,
+        "is_coastal_saline": false,
+        "is_deep_wetland": true,
+        "data_source": "BARC_CZIS_OFFICIAL_MATRICES"
+      },
+      "total_execution_ms": 2.3
+    }
+  },
+  {
+    "meta": {
+      "id": "loc_43",
+      "name": "Mithamain, Kishoreganj",
+      "lat": 24.4333,
+      "lon": 91.05,
+      "land_type": "VLL",
+      "zone": "Deep Haor Basin"
+    },
+    "engine_output": {
+      "latitude": 24.4333,
+      "longitude": 91.05,
+      "land_type": "VLL",
+      "pipeline": "BANGLADESH_BARC",
+      "route_details": {
+        "is_bangladesh": true,
+        "upazila_code": "304859",
+        "upazila_name": "Mithamain",
+        "district_name": "Kishoreganj",
+        "division_name": "Dhaka",
+        "method": "narrow_phase_pip",
+        "candidates_count": 2,
+        "latency_ms": 0.209
+      },
+      "cropping_intensity_k": 1,
+      "seasons": {
+        "rabi": [
+          {
+            "crop_id": 1,
+            "crop_name": "Boro dhan",
+            "season": "Rabi",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 145,
+            "yield_ton_ha": 6.5,
+            "effective_area_ha": 18806.4,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ],
+        "kharif1": [
+          {
+            "crop_id": 999,
+            "crop_name": "Fallow",
+            "season": "Any",
+            "botanical_family": "None",
+            "root_type": "none",
+            "is_legume": false,
+            "duration_days": 0,
+            "yield_ton_ha": 0.0,
+            "effective_area_ha": 10000.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ],
+        "kharif2": [
+          {
+            "crop_id": 999,
+            "crop_name": "Fallow",
+            "season": "Any",
+            "botanical_family": "None",
+            "root_type": "none",
+            "is_legume": false,
+            "duration_days": 0,
+            "yield_ton_ha": 0.0,
+            "effective_area_ha": 10000.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ]
+      },
+      "candidate_counts": {
+        "rabi": 1,
+        "kharif1": 1,
+        "kharif2": 1
+      },
+      "environmental_metadata": {
+        "is_haor_wetland": true,
+        "is_coastal_saline": false,
+        "is_deep_wetland": true,
+        "data_source": "BARC_CZIS_OFFICIAL_MATRICES"
+      },
+      "total_execution_ms": 866.96
+    }
+  },
+  {
+    "meta": {
+      "id": "loc_44",
+      "name": "Austagram, Kishoreganj",
+      "lat": 24.2667,
+      "lon": 91.1167,
+      "land_type": "VLL",
+      "zone": "Deep Haor Basin"
+    },
+    "engine_output": {
+      "latitude": 24.2667,
+      "longitude": 91.1167,
+      "land_type": "VLL",
+      "pipeline": "BANGLADESH_BARC",
+      "route_details": {
+        "is_bangladesh": true,
+        "upazila_code": "304802",
+        "upazila_name": "Austagram",
+        "district_name": "Kishoreganj",
+        "division_name": "Dhaka",
+        "method": "narrow_phase_pip",
+        "candidates_count": 2,
+        "latency_ms": 0.18
+      },
+      "cropping_intensity_k": 1,
+      "seasons": {
+        "rabi": [
+          {
+            "crop_id": 1,
+            "crop_name": "Boro dhan",
+            "season": "Rabi",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 145,
+            "yield_ton_ha": 6.5,
+            "effective_area_ha": 10034.6,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ],
+        "kharif1": [
+          {
+            "crop_id": 999,
+            "crop_name": "Fallow",
+            "season": "Any",
+            "botanical_family": "None",
+            "root_type": "none",
+            "is_legume": false,
+            "duration_days": 0,
+            "yield_ton_ha": 0.0,
+            "effective_area_ha": 10000.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ],
+        "kharif2": [
+          {
+            "crop_id": 999,
+            "crop_name": "Fallow",
+            "season": "Any",
+            "botanical_family": "None",
+            "root_type": "none",
+            "is_legume": false,
+            "duration_days": 0,
+            "yield_ton_ha": 0.0,
+            "effective_area_ha": 10000.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ]
+      },
+      "candidate_counts": {
+        "rabi": 1,
+        "kharif1": 1,
+        "kharif2": 1
+      },
+      "environmental_metadata": {
+        "is_haor_wetland": true,
+        "is_coastal_saline": false,
+        "is_deep_wetland": true,
+        "data_source": "BARC_CZIS_OFFICIAL_MATRICES"
+      },
+      "total_execution_ms": 74.02
+    }
+  },
+  {
+    "meta": {
+      "id": "loc_45",
+      "name": "Mohanganj, Netrokona",
+      "lat": 24.8667,
+      "lon": 90.9667,
+      "land_type": "VLL",
+      "zone": "Ganges-Surma Haor Edge"
+    },
+    "engine_output": {
+      "latitude": 24.8667,
+      "longitude": 90.9667,
+      "land_type": "VLL",
+      "pipeline": "BANGLADESH_BARC",
+      "route_details": {
+        "is_bangladesh": true,
+        "upazila_code": "457263",
+        "upazila_name": "Mohanganj",
+        "district_name": "Netrokona",
+        "division_name": "Mymensingh",
+        "method": "narrow_phase_pip",
+        "candidates_count": 3,
+        "latency_ms": 0.193
+      },
+      "cropping_intensity_k": 1,
+      "seasons": {
+        "rabi": [
+          {
+            "crop_id": 1,
+            "crop_name": "Boro dhan",
+            "season": "Rabi",
+            "botanical_family": "Poaceae",
+            "root_type": "shallow_fibrous",
+            "is_legume": false,
+            "duration_days": 145,
+            "yield_ton_ha": 6.5,
+            "effective_area_ha": 16647.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ],
+        "kharif1": [
+          {
+            "crop_id": 999,
+            "crop_name": "Fallow",
+            "season": "Any",
+            "botanical_family": "None",
+            "root_type": "none",
+            "is_legume": false,
+            "duration_days": 0,
+            "yield_ton_ha": 0.0,
+            "effective_area_ha": 10000.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ],
+        "kharif2": [
+          {
+            "crop_id": 999,
+            "crop_name": "Fallow",
+            "season": "Any",
+            "botanical_family": "None",
+            "root_type": "none",
+            "is_legume": false,
+            "duration_days": 0,
+            "yield_ton_ha": 0.0,
+            "effective_area_ha": 10000.0,
+            "suitability_tier": "Ideal",
+            "suitability_score": 1.0
+          }
+        ]
+      },
+      "candidate_counts": {
+        "rabi": 1,
+        "kharif1": 1,
+        "kharif2": 1
+      },
+      "environmental_metadata": {
+        "is_haor_wetland": true,
+        "is_coastal_saline": false,
+        "is_deep_wetland": true,
+        "data_source": "BARC_CZIS_OFFICIAL_MATRICES"
+      },
+      "total_execution_ms": 1509.57
+    }
+  }
+]

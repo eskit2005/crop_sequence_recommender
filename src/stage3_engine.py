@@ -11,10 +11,22 @@ import time
 from dataclasses import dataclass, asdict
 from typing import Dict, List, Any, Optional
 
-from src.router import SpatialRouter, RouteDecision
-from src.stage3_barc_selector import BARCCandidateSelector
-from src.global_env_fetcher import GlobalEnvFetcher, EnvironmentalProfile
-from src.stage3_fao_selector import FAOCandidateSelector
+# Ensure project root is in sys.path so the module can run from any directory
+_current_dir = os.path.dirname(os.path.abspath(__file__))
+_root_dir = os.path.dirname(_current_dir)
+if _root_dir not in sys.path:
+    sys.path.insert(0, _root_dir)
+
+try:
+    from src.router import SpatialRouter, RouteDecision
+    from src.stage3_barc_selector import BARCCandidateSelector
+    from src.global_env_fetcher import GlobalEnvFetcher, EnvironmentalProfile
+    from src.stage3_fao_selector import FAOCandidateSelector
+except ModuleNotFoundError:
+    from router import SpatialRouter, RouteDecision
+    from stage3_barc_selector import BARCCandidateSelector
+    from global_env_fetcher import GlobalEnvFetcher, EnvironmentalProfile
+    from stage3_fao_selector import FAOCandidateSelector
 
 
 @dataclass
