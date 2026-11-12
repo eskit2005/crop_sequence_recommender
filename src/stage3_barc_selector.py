@@ -9,6 +9,7 @@ import urllib.request
 import ssl
 import json
 import os
+import sys
 from typing import Dict, List, Any, Optional
 from dataclasses import dataclass, asdict
 
@@ -138,8 +139,16 @@ class BARCCandidateSelector:
         ctx.verify_mode = ssl.CERT_NONE
         
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"})
-        with urllib.request.urlopen(req, context=ctx, timeout=20) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
+        try:
+            with urllib.request.urlopen(req, context=ctx, timeout=20) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            # Server error or upazila not found in BARC CZIS (e.g. 500, 404)
+            print(f"[Warning] BARC CZIS endpoint returned HTTP {e.code} for upazila {upazila_code}. Returning empty candidates.", file=sys.stderr)
+            return []
+        except Exception as e:
+            print(f"[Warning] Failed to fetch from BARC CZIS for upazila {upazila_code}: {e}. Returning empty candidates.", file=sys.stderr)
+            return []
 
         conn = self._get_connection()
         cur = conn.cursor()

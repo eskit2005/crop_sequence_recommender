@@ -5,9 +5,21 @@ Scoring, soil water buffer from FAO water balance, and 12-month cyclic modulo sl
 """
 
 import math
+import os
+import sys
 from dataclasses import dataclass, asdict
 from typing import Dict, List, Any, Optional, Tuple
-from src.global_env_fetcher import EnvironmentalProfile
+
+# Ensure project root is in sys.path
+_current_dir = os.path.dirname(os.path.abspath(__file__))
+_root_dir = os.path.dirname(_current_dir)
+if _root_dir not in sys.path:
+    sys.path.insert(0, _root_dir)
+
+try:
+    from src.global_env_fetcher import EnvironmentalProfile
+except ModuleNotFoundError:
+    from global_env_fetcher import EnvironmentalProfile
 
 MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
