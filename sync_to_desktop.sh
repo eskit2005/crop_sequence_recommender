@@ -43,7 +43,13 @@ cp "$SOURCE/scripts/evaluate_20_bd_locations.py" "$TARGET/scripts/"
 cp "$SOURCE/data/evaluator_"* "$TARGET/data/"
 cp "$SOURCE/data/nasa_power_cache.json" "$TARGET/data/"
 
-# 5. Automated Structural & Test Integrity Verification
+# 5. Copy updated README.md, VERSION_LOG.md, and system architecture docs
+echo "➜ Updating README.md, VERSION_LOG.md, and architecture documentation..."
+cp "$SOURCE/README.md" "$TARGET/README.md"
+cp "$SOURCE/VERSION_LOG.md" "$TARGET/VERSION_LOG.md"
+cp "$SOURCE/crop_sequence_recommender_architecture.md" "$TARGET/crop_sequence_recommender_architecture.md"
+
+# 6. Automated Structural & Test Integrity Verification
 echo "=============================================================================="
 echo "🔍 Running Automated Structural & Unit Test Integrity Check on Desktop..."
 echo "=============================================================================="
@@ -63,11 +69,13 @@ expected = [
     'src/evaluate_sequence_cli.py',
     'tests/test_evaluator_stages.py',
     'docs/crop_sequence_evaluator_architecture.md',
-    'data/evaluator_20_places_audit.json'
+    'data/evaluator_20_places_audit.json',
+    'README.md',
+    'VERSION_LOG.md'
 ]
 for p in expected:
     assert os.path.exists(p), f'CRITICAL: Missing {p} on Desktop!'
-print('✓ Structural Check Passed: All 13 core files and directories confirmed in exact paths.')
+print('✓ Structural Check Passed: All core files and directories confirmed in exact paths.')
 "
 
 # Run tests to prove 100% functionality on Desktop
