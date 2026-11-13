@@ -36,12 +36,13 @@ echo "➜ Adding docs/crop_sequence_evaluator_architecture.md..."
 mkdir -p "$TARGET/docs"
 cp "$SOURCE/docs/crop_sequence_evaluator_architecture.md" "$TARGET/docs/"
 
-# 4. Copy the 20-place evaluation script and audit datasets into scripts/ and data/
-echo "➜ Adding scripts/evaluate_20_bd_locations.py and data/evaluator_*..."
+# 4. Copy the 20-place evaluation script, template profile, and audit datasets into scripts/ and data/
+echo "➜ Adding scripts/evaluate_20_bd_locations.py, data/farmer_profile_example.json, and data/evaluator_*..."
 mkdir -p "$TARGET/scripts" "$TARGET/data"
 cp "$SOURCE/scripts/evaluate_20_bd_locations.py" "$TARGET/scripts/"
 cp "$SOURCE/data/evaluator_"* "$TARGET/data/"
 cp "$SOURCE/data/nasa_power_cache.json" "$TARGET/data/"
+cp "$SOURCE/data/farmer_profile_example.json" "$TARGET/data/"
 
 # 5. Copy updated README.md, VERSION_LOG.md, and system architecture docs
 echo "➜ Updating README.md, VERSION_LOG.md, and architecture documentation..."

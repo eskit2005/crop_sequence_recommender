@@ -65,6 +65,7 @@
     6. **KrishiBondhu AI Explainability**: Generates structured, empathetic bilingual advisory reports in Bengali and English.
 * **CLI & Tooling**:
   - `src/evaluate_sequence_cli.py`: Interactive CLI with built-in demos (`--demo bogura`, `--demo satkhira`, `--demo barind`), custom sequence evaluation, and JSON output.
+  - Comprehensive Input Matrix & Example Profile: Added complete 4-domain input specification (Location, Field Biophysics, Farmer Socio-Economics, Crop Sequence) and verified all-arguments working example in `README.md`, `crop_sequence_recommender_architecture.md`, and `docs/crop_sequence_evaluator_architecture.md`, bundled with a ready-to-run template profile in `data/farmer_profile_example.json`.
   - `sync_to_desktop.sh`: Targeted sync script to mirror the Evaluator DSS into the user's Desktop directory with automated integrity checks.
 * **Empirical Verification Across 20 Diverse Bangladesh Locations**:
   - Benchmarked across 20 distinct agro-ecological scenarios (`scripts/evaluate_20_bd_locations.py`, `data/evaluator_20_places_audit.json`, `data/evaluator_20_places_summary.md`).

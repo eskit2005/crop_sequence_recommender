@@ -15,6 +15,181 @@
 
 ---
 
+## 0. Evaluator Input Specification & Complete Data Contracts
+
+The Crop Sequence Evaluator ingests a multi-dimensional smallholder farm profile across four distinct operational domains: **Geographic Location**, **Soil & Field Biophysics**, **Farmer Socio-Economic Priorities**, and the **Evaluated Crop Sequence**.
+
+### 0.1 Input Parameter Matrix
+
+| Domain | Parameter Name | CLI Flag | Required? | Type & Constraints | Default | Agronomic & Biophysical Function in DSS |
+| :--- | :--- | :--- | :---: | :--- | :---: | :--- |
+| **Location** | `lat` | `--lat` | **YES** | `float` ($-90.0$ to $90.0$) | *None* | Geographic latitude; indexes NASA POWER $0.5^\circ$ grid & solar geometry $R_a$. |
+| | `lon` | `--lon` | **YES** | `float` ($-180.0$ to $180.0$) | *None* | Geographic longitude; indexes NASA POWER climate normals & Upazila boundary ray-casting. |
+| | `upazila` | `--upazila` | Optional | `string` | `None` | Upazila administrative boundary (e.g. `Adamdighi`, `Shyamnagar`, `Godagari`). Auto-resolved via Jordan Curve PIP if omitted. |
+| | `district` | `--district` | Optional | `string` | `None` | District administrative name (e.g. `Bogura`, `Satkhira`, `Rajshahi`). |
+| | `division` | *(JSON/API)* | Optional | `string` | `None` | Administrative division (e.g. `Rajshahi`, `Khulna`, `Sylhet`). |
+| | `aez` | *(JSON/API)* | Optional | `int` ($1$ to $30$) | `None` | Official Agro-Ecological Zone (AEZ) index for regional calendar alignment. |
+| **Field & Soil** | `land_type` | `--land-type` | **YES** | `str`: `HL`, `MHL`, `MLL`, `LL`, `VLL` | `"MHL"` | Land inundation depth class. Determines monsoonal flood risk, Boro vs T. Aman feasibility, and turnaround penalty mechanics. |
+| | `soil_salinity_ec_e` | `--salinity` | Optional | `float` ($\ge 0.0$ dS/m) | `0.80` | Topsoil saturated extract electrical conductivity ($EC_e$). Drives Maas-Hoffman piecewise linear salt yield response $Y_{\text{rel}} = \max(0, 100 - b(EC_e - a))$. |
+| | `soil_ph` | `--ph` | Optional | `float` ($3.0$ to $10.0$) | `6.20` | Soil reaction index. Detects aluminum/iron toxicity in acid soils ($\text{pH} < 5.5$) or micronutrient zinc/phosphorus fixation in alkaline soils ($\text{pH} > 8.0$). |
+| | `soil_texture` | *(JSON/API)* | Optional | `string` | `"Silt Loam"` | USDA texture classification. Sets maximum soil water holding capacity ($S_{\max}$) in two-step tipping bucket. |
+| | `soil_organic_carbon_pct`| *(JSON/API)* | Optional | `float` ($\ge 0.0\%$) | `1.10%` | Baseline topsoil ($0\text{--}20\text{ cm}$) organic carbon percentage. Drives Hénin-Dupuis duration-weighted annual $\Delta\text{SOC}$ oxidation balance. |
+| | `drainage_condition` | *(JSON/API)* | Optional | `str`: `poor`, `moderate`, `good`| `"moderate"`| Soil drainage class influencing waterlogging risk and root aeration. |
+| | `bulk_density` | *(JSON/API)* | Optional | `float` ($\text{g/cm}^3$) | `1.50` | Soil dry bulk density ($\rho_b$) used to convert volumetric soil organic carbon and water depth. |
+| **Socio-Economics** | `total_budget_bdt` | `--budget` | Optional | `float` ($\ge 0.0$ BDT) | `120000.0` | Farmer's annual working capital budget. Evaluates whether production cost creates mid-season input cash traps. |
+| | `land_size_ha` | `--area` | Optional | `float` ($> 0.0$ ha) | `0.40` | Total operational landholding area in hectares ($0.40\text{ ha} \approx 1\text{ acre}$). Scales total input costs and grain outputs. |
+| | `irrigation_source` | `--irrigation` | Optional | `str`: `shallow_tubewell`, `deep_tubewell`, `surface_canal`, `rainfed` | `"shallow_tubewell"` | Primary irrigation infrastructure. Evaluates dry-season irrigation cost and groundwater drawdown risk. |
+| | `water_cost_per_m3_bdt`| *(JSON/API)*| Optional | `float` (BDT/m³) | `3.50` | Unit volumetric tariff or diesel pumping cost per cubic meter of applied water. |
+| | `food_security_staple_needed`| *(JSON/API)*| Optional | `bool` | `True` | Whether the household requires at least one primary staple cereal crop (rice/wheat) for subsistence. |
+| | `risk_tolerance` | *(JSON/API)*| Optional | `str`: `conservative`, `moderate`, `aggressive` | `"moderate"` | Smallholder risk profile governing severity thresholds for crop swapping. |
+| **Crop Sequence** | `crop_name` | `--sequence` | **YES** | `string` | *None* | Botanical common name of the crop (e.g. `Potato`, `Tomato`, `T. Aman Rice`, `Boro Rice`, `Mustard`, `Mungbean`, `Sunflower`). |
+| | `season` | `--sequence` | **YES** | `str`: `Rabi`, `Kharif-1`, `Kharif-2`, `Fallow` | *Inferred* | Agronomic growing season in Bangladesh's 3-season cycle. |
+| | `year` | `--sequence` | **YES** | `int` ($\ge 1$) | `1` | Rotation year sequence (Year 1, Year 2, Year 3). |
+| | `cultivar` | *(JSON/API)* | Optional | `string` | `None` | Specific released cultivar (e.g. `BRRI dhan88`, `BARI Mung-6`). Overrides generic phenological duration (e.g. 140d early vs 160d late Boro). |
+| | `sowing_date_approx` | *(JSON/API)* | Optional | `string` (`YYYY-MM-DD`) | `None` | Exact calendar sowing/transplanting date for precision phenological overlay. |
+| | `stover_management` | *(JSON/API)* | Optional | `str`: `incorporated`, `removed`, `grazed` | `"incorporated"` | Residue management method. Determines legume Biological Nitrogen Fixation residual credit ($NHI=0.70$) and carbon input credit. |
+
+---
+
+### 0.2 Complete Real-World Multi-Input Working Example
+
+Here is a full real-world scenario where **all inputs across all four domains are explicitly populated**:
+
+#### 1. Command-Line Interface (CLI Execution with All Flags)
+```bash
+python3 src/evaluate_sequence_cli.py \
+  --lat 24.7850 \
+  --lon 89.0420 \
+  --upazila "Adamdighi" \
+  --district "Bogura" \
+  --sequence "Rabi:Potato;Kharif-1:Tomato;Kharif-2:T. Aman Rice" \
+  --land-type "MHL" \
+  --salinity 0.80 \
+  --ph 6.2 \
+  --budget 120000.0 \
+  --area 0.40 \
+  --irrigation "shallow_tubewell" \
+  --json
+```
+
+#### 2. Fully Populated JSON Input Contract (`data/farmer_profile_example.json`)
+```json
+{
+  "location": {
+    "lat": 24.7850,
+    "lon": 89.0420,
+    "upazila": "Adamdighi",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "aez": 3
+  },
+  "field_conditions": {
+    "land_type": "MHL",
+    "soil_texture": "Silt Loam",
+    "soil_ph": 6.2,
+    "soil_organic_carbon_pct": 1.10,
+    "soil_salinity_ec_e": 0.80,
+    "drainage_condition": "moderate",
+    "bulk_density": 1.50
+  },
+  "farmer_priorities": {
+    "land_size_ha": 0.40,
+    "total_budget_bdt": 120000.0,
+    "irrigation_source": "shallow_tubewell",
+    "water_cost_per_m3_bdt": 3.5,
+    "food_security_staple_needed": true,
+    "risk_tolerance": "moderate"
+  },
+  "target_horizon_years": 1,
+  "farmer_evaluated_sequence": [
+    {
+      "year": 1,
+      "season": "Rabi",
+      "crop_name": "Potato",
+      "cultivar": "Diamond (HYV)",
+      "sowing_date_approx": "2024-11-15",
+      "stover_management": "removed"
+    },
+    {
+      "year": 1,
+      "season": "Kharif-1",
+      "crop_name": "Tomato",
+      "cultivar": "Summer Hybrid",
+      "sowing_date_approx": "2025-03-01",
+      "stover_management": "incorporated"
+    },
+    {
+      "year": 1,
+      "season": "Kharif-2",
+      "crop_name": "T. Aman Rice",
+      "cultivar": "BRRI dhan49",
+      "sowing_date_approx": "2025-07-20",
+      "stover_management": "incorporated"
+    }
+  ],
+  "preferences": {
+    "language": "bn",
+    "tone": "farmer_friendly"
+  }
+}
+```
+
+#### 3. Programmatic Python Execution (Complete Dataclass Model)
+```python
+from src.evaluator import (
+    EvaluatorEngine,
+    FarmerProfile,
+    LocationInput,
+    FieldConditions,
+    FarmerPriorities,
+    CropInput
+)
+
+# Initialize engine
+engine = EvaluatorEngine()
+
+# Populate all input objects explicitly
+profile = FarmerProfile(
+    location=LocationInput(
+        lat=24.7850,
+        lon=89.0420,
+        upazila="Adamdighi",
+        district="Bogura",
+        division="Rajshahi",
+        aez=3
+    ),
+    field_conditions=FieldConditions(
+        land_type="MHL",
+        soil_texture="Silt Loam",
+        soil_ph=6.2,
+        soil_organic_carbon_pct=1.10,
+        soil_salinity_ec_e=0.80,
+        drainage_condition="moderate",
+        bulk_density=1.50
+    ),
+    farmer_priorities=FarmerPriorities(
+        land_size_ha=0.40,
+        total_budget_bdt=120000.0,
+        irrigation_source="shallow_tubewell",
+        water_cost_per_m3_bdt=3.5,
+        food_security_staple_needed=True,
+        risk_tolerance="moderate"
+    ),
+    target_horizon_years=1,
+    farmer_evaluated_sequence=[
+        CropInput(year=1, season="Rabi", crop_name="Potato", cultivar="Diamond (HYV)", sowing_date_approx="2024-11-15", stover_management="removed"),
+        CropInput(year=1, season="Kharif-1", crop_name="Tomato", cultivar="Summer Hybrid", sowing_date_approx="2025-03-01", stover_management="incorporated"),
+        CropInput(year=1, season="Kharif-2", crop_name="T. Aman Rice", cultivar="BRRI dhan49", sowing_date_approx="2025-07-20", stover_management="incorporated")
+    ],
+    preferences={"language": "bn", "tone": "farmer_friendly"}
+)
+
+# Run evaluation
+audit_result = engine.evaluate(profile)
+```
+
+---
+
 ## 1. NASA Earth Observations Integration in Practice
 
 Rather than treating NASA datasets as static references, the engine actively embeds daily and monthly NASA Earth Observation products (Stackhouse et al., 2021) directly into its mathematical water balance, thermal regime, and pest forecasting algorithms.
