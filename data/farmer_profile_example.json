@@ -1,0 +1,58 @@
+{
+  "location": {
+    "lat": 24.7850,
+    "lon": 89.0420,
+    "upazila": "Adamdighi",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "aez": 3
+  },
+  "field_conditions": {
+    "land_type": "MHL",
+    "soil_texture": "Silt Loam",
+    "soil_ph": 6.2,
+    "soil_organic_carbon_pct": 1.10,
+    "soil_salinity_ec_e": 0.80,
+    "drainage_condition": "moderate",
+    "bulk_density": 1.50
+  },
+  "farmer_priorities": {
+    "land_size_ha": 0.40,
+    "total_budget_bdt": 120000.0,
+    "irrigation_source": "shallow_tubewell",
+    "water_cost_per_m3_bdt": 3.5,
+    "food_security_staple_needed": true,
+    "risk_tolerance": "moderate"
+  },
+  "target_horizon_years": 1,
+  "farmer_evaluated_sequence": [
+    {
+      "year": 1,
+      "season": "Rabi",
+      "crop_name": "Potato",
+      "cultivar": "Diamond (HYV)",
+      "sowing_date_approx": "2024-11-15",
+      "stover_management": "removed"
+    },
+    {
+      "year": 1,
+      "season": "Kharif-1",
+      "crop_name": "Tomato",
+      "cultivar": "Summer Hybrid",
+      "sowing_date_approx": "2025-03-01",
+      "stover_management": "incorporated"
+    },
+    {
+      "year": 1,
+      "season": "Kharif-2",
+      "crop_name": "T. Aman Rice",
+      "cultivar": "BRRI dhan49",
+      "sowing_date_approx": "2025-07-20",
+      "stover_management": "incorporated"
+    }
+  ],
+  "preferences": {
+    "language": "bn",
+    "tone": "farmer_friendly"
+  }
+}
