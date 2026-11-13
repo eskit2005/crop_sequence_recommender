@@ -27,8 +27,8 @@ def get_demo_bogura_payload() -> dict:
     """Returns the verified Bogura smallholder prototype input profile."""
     return {
         "location": {
-            "lat": 24.7850,
-            "lon": 89.0420,
+            "lat": 24.7872,
+            "lon": 89.0721,
             "upazila": "Adamdighi",
             "district": "Bogura",
             "division": "Rajshahi",
@@ -88,8 +88,8 @@ def main():
     )
     parser.add_argument("--demo", choices=["bogura", "satkhira", "barind"], help="Run built-in benchmark demo")
     parser.add_argument("--profile", "--input-json", dest="profile_path", type=str, help="Path to input JSON farmer profile")
-    parser.add_argument("--lat", type=float, default=24.7850, help="Latitude (e.g. 24.7850)")
-    parser.add_argument("--lon", type=float, default=89.0420, help="Longitude (e.g. 89.0420)")
+    parser.add_argument("--lat", type=float, default=24.7872, help="Latitude (e.g. 24.7872)")
+    parser.add_argument("--lon", type=float, default=89.0721, help="Longitude (e.g. 89.0721)")
     parser.add_argument("--upazila", type=str, default="", help="Upazila name (e.g. Adamdighi)")
     parser.add_argument("--district", type=str, default="", help="District name (e.g. Bogura)")
     parser.add_argument("--sequence", type=str, help="Comma or semicolon separated crop names (e.g. 'Potato,Tomato,T. Aman Rice' or 'Rabi:Potato;Kharif-1:Tomato;Kharif-2:T. Aman')")

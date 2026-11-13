@@ -46,7 +46,34 @@ usage: python3 src/stage3_engine.py [-h] --lat LAT --lon LON [--land-type LAND_T
 | **`--json`** | Optional | `flag` | `False` | When present, outputs structured JSON adhering to the Stage 3 output contract schema. |
 | **`-h`, `--help`** | Optional | `flag` | `False` | Displays CLI argument documentation and exits. |
 
-### 0.3 What is NOT Needed (Zero-Dependency & Zero-Friction Boundary)
+### 0.4 Companion Evaluator DSS: Input Specification & Real-World Example
+
+While the Recommender synthesizes candidate pools from raw coordinates, the companion **Crop Sequence Evaluator DSS** (`src/evaluator/`) audits user-defined sequences against NASA agroclimatology ($ET_0$, water balance), soil biogeochemistry ($\Delta\text{SOC}$, legume BNF), turnaround gaps, and pathogen carryover.
+
+#### Evaluator Required & Optional Inputs Matrix:
+- **Location Domain:** `lat` (**REQUIRED**, float), `lon` (**REQUIRED**, float), `upazila` & `district` (**NOT NEEDED**, auto-resolved from coordinates in <0.3ms).
+- **Field Biophysics:** `land_type` (**REQUIRED**, `HL`, `MHL`, `MLL`, `LL`, `VLL`), `soil_salinity_ec_e` (optional float, default `0.80 dS/m`), `soil_ph` (optional float, default `6.20`), `soil_texture` (optional str, default `"Silt Loam"`), `soil_organic_carbon_pct` (optional float, default `1.10%`), `drainage_condition` (optional str, default `"moderate"`), `bulk_density` (optional float, default `1.50 g/cm³`).
+- **Socio-Economics:** `total_budget_bdt` (optional float, default `120000.0 BDT`), `land_size_ha` (optional float, default `0.40 ha`), `irrigation_source` (optional str: `shallow_tubewell`, `deep_tubewell`, `surface_canal`, `rainfed`), `water_cost_per_m3_bdt` (optional float, default `3.50 BDT/m³`).
+- **Evaluated Sequence:** `crop_name` (**REQUIRED**, str), `season` (**REQUIRED**, str: `Rabi`, `Kharif-1`, `Kharif-2`), `year` (**REQUIRED**, int $\ge 1$), `cultivar` (optional str), `sowing_date_approx` (optional str `YYYY-MM-DD`), `stover_management` (optional str: `incorporated`, `removed`, `grazed`).
+
+#### Complete Evaluator Execution Example (Clean Execution with Auto-Routing):
+```bash
+python3 src/evaluate_sequence_cli.py \
+  --lat 24.7872 \
+  --lon 89.0721 \
+  --sequence "Rabi:Potato;Kharif-1:Tomato;Kharif-2:T. Aman Rice" \
+  --land-type "MHL" \
+  --salinity 0.80 \
+  --ph 6.2 \
+  --budget 120000.0 \
+  --area 0.40 \
+  --irrigation "shallow_tubewell" \
+  --json
+```
+*(Or evaluate from JSON profile: `python3 src/evaluate_sequence_cli.py --profile data/farmer_profile_example.json`).*  
+*See [`docs/crop_sequence_evaluator_architecture.md`](docs/crop_sequence_evaluator_architecture.md) for full scientific derivations and KrishiBondhu AI specifications.*
+
+### 0.5 What is NOT Needed (Zero-Dependency & Zero-Friction Boundary)
 
 To ensure this engine runs reliably on low-resource hardware, edge servers, offline farmer kiosks, and production microservices:
 
@@ -1770,13 +1797,12 @@ Rather than outputting three minor variations of the same crop sequence, Stage 5
 
 ## 7. Comprehensive Production Implementation Architecture
 
-The Stage 3 codebase is fully modularized, tested, and deployed in `/Users/ibrahim/.gemini/antigravity/scratch/crop_sequence_recommender/`. It relies strictly on standard Python libraries (`sqlite3`, `json`, `urllib.request`, `math`, `time`) without any heavy geospatial C-dependencies:
+The Stage 3 codebase is fully modularized, tested, and deployed. It relies strictly on standard Python libraries (`sqlite3`, `json`, `urllib.request`, `math`, `time`) without any heavy geospatial C-dependencies:
 
 ```
 crop_sequence_recommender/
 ├── README.md                  # Unified project documentation & dual-engine guide
 ├── VERSION_LOG.md             # Official version release notes (v1.0, v2.0, v3.0)
-├── sync_to_desktop.sh         # Targeted Desktop sync & self-verification script
 ├── docs/
 │   └── crop_sequence_evaluator_architecture.md # Standalone Evaluator DSS specification
 ├── src/
