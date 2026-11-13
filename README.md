@@ -249,8 +249,8 @@ python3 -m unittest discover tests
 ```
 
 ### Test Coverage Highlights:
-* **`tests/test_evaluator_stages.py` (10 tests):** Verifies NASA $ET_0$, tipping-bucket water balance, $\Delta \text{SOC}$ trajectories, legume BNF, Maas-Hoffman salinity, turnarounds, Haor flash flood hazard traps, and directory structure integrity.
-* **`tests/test_stage3.py` (12 tests):** Verifies 2-Tier Jordan Curve spatial routing, BARC matrices, Sys square root scoring, and perennial exclusions.
+* **`tests/test_stage3.py` (15 tests):** Verifies 2-Tier Jordan Curve spatial routing, BARC matrices, Sys square root scoring, perennial tree exclusions, coastal salinity step-downs, and agro-climatic boundaries.
+* **`tests/test_evaluator_stages.py` (7 tests):** Verifies NASA $ET_0$, tipping-bucket water balance, $\Delta \text{SOC}$ trajectories, legume BNF, Maas-Hoffman salinity, turnarounds, Haor flash flood hazard traps, and automated directory structure integrity.
 
 ---
 
@@ -276,7 +276,7 @@ crop_sequence_recommender/
 │   │
 │   │   # ─── EVALUATOR DSS (Standalone 6-Stage Engine) ───
 │   ├── evaluator/
-│   │   ├── __init__.py                        # Clean module exports
+│   │   ├── __init__.py                        # Clean module exports & EvaluatorEngine alias
 │   │   ├── models.py                          # Dataclasses (FarmerProfile, AuditResult, etc.)
 │   │   ├── evaluator_engine.py                # Master 6-Stage Evaluator Orchestrator
 │   │   ├── nasa_climate_enricher.py           # Stage 1: NASA ET0 & tipping-bucket water balance
@@ -289,8 +289,8 @@ crop_sequence_recommender/
 │   └── evaluate_sequence_cli.py               # Standalone Evaluator CLI tool
 │
 ├── tests/
-│   ├── test_stage3.py                         # 12 Recommender unit & integration tests
-│   └── test_evaluator_stages.py               # 10 Evaluator DSS unit & structural tests
+│   ├── test_stage3.py                         # 15 Recommender unit & integration tests
+│   └── test_evaluator_stages.py               # 7 Evaluator DSS unit & structural tests
 │
 ├── scripts/
 │   └── evaluate_20_bd_locations.py            # 20-location Bangladesh evaluation benchmark

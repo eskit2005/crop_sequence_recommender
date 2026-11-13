@@ -621,18 +621,21 @@ The Evaluator feature is implemented as a decoupled module inside `src/evaluator
 crop_sequence_recommender/
 ├── src/
 │   ├── evaluator/                          # CROP SEQUENCE EVALUATOR MODULE
-│   │   ├── __init__.py
+│   │   ├── __init__.py                     # Package exports & EvaluatorEngine alias
 │   │   ├── models.py                       # Dataclasses: FarmerProfile, SequenceAuditResult, SwapRecommendation
+│   │   ├── evaluator_engine.py             # Master 6-Stage Evaluator Engine Orchestrator
 │   │   ├── nasa_climate_enricher.py        # NASA POWER daily cache & FAO-56 Hargreaves ET0 / Water balance
 │   │   ├── soil_biogeochem_auditor.py      # SOC dynamics, N balance vs. BNF, pH, Maas-Hoffman salinity
 │   │   ├── temporal_turnaround_auditor.py  # Turnaround days, circular wrap-around loop, hazard windows
-│   │   ├── biological_disease_auditor.py   # Solanaceae rules, nematode host checks, Hill model, flooding credits
+│   │   ├── biological_disease_auditor.py   # Solanaceae rules, nematode host checks, Hill model, biopores
 │   │   ├── sequence_scorer_remediator.py   # Deterministic scoring 0-100 & targeted single-crop smart swap
-│   │   └── ai_agronomic_advisor.py         # Stage 6: Explainable LLM advisor (Gemini / Offline Mock)
-│   └── evaluate_sequence_cli.py            # Standalone CLI entrypoint for Bogura prototype
+│   │   └── ai_agronomic_advisor.py         # Stage 6: KrishiBondhu AI bilingual agronomic advisory
+│   └── evaluate_sequence_cli.py            # Standalone CLI entrypoint for sequence evaluation
 ├── tests/
-│   ├── test_evaluator_stages.py            # Unit tests for Stages 1-5 (NASA math, SOC, BNF, penalties)
-│   └── test_ai_advisor_schema.py           # Contract tests for Stage 6 bilingual JSON schema
+│   └── test_evaluator_stages.py            # Consolidated unit tests for Stages 1-6 & structure integrity
+├── scripts/
+│   └── evaluate_20_bd_locations.py         # 20-location Bangladesh verification benchmark suite
+├── sync_to_desktop.sh                      # Targeted Desktop synchronization & verification tool
 └── docs/
     └── crop_sequence_evaluator_architecture.md
 ```
@@ -641,19 +644,21 @@ crop_sequence_recommender/
 
 ## 9. Quality Assurance & Test Matrix for Prototype Verification
 
-The deterministic biophysical engine requires zero LLM tokens to test and verify:
+The deterministic biophysical engine requires zero external packages to test and verify. All test cases are consolidated and executed via `tests/test_evaluator_stages.py`:
 
-1. **NASA Climate Validation Test (`test_nasa_climate.py`):**
-   - Verifies that NASA POWER coordinates for Bogura ($24.785^\circ\text{N}, 89.042^\circ\text{E}$) return solar radiation, temperature, and precipitation, computing daily $ET_0$ within $\pm 5\%$ of standard FAO-56 benchmark tables.
-2. **Soil Health & Biogeochemistry Unit Tests (`test_soil_biogeochem.py`):**
-   - Test $\Delta \text{SOC}$ equation: Confirms that Potato $\to$ Tomato $\to$ Rice yields negative carbon balance ($-0.70\text{ t C/ha/yr}$), while Potato $\to$ Mungbean (stover retained) $\to$ Rice improves carbon balance.
-   - Test Nitrogen Balance: Confirms that inclusion of Mungbean adds $+15\text{ to }+25\text{ kg N/ha}$ biological fixation credit.
-   - Test Maas-Hoffman Salinity: In Satkhira tests ($\text{EC}_e = 7.5\text{ dS/m}$), confirms that Lentil triggers $100\%$ yield kill ($Y_{\text{rel}} = 0\%$), whereas BRRI dhan67 maintains $70.3\%$ yield.
-3. **Smallholder Budget & Constraint Verification (`test_farmer_constraints.py`):**
-   - Confirms that entering an insufficient budget triggers `CAPITAL_EXHAUSTION_WARNING`.
-   - Confirms that omitting staple cereals when `food_security_staple_needed=True` deducts 40 points.
-4. **Stage 6 AI Contract Integrity Test (`test_ai_advisor_schema.py`):**
-   - Validates that the AI prompt contains all verified deterministic facts and that the mock/live LLM response parses into `DSSAdvisoryOutputSchema` without numerical deviation.
+1. **NASA Climate Validation Test:**
+   - Verifies that NASA POWER coordinates for Bogura ($24.785^\circ\text{N}, 89.042^\circ\text{E}$) compute daily $ET_0 = 6.13\text{ mm/day}$ matching standard FAO-56 benchmark calculations.
+   - Verifies sequential tipping-bucket water storage, deep drainage, and deficit day accounting.
+2. **Soil Health & Biogeochemistry Unit Tests:**
+   - Test $\Delta \text{SOC}$ equation: Confirms that Potato $\to$ Tomato $\to$ Rice yields negative carbon balance ($-0.867\text{ t C/ha/yr}$), while regenerative legume rotations retain carbon.
+   - Test Nitrogen Balance: Confirms that inclusion of Mungbean adds biological fixation credit ($NHI = 0.70$).
+   - Test Maas-Hoffman Salinity: In Satkhira tests ($\text{EC}_e = 7.5\text{ dS/m}$), confirms that Lentil triggers fatal yield failure ($Y_{\text{rel}} = 0\%$), whereas BRRI dhan67 maintains commercial viability.
+3. **Biological Disease & Nematode Bridge Tests:**
+   - Confirms that consecutive Solanaceae crops trigger `SOLANACEAE_DISEASE_BRIDGE` and breach the 24-month non-host rule.
+   - Confirms that maize in Potato $\to$ Maize $\to$ Potato acts as a reproductive host for *Meloidogyne incognita* nematodes.
+4. **Hazard Cut-Off & Structural Integrity Tests:**
+   - Confirms that late-maturing Boro in Haor basins triggers `CRITICAL_HAOR_FLASH_FLOOD_RISK`.
+   - Confirms directory structure integrity: asserts all 13 core evaluator paths and modules exist in their designated repository locations.
 
 ---
 

@@ -10,6 +10,7 @@ from .models import (
     LocationInput,
     FieldConditions,
     FarmerPriorities,
+    CropInput,
     CropEpisode,
     SequenceAuditResult,
     SmartSwapRecommendation,
@@ -18,15 +19,20 @@ from .models import (
 )
 from .evaluator_engine import CropSequenceEvaluatorEngine
 
+# Ergonomic alias
+EvaluatorEngine = CropSequenceEvaluatorEngine
+
 __all__ = [
     "FarmerProfile",
     "LocationInput",
     "FieldConditions",
     "FarmerPriorities",
+    "CropInput",
     "CropEpisode",
     "SequenceAuditResult",
     "SmartSwapRecommendation",
     "DetectedIssue",
     "DSSAdvisoryReport",
     "CropSequenceEvaluatorEngine",
+    "EvaluatorEngine",
 ]

@@ -332,3 +332,24 @@ flowchart TD
 
 ---
 *Report completed and certified by the Northern & Barind Agro-Ecosystems Scientific Auditor.*
+
+---
+
+## 7. Post-Audit Calibration Verification (Engine v1.1 Patch Applied)
+
+Following this audit report, all identified defects were successfully patched in the core engine:
+
+1. **Maize Root Architecture Fixed (`biological_disease_auditor.py`)**: Substring matching now checks `("shallow" in r or "fibrous" in r) and "deep" not in r and "tap" not in r`. Maize's deep 1.5 m root system is now recognized, eliminating the false 15-pt hardpan penalty. Mithapukur score rose from 70.0 to **73.0 (C+)**.
+2. **Kharif-2 Smart Swap Guardrail (`sequence_scorer_remediator.py`)**: Mungbean is strictly barred from Kharif-2 monsoon swaps. Shibganj and Mithapukur now recommend **Short-Duration T. Aman (BRRI dhan75 / BRRI dhan71)**.
+3. **Recursive Self-Swap Eliminated (`sequence_scorer_remediator.py`)**: In Birganj, the self-swap was eliminated; Mungbean in wheat-mungbean-rice is now remediated with **Sesbania (Dhaincha)** green manure.
+4. **High Barind Moisture Calibration (`sequence_scorer_remediator.py`)**: Niamatpur Chickpea-Aus-Aman swap now recommends **Chickpea / Barley (BARI Chola-9 / BARI Barley-6)** for rainfed moisture resilience.
+
+| Scenario ID & Location | Pre-Audit Score | Calibrated Score | Resolved Smart Swap | Post-Calibration Status |
+| :--- | :---: | :---: | :--- | :---: |
+| **LOC_01 (Bogura Adamdighi)** | 59.8 (C) | **59.8 (C)** | Mungbean (BARI Mung-6) | **Verified (Gold Standard)** |
+| **LOC_02 (Bogura Shibganj)** | 38.0 (D-) | **38.0 (D-)** | Short-Duration T. Aman (BRRI dhan75) | **Verified (Turnaround Safe)** |
+| **LOC_05 (Rajshahi Godagari)** | 71.0 (C+) | **71.0 (C+)** | Chickpea / Mustard (BARI Chola-9) | **Verified (Aquifer Safe)** |
+| **LOC_06 (Naogaon Niamatpur)** | 80.6 (B) | **73.6 (C+)** | Chickpea / Barley (BARI Chola-9) | **Verified (Drought Safe)** |
+| **LOC_09 (Rangpur Mithapukur)**| 70.0 (C+) | **73.0 (C+)** | Short-Duration T. Aman (BRRI dhan75) | **Verified (Root Bug Cleared)** |
+| **LOC_10 (Dinajpur Birganj)** | 70.0 (C+) | **70.0 (C+)** | Sesbania (সবুজ সার ধৈঞ্চা) | **Verified (Self-Swap Cleared)** |
+

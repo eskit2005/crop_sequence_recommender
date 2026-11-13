@@ -31,7 +31,7 @@
 
 ## [Version 2.0 - Bangladesh Production Core & Dual-Branch Architecture] (Current Main)
 **Date:** November 9, 2026  
-**Reference Blueprint:** [`crop_sequence_recommender_architecture.md`](file:///Users/ibrahim/.gemini/antigravity/brain/6a63a310-f664-4fcb-835f-a021130e1ae1/crop_sequence_recommender_architecture.md)
+**Reference Blueprint:** [`crop_sequence_recommender_architecture.md`](crop_sequence_recommender_architecture.md)
 
 ### Architectural Scope
 * **Focus Re-Alignment**: Prioritizing the hackathon end-to-end user experience, ultra-low latency, and agronomic rotation intelligence (Stages 3, 4, and 5).

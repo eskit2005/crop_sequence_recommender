@@ -221,6 +221,11 @@ class SequenceAuditResult:
     cultural_mitigations: List[str]
     advisory_report: Optional[Dict[str, Any]] = None
 
+    @property
+    def composite_score(self) -> float:
+        """Ergonomic alias for overall_health_score."""
+        return self.overall_health_score
+
     def to_dict(self) -> Dict[str, Any]:
         return {
             "farmer_profile": self.farmer_profile.to_dict(),

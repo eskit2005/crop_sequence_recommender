@@ -429,3 +429,34 @@ To elevate the Crop Sequence Evaluator to enterprise-grade agronomic precision, 
 ---
 **Report Compiled by:** Haor, Floodplains & Specialized Agro-Ecosystems Auditor  
 **Distribution:** Core Evaluator DSS Development Team & Recommender Pipeline
+
+---
+
+## 6. Post-Audit Calibration Verification (Engine v1.1 Patch Applied)
+
+Following this audit report, all five specialized agro-ecosystem recommendations were implemented and verified across the codebase:
+
+1. **Haor Flash Flood & Inundation Logic (`temporal_turnaround_auditor.py`, `evaluator_engine.py`)**:
+   - Long-duration Boro (BRRI dhan29, 160 days) in Sunamganj Tahirpur now triggers `CRITICAL_HAOR_FLASH_FLOOD_RISK` (-45 pts, score capped at 38.0).
+   - Smart Swap dynamically proposes **BRRI dhan88 / BRRI dhan96 (স্বল্পমেয়াদী আগাম বোরো জাত)** to harvest prior to the April 15 Meghalaya mountain runoff.
+   - For Kishoreganj Nikli, which already cultivates BRRI dhan88, flash flood risk is safely bypassed, zero-legume haor penalties are waived for lowlands (`LL`), and the score is **80.7 (Grade B)** with **Optimal (No swap required)**.
+2. **Rainfed Winter Drought & Hill Slope Erosion (`sequence_scorer_remediator.py`)**:
+   - In Bandarban Sadar, rainfed winter maize now triggers `RAINFED_RABI_DROUGHT_STRESS` (-35 pts) and `SLOPE_EROSION_HAZARD` (-15 pts), capping score at 38.0. Smart Swap proposes zero-irrigation **Chickpea / Barley (BARI Chola-9 / BARI Barley-6)**.
+3. **Ghost Fallow Acidity Stress Removed (`soil_biogeochem_auditor.py`)**:
+   - In Sylhet Golapganj, unplanted Fallow is no longer evaluated for soil acidity stress. Boro and Aman receive explicit recommendations for **Dololime (1.5 t/ha)**.
+4. **Agro-Ecological Swap Guardrails (`sequence_scorer_remediator.py`)**:
+   - Universal Mungbean reflex completely eliminated.
+   - Cumilla Chandina (Kharif-2) swaps for **Short-Duration T. Aman (BRRI dhan75 / BRRI dhan71)**.
+   - Jamalpur, Jashore, and Sylhet (Rabi) swap for **Mustard (BARI Sarisha-14 / BARI Sarisha-17)**.
+
+| Scenario ID & Location | Pre-Audit Score | Calibrated Score | Resolved Smart Swap | Post-Calibration Status |
+| :--- | :---: | :---: | :--- | :---: |
+| **LOC_07 (Sunamganj Tahirpur)** | 71.7 (C+) | **38.0 (D-)** | BRRI dhan88 / BRRI dhan96 | **Verified (Flash Flood Blocker)** |
+| **LOC_08 (Kishoreganj Nikli)** | 73.1 (C+) | **80.7 (B)** | Optimal (No swap required) | **Verified (Flood Escape Proven)** |
+| **LOC_11 (Mymensingh Trishal)** | 38.0 (D-) | **38.0 (D-)** | Dhaincha (Sesbania aculeata) | **Verified (Green Manure Swap)** |
+| **LOC_12 (Jamalpur Islampur)** | 74.5 (C+) | **74.5 (C+)** | Mustard (BARI Sarisha-14) | **Verified (Cold-Safe Oilseed)** |
+| **LOC_13 (Cumilla Chandina)** | 38.0 (D-) | **38.0 (D-)** | Short-Duration T. Aman | **Verified (Monsoon-Safe Swap)** |
+| **LOC_17 (Jashore Jhikargachha)** | 74.5 (C+) | **74.5 (C+)** | Mustard (BARI Sarisha-14) | **Verified (Turnaround Safe)** |
+| **LOC_18 (Kushtia Daulatpur)** | 74.5 (C+) | **74.5 (C+)** | Mustard (BARI Sarisha-14) | **Verified (Tobacco Mining Cleared)** |
+| **LOC_19 (Sylhet Golapganj)** | 65.0 (C+) | **65.0 (C+)** | Mustard + Dololime (1.5 t/ha) | **Verified (Fallow Acidity Fixed)** |
+| **LOC_20 (Bandarban Sadar)** | 69.4 (C+) | **38.0 (D-)** | Chickpea / Barley | **Verified (Rabi Drought Blocker)** |

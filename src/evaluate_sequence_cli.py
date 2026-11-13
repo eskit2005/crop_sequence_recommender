@@ -12,6 +12,7 @@ Usage Examples:
 
 import sys
 import os
+import re
 import json
 import argparse
 
@@ -86,17 +87,27 @@ def main():
         description="NASA-Powered Crop Sequence Evaluator Decision Support System (DSS)"
     )
     parser.add_argument("--demo", choices=["bogura", "satkhira", "barind"], help="Run built-in benchmark demo")
-    parser.add_argument("--json", type=str, help="Path to input JSON farmer profile")
-    parser.add_argument("--lat", type=float, default=24.7850, help="Latitude")
-    parser.add_argument("--lon", type=float, default=89.0420, help="Longitude")
-    parser.add_argument("--sequence", type=str, help="Comma-separated crop names (e.g. 'Potato,Tomato,T. Aman')")
-    parser.add_argument("--salinity", type=float, default=0.8, help="Soil salinity ECe (dS/m)")
-    parser.add_argument("--land-type", type=str, default="MHL", help="Land type (HL, MHL, ML, LL, VLL)")
-    parser.add_argument("--budget", type=float, default=120000.0, help="Total budget in BDT")
-    parser.add_argument("--output-json", action="store_true", help="Print raw JSON output")
+    parser.add_argument("--profile", "--input-json", dest="profile_path", type=str, help="Path to input JSON farmer profile")
+    parser.add_argument("--lat", type=float, default=24.7850, help="Latitude (e.g. 24.7850)")
+    parser.add_argument("--lon", type=float, default=89.0420, help="Longitude (e.g. 89.0420)")
+    parser.add_argument("--upazila", type=str, default="", help="Upazila name (e.g. Adamdighi)")
+    parser.add_argument("--district", type=str, default="", help="District name (e.g. Bogura)")
+    parser.add_argument("--sequence", type=str, help="Comma or semicolon separated crop names (e.g. 'Potato,Tomato,T. Aman Rice' or 'Rabi:Potato;Kharif-1:Tomato;Kharif-2:T. Aman')")
+    parser.add_argument("--salinity", type=float, default=0.8, help="Soil salinity ECe in dS/m (e.g. 7.5)")
+    parser.add_argument("--ph", type=float, default=6.5, help="Soil pH (e.g. 5.5)")
+    parser.add_argument("--land-type", type=str, default="MHL", help="Land type: HL, MHL, MLL, LL, VLL")
+    parser.add_argument("--budget", type=float, default=120000.0, help="Total farmer budget in BDT")
+    parser.add_argument("--area", type=float, default=0.40, help="Farm land area in hectares")
+    parser.add_argument("--irrigation", type=str, default="shallow_tubewell", choices=["surface_canal", "shallow_tubewell", "deep_tubewell", "rainfed"], help="Irrigation source")
+    parser.add_argument("--json", "--output-json", dest="output_json", action="store_true", help="Print machine-readable JSON output")
+
+    if len(sys.argv) == 1:
+        parser.print_help()
+        sys.exit(0)
 
     args = parser.parse_args()
 
+    payload = None
     if args.demo == "bogura":
         payload = get_demo_bogura_payload()
     elif args.demo == "satkhira":
@@ -117,30 +128,48 @@ def main():
             {"year": 1, "season": "Kharif-1", "crop_name": "Fallow"},
             {"year": 1, "season": "Kharif-2", "crop_name": "T. Aman Rice"}
         ]
-    elif args.json:
-        with open(args.json, "r", encoding="utf-8") as f:
+    elif args.profile_path:
+        with open(args.profile_path, "r", encoding="utf-8") as f:
             payload = json.load(f)
     elif args.sequence:
-        # Build from CLI flags
-        crop_names = [c.strip() for c in args.sequence.split(",")]
-        seasons = ["Rabi", "Kharif-1", "Kharif-2"]
+        # Build sequence parsing both comma/semicolon and Season:Crop syntax
+        raw_tokens = [t.strip() for t in re.split(r"[,;]+", args.sequence) if t.strip()]
+        default_seasons = ["Rabi", "Kharif-1", "Kharif-2"]
         seq = []
-        for i, name in enumerate(crop_names):
-            s = seasons[i % 3]
+        for i, token in enumerate(raw_tokens):
+            if ":" in token:
+                parts = token.split(":", 1)
+                s = parts[0].strip()
+                name = parts[1].strip()
+            else:
+                s = default_seasons[i % 3]
+                name = token
+
             yr = (i // 3) + 1
             seq.append({"year": yr, "season": s, "crop_name": name})
 
         payload = {
-            "location": {"lat": args.lat, "lon": args.lon},
+            "location": {
+                "lat": args.lat,
+                "lon": args.lon,
+                "upazila": args.upazila or None,
+                "district": args.district or None
+            },
             "field_conditions": {
                 "land_type": args.land_type,
-                "soil_salinity_ec_e": args.salinity
+                "soil_salinity_ec_e": args.salinity,
+                "soil_ph": args.ph
             },
             "farmer_priorities": {
-                "total_budget_bdt": args.budget
+                "total_budget_bdt": args.budget,
+                "land_size_ha": args.area,
+                "irrigation_source": args.irrigation
             },
             "farmer_evaluated_sequence": seq
         }
+    else:
+        # Fallback to bogura demo if no target provided
+        payload = get_demo_bogura_payload()
 
     profile = FarmerProfile.from_dict(payload)
     engine = CropSequenceEvaluatorEngine()
