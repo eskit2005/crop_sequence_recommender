@@ -46,3 +46,28 @@
 * **100-Location Comprehensive Bangladesh Audit**:
   - 100 diverse agricultural locations sampled across all major Bangladesh Agro-Ecological Zones (AEZs).
   - Evaluated by 5 independent agronomic subagents covering Northern Granary, Barind Tract, Central Delta, Northeast Haor Basin, and Southern Coastal Saline Belt.
+
+---
+
+## [Version 3.0 - Standalone Evaluator Decision Support System & KrishiBondhu AI]
+**Date:** November 13, 2026  
+**Reference Blueprint:** [`docs/crop_sequence_evaluator_architecture.md`](docs/crop_sequence_evaluator_architecture.md)
+
+### Architectural Scope
+* **Decoupled Evaluator Decision Support System (DSS)**:
+  - Built as a standalone, production-ready Python package in `src/evaluator/` with zero external dependencies.
+  - Implements all 6 evaluation stages:
+    1. **NASA Climate Enricher**: FAO-56 Hargreaves-Samani $ET_0$, solar radiation geometry $R_a$, and two-step tipping-bucket water balance.
+    2. **Temporal & Turnaround Feasibility**: Monotonic day offsets, dynamic turnaround gaps $T_{\text{gap}}$, circular multi-year wrap-around loop $T_{\text{wrap}}$, and regional hazard cut-offs (Haor flash flood April 15, Bogura late Nor'wester March 10, Aman transplanting August 15).
+    3. **Agro-Hydrological Compatibility**: Land-type flood inundation depths, Barind aquifer depletion checks, and rainfed winter drought deficit.
+    4. **Biological Disease & Soil Health**: Duration-weighted $\Delta \text{SOC}$ trajectory (Hénin-Dupuis/ICBM/Lal), net legume BNF with $NHI = 0.70$, Maas-Hoffman salinity response, 24–36 month *Solanaceae* non-host rule (*Ralstonia solanacearum* and *Meloidogyne incognita*), maize nematode host bridging, and root biopore stratigraphy.
+    5. **Multi-Factor Scoring & Targeted Remediation**: 5 sub-scores ($S_{\text{climate}}, S_{\text{hydro}}, S_{\text{biology}}, S_{\text{soil}}, S_{\text{economics}}$), critical blocker caps ($<40.0$), and deterministic Smart Crop Swaps.
+    6. **KrishiBondhu AI Explainability**: Generates structured, empathetic bilingual advisory reports in Bengali and English.
+* **CLI & Tooling**:
+  - `src/evaluate_sequence_cli.py`: Interactive CLI with built-in demos (`--demo bogura`, `--demo satkhira`, `--demo barind`), custom sequence evaluation, and JSON output.
+  - `sync_to_desktop.sh`: Targeted sync script to mirror the Evaluator DSS into the user's Desktop directory with automated integrity checks.
+* **Empirical Verification Across 20 Diverse Bangladesh Locations**:
+  - Benchmarked across 20 distinct agro-ecological scenarios (`scripts/evaluate_20_bd_locations.py`, `data/evaluator_20_places_audit.json`, `data/evaluator_20_places_summary.md`).
+  - Fact-checked and verified by 3 autonomous subagents with live web search against BARI, BRRI, SRDI, DAE, CIMMYT, and IRRI literature.
+* **Automated Unit Testing**:
+  - 22/22 unit tests passing across both Recommender and Evaluator modules (`python3 -m unittest discover tests`), including directory structure integrity assertions.
