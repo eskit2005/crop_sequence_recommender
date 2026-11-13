@@ -122,6 +122,26 @@ class TestCropSequenceEvaluatorStages(unittest.TestCase):
         _, _, issues = TemporalTurnaroundAuditor.audit_turnaround(episodes, loc_haor, 1)
         self.assertTrue(any(iss.code == "CRITICAL_HAOR_FLASH_FLOOD_RISK" for iss in issues))
 
+    def test_evaluator_directory_structure_integrity(self):
+        """Guarantees that the Evaluator DSS directory tree and all its components exist in exact paths."""
+        import os
+        repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        expected_paths = [
+            os.path.join(repo_root, "src", "evaluator", "__init__.py"),
+            os.path.join(repo_root, "src", "evaluator", "evaluator_engine.py"),
+            os.path.join(repo_root, "src", "evaluator", "models.py"),
+            os.path.join(repo_root, "src", "evaluator", "nasa_climate_enricher.py"),
+            os.path.join(repo_root, "src", "evaluator", "soil_biogeochem_auditor.py"),
+            os.path.join(repo_root, "src", "evaluator", "temporal_turnaround_auditor.py"),
+            os.path.join(repo_root, "src", "evaluator", "biological_disease_auditor.py"),
+            os.path.join(repo_root, "src", "evaluator", "sequence_scorer_remediator.py"),
+            os.path.join(repo_root, "src", "evaluator", "ai_agronomic_advisor.py"),
+            os.path.join(repo_root, "src", "evaluate_sequence_cli.py"),
+            os.path.join(repo_root, "docs", "crop_sequence_evaluator_architecture.md"),
+        ]
+        for path in expected_paths:
+            self.assertTrue(os.path.exists(path), f"CRITICAL STRUCTURAL FAILURE: Missing expected file at {path}")
+
 
 if __name__ == "__main__":
     unittest.main()
