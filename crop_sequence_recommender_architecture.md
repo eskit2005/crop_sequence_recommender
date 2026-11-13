@@ -3,6 +3,8 @@
 > **Document Scope:** This specification serves as the definitive technical blueprint and agronomic reference for the algorithmic core of the **Crop Sequence Recommender** system: **Stage 3** (Candidate Crop Pool Generation & Hydrological Filtering), **Stage 4** (2-Year / 6-Season Combinatorial Agronomic Filtering), and **Stage 5** (Multi-Objective Mathematical Optimization & Portfolio Selection).
 > 
 > It incorporates all empirical findings and edge-case mitigations derived from stress tests conducted across diverse Bangladesh agro-ecological zones (AEZs): the Central Floodplain, Northern Granary (Bogura), Coastal Saline Belt (Satkhira/Khulna), Riverine Char Islands, and Wetland Haor Basins (Sunamganj/Netrokona).
+>
+> 💡 **Companion Diagnostic Evaluator DSS:** For deterministic biophysical sequence evaluation, NASA $ET_0$ water balance auditing, $\Delta\text{SOC}$ trajectories, and targeted single-crop smart swaps of farmer-defined sequences, see the standalone **Crop Sequence Evaluator Decision Support System** specified in [`docs/crop_sequence_evaluator_architecture.md`](docs/crop_sequence_evaluator_architecture.md).
 
 ---
 
@@ -1772,7 +1774,11 @@ The Stage 3 codebase is fully modularized, tested, and deployed in `/Users/ibrah
 
 ```
 crop_sequence_recommender/
-├── VERSION_LOG.md             # Official version release notes & historical benchmark audit log
+├── README.md                  # Unified project documentation & dual-engine guide
+├── VERSION_LOG.md             # Official version release notes (v1.0, v2.0, v3.0)
+├── sync_to_desktop.sh         # Targeted Desktop sync & self-verification script
+├── docs/
+│   └── crop_sequence_evaluator_architecture.md # Standalone Evaluator DSS specification
 ├── src/
 │   ├── router.py              # 2-Tier Spatial Router (AABB broad-phase + Jordan Curve ray casting)
 │   ├── stage3_barc_selector.py# BARC CZIS selector with write-through SQLite caching & land-type filters
@@ -1780,22 +1786,33 @@ crop_sequence_recommender/
 │   ├── stage3_fao_selector.py # FAO EcoCrop fuzzy evaluator, Sys et al. 1991, & cyclic modulo window
 │   ├── stage3_engine.py       # Unified Master Public API & formatted CLI entry point
 │   ├── seasonal_calendar.py   # Global agro-climatic thermal/precipitation calendar engine
-│   └── ingest_barc_data.py    # Offline BARC administrative boundary and suitability pre-cacher
+│   ├── ingest_barc_data.py    # Offline BARC administrative boundary and suitability pre-cacher
+│   ├── evaluate_sequence_cli.py# Standalone Evaluator DSS CLI tool
+│   └── evaluator/             # Standalone 6-Stage Evaluator DSS package
+│       ├── __init__.py
+│       ├── models.py
+│       ├── evaluator_engine.py
+│       ├── nasa_climate_enricher.py
+│       ├── temporal_turnaround_auditor.py
+│       ├── biological_disease_auditor.py
+│       ├── soil_biogeochem_auditor.py
+│       ├── sequence_scorer_remediator.py
+│       └── ai_agronomic_advisor.py
 ├── tests/
-│   ├── test_stage3.py         # Comprehensive 9-test automated unit and integration suite
+│   ├── test_stage3.py         # Comprehensive 15-test automated unit and integration suite
+│   ├── test_evaluator_stages.py# 7 Evaluator DSS unit & structural integrity tests
 │   └── planetary_benchmark_100.py # Cross-continental global verification test suite
+├── scripts/
+│   └── evaluate_20_bd_locations.py # 20-location Bangladesh verification benchmark
 ├── data/
 │   ├── crop_recommender.db    # SQLite database (505 Upazilas + write-through cached crop matrices)
 │   ├── upazila_boundaries.csv # 505 Upazila Axis-Aligned Bounding Boxes (AABBs)
 │   ├── upazila_polygons.json  # 2.47 MB MultiPolygon boundary geometries for offline 0.128 ms resolution
 │   ├── suitable_crops_master.csv # Master crop agronomic metadata reference table
+│   ├── evaluator_20_places_audit.json # 20-scenario nationwide diagnostic audit
+│   ├── evaluator_20_places_summary.md # Summary table of 20 Bangladesh scenarios
+│   ├── evaluator_audit_cohort_*.md    # Subagent internet-backed empirical verification reports
 │   └── bd_100_batches/        # 100-Upazila Bangladesh benchmark dataset & 5 audit reports
-│       ├── batch01_northern_granary.json
-│       ├── batch02_northwest_barind.json
-│       ├── batch03_central_delta.json
-│       ├── batch04_northeast_haor.json
-│       ├── batch05_southern_coastal.json
-│       └── audit_report_batch01.md ... audit_report_batch05.md
 └── scratch/                   # Benchmark batch generators and evaluation scripts
 ```
 
