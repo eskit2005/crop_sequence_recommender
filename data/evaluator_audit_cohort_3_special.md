@@ -2,7 +2,7 @@
 
 **Auditor:** Specialized Agro-Ecosystems & Regional Agronomy Auditor  
 **Scope:** 9 Specialized Agro-Ecosystem Scenarios (Sunamganj, Kishoreganj, Mymensingh, Jamalpur, Cumilla, Jashore, Kushtia, Sylhet, Bandarban)  
-**Target File:** `/Users/ibrahim/.gemini/antigravity/scratch/crop_sequence_recommender/data/evaluator_20_places_audit.json`  
+**Target File:** [`data/evaluator_20_places_audit.json`](evaluator_20_places_audit.json)  
 **Date:** November 2026  
 **Status:** Audit Completed with Internet-Backed Empirical Verification  
 
@@ -39,7 +39,11 @@ Across diverse agro-ecological zones, the engine has a hardcoded preference to i
 
 ### B. Annual Hydrology vs. Seasonal Soil Water Deficit
 The engine calculates:
-$$\text{Net Water Deficit} = \sum P - \sum ET_c - \sum \text{Drainage}$$
+
+$$
+\text{Net Water Deficit} = \sum P - \sum ET_c - \sum \text{Drainage}
+$$
+
 In tropical monsoon climates like Bandarban, monsoon rainfall is massive ($>2,500\text{ mm}$), resulting in $\text{Net Deficit} = 0.0$ and a perfect Hydrology score of 100.0. However, in the dry season (December–March), rainfall is $<30\text{ mm/month}$. On sloping, coarse-textured sandy loam soils with low moisture retention, rainfed crops face near-100% crop failure. The hydrology engine must evaluate water deficit on a **crop-growth-stage specific or monthly time-step**.
 
 ### C. The Inundation Realities of Haor Depressions (AEZ 21)

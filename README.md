@@ -10,20 +10,20 @@
 > **Field Shift: Adapting Farms with NASA Earth Observations & Local Agro-Ecological Data**  
 > A complete, biophysically grounded Decision Support System (DSS) comprising two decoupled engines:
 > 1. **Crop Sequence Recommender:** Synthesizes candidate seasonal crop pools using official Bangladesh Agricultural Research Council (BARC CZIS) matrices and global UN FAO EcoCrop limits.
-> 2. **Crop Sequence Evaluator & Diagnostic DSS:** Audits multi-year crop sequences against NASA POWER agro-climatology ($ET_0$ & tipping-bucket water balance), duration-weighted soil organic carbon ($\Delta \text{SOC}$), legume BNF ($NHI = 0.70$), Maas-Hoffman salinity, turnaround temporal feasibility ($T_{\text{wrap}}$), biological disease cycles (*Solanaceae* bacterial wilt / nematode bridge), and generates bilingual KrishiBondhu AI advisory reports with deterministic Smart Swaps.
+> 2. **Crop Sequence Evaluator & Diagnostic DSS:** Audits multi-year crop sequences against NASA POWER agro-climatology ($ET_0$ & tipping-bucket water balance), duration-weighted soil organic carbon ($\Delta \text{SOC}$), legume Biological Nitrogen Fixation (BNF, with Nitrogen Harvest Index $NHI = 0.70$), Maas-Hoffman salinity, turnaround temporal feasibility ($T_{\text{wrap}}$), biological disease cycles (*Solanaceae* bacterial wilt / nematode bridge), and generates bilingual KrishiBondhu AI advisory reports with deterministic Smart Swaps.
 
 ---
 
 ## 📑 Table of Contents
-1. [Dual-Engine System Architecture](#-dual-engine-system-architecture)
-2. [Quick Start (Zero Setup)](#-quick-start)
-3. [Engine 1: Evaluator DSS CLI & Python Usage](#-engine-1-evaluator-dss-usage--reference)
-4. [Engine 2: Recommender Engine CLI Usage](#-engine-2-recommender-engine-cli-usage)
-5. [20-Location Bangladesh Scientific Verification](#-20-location-bangladesh-scientific-verification)
-6. [Core Biophysical Models & Equations](#-core-biophysical-models--equations)
-7. [Running the Automated Test Suite](#-running-the-automated-test-suite)
-8. [Project File Structure](#-project-file-structure)
-9. [Citations & References](#-citations--references)
+1. [Dual-Engine System Architecture](#dual-engine-system-architecture)
+2. [Quick Start (Zero Setup)](#quick-start)
+3. [Engine 1: Recommender Engine CLI Usage](#engine-1-recommender-engine-cli-usage)
+4. [Engine 2: Evaluator DSS Usage & Reference](#engine-2-evaluator-dss-usage--reference)
+5. [20-Location Bangladesh Scientific Verification](#20-location-bangladesh-scientific-verification)
+6. [Core Biophysical Models & Equations](#core-biophysical-models--equations)
+7. [Running the Automated Test Suite](#running-the-automated-test-suite)
+8. [Project File Structure](#project-file-structure)
+9. [Citations & References](#citations--references)
 
 ---
 
@@ -53,6 +53,10 @@ Branch A: BARC CZIS        Branch B: Global FAO/NASA          Stage 3: Agro-Hydr
                                                               Advisory Report (Bangla & English)
 ```
 
+> 📖 **Deep Technical Specifications:**
+> * **Recommender Engine Blueprint:** [`docs/crop_sequence_recommender_architecture.md`](docs/crop_sequence_recommender_architecture.md)
+> * **Evaluator DSS Technical Specification:** [`docs/crop_sequence_evaluator_architecture.md`](docs/crop_sequence_evaluator_architecture.md)
+
 ---
 
 ## 🚀 Quick Start
@@ -64,14 +68,14 @@ Clone and run immediately. **No virtual environment, `pip install`, or environme
 git clone https://github.com/eskit2005/crop_sequence_recommender.git
 cd crop_sequence_recommender
 
-# 2. Run the Evaluator DSS demo (Bogura Solanaceae disease audit & smart swap):
+# 2. Run Engine 1: Recommender Engine for any coordinate (BARC CZIS + Ray-Casting PIP):
+python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --land-type MHL
+
+# 3. Run Engine 2: Evaluator DSS demo (Bogura Solanaceae disease audit & smart swap):
 python3 src/evaluate_sequence_cli.py --demo bogura
 
-# 3. Run the Evaluator DSS demo for Coastal Saline Belt (Satkhira):
+# 4. Run Engine 2 for Coastal Saline Belt (Satkhira):
 python3 src/evaluate_sequence_cli.py --demo satkhira
-
-# 4. Run the Recommender Engine for any Bangladesh coordinate:
-python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --land-type MHL
 
 # 5. Run all 22 automated tests:
 python3 -m unittest discover tests
@@ -79,7 +83,24 @@ python3 -m unittest discover tests
 
 ---
 
-## 🔬 Engine 1: Evaluator DSS Usage & Reference
+## 🌾 Engine 1: Recommender Engine CLI Usage
+
+The Recommender Engine generates candidate crop pools for an Upazila or international coordinate:
+
+```bash
+# Bangladesh BARC Branch A:
+python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --land-type MHL
+
+# Global FAO EcoCrop + NASA POWER Branch B:
+python3 src/stage3_engine.py --lat -0.303 --lon 36.08
+
+# JSON Output for Web APIs:
+python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --json
+```
+
+---
+
+## 🔬 Engine 2: Evaluator DSS Usage & Reference
 
 The Evaluator Decision Support System lives in [`src/evaluator/`](src/evaluator/) and evaluates any user-defined or algorithm-generated multi-year crop sequence against NASA satellite observations, soil biogeochemistry, and agronomic disease dynamics.
 
@@ -343,23 +364,6 @@ for issue in result.detected_issues:
 
 ---
 
-## 🛠 Engine 2: Recommender Engine CLI Usage
-
-The Recommender Engine generates candidate crop pools for an Upazila or international coordinate:
-
-```bash
-# Bangladesh BARC Branch A:
-python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --land-type MHL
-
-# Global FAO EcoCrop + NASA POWER Branch B:
-python3 src/stage3_engine.py --lat -0.303 --lon 36.08
-
-# JSON Output for Web APIs:
-python3 src/stage3_engine.py --lat 24.78 --lon 89.04 --json
-```
-
----
-
 ## 📊 20-Location Bangladesh Scientific Verification
 
 The Evaluator DSS was benchmarked and audited across 20 distinct agro-ecological zones covering every major cropping system in Bangladesh ([`scripts/evaluate_20_bd_locations.py`](scripts/evaluate_20_bd_locations.py)). 
@@ -397,19 +401,47 @@ Subagent verification reports: [`data/evaluator_audit_cohort_1_north.md`](data/e
 ## 📐 Core Biophysical Models & Equations
 
 1. **FAO-56 Hargreaves-Samani Reference Evapotranspiration ($ET_0$):**
-   $$ET_0 = 0.0023 \cdot R_a \cdot (T_{\text{mean}} + 17.8) \cdot \sqrt{T_{\max} - T_{\min}}$$
+
+   $$
+   ET_0 = 0.0023 \cdot R_a \cdot (T_{\text{mean}} + 17.8) \cdot \sqrt{T_{\max} - T_{\min}}
+   $$
+
 2. **Two-Step Tipping-Bucket Soil Water Balance:**
-   $$W_{\text{pot}} = W_{t-1} + P_t + I_t - ET_{\text{c}, t}, \quad D_{\text{deep}} = \max(0, W_{\text{pot}} - S_{\max}), \quad W_t = \max(0, \min(S_{\max}, W_{\text{pot}} - D_{\text{deep}}))$$
+
+   $$
+   W_{\text{pot}} = W_{t-1} + P_t + I_t - ET_{\text{c}, t}, \quad D_{\text{deep}} = \max(0, W_{\text{pot}} - S_{\max}), \quad W_t = \max(0, \min(S_{\max}, W_{\text{pot}} - D_{\text{deep}}))
+   $$
+
 3. **Duration-Weighted Annual Soil Organic Carbon Trajectory ($\Delta \text{SOC}$):**
-   $$\Delta \text{SOC}_{\text{yr}} = \sum_{i=1}^N \left( \frac{D_i}{365} \times C_{\text{input}, i} \times h \right) - k_2 \cdot \text{SOC}_0$$
+
+   $$
+   \Delta \text{SOC}_{\text{yr}} = \sum_{i=1}^N \left( \frac{D_i}{365} \times C_{\text{input}, i} \times h \right) - k_2 \cdot \text{SOC}_0
+   $$
+
 4. **Legume Biological Nitrogen Fixation ($NHI = 0.70$):**
-   $$\Delta \text{N}_{\text{soil}} = \text{BNF} - N_{\text{grain}} = N_{\text{total}} \times (1 - NHI) \ge 0$$
+
+   $$
+   \Delta \text{N}_{\text{soil}} = \text{BNF} - N_{\text{grain}} = N_{\text{total}} \times (1 - NHI) \ge 0
+   $$
+
 5. **Maas-Hoffman Crop Salinity Yield Response:**
-   $$Y_{\text{rel}} = \max(0, 100 - b \cdot (EC_e - a))$$
+
+   $$
+   Y_{\text{rel}} = \max(0, 100 - b \cdot (EC_e - a))
+   $$
+
 6. **Hill Dose-Response Pathogen Inoculum Accumulation:**
-   $$\text{Inoculum}_{t+1} = \text{Inoculum}_t \cdot \left(1 + \frac{R_{\max} \cdot S^h}{K_m^h + S^h}\right) \cdot e^{-\lambda \cdot T_{\text{break}}}$$
+
+   $$
+   \text{Inoculum}_{t+1} = \text{Inoculum}_t \cdot \left(1 + \frac{R_{\max} \cdot S^h}{K_m^h + S^h}\right) \cdot e^{-\lambda \cdot T_{\text{break}}}
+   $$
+
 7. **Multi-Factor Rotation Composite Score (0–100):**
-   $$S_{\text{total}} = 0.20 S_{\text{climate}} + 0.20 S_{\text{hydro}} + 0.20 S_{\text{biology}} + 0.20 S_{\text{soil}} + 0.20 S_{\text{economics}}$$
+
+   $$
+   S_{\text{total}} = 0.20 S_{\text{climate}} + 0.20 S_{\text{hydro}} + 0.20 S_{\text{biology}} + 0.20 S_{\text{soil}} + 0.20 S_{\text{economics}}
+   $$
+
    *(Any critical blocker strictly caps $S_{\text{total}} < 40.0$ and forces a targeted smart swap).*
 
 ---
@@ -434,8 +466,11 @@ python3 -m unittest discover tests
 crop_sequence_recommender/
 ├── README.md                                  # Complete project documentation & CLI guide
 ├── VERSION_LOG.md                             # Version history (v1.0, v2.0, v3.0)
-├── crop_sequence_recommender_architecture.md  # Master technical specification (Recommender)
-├── crop_sequence_recommender_architecture.html# Interactive specification viewer
+│
+├── docs/
+│   ├── crop_sequence_recommender_architecture.md  # Master technical specification (Recommender)
+│   ├── crop_sequence_recommender_architecture.html# Interactive specification viewer
+│   └── crop_sequence_evaluator_architecture.md# Evaluator DSS master technical specification
 │
 ├── src/
 │   │   # ─── RECOMMENDER ENGINE (Teammates' Pipeline) ───
@@ -467,9 +502,6 @@ crop_sequence_recommender/
 │
 ├── scripts/
 │   └── evaluate_20_bd_locations.py            # 20-location Bangladesh evaluation benchmark
-│
-├── docs/
-│   └── crop_sequence_evaluator_architecture.md# Evaluator DSS master technical specification
 │
 └── data/
     ├── crop_recommender.db                    # Pre-cached BARC CZIS SQLite database

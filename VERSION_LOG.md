@@ -5,7 +5,7 @@
 **Commit:** `45d11a4`
 
 ### Architectural Scope
-* **Universal Agro-Meteorological Segmentation Engine**: Implemented in [`src/seasonal_calendar.py`](file:///Users/ibrahim/.gemini/antigravity/scratch/crop_sequence_recommender/src/seasonal_calendar.py) and [`src/global_env_fetcher.py`](file:///Users/ibrahim/.gemini/antigravity/scratch/crop_sequence_recommender/src/global_env_fetcher.py).
+* **Universal Agro-Meteorological Segmentation Engine**: Implemented in [`src/seasonal_calendar.py`](src/seasonal_calendar.py) and [`src/global_env_fetcher.py`](src/global_env_fetcher.py).
 * **NASA POWER Climatology Integration**: Automated ingestion of 30-year daily radiation, precipitation rate (`PRECTOTCORR`), and temperatures ($T_{\min}, T_{\max}, T_{\text{mean}}$) converted to monthly water balance.
 * **FAO GAEZ v4 Daily Tipping-Bucket Model**: Reference soil water storage capacity ($S_{\max} = 100\text{ mm}$), daily Hargreaves PET, and daily moisture sufficiency tracking ($P_d + W_{t-1} \ge 0.5 \times PET_d$ and $T_{\text{mean}} \ge 5.0^\circ\text{C}$).
 * **10 Global Agro-Climatic Regimes**:
@@ -31,7 +31,7 @@
 
 ## [Version 2.0 - Bangladesh Production Core & Dual-Branch Architecture] (Current Main)
 **Date:** November 9, 2026  
-**Reference Blueprint:** [`crop_sequence_recommender_architecture.md`](crop_sequence_recommender_architecture.md)
+**Reference Blueprint:** [`docs/crop_sequence_recommender_architecture.md`](docs/crop_sequence_recommender_architecture.md)
 
 ### Architectural Scope
 * **Focus Re-Alignment**: Prioritizing the hackathon end-to-end user experience, ultra-low latency, and agronomic rotation intelligence (Stages 3, 4, and 5).
@@ -65,9 +65,12 @@
     6. **KrishiBondhu AI Explainability**: Generates structured, empathetic bilingual advisory reports in Bengali and English.
 * **CLI & Tooling**:
   - `src/evaluate_sequence_cli.py`: Interactive CLI with built-in demos (`--demo bogura`, `--demo satkhira`, `--demo barind`), custom sequence evaluation, and JSON output.
-  - Comprehensive Input Matrix & Example Profile: Added complete 4-domain input specification (Location, Field Biophysics, Farmer Socio-Economics, Crop Sequence) and verified all-arguments working example in `README.md`, `crop_sequence_recommender_architecture.md`, and `docs/crop_sequence_evaluator_architecture.md`, bundled with a ready-to-run template profile in `data/farmer_profile_example.json`.
+  - Comprehensive Input Matrix & Example Profile: Added complete 4-domain input specification (Location, Field Biophysics, Farmer Socio-Economics, Crop Sequence) and verified all-arguments working example in `README.md`, `docs/crop_sequence_recommender_architecture.md`, and `docs/crop_sequence_evaluator_architecture.md`, bundled with a ready-to-run template profile in `data/farmer_profile_example.json`.
 * **Empirical Verification Across 20 Diverse Bangladesh Locations**:
   - Benchmarked across 20 distinct agro-ecological scenarios (`scripts/evaluate_20_bd_locations.py`, `data/evaluator_20_places_audit.json`, `data/evaluator_20_places_summary.md`).
   - Fact-checked and verified by 3 autonomous subagents with live web search against BARI, BRRI, SRDI, DAE, CIMMYT, and IRRI literature.
-* **Automated Unit Testing**:
+* **Automated Unit Testing & Verification**:
   - 22/22 unit tests passing across both Recommender and Evaluator modules (`python3 -m unittest discover tests`), including directory structure integrity assertions.
+* **Repository-Wide Mathematical Equations & LaTeX KaTeX Compatibility Audit**:
+  - Scanned all 44 repository markdown files (`README.md`, `VERSION_LOG.md`, `docs/*`, `data/*`).
+  - Automated CI audit harness in `scripts/audit_latex_equations.py` validating 100% GFM isolation, delimiter balance, macro validity, and strict KaTeX rendering (0 errors remaining across all repository files).

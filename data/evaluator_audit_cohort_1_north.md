@@ -2,7 +2,7 @@
 **Cohort 1: Northern & Barind Agricultural Systems (6 Scenarios)**  
 **Author**: Northern & Barind Agro-Ecosystems Scientific Auditor  
 **Target System**: Crop Sequence Evaluator Decision Support System (DSS Stages 1–6)  
-**Audit Data Source**: `/Users/ibrahim/.gemini/antigravity/scratch/crop_sequence_recommender/data/evaluator_20_places_audit.json`  
+**Audit Data Source**: [`data/evaluator_20_places_audit.json`](evaluator_20_places_audit.json)  
 **Date**: November 2026  
 
 ---
@@ -195,7 +195,7 @@ The evaluator's detection of `BARIND_AQUIFER_DEPLETION_RISK` under STW-irrigated
 * **Evidence & Literature Grounding**:
   * **Economic Engine of Rangpur**: The Potato – Maize – T. Aman sequence is one of the highest-yielding systems in Bangladesh, achieving Rice Equivalent Yields (REY) exceeding 20 t/ha/yr.
   * **Exhaustive Nutrient Mining**: BARI soil scientists confirm that Potato followed by Hybrid Maize extracts enormous amounts of N, P, K, and S, creating severe soil depletion (-410 kg N/ha) unless supplemented with heavy farmyard manure (FYM) or poultry manure (3 t/ha).
-  * **Nematode Host Status**: Hybrid maize is an active reproductive host ($R_f = 3.0–4.5$) for *Meloidogyne incognita*. It bridges nematodes between potato and subsequent crops. Interestingly, the DSS rule only checks `Potato -> Maize -> Solanaceae`, missing the carryover into upland nursery rice or subsequent year potato across circular wrap-around!
+  * **Nematode Host Status**: Hybrid maize is an active reproductive host ($R_f = 3.0\text{--}4.5$) for *Meloidogyne incognita*. It bridges nematodes between potato and subsequent crops. Interestingly, the DSS rule only checks `Potato -> Maize -> Solanaceae`, missing the carryover into upland nursery rice or subsequent year potato across circular wrap-around!
   * **Root Stratigraphy Code Bug**: In `biological_disease_auditor.py`, `all_shallow` was triggered because "deep_fibrous" contains the substring "fibrous". Maize roots reach 1.0–1.5 m, creating extensive biopores. Flagging maize as plow-pan compaction is a botanical misclassification.
 
 ### 3. Evaluator Audit Verdict: MIXED REALITY / CRITICAL SMART SWAP DEFECT (Score: 6.0/10)

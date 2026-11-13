@@ -11,7 +11,7 @@
 >
 > **Prototype Testbed:** **Bogura District, Bangladesh** (Adamdighi and Shibganj Upazilas, AEZ 3 & 25) — Bangladesh's intensive commercial vegetable, seed, and cereal production hub, with contrast testbeds in Coastal Saline (Satkhira), Drought-Prone High Barind (Rajshahi), and Haor Wetland (Sunamganj).
 >
-> **System Decoupling Boundary:** Combinatorial generation of Top-3 rotation archetypes from scratch is executed by the core Recommender Pipeline. This Evaluator feature exclusively audits, scores, diagnoses, and remediates farmer-submitted crop sequences.
+> **System Decoupling Boundary:** Combinatorial generation of Top-3 rotation archetypes from scratch is executed by the core Recommender Pipeline (see [`crop_sequence_recommender_architecture.md`](crop_sequence_recommender_architecture.md)). This Evaluator feature exclusively audits, scores, diagnoses, and remediates farmer-submitted crop sequences.
 
 ---
 
@@ -229,20 +229,34 @@ flowchart LR
 
 Reference crop evapotranspiration ($ET_0$) is computed using the **FAO-56 Hargreaves-Samani equation** (Allen et al., 1998; Hargreaves & Samani, 1985):
 
-$$ET_0 = 0.0023 \cdot \left(T_{\text{mean}} + 17.8\right) \cdot \sqrt{T_{\text{max}} - T_{\text{min}}} \cdot R_a$$
+$$
+ET_0 = 0.0023 \cdot \left(T_{\text{mean}} + 17.8\right) \cdot \sqrt{T_{\text{max}} - T_{\text{min}}} \cdot R_a
+$$
 
 Where:
 - $T_{\text{mean}}, T_{\text{max}}, T_{\text{min}}$: Daily mean, maximum, and minimum 2-meter air temperatures ($^\circ\text{C}$) from NASA POWER MERRA-2.
 - $R_a$: Extraterrestrial solar radiation expressed in equivalent water evaporation ($\text{mm/day}$), calculated as a function of latitude $\phi$ and solar declination $\delta$ (FAO-56 eq. 21):
-  $$R_a = \frac{24 \times 60}{\pi} G_{sc} d_r \left[ \omega_s \sin(\phi) \sin(\delta) + \cos(\phi) \cos(\delta) \sin(\omega_s) \right] \times 0.408$$
+
+  $$
+  R_a = \frac{24 \times 60}{\pi} G_{sc} d_r \left[ \omega_s \sin(\phi) \sin(\delta) + \cos(\phi) \cos(\delta) \sin(\omega_s) \right] \times 0.408
+  $$
+
   where $G_{sc} = 0.0820\text{ MJ/m}^2/\text{min}$, $d_r$ is relative inverse distance Earth-Sun, and $\omega_s$ is sunset hour angle.
 
 #### Daily Soil Water Balance Tipping-Bucket Model:
 Soil moisture storage in the crop root zone is audited across the sequence using a sequential two-step tipping-bucket model (Allen et al., 1998; Ritchie, 1972):
 
-$$W_{\text{pot}} = W_{t-1} + P_{\text{daily}} + I_{\text{daily}} - ET_c$$
-$$D_{\text{deep}} = \max\left(0.0, W_{\text{pot}} - S_{\max}\right)$$
-$$W_t = \max\left(0.0, \min\left(S_{\max}, W_{\text{pot}} - D_{\text{deep}}\right)\right)$$
+$$
+W_{\text{pot}} = W_{t-1} + P_{\text{daily}} + I_{\text{daily}} - ET_c
+$$
+
+$$
+D_{\text{deep}} = \max\left(0.0, W_{\text{pot}} - S_{\max}\right)
+$$
+
+$$
+W_t = \max\left(0.0, \min\left(S_{\max}, W_{\text{pot}} - D_{\text{deep}}\right)\right)
+$$
 
 Where:
 - $S_{\max} = 1000 \cdot (\theta_{FC} - \theta_{WP}) \cdot Z_r$: Available Water Capacity ($\text{mm}$), typically $100\text{--}140\text{ mm}$ for Bogura silt loam ($Z_r = 0.8\text{ m}$).
@@ -259,7 +273,11 @@ Where:
   - Extraterrestrial radiation: $R_a = 37.1\text{ MJ/m}^2/\text{day} \times 0.408 = 15.14\text{ mm/day}$.
   - NASA `PRECTOTCORR` = $0.0\text{ mm/day}$.
 - **Hargreaves Calculation:**
-  $$ET_0 = 0.0023 \cdot (28.6 + 17.8) \cdot 3.795 \cdot 15.14 = 0.0023 \cdot 46.4 \cdot 3.795 \cdot 15.14 = 6.13\text{ mm/day}$$
+
+  $$
+  ET_0 = 0.0023 \cdot (28.6 + 17.8) \cdot 3.795 \cdot 15.14 = 0.0023 \cdot 46.4 \cdot 3.795 \cdot 15.14 = 6.13\text{ mm/day}
+  $$
+
 - **Agronomic Comparison (Maize vs. Mungbean):**
   - **Hybrid Maize (late grain filling, $K_c = 1.15$):** $ET_c = 1.15 \times 6.13 = 7.05\text{ mm/day}$. Over a 10-day rainless spell, water deficit = $70.5\text{ mm}$. If rainfed ($I_{\text{daily}} = 0$), root-zone storage ($W_t$) drops from $60\text{ mm}$ to $0\text{ mm}$ in 8.5 days, triggering a severe terminal drought yield penalty ($-40\%$).
   - **Mungbean (BARI Mung-6, vegetative, $K_c = 0.65$):** $ET_c = 0.65 \times 6.13 = 3.98\text{ mm/day}$. Over 10 days, deficit is only $39.8\text{ mm}$, remaining well within available soil moisture reserve ($W_t > \text{RAW}$).
@@ -273,7 +291,9 @@ The DSS models soil health through four quantitative chemical and physical equat
 ### 2.1 Soil Organic Carbon (SOC) Trajectory Model
 Continuous intensive rototillage, tuber harvesting, and complete crop residue removal rapidly oxidize organic matter in subtropical Bangladesh. The annual change in soil organic carbon ($\Delta \text{SOC}_{\text{annual}}$, $\text{t C/ha/year}$) is calculated using a duration-weighted, single-pool first-order decay equation based on the Hénin-Dupuis framework and ICBM (Hénin & Dupuis, 1945; Lal, 2004):
 
-$$\Delta \text{SOC}_{\text{annual}} = \sum_{i=1}^K \left( C_{\text{input}, i} \cdot \alpha_{\text{hum}, i} \right) - \text{SOC}_{\text{baseline}} \cdot k_{\text{decomp}} \sum_{i=1}^K \left( \frac{\text{Days}_i}{365} \cdot F_{\text{redox}, i} \cdot F_{\text{till}, i} \right)$$
+$$
+\Delta \text{SOC}_{\text{annual}} = \sum_{i=1}^K \left( C_{\text{input}, i} \cdot \alpha_{\text{hum}, i} \right) - \text{SOC}_{\text{baseline}} \cdot k_{\text{decomp}} \sum_{i=1}^K \left( \frac{\text{Days}_i}{365} \cdot F_{\text{redox}, i} \cdot F_{\text{till}, i} \right)
+$$
 
 Where:
 - $C_{\text{input}, i}$: Above-ground and root biomass carbon returned to soil by crop $i$ ($\text{t C/ha}$).
@@ -283,7 +303,11 @@ Where:
   - Tuber crops with intensive soil harvesting (Potato): $-0.15\text{ t C/ha}$ (net export).
 - $\alpha_{\text{hum}, i}$: Humification coefficient converting raw biomass carbon into stable humus ($0.12$ for succulent green manure, $0.22$ for lignified stover; Lal, 2004).
 - $\text{SOC}_{\text{baseline}}$: Baseline organic carbon pool in top $20\text{ cm}$ soil depth. In Bogura ($\text{SOC} = 1.1\%$, bulk density $\rho_b = 1.50\text{ g/cm}^3$):
-  $$\text{SOC}_{\text{baseline}} = 10{,}000\text{ m}^2 \times 0.20\text{ m} \times 1.50\text{ t/m}^3 \times 0.011 = 33.0\text{ t C/ha}$$
+
+  $$
+  \text{SOC}_{\text{baseline}} = 10{,}000\text{ m}^2 \times 0.20\text{ m} \times 1.50\text{ t/m}^3 \times 0.011 = 33.0\text{ t C/ha}
+  $$
+
 - $k_{\text{decomp}}$: Base microbial decomposition rate of the humified pool in subtropical humid climates ($0.030\text{ year}^{-1}$; Lal, 2004).
 - $F_{\text{redox}, i}$: Soil redox modifier ($0.55$ for submerged anaerobic puddled rice paddies where microbial respiration is inhibited by anoxia; $1.0$ for aerated upland soils).
 - $F_{\text{till}, i}$: Tillage intensity factor ($1.0$ for conventional 4-pass rototillage; $1.4$ for tuber digging/potato harvest; $0.75$ for strip tillage).
@@ -301,7 +325,10 @@ Where:
      - Carbon Input: $+0.40 \times 0.20 = +0.080\text{ t C/ha}$.
      - Decomposition: $33.0 \times 0.030 \times (115/365) \times 0.55 \times 1.0 = 0.171\text{ t C/ha}$.
    - **Annual Net Balance:**
-     $$\Delta \text{SOC} = (-0.030 + 0.030 + 0.080) - (0.342 + 0.271 + 0.171) = 0.080 - 0.784 = -0.704\text{ t C/ha/year}$$
+
+     $$
+  \Delta \text{SOC} = (-0.030 + 0.030 + 0.080) - (0.342 + 0.271 + 0.171) = 0.080 - 0.784 = -0.704\text{ t C/ha/year}
+  $$
      *Triggers **SOIL_DEGRADATION_PENALTY** ($-20$ points).*
 
 2. **Regenerative Sequence (Potato $\to$ Mungbean [Stover Incorp] $\to$ T. Aman Rice):**
@@ -309,7 +336,10 @@ Where:
      - Carbon Input: $+0.85 \times 0.20 = +0.170\text{ t C/ha}$.
      - Decomposition: $33.0 \times 0.030 \times (70/365) \times 1.0 \times 0.75 = 0.142\text{ t C/ha}$.
    - **Annual Net Balance:**
-     $$\Delta \text{SOC} = (-0.030 + 0.170 + 0.080) - (0.342 + 0.142 + 0.171) = 0.220 - 0.655 = -0.435\text{ t C/ha/year}$$
+
+     $$
+  \Delta \text{SOC} = (-0.030 + 0.170 + 0.080) - (0.342 + 0.142 + 0.171) = 0.220 - 0.655 = -0.435\text{ t C/ha/year}
+  $$
      *Adding a dedicated green manure catch crop or retaining full rice straw achieves positive net humification ($\Delta \text{SOC} > 0$).*
 
 ---
@@ -317,7 +347,9 @@ Where:
 ### 2.2 Nutrient Balance: Nitrogen Drawdown vs. Net Legume Residual N
 The system tracks the net Nitrogen budget ($\Delta N$ in $\text{kg N/ha/year}$) across all crops in the sequence (BARC, 2018; Herridge et al., 2008):
 
-$$\Delta N = \sum_{i \in \text{Legumes}} \text{NetResidualN}_i - \sum_{j \in \text{Crops}} N_{\text{drawdown}, j}$$
+$$
+\Delta N = \sum_{i \in \text{Legumes}} \text{NetResidualN}_i - \sum_{j \in \text{Crops}} N_{\text{drawdown}, j}
+$$
 
 #### Biological Nitrogen Fixation & Nitrogen Harvest Index (NHI):
 Grain legumes fix atmospheric $N_2$ via *Rhizobium* symbiosis, but grain harvesting exports the majority of fixed nitrogen off the field (Herridge et al., 2008):
@@ -340,14 +372,20 @@ Grain legumes fix atmospheric $N_2$ via *Rhizobium* symbiosis, but grain harvest
 ### 2.3 Soil pH Buffer & Crop Tolerance Window
 Soil pH governs micronutrient availability and aluminum/manganese toxicity. Crop suitability score $S_{\text{pH}}$ is modeled piecewise:
 
-$$S_{\text{pH}} = \begin{cases} 
+$$
+S_{\text{pH}} = \begin{cases} 
 100 & \text{if } \text{pH}_{\min} \le \text{Soil pH} \le \text{pH}_{\max} \\
 \max\left(0, 100 - 40 \cdot |\text{Soil pH} - \text{Boundary}|\right) & \text{otherwise}
-\end{cases}$$
+\end{cases}
+$$
 
 - **Bogura Silt Loam ($\text{pH } 6.2$):** Within optimum range for Potato ($5.0\text{--}6.5$), Maize ($5.8\text{--}7.0$), and Rice ($5.5\text{--}7.2$) $\implies S_{\text{pH}} = 100$.
 - **Acid Basin Clay ($\text{pH } 4.6$):** Falls below Potato optimum ($\text{pH}_{\min} = 5.0$).
-  $$S_{\text{pH}} = 100 - 40 \cdot |4.6 - 5.0| = 100 - 16 = 84/100$$
+
+  $$
+  S_{\text{pH}} = 100 - 40 \cdot |4.6 - 5.0| = 100 - 16 = 84/100
+  $$
+
   *Flags phosphorus fixation risk and recommends $1.5\text{ t/ha}$ agricultural lime / dololime incorporation.*
 
 ---
@@ -355,10 +393,12 @@ $$S_{\text{pH}} = \begin{cases}
 ### 2.4 Salinity: Maas-Hoffman Crop Yield Penalty Model
 In coastal deltaic testbeds (Satkhira, Khulna), dry-season capillary rise causes electrical conductivity ($\text{EC}_e$) to surge. Relative crop yield ($Y_{\text{rel}}$, %) is audited using the canonical **Maas-Hoffman piecewise linear equation** (Ayers & Westcot, 1985; Maas & Hoffman, 1977):
 
-$$Y_{\text{rel}} = \begin{cases}
+$$
+Y_{\text{rel}} = \begin{cases}
 100.0 & \text{if } \text{EC}_e \le a \\
 \max\left(0.0, 100.0 - b \cdot (\text{EC}_e - a)\right) & \text{if } \text{EC}_e > a
-\end{cases}$$
+\end{cases}
+$$
 
 Where:
 - $a$: Salinity threshold ($\text{dS/m}$) below which yield is unaffected.
@@ -487,7 +527,10 @@ To provide practical Decision Support, the input contract captures real smallhol
 
 1. **Working Capital Budget Constraint:**
    Smallholders in Bangladesh operating $\le 0.5\text{ ha}$ frequently suffer cash-flow exhaustion midway through multi-crop sequences. The engine calculates sequence input costs across all $K$ crops:
-   $$\text{Total Cost} = \text{Area}_{\text{ha}} \times \sum_{i=1}^K \left( \text{Cost}_{\text{seed}, i} + \text{Cost}_{\text{fertilizer}, i} + \text{Cost}_{\text{irrigation}, i} + \text{Cost}_{\text{labor}, i} \right)$$
+
+   $$
+\text{Total Cost} = \text{Area}_{\text{ha}} \times \sum_{i=1}^K \left( \text{Cost}_{\text{seed}, i} + \text{Cost}_{\text{fertilizer}, i} + \text{Cost}_{\text{irrigation}, i} + \text{Cost}_{\text{labor}, i} \right)
+$$
    - *Example:* For Potato ($150{,}000\text{ BDT/ha}$) + Summer Tomato ($110{,}000\text{ BDT/ha}$) + T. Aman ($65{,}000\text{ BDT/ha}$) = $325{,}000\text{ BDT/ha}$.
    - For a $0.40\text{ ha}$ farm, total capital needed = $0.40 \times 325{,}000 = 130{,}000\text{ BDT}$.
    - If farmer budget is $120{,}000\text{ BDT}$, cost exceeds budget by $8.3\%$, triggering an advisory note on pesticide reserve shortages.
@@ -562,7 +605,10 @@ To demonstrate rigorous validation, the system is calibrated for **Bogura Distri
 
 2. **Inter-Crop Turnaround Window Formula:**
    For each consecutive pair of crops $(C_i, C_{i+1})$:
-   $$T_{\text{gap}} = \text{EarliestSowing}(C_{i+1}) - \text{HarvestDate}(C_i)$$
+
+   $$
+T_{\text{gap}} = \text{EarliestSowing}(C_{i+1}) - \text{HarvestDate}(C_i)
+$$
    - Minimum Required Turnaround Buffers:
      - **Paddy to Non-Paddy:** $\ge 14$ days (Soil drainage, structure aeration, and rotary tillage to break puddled pans).
      - **Non-Paddy to Transplanted Paddy:** $\ge 10$ days (Bund repair, canal cleaning, flooding, and puddling).
@@ -574,12 +620,18 @@ To demonstrate rigorous validation, the system is calibrated for **Bogura Distri
 
 3. **Circular Boundary Condition (The Multi-Year Wrap-Around Loop):**
    Farmers execute sequences in continuous multi-year cycles. The transition from the **terminal crop of Year $Y$** back to the **initial crop of Year 1** is audited:
-   $$T_{\text{wrap}} = \text{StartDay}(C_1) + (365.25 \times Y) - \text{HarvestDay}(C_N)$$
+
+   $$
+T_{\text{wrap}} = \text{StartDay}(C_1) + (365.25 \times Y) - \text{HarvestDay}(C_N)
+$$
    - *Example:* Late harvest of Year 2 T. Aman (Dec 10, Day 710) colliding with Year 1 early Potato planting (Nov 15, Day 319 + 365.25 = Day 684) yields $T_{\text{wrap}} = -26\text{ days}$. Delaying potato planting past Dec 15 incurs a $2.5\%/\text{day}$ tuber yield loss due to late-season heat (Timsina & Connor, 2001).
 
 4. **Fallow & Bare-Soil Water Dynamics:**
    During unplanted dry fallow periods, bare-soil evaporation is modeled using **FAO-56 Chapter 7 / Ritchie Stage II falling-rate diffusion** (Allen et al., 1998; Ritchie, 1972):
-   $$E_{\text{bare}} = K_r \cdot K_{c,\max} \cdot ET_0 \approx 0.20\text{--}0.28 \cdot ET_0$$
+
+   $$
+E_{\text{bare}} = K_r \cdot K_{c,\max} \cdot ET_0 \approx 0.20\text{--}0.28 \cdot ET_0
+$$
 
 5. **Climate Hazard Collisions:**
    - **Haor Basin Flash Flood Trap:** Any Rabi crop in Sunamganj harvested after **April 15** triggers **CRITICAL_FLASH_FLOOD_RISK** (submergence by pre-monsoon Meghalaya mountain runoff).
@@ -617,7 +669,10 @@ To demonstrate rigorous validation, the system is calibrated for **Bogura Distri
    - **Maize is NOT a Neutral Break for Root-Knot Nematodes:** Commercial hybrid maize is a reproductive host ($R_f = P_f/P_i \approx 3.0\text{--}4.5$) for *Meloidogyne incognita* and *M. javanica*, multiplying nematode egg banks between Potato crops.
    - **Inoculum Density vs. Dose-Response Hill Model:**
      Decouples Weibull/biphasic inoculum decline $I(t)$ from Disease Risk $Y(t)$ via a Hill-type dose-response function:
-     $$Y(t) = \frac{I(t)^n}{I(t)^n + (ED_{50})^n}$$
+
+     $$
+Y(t) = \frac{I(t)^n}{I(t)^n + (ED_{50})^n}
+$$
      *Because the infectious threshold $ED_{50}$ is only $10^2\text{--}10^4\text{ CFU/g}$, disease risk remains near 100% even after a 95% bacterial population drop.*
    - **Flooding / Wetland Sanitization Credits:**
      - Continuous standing water $\ge 60\text{ days}$ ($E_h < -150\text{ mV}$) in lowland rice paddies eliminates $>95\text{--}99\%$ of terrestrial root-knot juveniles (*M. incognita*) via anoxia and organic acid generation (Bridge, 1996; Prot & Matias, 1995).
@@ -634,7 +689,10 @@ To demonstrate rigorous validation, the system is calibrated for **Bogura Distri
 
 3. **Legume Frequency Rule (Snapp et al., 2010 *PNAS*):**
    Sustainable cropping systems must maintain a minimum legume frequency over time:
-   $$f_{\text{legume}} = \frac{N_{\text{legumes}}}{Y} \ge 0.5\text{ legumes/year}$$
+
+   $$
+f_{\text{legume}} = \frac{N_{\text{legumes}}}{Y} \ge 0.5\text{ legumes/year}
+$$
    Sequences spanning $\ge 4$ seasons with zero legumes receive a **SEVERE_SOIL_EXHAUSTION_PENALTY** ($-25$ points).
 
 ---
@@ -644,19 +702,36 @@ To demonstrate rigorous validation, the system is calibrated for **Bogura Distri
 #### 5.1 Multi-Dimensional Rotation Health Scoring Formulation
 The total score $S_{\text{total}} \in [0, 100]$ is computed as a weighted sum of five deterministic sub-scores:
 
-$$S_{\text{total}} = w_c S_{\text{climate}} + w_h S_{\text{hydrology}} + w_b S_{\text{biology}} + w_s S_{\text{soil}} + w_e S_{\text{farmer\_econ}}$$
+$$
+S_{\text{total}} = w_c S_{\text{climate}} + w_h S_{\text{hydrology}} + w_b S_{\text{biology}} + w_s S_{\text{soil}} + w_e S_{\text{farmer\_econ}}
+$$
 
 Where default weights are $w = [0.20, 0.20, 0.20, 0.20, 0.20]$ and sub-scores are calculated deterministically:
 - **$S_{\text{climate}}$ (NASA Climatology Alignment):**
-  $$S_{\text{climate}} = 100 - 15 \cdot N_{\text{heat\_stress\_days}} - 20 \cdot \mathbf{1}_{\{P_{\text{deficit}} > 100\text{ mm \& rainfed}\}} - 25 \cdot \mathbf{1}_{\{\text{StormOverlap}\}}$$
+
+  $$
+S_{\text{climate}} = 100 - 15 \cdot N_{\text{heat\_stress\_days}} - 20 \cdot \mathbf{1}_{\{P_{\text{deficit}} > 100\text{ mm \& rainfed}\}} - 25 \cdot \mathbf{1}_{\{\text{StormOverlap}\}}
+$$
 - **$S_{\text{hydrology}}$ (Land Type & Flood Regime):**
-  $$S_{\text{hydrology}} = 100 - 50 \cdot \mathbf{1}_{\{\text{InundationMismatch}\}} - \text{SalinityPenalty}(Y_{\text{rel}})$$
+
+  $$
+S_{\text{hydrology}} = 100 - 50 \cdot \mathbf{1}_{\{\text{InundationMismatch}\}} - \text{SalinityPenalty}(Y_{\text{rel}})
+$$
 - **$S_{\text{biology}}$ (Pest & Pathogen Cycles):**
-  $$S_{\text{biology}} = 100 - \sum \text{FamilyViolationPenalties} - 15 \cdot \mathbf{1}_{\{\text{NoRootAlternation}\}}$$
+
+  $$
+S_{\text{biology}} = 100 - \sum \text{FamilyViolationPenalties} - 15 \cdot \mathbf{1}_{\{\text{NoRootAlternation}\}}
+$$
 - **$S_{\text{soil}}$ (Soil Chemistry & Carbon Dynamics):**
-  $$S_{\text{soil}} = 100 - 25 \cdot \mathbf{1}_{\{\Delta N < -150\}} - 20 \cdot \mathbf{1}_{\{\Delta \text{SOC} < 0\}} - 15 \cdot \mathbf{1}_{\{\text{pH Stress}\}}$$
+
+  $$
+S_{\text{soil}} = 100 - 25 \cdot \mathbf{1}_{\{\Delta N < -150\}} - 20 \cdot \mathbf{1}_{\{\Delta \text{SOC} < 0\}} - 15 \cdot \mathbf{1}_{\{\text{pH Stress}\}}
+$$
 - **$S_{\text{farmer\_econ}}$ (Budget & Food Security Alignment):**
-  $$S_{\text{farmer\_econ}} = 100 - 30 \cdot \max\left(0, \frac{\text{Cost} - \text{Budget}}{\text{Budget}}\right) - 40 \cdot \mathbf{1}_{\{\text{StapleMissing \& Required}\}}$$
+
+  $$
+S_{\text{farmer\_econ}} = 100 - 30 \cdot \max\left(0, \frac{\text{Cost} - \text{Budget}}{\text{Budget}}\right) - 40 \cdot \mathbf{1}_{\{\text{StapleMissing \& Required}\}}
+$$
 
 #### 5.2 Diagnostic Risk Classification Matrix
 
@@ -811,7 +886,9 @@ crop_sequence_recommender/
 ├── scripts/
 │   └── evaluate_20_bd_locations.py         # 20-location Bangladesh verification benchmark suite
 └── docs/
-    └── crop_sequence_evaluator_architecture.md
+    ├── crop_sequence_recommender_architecture.md  # Master technical specification (Recommender)
+    ├── crop_sequence_recommender_architecture.html# Interactive specification viewer
+    └── crop_sequence_evaluator_architecture.md    # Master technical specification (Evaluator DSS)
 ```
 
 ---

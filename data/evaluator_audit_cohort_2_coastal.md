@@ -1,8 +1,8 @@
 # Coastal Saline & Southern Tidal Delta Agronomic Audit Report (Cohort 2)
 **Universal Crop Sequence Evaluator Decision Support System (DSS) — Validation Against Empirical Coastal Agronomy**  
 **Auditor Role:** Coastal Saline & Southern Tidal Delta Auditor  
-**Audit Target File:** `/Users/ibrahim/.gemini/antigravity/scratch/crop_sequence_recommender/data/evaluator_20_places_audit.json`  
-**Report Destination:** `/Users/ibrahim/.gemini/antigravity/scratch/crop_sequence_recommender/data/evaluator_audit_cohort_2_coastal.md`  
+**Audit Target File:** [`data/evaluator_20_places_audit.json`](evaluator_20_places_audit.json)  
+**Report Destination:** [`data/evaluator_audit_cohort_2_coastal.md`](evaluator_audit_cohort_2_coastal.md)  
 **Date of Audit:** November 13, 2026  
 **Audit Scope:** 5 Focal Agro-Ecological Scenarios across the Coastal Saline Belt and Southern Tidal Floodplains of Bangladesh:
 1. `LOC_03_SATKHIRA_SHYAMNAGAR` (AEZ 13 — Ganges Tidal Floodplain, Saline Belt)
@@ -44,7 +44,11 @@ This independent audit rigorously cross-examined the **Crop Sequence Evaluator D
 * **Geographical & AEZ Profile:** Upazila Shyamnagar, District Satkhira, Khulna Division (Lat 22.33°N, Lon 89.15°E). Agro-Ecological Zone 13 (Ganges Tidal Floodplain, coastal saline delta adjacent to the Sundarbans).
 * **Soil & Field Conditions:** Medium High Land (MHL); Clay Loam texture; Soil pH 7.4 (mildly alkaline); Soil Organic Carbon (SOC) 0.95%; **Baseline Soil Salinity $EC_e = 7.8\text{ dS/m}$**; Bulk Density $1.5\text{ g/cm}^3$; Moderate drainage.
 * **Farmer Evaluated Sequence:** 
-  $$\text{Rabi: Lentil} \longrightarrow \text{Kharif-1: Mungbean} \longrightarrow \text{Kharif-2: T. Aman Rice}$$
+
+  $$
+  \text{Rabi: Lentil} \longrightarrow \text{Kharif-1: Mungbean} \longrightarrow \text{Kharif-2: T. Aman Rice}
+  $$
+
 * **Evaluator DSS Output:**
   * **Overall Health Score:** `38.0 / 100` | **Grade:** `D-` | **Risk Category:** `CRITICAL_BLOCKER`
   * **Sub-Scores:** Climate: 42.5 | Hydrology: 0.0 | Biology: 100.0 | Soil: 90.0 | Economics: 100.0
@@ -59,14 +63,26 @@ This independent audit rigorously cross-examined the **Crop Sequence Evaluator D
 1. **Lentil & Mungbean Salinity Sensitivity in AEZ 13:**
    - Both lentil (*Lens culinaris*) and mungbean (*Vigna radiata*) are strictly glycophytic pulses classified under FAO 29/56 as sensitive legumes.
    - For lentil, the Maas-Hoffman threshold $a$ is $1.1\text{ to }1.5\text{ dS/m}$ with a steep slope $b = 20\%\text{ per dS/m}$. At $EC_e = 7.8\text{ dS/m}$, the mathematical Maas-Hoffman yield equation yields:
-     $$Y_{rel} = \max\Big(0, 100 - 20 \times (7.8 - 1.5)\Big) = \max\Big(0, 100 - 126\Big) = 0.0\%$$
+
+     $$
+     Y_{rel} = \max\Big(0, 100 - 20 \times (7.8 - 1.5)\Big) = \max\Big(0, 100 - 126\Big) = 0.0\%
+     $$
+
    - For mungbean, the threshold $a$ is $1.6\text{ dS/m}$ with slope $b = 18\%\text{ per dS/m}$. At $EC_e = 7.8\text{ dS/m}$:
-     $$Y_{rel} = \max\Big(0, 100 - 18 \times (7.8 - 1.6)\Big) = \max\Big(0, 100 - 111.6\Big) = 0.0\%$$
+
+     $$
+     Y_{rel} = \max\Big(0, 100 - 18 \times (7.8 - 1.6)\Big) = \max\Big(0, 100 - 111.6\Big) = 0.0\%
+     $$
+
    - **Empirical Reality in Shyamnagar:** BARI pulse trials and SRDI coastal surveys demonstrate that cultivating conventional lentils or mungbeans in Shyamnagar soils without freshwater leaching results in 100% crop destruction before flowering due to root necrosis, sodium ($\text{Na}^+$) ion hyper-accumulation, osmotic desiccation, and total nodulation failure. The evaluator DSS's **double CRITICAL_BLOCKER** assignment and 0.0 Hydrology sub-score are **100% grounded in biophysical fact**.
 2. **Smart Swap to Sunflower (BARI Surjamukhi-2 / Hysun-33):**
    - Research by Khulna University, BARI On-Farm Research Division (OFRD) Satkhira, and BRAC confirms that hybrid sunflower (Hysun-33) and open-pollinated BARI Surjamukhi-2 thrive in Shyamnagar up to $8.0\text{--}10.0\text{ dS/m}$ through osmotic adjustment via proline accumulation and deep taproot moisture extraction.
    - Replacing Lentil with Sunflower elevates the Rabi crop tolerance threshold to $5.5\text{ dS/m}$ (with slope $5.0\%$), yielding an expected relative yield:
-     $$Y_{rel} = 100 - 5.0 \times (7.8 - 5.5) = 100 - 11.5 = 88.5\%$$
+
+     $$
+     Y_{rel} = 100 - 5.0 \times (7.8 - 5.5) = 100 - 11.5 = 88.5\%
+     $$
+
    - This aligns directly with DAE's primary coastal oilseed expansion strategy in Satkhira.
 * **Auditor Verdict for LOC_03:** **EXCELLENT / ACCURATE**. The engine prevented a catastrophic financial loss for the farmer.
 
@@ -76,7 +92,10 @@ This independent audit rigorously cross-examined the **Crop Sequence Evaluator D
 * **Geographical & AEZ Profile:** Upazila Dacope, District Khulna (Lat 22.57°N, Lon 89.51°E). Agro-Ecological Zone 13 (Ganges Tidal Floodplain Saline, Polder zone).
 * **Soil & Field Conditions:** Medium High Land (MHL); Silty Clay texture; Soil pH 7.2; SOC 1.05%; **Baseline Soil Salinity $EC_e = 6.5\text{ dS/m}$**; Bulk Density $1.5\text{ g/cm}^3$; Moderate drainage.
 * **Farmer Evaluated Sequence:** 
-  $$\text{Rabi: Sunflower} \longrightarrow \text{Kharif-1: Fallow} \longrightarrow \text{Kharif-2: T. Aman Rice (BRRI dhan73)}$$
+
+  $$
+  \text{Rabi: Sunflower} \longrightarrow \text{Kharif-1: Fallow} \longrightarrow \text{Kharif-2: T. Aman Rice (BRRI dhan73)}
+  $$
 * **Evaluator DSS Output:**
   * **Overall Health Score:** `72.0 / 100` | **Grade:** `C+` | **Risk Category:** `MODERATE_OPPORTUNITY`
   * **Sub-Scores:** Climate: 50.0 | Hydrology: 80.0 | Biology: 75.0 | Soil: 55.0 | Economics: 100.0
@@ -99,7 +118,11 @@ This independent audit rigorously cross-examined the **Crop Sequence Evaluator D
    - Consequently, **leaving the land fallow in Kharif-1 is not a farmer negligence issue, but an ecologically enforced resting interval** until the onset of monsoon rains in late June leaches topsoil salts out of the rhizosphere.
 3. **Auditor Identification of Two Severe Evaluator Engine Errors:**
    - **Error A (The Fallow Salinity Penalty Bug):** In `soil_biogeochem_auditor.py`, the loop `for ep in episodes:` does not filter out `ep.crop_name == "Fallow"`. As a result, the engine assigned default parameters ($a=3.0, b=10.0$) to the "Fallow" crop and calculated:
-     $$Y_{rel} = 100 - 10 \times (6.5 - 3.0) = 65.0\%$$
+
+     $$
+     Y_{rel} = 100 - 10 \times (6.5 - 3.0) = 65.0\%
+     $$
+
      The engine then penalized the user 20 points for a "35.0% yield loss on Fallow"! Fallow produces no yield and cannot suffer osmotic damage. This is a clear computational artifact.
    - **Error B (The Agronomic Mungbean Swap Trap):** The evaluator engine recommends swapping Kharif-1 Fallow with **Mungbean (BARI Mung-6)** to fix the nitrogen deficit and zero-legume penalty. However, in Dacope, sowing mungbean in April–May into an $EC_e = 6.5\text{--}14.0\text{ dS/m}$ seedbed guarantees **100% germination failure and seedling scorch**! In fact, the engine itself gave Mungbean a fatal salinity failure in Shyamnagar at $7.8\text{ dS/m}$. Recommending Mungbean in Kharif-1 in Dacope directly contradicts coastal salinity dynamics.
    - **Correct Agronomic Alternative:** The engine should either:
@@ -113,7 +136,11 @@ This independent audit rigorously cross-examined the **Crop Sequence Evaluator D
 * **Geographical & AEZ Profile:** Upazila Subarnachar, District Noakhali, Chattogram Division (Lat 22.65°N, Lon 91.08°E). Agro-Ecological Zone 18 (Young Meghna Estuarine Floodplain, dynamic coastal char formation).
 * **Soil & Field Conditions:** Medium High Land (MHL); Silty Clay Loam texture; Soil pH 7.0 (neutral); SOC 1.1%; **Baseline Soil Salinity $EC_e = 5.2\text{ dS/m}$**; Bulk Density $1.5\text{ g/cm}^3$; Moderate drainage; Rainfed only.
 * **Farmer Evaluated Sequence:** 
-  $$\text{Rabi: Grass pea (Khesari)} \longrightarrow \text{Kharif-1: Fallow} \longrightarrow \text{Kharif-2: T. Aman Rice}$$
+
+  $$
+  \text{Rabi: Grass pea (Khesari)} \longrightarrow \text{Kharif-1: Fallow} \longrightarrow \text{Kharif-2: T. Aman Rice}
+  $$
+
 * **Evaluator DSS Output:**
   * **Overall Health Score:** `79.4 / 100` | **Grade:** `B` | **Risk Category:** `MODERATE_OPPORTUNITY`
   * **Sub-Scores:** Climate: 50.0 | Hydrology: 80.0 | Biology: 100.0 | Soil: 68.0 | Economics: 98.9
@@ -131,12 +158,20 @@ This independent audit rigorously cross-examined the **Crop Sequence Evaluator D
    - Furthermore, Khesari provides vital living mulch, shading the ground to prevent surface crusting and salt accumulation, fixes $40\text{--}60\text{ kg N/ha}$, and provides winter fodder and dal with **zero cash expenditure**.
 2. **Grass Pea Salinity Tolerance vs. Maas-Hoffman Parameterization:**
    - The engine parameterized Grass pea with $a = 2.0\text{ dS/m}$ and $b = 15.0\%$. Under this curve:
-     $$Y_{rel} = 100 - 15.0 \times (5.2 - 2.0) = 100 - 48.0 = 52.0\%$$
+
+     $$
+     Y_{rel} = 100 - 15.0 \times (5.2 - 2.0) = 100 - 48.0 = 52.0\%
+     $$
+
    - However, extensive field trials conducted by BARI Pulse Research Centre and international legumes databases indicate that *Lathyrus sativus* exhibits significantly higher osmoprotective capacity than *Lens culinaris* or *Phaseolus vulgaris*.
    - In coastal Bangladesh, local khesari cultivars (such as BARI Khesari-1, BARI Khesari-2, and local char landraces) regularly maintain $75\text{--}85\%$ of normal biomass up to **$EC_e = 4.0\text{--}5.0\text{ dS/m}$**.
    - International research across saline drylands notes that empirical threshold values for grass pea fall between $a = 3.0\text{ to }4.0\text{ dS/m}$, with slopes between $b = 8\%\text{ to }11\%$.
    - Recalculating with empirical parameters ($a = 3.5\text{ dS/m}, b = 10.0\%$):
-     $$Y_{rel} = 100 - 10.0 \times (5.2 - 3.5) = 100 - 17.0 = 83.0\%$$
+
+     $$
+     Y_{rel} = 100 - 10.0 \times (5.2 - 3.5) = 100 - 17.0 = 83.0\%
+     $$
+
    - Thus, the evaluator engine's 48% yield reduction penalty is overly punitive and underestimates the hardiness of relay grass pea in coastal chars.
 3. **Smart Swap Consideration (Grass Pea vs. Sunflower):**
    - While Sunflower (Hysun-33) has a higher physiological salt threshold ($5.5\text{ dS/m}$) and delivers higher gross revenue, **it cannot be relay-seeded into standing Aman paddy**.
@@ -150,7 +185,10 @@ This independent audit rigorously cross-examined the **Crop Sequence Evaluator D
 * **Geographical & AEZ Profile:** Upazila Babuganj, District Barishal (Lat 22.83°N, Lon 90.31°E). Agro-Ecological Zone 12 (Low Ganges River Floodplain / Freshwater Tidal Floodplain).
 * **Soil & Field Conditions:** Medium High Land (MHL); Silt Loam texture; Soil pH 6.8 (near neutral); SOC 1.3%; **Baseline Soil Salinity $EC_e = 1.5\text{ dS/m}$ (Non-saline, freshwater tidal)**; Bulk Density $1.5\text{ g/cm}^3$; Moderate drainage; Surface canal irrigation.
 * **Farmer Evaluated Sequence:** 
-  $$\text{Rabi: Boro Rice} \longrightarrow \text{Kharif-1: Aus Rice} \longrightarrow \text{Kharif-2: T. Aman Rice}$$
+
+  $$
+  \text{Rabi: Boro Rice} \longrightarrow \text{Kharif-1: Aus Rice} \longrightarrow \text{Kharif-2: T. Aman Rice}
+  $$
 * **Evaluator DSS Output:**
   * **Overall Health Score:** `48.0 / 100` | **Grade:** `D` | **Risk Category:** `HIGH_RISK`
   * **Sub-Scores:** Climate: 17.5 | Hydrology: 100.0 | Biology: 35.0 | Soil: 55.0 | Economics: 100.0
@@ -189,7 +227,11 @@ This independent audit rigorously cross-examined the **Crop Sequence Evaluator D
 * **Geographical & AEZ Profile:** Upazila Kalapara, District Patuakhali, Barishal Division (Lat 21.98°N, Lon 90.23°E). Agro-Ecological Zone 13 (Ganges Tidal Floodplain, Kuakata coastal saline fringe).
 * **Soil & Field Conditions:** Medium High Land (MHL); Clay texture; Soil pH 7.1; SOC 1.2%; **Baseline Soil Salinity $EC_e = 6.0\text{ dS/m}$**; Bulk Density $1.5\text{ g/cm}^3$; Moderate drainage; Rainfed only.
 * **Farmer Evaluated Sequence:** 
-  $$\text{Rabi: Mungbean} \longrightarrow \text{Kharif-1: Fallow} \longrightarrow \text{Kharif-2: T. Aman Rice}$$
+
+  $$
+  \text{Rabi: Mungbean} \longrightarrow \text{Kharif-1: Fallow} \longrightarrow \text{Kharif-2: T. Aman Rice}
+  $$
+
 * **Evaluator DSS Output:**
   * **Overall Health Score:** `38.0 / 100` | **Grade:** `D-` | **Risk Category:** `CRITICAL_BLOCKER`
   * **Sub-Scores:** Climate: 50.0 | Hydrology: 30.0 | Biology: 100.0 | Soil: 68.0 | Economics: 100.0
@@ -204,18 +246,30 @@ This independent audit rigorously cross-examined the **Crop Sequence Evaluator D
 1. **Mungbean Failure at $EC_e = 6.0\text{ dS/m}$ in Kalapara:**
    - In Kalapara's heavy coastal clay soils, dry-season capillary action elevates salinity rapidly through January and February.
    - Evaluating the Maas-Hoffman equation for Mungbean:
-     $$Y_{rel} = \max\Big(0, 100 - 18.0 \times (6.0 - 1.6)\Big) = 100 - 18.0 \times 4.4 = 100 - 79.2 = 20.8\%$$
+
+     $$
+     Y_{rel} = \max\Big(0, 100 - 18.0 \times (6.0 - 1.6)\Big) = 100 - 18.0 \times 4.4 = 100 - 79.2 = 20.8\%
+     $$
+
    - A relative yield of only 20.8% represents a **catastrophic 79.2% crop loss**. In practice, farmers harvesting 20% of potential yield fail to recover their seed, labor, and harvesting costs, resulting in negative net margins.
    - BARI Regional Agricultural Research Station (RARS) Patuakhali trials demonstrate that while mungbean thrives in northern Patuakhali (where $EC_e < 2.5\text{ dS/m}$), planting mungbean in the southern saline belt of Kalapara without mulch or protective irrigation leads to severe blossom drop, pod abortion, and plant death.
    - The DSS's assignment of `CRITICAL_BLOCKER` and a 50-point penalty is **thoroughly justified**.
 2. **Re-occurrence of the Fallow Salinity Bug:**
    - As observed in Dacope, the evaluator engine again evaluated salinity loss on the Kharif-1 Fallow period:
-     $$Y_{rel} = 100 - 10.0 \times (6.0 - 3.0) = 70.0\%$$
+
+     $$
+     Y_{rel} = 100 - 10.0 \times (6.0 - 3.0) = 70.0\%
+     $$
+
      penalizing the farmer 20 points for a "30.0% yield loss on Fallow". This confirms that `audit_salinity()` consistently mishandles fallow episodes across all coastal scenarios.
 3. **Validation of the Sunflower Smart Swap:**
    - The smart swap to **Sunflower (BARI Surjamukhi-2)** is the premier crop diversification program promoted by DAE and the Patuakhali Agricultural University in Kalapara.
    - Sunflower produces an estimated relative yield of:
-     $$Y_{rel} = 100 - 5.0 \times (6.0 - 5.5) = 100 - 2.5 = 97.5\%$$
+
+     $$
+     Y_{rel} = 100 - 5.0 \times (6.0 - 5.5) = 100 - 2.5 = 97.5\%
+     $$
+
    - This provides farmers with a high-value, salinity-resilient oilseed cash crop that fully capitalizes on Kalapara's winter residual moisture.
 * **Auditor Verdict for LOC_16:** **HIGHLY ACCURATE ON CORE AGRONOMY**, but marred by the duplicate Fallow salinity penalty bug.
 
@@ -225,7 +279,11 @@ This independent audit rigorously cross-examined the **Crop Sequence Evaluator D
 
 ### 3.1. Maas-Hoffman Piecewise Linear Salinity Yield Response
 The evaluator DSS models crop salt tolerance using the classic piecewise linear equation developed by **E.V. Maas and G.J. Hoffman (1977)**, adopted by FAO Irrigation & Drainage Papers 29 and 56:
-$$Y_{rel} = \begin{cases} 100.0, & \text{if } EC_e \le a \\ \max\Big(0.0, 100.0 - b \times (EC_e - a)\Big), & \text{if } EC_e > a \end{cases}$$
+
+$$
+Y_{rel} = \begin{cases} 100.0, & \text{if } EC_e \le a \\ \max\Big(0.0, 100.0 - b \times (EC_e - a)\Big), & \text{if } EC_e > a \end{cases}
+$$
+
 Where:
 - $Y_{rel}$ = Relative crop yield percentage (100% = non-saline potential).
 - $EC_e$ = Electrical conductivity of the saturated soil extract in the effective root zone ($\text{dS/m}$).
@@ -258,7 +316,11 @@ effective_ec = ec_e * 0.35 if ep.season == "Kharif-2" else ec_e
 ### 3.3. Capillary Rise & Seasonal Salinity Dynamics (Rabi to Kharif-1)
 * In coastal deltas with high silt fractions (AEZ 13), groundwater tables remain within $0.8\text{ to }1.5\text{ m}$ of the surface.
 * The rate of upward unsaturated capillary flow ($q$) follows Darcy-Buckingham law:
-  $$q = -K(\theta) \left( \frac{dh}{dz} + 1 \right)$$
+
+  $$
+  q = -K(\theta) \left( \frac{dh}{dz} + 1 \right)
+  $$
+
   Where $K(\theta)$ is hydraulic conductivity as a function of soil water content, and $dh/dz$ is the matric suction gradient.
 * In March, April, and May, intense surface evaporation creates a massive matric suction gradient, pulling saline groundwater continuously to the surface.
 * **Agronomic Implication:** Leaving soil bare in Kharif-1 accelerates this suction. Straw mulching (at $4\text{--}5\text{ t/ha}$) breaks surface continuity, lowering capillary flux by over $50\%$.
@@ -308,7 +370,10 @@ effective_ec = ec_e * 0.35 if ep.season == "Kharif-2" else ec_e
 * **Symptom:** In `LOC_14_NOAKHALI_SUBARNACHAR`, Relay Grass pea was penalized 20 points for an alleged 48% yield loss at $EC_e = 5.2\text{ dS/m}$, triggering an unnecessary swap to Sunflower.
 * **Root Cause:** Grass pea parameters were set to $a=2.0\text{ dS/m}, b=15.0\%$, which reflects temperate sensitive pulses rather than resilient coastal khesari landraces.
 * **Required Parameter Adjustment:** Update `MAAS_HOFFMAN_PARAMS["grass pea"]` in `soil_biogeochem_auditor.py`:
-  $$\text{Old: } (2.0, 15.0) \quad \Longrightarrow \quad \text{New: } (3.5, 10.0)$$
+
+  $$
+  \text{Old: } (2.0, 15.0) \quad \Longrightarrow \quad \text{New: } (3.5, 10.0)
+  $$
 
 ---
 
